@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fisrt PhoneGap App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link href="css/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" />
+    <script src="js/libs/jquery/jquery-2.0.3.min.js"></script>
+    <script src="js/app/app-main.js"></script>
+    <script src="js/app/slider.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+                $('html').offcanvas();
+            });
+
+            //jQuery(document).ready(function ($) {
+            //    $('p').text('Hello from jquery');
+            //});
+
+
+    </script>
+    <script src="phonegap.js"></script>
+</head>
+<body class="offcanvas">
+    <aside id="sidebarLeft" class="sidebarLeft">
+        <div class="scrollableArea">
+            <!-- Place whatever HTML you want in here -->
+            <p>Here is a bit of HTML content.</p>
+        </div>
+
+    </aside>
+
+    <section id="page" class="page">
+
+        <header class="topBar">
+            <a id="leftBurger" class="slideRight" href="">&#9776;</a>
+            <!--<a class="btn btn-default" style="position: absolute;" ng-click="open()">open</a>-->
+            <!--<a class="btn btn-default" style="position: absolute; left: 300px;" ng-click="close()">close</a>-->
+        </header>
+
+        <div class="scrollableArea">
+            <!-- Place whatever HTML you want in here -->
+            <p>This is a change via WebStorm</p>
+        </div>
+
+    </section>
+</body>
+</html>

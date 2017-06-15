@@ -1,0 +1,5 @@
+NameError: .panel-body is undefined in /Users/furrm/Projects/web-design/www/libs/kapcha-bootstrap-1.0.0/less/menu.less on line 24, column 3:
+23 .menu-panel-body{
+24   .panel-body;
+25    height:   @menu-panel-body-height;
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="mfia">
+<head>
+    <title>MFIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="libs/ao-bootstrap-1.0.0/css/ao-bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!--3rd Party CSS-->
+    <!--TODO: reference minified css -->
+    <link rel="stylesheet" href="libs/font-awesome-4.0.1/css/font-awesome.min.css">
+</head>
+<body ng-controller="AppCtrl">
+
+<div class="off-canvas-wrapper fill">
+    <div class="ao-off-canvas"></div>
+</div>
+
+<!--Javascript references-->
+<!--3rd Party-->
+<script type="text/javascript" src="libs/angular-1.2.0-rc.2/angular.min.js"></script>
+<script type="text/javascript" src="libs/angular-1.2.0-rc.2/angular-resource.min.js"></script>
+<script type="text/javascript" src="libs/angular-1.2.0-rc.2/angular-route.min.js"></script>
+<script type="application/javascript" src="libs/fastclick-master/lib/fastclick.js"></script>
+<script type="application/javascript">
+    window.addEventListener('load', function () {
+        FastClick.attach(document.body);
+    }, false);
+</script>
+<!--Custom-->
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/services/common/services-common.js"></script>
+<script type="text/javascript" src="js/services/data/services-data.js"></script>
+<!--<script type="text/javascript" src="js/controllers/common/controllers-common.js"></script>-->
+<script type="text/javascript" src="js/components/common/components-common.js"></script>
+<script type="text/javascript" src="js/components/lookups/components-lookups.js"></script>
+<script type="text/javascript" src="js/components/finance/components-finance.js"></script>
+</body>
+</html>

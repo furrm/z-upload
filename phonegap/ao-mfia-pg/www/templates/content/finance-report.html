@@ -1,0 +1,26 @@
+<div class="finance ao-panel fill align-content-to-header align-content-to-footer" ng-init="status='1'">
+    <header>
+        <div class="content">
+            <h1>{{applicationStateMgr.manager.selectedMatter.matterId}}</h1>
+
+            <p>{{applicationStateMgr.manager.selectedMatter.matterName}}</p>
+
+            <!--<p>{{applicationStateMgr}}</p>-->
+        </div>
+    </header>
+<!--NOTE THAT THE FOLLOWING DIRECTIVE IS WRAPPED IN A <section></section> ELEMENT-->
+        <div finance-report-data>
+        </div>
+
+    <!--START:FOOTER-->
+    <footer>
+        <!--<div class="content">-->
+            <!--<div class="btn-group"></div>-->
+            <a href="#/reports" class="finance icon-button"><i class="fa fa-arrow-circle-left fa-2x"></i></a>
+            <!--<button type="button btn-default" class="btn btn-default" ng-click="selectReport('1')">Matter Info</button>-->
+            <!--<button type="button" class="btn btn-default" ng-click="selectReport('2')">Matter Overview</button>-->
+            <!--<button type="button" class="btn btn-default" ng-click="selectReport('3')">WiP</button>-->
+            <!--<button type="button" class="btn btn-default" ng-click="selectReport('4')">Unpaid Invoices</button>-->
+        <!--</div>-->
+    </footer>
+</div>

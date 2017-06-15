@@ -1,0 +1,65 @@
+{
+    "bucketTotals": {
+        "column": "Total",
+        "fees": "-601.26",
+        "costs": "0.00",
+        "charges": "0.00",
+        "unallocated": "0.00",
+        "total": "-601.26"
+    },
+    "bucket0To30": {
+        "column": "0-30",
+        "fees": "0.00",
+        "costs": "0.00",
+        "charges": "0.00",
+        "unallocated": "0.00",
+        "total": "0.00"
+    },
+    "bucket31To90": {
+        "column": "31-90",
+        "fees": "0.00",
+        "costs": "0.00",
+        "charges": "0.00",
+        "unallocated": "0.00",
+        "total": "0.00"
+    },
+    "bucket91To180": {
+        "column": "91-180",
+        "fees": "0.00",
+        "costs": "0.00",
+        "charges": "0.00",
+        "unallocated": "0.00",
+        "total": "0.00"
+    },
+    "bucket180Plus": {
+        "column": "180Plus",
+        "fees": "-601.26",
+        "costs": "0.00",
+        "charges": "0.00",
+        "unallocated": "0.00",
+        "total": "-601.26"
+    },
+    "bucketGreater90Days": {
+        "column": "%Greater90Days",
+        "fees": "100 %",
+        "costs": "0 %",
+        "charges": "0 %",
+        "unallocated": "0 %",
+        "total": "100 %"
+    },
+    "matterStanding": {
+        "matterId": "1111111111-2222222222",
+        "matterCurrency": "GBP",
+        "matterName": "OK - Servicing Agreement with Bedrock",
+        "clientName": "OK Something Bank, N.A",
+        "clientContact": "David A Fellowes-Freeman",
+        "matterPartner": "Benny Hill",
+        "matterManager": "Tom Jones",
+        "matterDepartment": "Muppet Department",
+        "matterOffice": "Planet Mars",
+        "matterWorkType": "Outsourcing",
+        "matterType": "Own Account",
+        "openDate": "2010-07-16",
+        "closeDate": ""
+    }
+}

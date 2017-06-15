@@ -1,0 +1,50 @@
+<panel-page-header selectedmatter="{{selectedMatter}}" matterselected="{{matterSelected}}" matternameselected="{{selectedMatterName}}"></panel-page-header>
+<div class="container main-container">
+    <!--<div class="well">-->
+    <!--100% on body back on-->
+    <!--<p>Hi, the app will use the $cache and $cookieStore services to manage the caching of data.</p>-->
+
+    <!--<p>A reminder to add one of the following 'remove' icons...</p>-->
+    <!--<i class="icon-remove icon-2x"></i>-->
+    <!--<i class="icon-remove-circle icon-2x"></i>-->
+    <!--<i class="icon-remove-sign icon-2x"></i>-->
+    <!--</div>-->
+    <div class="row">
+        <div class="col-md-3">
+
+               <panel-button ng-disabled="matterInfoIsDisabled" name="Matter Information" status="{{matterInfoStatus}}" link="#/matter-info"></panel-button>
+        </div>
+        <div class="col-md-3">
+            <panel-button name="Matter Overview Life To Date" status="{{matterOverviewLifeToDateStatus}}" link="#/matter-overview-life-to-date"></panel-button>
+        </div>
+        <div class="col-md-3">
+            <panel-button name="Work In Progress" status="{{workInProgressStatus}}" link="#/work-in-progress"></panel-button>
+        </div>
+        <div class="col-md-3">
+            <panel-button name="Unpaid Invoices" status="{{unpaidInvoicesStatus}}" link="#/unpaid-invoices"></panel-button>
+        </div>
+    </div>
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-3">-->
+    <!---->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<a href ng-click="toggleTopMenuState()"><i class="btn icon-reorder navbar-font-height"></i></a>-->
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-6">-->
+    <!--<panel ctrl="MatterInfoCtrl"></panel>-->
+    <!--</div>-->
+    <!--<div class="col-md-6">-->
+    <!--<panel-matterlifetodate ctrl="MatterOverviewLifeToDateCtrl"></panel-matterlifetodate>-->
+    <!--</div>-->
+    <!--<div class="col-md-6">-->
+    <!--<panel-workinprogress ctrl="WorkInProgressCtrl"></panel-workinprogress>-->
+    <!--</div>-->
+    <!--<div class="col-md-6">-->
+    <!--<panel-unpaidinvoice ctrl="UnpaidInvoicesCtrl"></panel-unpaidinvoice>-->
+    <!--</div>-->
+    <!--</div>-->
+</div>

@@ -1,0 +1,208 @@
+/*!
+ * Bootstrap v3.0.0
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world by @mdo and @fat.
+ */
+
+// Core variables and mixins
+@import "bootstrap-3.0.0/variables";
+@import "bootstrap-3.0.0/mixins";
+
+  // Reset
+@import "bootstrap-3.0.0/normalize";
+@import "bootstrap-3.0.0/print";
+
+  // Core CSS
+@import "bootstrap-3.0.0/scaffolding";
+@import "bootstrap-3.0.0/type";
+@import "bootstrap-3.0.0/code";
+@import "bootstrap-3.0.0/grid";
+@import "bootstrap-3.0.0/tables";
+@import "bootstrap-3.0.0/forms";
+@import "bootstrap-3.0.0/buttons";
+
+  // Components
+@import "bootstrap-3.0.0/component-animations";
+@import "bootstrap-3.0.0/glyphicons";
+@import "bootstrap-3.0.0/dropdowns";
+@import "bootstrap-3.0.0/button-groups";
+@import "bootstrap-3.0.0/input-groups";
+@import "bootstrap-3.0.0/navs";
+@import "bootstrap-3.0.0/navbar";
+@import "bootstrap-3.0.0/breadcrumbs";
+@import "bootstrap-3.0.0/pagination";
+@import "bootstrap-3.0.0/pager";
+@import "bootstrap-3.0.0/labels";
+@import "bootstrap-3.0.0/badges";
+@import "bootstrap-3.0.0/jumbotron";
+@import "bootstrap-3.0.0/thumbnails";
+@import "bootstrap-3.0.0/alerts";
+@import "bootstrap-3.0.0/progress-bars";
+@import "bootstrap-3.0.0/media";
+@import "bootstrap-3.0.0/list-group";
+@import "bootstrap-3.0.0/panels";
+@import "bootstrap-3.0.0/wells";
+@import "bootstrap-3.0.0/close";
+
+  // Components w/ JavaScript
+@import "bootstrap-3.0.0/modals";
+@import "bootstrap-3.0.0/tooltip";
+@import "bootstrap-3.0.0/popovers";
+@import "bootstrap-3.0.0/carousel";
+
+  // Utility classes
+@import "bootstrap-3.0.0/utilities";
+@import "bootstrap-3.0.0/responsive-utilities";
+
+
+
+
+@import "variables-k.less";
+@import "menu";
+@import "panel.less";
+@import "report.less";
+
+
+body{
+  background-color: @base-lighten1;
+}
+
+.main-container{
+  margin-top: 20px;
+}
+
+/*! kapcha start:navbar */
+
+.navbar{
+  .navbar;
+  border-radius: 0px;
+//  background-color: @black2;
+//  background-color: @base;
+  height: 50px;
+}
+
+.navbar-default {
+  .navbar-default;
+  background-color: @base;
+  border-color: @black1;
+
+}
+
+.off-canvas-navbar {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.off-canvas-navbar-default {
+  display: table;
+  vertical-align: middle;
+  background-color: @base;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.off-canvas-nav {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.navbar-font-height {
+  font-size: 40px;
+}
+
+.jumbotron{
+  .jumbotron;
+  background-color: @base-lighten3;
+}
+
+.jumbotron h1 {
+  color: @base-darken1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.navbar-font-height {
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+    background-color: @black2;
+
+  }
+}
+
+
+/*! kapcha end:off-canvas */
+
+/*! kapcha start:navbar-menu-side */
+
+
+
+//.menu-side{
+//  background-color: @black4;
+//}
+//
+//.menu-side-navbar{
+//  .navbar;
+//
+//}
+//
+//.menu-side-navbar-default{
+//  .navbar-default;
+//
+//}
+//
+//.icon-height-navbar {
+//
+//  font-size:30px;
+//}
+
+//div.cn {
+//  display: table-cell;
+//  width: 500px;
+//  height: 500px;
+//  background: gray;
+//  vertical-align: middle;
+//  text-align: center;
+//}
+
+//div.inner {
+//  display: inline-block;
+//  width: 200px;
+//  height: 200px;
+//  background: red;
+//  text-align: left;
+//}
+//@media (min-width: 768px) {
+//  .navbar-menu-side {
+//    background-color: @green5;
+//     border-radius: 0px;
+//  }
+//}
+
+/*! kapcha end:navbar-menu-side */
+
+
+
+

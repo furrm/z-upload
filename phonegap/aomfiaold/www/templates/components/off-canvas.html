@@ -1,0 +1,20 @@
+<div class="off-canvas-container" xmlns="http://www.w3.org/1999/html">
+    <menu-side>
+    </menu-side>
+    <!--<menu-top></menu-top>-->
+    <!--<div class="slide-menu slide-menu-horizontal slide-menu-top" style="background-color: red;">Hello</div>-->
+    <a ng-click="toggleSideMenuState()" ng-class="maskCss"></a>
+    <div id="content" ng-class=mainCss>
+        <nav class="off-canvas-navbar off-canvas-navbar-default">
+            <div class="off-canvas-nav">
+                <a href ng-click="toggleSideMenuState()"><i class="btn icon-reorder navbar-font-height"></i></a>
+            </div>
+            <div class="off-canvas-nav">
+                <a ng-click="toggleMenuState()">{{selectedMatter}}</a>
+            </div>
+        </nav>
+        <div>
+            <ng-view></ng-view>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<div id="content-panel" class="off-canvas-content fill">
+    <div class="ao-off-canvas-sidebar"></div>
+    <div class="main-content ao-panel fill align-content-to-header align-content-to-footer">
+        <header>
+
+            <!--START:ICON BUTTON-->
+            <button ng-disabled="!applicationStateMgr.manager.userIsSignedIn" class="off-canvas icon-button" ng-click="toggleMenuState('open')">
+            <!--<button class="off-canvas icon-button" ng-click="toggleMenuState('open')">-->
+                <i class="fa fa-reorder fa-2x"></i>
+            </button>
+            <!--END:ICON BUTTON-->
+
+            <div class="content">
+
+                <!--START:SIGN IN BUTTON-->
+                    <ng-switch on="applicationStateMgr.manager.userIsSignedIn">
+                        <a href="#/signin" ng-switch-when="false" class="red small button pull-right">
+                            <i class="fa fa-lock"></i>
+                            Sign In
+                        </a>
+                        <a href="#/main" ng-switch-when="true" class="green small button pull-right" ng-click="signOut()">
+                            <i class="fa fa-unlock"></i>
+                            Sign out
+                        </a>
+                    </ng-switch>
+                <!--END:SIGN IN BUTTON-->
+
+            </div>
+        </header>
+        <section>
+                <ng-view class="fill"></ng-view>
+        </section>
+        <footer>
+            <div class="content">&nbsp;</div>
+        </footer>
+    </div>
+</div>

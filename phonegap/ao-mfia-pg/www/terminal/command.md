@@ -1,0 +1,1 @@
+$ cp -r -f ao-mfia/* phonegap/ao-mfia-pg/www/

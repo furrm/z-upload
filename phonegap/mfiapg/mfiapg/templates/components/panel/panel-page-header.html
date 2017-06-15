@@ -1,0 +1,21 @@
+<div class="selected-matter-jumbotron-report">
+    <div class="container text-center">
+
+        <ng-switch on="matterselected">
+            <span ng-switch-when="1">
+                <h1>{{selectedmatter}}</h1>
+                <p>{{matternameselected}}</p></span>
+            </span>
+            <span ng-switch-when="0">
+                <h1>Matter Financial Information</h1>
+                <p>Please select a matter from your subscribed matters list then select from one of the reports
+                    below.</p></span>
+
+            <span ng-switch-default style="font-size:20px;">
+                <h1>Error</h1>
+                <p>Something is wrong here!! =( --- {{selectedMatter}}</p>
+            </span>
+        </ng-switch>
+
+    </div>
+</div>

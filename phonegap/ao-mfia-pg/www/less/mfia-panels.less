@@ -1,0 +1,272 @@
+@import "mfia-branding";
+@import "ao-semantics";
+
+
+.sidebar.ao-panel, .main-content.ao-panel {
+  @panel-header-height: 44px;
+//  @panel-footer-height:50px;
+
+  border: 0px;
+
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+//  &.align-content-to-footer {
+//    padding-bottom: @panel-footer-height;
+//  }
+  > header {
+    height: @panel-header-height;
+  }
+  > header > .off-canvas.icon-button {
+    height: @panel-header-height;
+  }
+  > section {
+    //    background-color: @White;
+    //    opacity: 0.4;
+  }
+}
+
+//SIDEBAR MAIN PANEL
+.sidebar.ao-panel {
+  @panel-footer-height:30px;
+
+    &.align-content-to-footer {
+      padding-bottom: @panel-footer-height;
+    }
+  > header {
+    background-color: @Black;
+  }
+  > header > .off-canvas.icon-button {
+    color: @Black50;
+  }
+  > section {
+    background-color: @Black-Lighten;
+  }
+  > footer{
+    height:@panel-footer-height;
+    background-color: @Black;
+  }
+
+}
+
+// CONTENT MAIN PANEL
+.main-content.ao-panel {
+  @panel-footer-height:30px;
+
+
+  > header {
+    background-color: @White;
+  }
+  > header > .off-canvas.icon-button {
+    color: @Red;
+  }
+  > section {
+    background-color: @White-Lighten;
+  }
+  > footer{
+    height:@panel-footer-height;
+    background-color: @Black;
+  }
+}
+
+// SUBSCRIBED MATTERS
+.subscribed-matters.ao-panel {
+  @panel-header-height: 44px;
+
+  border: 0px;
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+  > header {
+    height: @panel-header-height;
+    background-color: transparent;
+  }
+  > header > .content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  > header > .content > input {
+    text-align: center;
+    background-color: @Black50;
+    //    background-color: #808080;
+    color: @White;
+    border: 0px;
+    //    content: "\f002";
+  }
+  > section {
+    color: @White;
+  }
+}
+
+// SUBSCRIBED MATTER
+.subscribed-matter.ao-panel {
+@panel-footer-height:60px;
+
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: @Black75;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &.align-content-to-footer {
+    padding-bottom: @panel-footer-height;
+  }
+  > section > .matter-id {
+    font-size: 18px;
+  }
+  > footer {
+    height: @panel-footer-height;
+    background-color: transparent;
+  }
+  > footer > .content {
+    padding-left: 0px;
+
+  }
+;
+//  > footer > .subscribed-matter.icon-button {
+//    background-color: transparent;
+//    height: @panel-footer-height;
+//    color: @White;
+//  }
+
+}
+
+// SIGN IN
+.ao-panel[title=signin] {
+  //  @signin-background-color: @White-Lighten;
+  @panel-header-height: 40px;
+  @panel-footer-height:60px;
+
+  margin-top: 100px;
+
+  background-color: @White-Lighten2;
+
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+  &.align-content-to-footer {
+    padding-bottom: @panel-footer-height;
+  }
+  > header {
+    height: @panel-header-height;
+    background-color: @White-Lighten2;
+    color: @Red;
+    text-align: center;
+  }
+  > section {
+    > .content {
+      > input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-bottom: 1px;
+      }
+      > input[type=text] {
+        .with.round.top.corners;
+        //        .rounded-top;
+        .remove-border;
+        background-color: @Black25;
+        color: @White;
+
+      }
+      > input[type=password] {
+        .with.round.bottom.corners;
+        .remove-border;
+        border-bottom: 1px solid @Black25;
+        background-color: @Black25;
+        color: @White;
+
+      }
+      > button {
+        //        margin-top: 10px;
+        //        width: 100%;
+        //        background-color: @Fuchsia;
+      }
+
+    }
+  }
+  >footer{
+    height:@panel-footer-height;
+    background-color: @White-Lighten2;
+  }
+}
+
+.ao-panel[type=banner] {
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 300px;
+  background-color: @White-Lighten2;
+  border: 0px;
+  text-align: center;
+
+}
+
+// FINANCE
+.finance.ao-panel{
+  @panel-header-height: 200px;
+  @panel-footer-height:40px;
+
+  background-color: transparent;
+  border:0px;
+
+
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+  &.align-content-to-footer {
+    padding-bottom: @panel-footer-height;
+  }
+  >header{
+    height:@panel-header-height;
+    background-color: @White-Lighten2;
+    text-align: center;
+  }
+  >section{
+
+  }
+  >footer{
+    height:@panel-footer-height;
+    background-color: @White-Lighten2;
+    color: @White;
+  }
+  > footer > .finance.icon-button {
+    height: @panel-footer-height;
+  }
+
+}
+
+// MAIN
+.main.ao-panel{
+  @panel-header-height: 200px;
+
+  background-color: transparent;
+  border:0px;
+
+
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+  >header{
+    height:@panel-header-height;
+    background-color: @White-Lighten2;
+    text-align: center;
+  }
+  >section{
+    background-color: @White-Lighten2;
+  }
+}
+
+.report-button.ao-panel{
+  @panel-footer-height:50px;
+
+  >footer{
+    height:@panel-footer-height;
+    background-color: transparent;
+    color: @White;
+
+  }
+}

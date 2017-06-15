@@ -1,0 +1,27 @@
+<div class="subscribed-matters ao-panel fill align-content-to-header">
+    <header>
+        <div class="content">
+            <input type="search" placeholder="Search" class="with round corners fill" ng-model="query">
+        </div>
+    </header>
+    <section class="touch scroll">
+        <div class="content">
+            <!--DATA-->
+            <div class="subscribed-matter ao-panel align-content-to-footer" ng-repeat="matter in subscribedMatters | filter:query">
+                <section>
+                <span class="matter-id" style="color: orange;">{{matter.matterId}}</span><br>
+                <span>{{matter.matterName}}</span><br>
+                <span>{{matter.matterNickName}}</span>
+                </section>
+                <footer>
+                    <!--<button class="subscribed-matter icon-button"><i class="fa fa-download"></i></button>-->
+                    <div class="content">
+                        <a class="small green button" href="#/reports" ng-click="selectMatter(matter.matterId,matter.matterName)"><i class="fa fa-download">&nbsp;</i>Download</a>
+                    </div>
+                </footer>
+
+            </div>
+            <!--{{subscribedMatters}}-->
+        </div>
+    </section>
+</div>

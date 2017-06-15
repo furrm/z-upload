@@ -1,0 +1,71 @@
+<div class="main ao-panel fill align-content-to-header">
+    <header>
+        <div class="content">
+            <h1>{{applicationStateMgr.manager.selectedMatter.matterId}}</h1>
+            <p>{{applicationStateMgr.manager.selectedMatter.matterName}}</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a class="mustard report button fill" ng-click="selectReport('1')" href="#/finance-report">
+                    <div class="report-button ao-panel fill align-content-to-footer remove-border">
+                        <section>
+                            <div class="content">Matter Information</div>
+                        </section>
+                        <footer>
+                            <div class="content">
+                                <!--<i class="fa fa-spinner fa-2x fa-spin"></i>-->
+                            </div>
+                        </footer>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a class="blue report button fill" ng-click="selectReport('2')" href="#/finance-report">
+                    <div class="report-button ao-panel fill align-content-to-footer remove-border">
+                        <section>
+                            <div class="content">Matter Life To Date</div>
+                        </section>
+                        <footer>
+                            <div class="content">
+                                <!--<i class="fa fa-spinner fa-2x fa-spin"></i>-->
+                            </div>
+                        </footer>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a class="apple report button fill" ng-click="selectReport('3')" href="#/finance-report">
+                    <div class="report-button ao-panel fill align-content-to-footer remove-border">
+                        <section>
+                            <div class="content">Work In Progress</div>
+                        </section>
+                        <footer>
+                            <div class="content">
+                                <!--<i class="fa fa-spinner fa-2x fa-spin"></i>-->
+                            </div>
+                        </footer>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a class="lavender report button fill" ng-click="selectReport('4')" href="#/finance-report">
+                    <div class="report-button ao-panel fill align-content-to-footer remove-border">
+                        <section>
+                            <div class="content">Unpaid Invoices</div>
+                        </section>
+                        <footer>
+                            <div class="content">
+                                <!--<i class="fa fa-spinner fa-2x fa-spin"></i>-->
+                            </div>
+                        </footer>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+</div>

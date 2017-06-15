@@ -1,0 +1,279 @@
+<section>
+        <div ng-switch on="applicationStateMgr.manager.selectedReport.status" class="fill">
+            <!--START:MATTER INFORMATION-->
+            <div ng-switch-when="1" class="report wrapper fill">
+                <div class="pull-left" style="width:50%;">
+                    <table class="table">
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Matter Currency:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterCurrency}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Client Name:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.clientName}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Client Contact:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.clientContact}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Matter Partner:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterPartner}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Matter Manager:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterManager}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Department:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterDepartment}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Matter Office:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterOffice}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Matter Worktype:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterWorkType}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Matter Type:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.matterType}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Open Date:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.openDate}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Close Date:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterStanding.closeDate}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pull-right" style="width:50%;">
+                    <table class="table">
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Bill Fees:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterBilling.billFees}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Budget Type:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterBilling.budgetType}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Budgeted Value:</td>
+                            <td style="width:50%; text-align:left;">{{matterInfo.matterBilling.budgetValue}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Budget Billed:</td>
+                            <td style="width:50%; text-align:left;">
+                                {{matterInfo.matterBilling.percentOfFeeBudgetBilled}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; text-align:right; font-weight: bold">Budget Reached:</td>
+                            <td style="width:50%; text-align:left;">
+                                {{matterInfo.matterBilling.percentOfFeeBudgetReached}}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--END:MATTER INFORMATION-->
+            <!--START:MATTER OVERVIEW LIFE TO DATE-->
+            <div ng-switch-when="2" class="report wrapper fill">
+                <table class="table ">
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Fees</th>
+                        <th>Effective Rate</th>
+                        <th>Hours</th>
+                        <th>Leverage</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Net</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.net}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.net}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.net}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.net}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Volume Discount</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.volumeDiscount}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.volumeDiscount}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.volumeDiscount}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.volumeDiscount}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Billed</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.billed}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.billed}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.billed}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.billed}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Variance</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.variance}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.variance}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.variance}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.variance}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Agreed</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.agreed}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.agreed}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.agreed}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.agreed}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Variance2</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.variance2}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.variance2}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.variance2}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.variance2}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Standard</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.standard}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.standard}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.standard}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.standard}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Total Write Down</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.totalWriteDown}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.totalWriteDown}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.totalWriteDown}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.totalWriteDown}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Percentage</td>
+                        <td>{{matterLifeToDate.valueCollectionFees.percentage}}</td>
+                        <td>{{matterLifeToDate.valueCollectionEffectiveRate.percentage}}</td>
+                        <td>{{matterLifeToDate.valueCollectionHours.percentage}}</td>
+                        <td>{{matterLifeToDate.valueCollectionLeverage.percentage}}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--END:MATTER OVERVIEW LIFE TO DATE-->
+            <!--START WORK IN PROGRESS-->
+            <div ng-switch-when="3" class="report wrapper fill">
+                <table class="table">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Total</td>
+                        <td>0-30</td>
+                        <td>31-90</td>
+                        <td>91-180</td>
+                        <td>180+</td>
+                        <td>% > 90 days</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fees</strong></td>
+                        <td>{{workInProgress.bucketTotals.fees}}</td>
+                        <td>{{workInProgress.bucket0To30.fees}}</td>
+                        <td>{{workInProgress.bucket31To90.fees}}</td>
+                        <td>{{workInProgress.bucket91To180.fees}}</td>
+                        <td>{{workInProgress.bucket180Plus.fees}}</td>
+                        <td>{{workInProgress.bucketGreater90Days.fees}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Costs</strong></td>
+                        <td>{{workInProgress.bucketTotals.costs}}</td>
+                        <td>{{workInProgress.bucket0To30.costs}}</td>
+                        <td>{{workInProgress.bucket31To90.costs}}</td>
+                        <td>{{workInProgress.bucket91To180.costs}}</td>
+                        <td>{{workInProgress.bucket180Plus.costs}}</td>
+                        <td>{{workInProgress.bucketGreater90Days.costs}}</td>
+
+                    </tr>
+                    <tr>
+                        <td><strong>Charges</strong></td>
+                        <td>{{workInProgress.bucketTotals.charges}}</td>
+                        <td>{{workInProgress.bucket0To30.charges}}</td>
+                        <td>{{workInProgress.bucket31To90.charges}}</td>
+                        <td>{{workInProgress.bucket91To180.charges}}</td>
+                        <td>{{workInProgress.bucket180Plus.charges}}</td>
+                        <td>{{workInProgress.bucketGreater90Days.charges}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td>{{workInProgress.bucketTotals.total}}</td>
+                        <td>{{workInProgress.bucket0To30.total}}</td>
+                        <td>{{workInProgress.bucket31To90.total}}</td>
+                        <td>{{workInProgress.bucket91To180.total}}</td>
+                        <td>{{workInProgress.bucket180Plus.total}}</td>
+                        <td>{{workInProgress.bucketGreater90Days.total}}</td>
+                    </tr>
+
+                </table>
+            </div>
+            <!--END WORK IN PROGRESS-->
+        <!--START:UNPAID INVOICES-->
+            <div ng-switch-when="4" class="report wrapper fill">
+                <table class="table">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Total</td>
+                        <td>0-30</td>
+                        <td>31-90</td>
+                        <td>91-180</td>
+                        <td>180+</td>
+                        <td>% > 90 days</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fees</strong></td>
+                        <td>{{unpaidInvoices.bucketTotals.fees}}</td>
+                        <td>{{unpaidInvoices.bucket0To30.fees}}</td>
+                        <td>{{unpaidInvoices.bucket31To90.fees}}</td>
+                        <td>{{unpaidInvoices.bucket91To180.fees}}</td>
+                        <td>{{unpaidInvoices.bucket180Plus.fees}}</td>
+                        <td>{{unpaidInvoices.bucketGreater90Days.fees}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Costs</strong></td>
+                        <td>{{unpaidInvoices.bucketTotals.costs}}</td>
+                        <td>{{unpaidInvoices.bucket0To30.costs}}</td>
+                        <td>{{unpaidInvoices.bucket31To90.costs}}</td>
+                        <td>{{unpaidInvoices.bucket91To180.costs}}</td>
+                        <td>{{unpaidInvoices.bucket180Plus.costs}}</td>
+                        <td>{{unpaidInvoices.bucketGreater90Days.costs}}</td>
+
+                    </tr>
+                    <tr>
+                        <td><strong>Charges</strong></td>
+                        <td>{{unpaidInvoices.bucketTotals.charges}}</td>
+                        <td>{{unpaidInvoices.bucket0To30.charges}}</td>
+                        <td>{{unpaidInvoices.bucket31To90.charges}}</td>
+                        <td>{{unpaidInvoices.bucket91To180.charges}}</td>
+                        <td>{{unpaidInvoices.bucket180Plus.charges}}</td>
+                        <td>{{unpaidInvoices.bucketGreater90Days.charges}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td>{{unpaidInvoices.bucketTotals.total}}</td>
+                        <td>{{unpaidInvoices.bucket0To30.total}}</td>
+                        <td>{{unpaidInvoices.bucket31To90.total}}</td>
+                        <td>{{unpaidInvoices.bucket91To180.total}}</td>
+                        <td>{{unpaidInvoices.bucket180Plus.total}}</td>
+                        <td>{{unpaidInvoices.bucketGreater90Days.total}}</td>
+                    </tr>
+                </table>
+            </div>
+        <!--END:UNPAID INVOICES-->
+        </div>
+</section>

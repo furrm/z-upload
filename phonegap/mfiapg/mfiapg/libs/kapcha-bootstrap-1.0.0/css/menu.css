@@ -1,0 +1,5 @@
+NameError: .btn is undefined in /Users/furrm/Projects/web-design/www/libs/kapcha-bootstrap-1.0.0/less/menu.less on line 17, column 3:
+16 .menu-activate-btn{
+17   .btn;
+18   color: @White;
+

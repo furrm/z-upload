@@ -1,0 +1,25 @@
+{
+    "matterBilling": {
+        "budgetType": "",
+        "budgetValue": "",
+        "percentOfFeeBudgetBilled": "",
+        "percentOfFeeBudgetReached": "",
+        "billFees": "",
+        "currency": ""
+    },
+    "matterStanding": {
+        "matterId": "1111111111-2222222222",
+        "matterCurrency": "GBP",
+        "matterName": "OK - Servicing Agreement with Bedrock",
+        "clientName": "OK Something Bank, N.A",
+        "clientContact": "David A Fellowes-Freeman",
+        "matterPartner": "Benny Hill",
+        "matterManager": "Tom Jones,
+        "matterDepartment": "Muppet Department",
+        "matterOffice": "Planet Mars",
+        "matterWorkType": "Outsourcing",
+        "matterType": "Own Account",
+        "openDate": "2010-07-16",
+        "closeDate": ""
+    }
+}

@@ -1,0 +1,5 @@
+NameError: .table is undefined in /Users/furrm/Projects/web-design/www/libs/kapcha-bootstrap-1.0.0/less/panel.less on line 2, column 3:
+1 .table-finance {
+2   .table;
+3   //  background-color: red;
+
