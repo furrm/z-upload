@@ -1,0 +1,5 @@
+NameError: variable @icon-font-path is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\glyphicons.less on line 13, column 12:
+12   font-family: 'Glyphicons Halflings';
+13   src: url('@{icon-font-path}@{icon-font-name}.eot');
+14   src: url('@{icon-font-path}@{icon-font-name}.eot?#iefix') format('embedded-opentype'),
+

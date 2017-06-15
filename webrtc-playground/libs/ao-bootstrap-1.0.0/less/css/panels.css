@@ -1,0 +1,5 @@
+NameError: .box-shadow is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\panels.less on line 12, column 3:
+11   border-radius: @panel-border-radius;
+12   .box-shadow(0 1px 1px rgba(0,0,0,.05));
+13 }
+

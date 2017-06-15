@@ -1,0 +1,5 @@
+NameError: variable @list-group-bg is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\list-group.less on line 23, column 21:
+22   margin-bottom: -1px;
+23   background-color: @list-group-bg;
+24   border: 1px solid @list-group-border;
+

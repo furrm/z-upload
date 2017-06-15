@@ -1,0 +1,5 @@
+NameError: .box-shadow is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\popovers.less on line 20, column 3:
+19   border-radius: @border-radius-large;
+20   .box-shadow(0 5px 10px rgba(0,0,0,.2));
+21 
+

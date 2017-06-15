@@ -1,0 +1,67 @@
+@import "ao-branding";
+@import "ao-semantics";
+
+// MAIN PANEL
+.main.ao-panel {
+  @panel-header-height: 50px;
+  @panel-footer-height: 50px;
+
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+
+  &.align-content-to-footer {
+    padding-bottom: @panel-footer-height;
+  }
+
+  > header {
+    height: @panel-header-height;
+    background-color: @Black75;
+    color: @White;
+  }
+
+  > section {
+
+  }
+
+  > footer {
+    height: @panel-footer-height;
+    background-color: @Black;
+    color: @White;
+  }
+
+}
+
+.video.ao-panel{
+  @panel-header-height: 30px;
+  @panel-footer-height: 50px;
+
+  &.align-content-to-header {
+    padding-top: @panel-header-height;
+  }
+
+  &.align-content-to-footer {
+    padding-bottom: @panel-footer-height;
+  }
+  > header {
+    height: @panel-header-height;
+    background-color: @Black;
+    opacity: 0.5;
+    color: @White;
+  }
+  >header .content{
+    width:50%;
+  }
+
+  > section {
+
+  }
+
+  > footer {
+    height: @panel-footer-height;
+    background-color: @Black;
+    opacity: 0.5;
+
+    color: @White;
+  }
+}

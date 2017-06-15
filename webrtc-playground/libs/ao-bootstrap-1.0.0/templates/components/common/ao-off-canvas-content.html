@@ -1,0 +1,30 @@
+<div id="content-panel" class="off-canvas-content fill">
+    <div class="ao-off-canvas-sidebar"></div>
+    <div class="off-canvas ao-panel fill align-content-to-header align-content-to-footer">
+        <header>
+            <div class="content">
+                <button class="off-canvas icon-button" ng-click="toggleMenuState('open')">
+                    <i class="fa fa-reorder fa-3x"></i></button>
+                CONTENT SLIDER HEADER
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <div class="jumbotron">
+                    <h1>Off Canvas</h1>
+                    <p>Welcome to the off canvas example...</p>
+                    <p>Click on the <i class="icon-reorder"></i> icon to reveal the sidebar.</p>
+                    <p>Select a transition effect from the options below:</p>
+
+                    <input id="reveal" type="radio" name="effect" ng-click="changeEffect('reveal')" checked>&nbsp;&nbsp;<label for="reveal">Reveal</label>
+                    <input id="slideOnTop" type="radio" name="effect" ng-click="changeEffect('slideOnTop')">&nbsp;&nbsp;<label for="slideOnTop">Slide On Top</label><br>
+                    <span>effect = {{offCanvasState.sidebar.defaultTransitionEffect}}</span>
+                </div>
+
+            </div>
+        </section>
+        <footer>
+            <div class="content">CONTENT SLIDER FOOTER</div>
+        </footer>
+    </div>
+</div>

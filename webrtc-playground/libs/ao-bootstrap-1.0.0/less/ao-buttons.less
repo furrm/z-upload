@@ -1,0 +1,72 @@
+/*!
+* AO Bootstrap v1.0.0
+* Start:Button
+*/
+.button {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  background-color: #EBEBEB;
+  color: #999999;
+  padding: 0.8em 1.5em;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+ }
+/*!
+ * AO Bootstrap v1.0.0
+ * End:Button
+ */
+
+/*!
+ * AO Bootstrap v1.0.0
+ * Start:Button Overrides
+ */
+.btn-primary{
+  .btn-primary;
+  background-color: @Red;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: @Red-Light;
+  border-color: @Red-Light;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: lighten(@Red, 60%);
+  border-color: lighten(@Red, 60%);
+}
+/*!
+ * AO Bootstrap v1.0.0
+ * End:Button Overrides
+ */

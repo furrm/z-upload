@@ -1,0 +1,19 @@
+
+// finance class to define a table that displays finance data
+.finance {
+  background-color: #ffffff;
+  td{text-align: right;} // all table cells are right aligned.
+  > thead {
+    th {    // all table thead cells must contain bold text and be right aligned.
+      text-align: right;
+      font-weight: bold;
+    }
+  }
+  > tbody {
+    tr >
+    td:first-child {font-weight: bold;}
+    td:last-child {
+      width:5%;
+    }
+  }
+}

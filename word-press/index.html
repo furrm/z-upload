@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>WordPress REST TEST</title>
+</head>
+<body>
+<a href="https://public-api.wordpress.com/oauth2/authorize?client_id=23130&redirect_uri=https://wordpress.com/&response_type=code">WordPress
+    Login</a>
+
+<div ng-controller="appCtrl">
+    <div>
+        appCtrl.name:{{name}}<br>
+        appService.name:{{serviceName}}<br>
+        appManifest:{{appManifest}}
+    </div>
+    <div>
+        <form>
+            <label>Authorization Endpoint</label><input type="text" ng-model="wordPress.authorizationEndpoint" style="width: 400px;"><br>
+            <label>Token Endpoint</label><input type="text" ng-model="wordPress.tokenEndpoint" style="width: 400px;"><br>
+            <label>client_id</label><input type="text" ng-model="wordPress.client_id" style="width: 400px;"><br>
+            <label>redirect_uri</label><input type="text" ng-model="wordPress.redirect_uri" style="width: 400px;"><br>
+            <label>client_secret</label><input type="text" ng-model="wordPress.client_secret"  style="width: 400px;"><br>
+            <label>code</label><input type="text"  ng-model="wordPress.code" style="width: 400px;"><br>
+            <label>grant_type</label><input type="text"  ng-model="wordPress.grant_type" style="width: 400px;"><br>
+        <button ng-click="authorize()">Authorize</button>
+        <button ng-click="requestToken()">Request Token</button>
+            <button ng-click="submitToNewWindow()">Open Win</button>
+        </form>
+    </div>
+    <div>
+        Output:<br>
+        {{output}}
+        {{childWin.document.location.href}}
+
+    </div>
+    <div>{{timeInMs}}</div>
+</div>
+<script type="text/javascript" src="libs/angular-1.2.0-rc.2/angular.js"></script>
+<script type="text/javascript" src="libs/angular-1.2.0-rc.2/angular-resource.js"></script>
+<script type="text/javascript" src="libs/angular-1.2.0-rc.2/angular-sanitize.js"></script>
+
+<script type="text/javascript" src="js/app/app.js"></script>
+<script type="text/javascript" src="js/services/services-app.js"></script>
+<script type="text/javascript" src="js/controllers/controllers-app.js"></script>
+</body>
+</html>

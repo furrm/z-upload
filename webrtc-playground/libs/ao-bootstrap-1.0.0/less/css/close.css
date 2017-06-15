@@ -1,0 +1,5 @@
+NameError: .opacity is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\close.less on line 13, column 3:
+12   text-shadow: @close-text-shadow;
+13   .opacity(.2);
+14 
+

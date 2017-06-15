@@ -1,0 +1,5 @@
+NameError: .transition is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\carousel.less on line 19, column 5:
+18     position: relative;
+19     .transition(.6s ease-in-out left);
+20 
+

@@ -1,0 +1,5 @@
+NameError: variable @font-family-monospace is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\code.less on line 9, column 16:
+8 pre {
+9   font-family: @font-family-monospace;
+10 }
+

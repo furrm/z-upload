@@ -1,0 +1,161 @@
+@import "ao-variables";
+@import "ao-semantics";
+
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 1em;
+  outline: none;
+  border: none;
+//  background-color: #EBEBEB;
+//  color: #999999;
+  //  padding: 0.8em 1.5em;
+
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+//  -webkit-border-radius: 0.2em;
+//  -moz-border-radius: 0.2em;
+//  border-radius: 0.2em;
+  -webkit-box-shadow: 0em -0.185rem 0em rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0em -0.185rem 0em rgba(0,0,0,0.1) inset;
+  box-shadow: 0em -0.185rem 0em rgba(0,0,0,0.1) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-transition: opacity 0.25s ease,background-color 0.25s ease,color 0.25s ease,background 0.25s ease,box-shadow 0.25s ease;
+  -moz-transition: opacity 0.25s ease,background-color 0.25s ease,color 0.25s ease,background 0.25s ease,box-shadow 0.25s ease;
+  -o-transition: opacity 0.25s ease,background-color 0.25s ease,color 0.25s ease,background 0.25s ease,box-shadow 0.25s ease;
+  -ms-transition: opacity 0.25s ease,background-color 0.25s ease,color 0.25s ease,background 0.25s ease,box-shadow 0.25s ease;
+  transition: opacity 0.25s ease,background-color 0.25s ease,color 0.25s ease,background 0.25s ease,box-shadow 0.25s ease;
+
+}
+
+.button:hover, .active.button:hover {
+  opacity: 1!important;
+  background-color: #A4A4A4;
+  color: #FFFFFF;
+}
+
+.button:active, .active.button:active {
+  opacity: 1!important;
+  background-color: #8C8C8C;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 0.2em 0px rgba(0,0,0,0.3) inset;
+  -moz-box-shadow: 0px 1px 0.2em 0px rgba(0,0,0,0.3) inset;
+  box-shadow: 0px 1px 0.2em 0px rgba(0,0,0,0.3) inset;
+}
+
+.icon-button{
+  .button;
+  padding: 2px;
+  line-height: 0;
+
+//  font-size: @icon-font-size; Removed to allow fontawesome to govern icon size.
+  font-weight: normal;
+  width:@icon-button-size;
+  height:@icon-button-size;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.mini {
+  font-size: @button-font-size - 4px;
+//  padding: 0.6em 0.8em;
+  padding: @button-padding-x - 4px @button-padding-y - 4px;
+//  padding-right: @button-padding-x - 4px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.tiny {
+  font-size: @button-font-size - 3px;
+//  padding: 0.6em 0.8em;
+  padding: @button-padding-x - 3px @button-padding-y - 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.small {
+  font-size: @button-font-size - 2px;
+  padding: @button-padding-x - 2px @button-padding-y - 2px;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.medium {
+  padding: @button-padding-x @button-padding-y;
+  font-size: @button-font-size;
+}
+
+//.medium.button{
+//  .standard;
+//  .medium;
+//  .button;
+//}
+
+.large {
+  font-size: @button-font-size + 2px;
+  padding: @button-padding-x + 2px @button-padding-y + 2px;
+}
+
+.big {
+  font-size: @button-font-size + 3px;
+  padding: @button-padding-x + 3px @button-padding-y + 3px;
+}
+
+.huge {
+  font-size: @button-font-size + 4px;
+  padding: @button-padding-x + 4px @button-padding-y + 4px;
+}
+
+.massive {
+  font-size: @button-font-size + 6px;
+  padding: @button-padding-x + 6px @button-padding-y + 6px;
+}
+
+.jumbo {
+  font-size: @button-font-size + 20px;
+  padding: @button-padding-x + 20px @button-padding-y + 20px;
+}
+
+/// Colour Buttons...
+.default {
+    background-color: #EBEBEB;
+    color: #999999;
+}
+
+.red{
+
+  background-color: @Red;
+  color: white;
+}
+
+.green{
+  background-color: @Forest;
+  color: white;
+}
+
+.blue{
+  background-color: @OceanBlue;
+  color: white;
+}
+
+

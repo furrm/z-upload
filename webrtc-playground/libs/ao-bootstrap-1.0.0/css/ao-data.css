@@ -1,0 +1,16 @@
+.finance {
+  background-color: #ffffff;
+}
+.finance td {
+  text-align: right;
+}
+.finance > thead th {
+  text-align: right;
+  font-weight: bold;
+}
+.finance > tbody tr > td:first-child {
+  font-weight: bold;
+}
+.finance > tbody td:last-child {
+  width: 5%;
+}

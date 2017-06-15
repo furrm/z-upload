@@ -1,0 +1,5 @@
+NameError: variable @caret-width-base is undefined in F:\ao_dev\PANYUKOP_AVALONALL_FURRM\AvalonApps\ao-bootstrap\src\www\libs\ao-bootstrap-1.0.0\less\bootstrap3.0.0\dropdowns.less on line 13, column 17:
+12   vertical-align: middle;
+13   border-top:   @caret-width-base solid @dropdown-caret-color;
+14   border-right: @caret-width-base solid transparent;
+

@@ -1,0 +1,164 @@
+@import "ao-variables";
+@import "ao-semantics";
+
+/*!
+ * AO Bootstrap v1.0.0
+ * Start:Panel Overrides
+ */
+
+// the following rules to be added to the section element so that it aligns itself to the header or footer, or both.
+.align-content-to-header(@height:30px) {
+  padding-top: @height;
+}
+
+.align-content-to-footer(@height:30px) {
+  padding-bottom: @height;
+}
+
+
+.ao-panel {
+  position: relative; /*! Important */
+  background-color: @panel-bg;
+  border: 1px solid @panel-border;
+  &.align-content-to-header {
+    .align-content-to-header;
+  }
+  &.align-content-to-footer {
+    .align-content-to-footer;
+  }
+  > header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: table;
+    width: 100%;
+    height: @panel-header-height;
+    background-color: @panel-header-bg;
+    color: @panel-header-col;
+    z-index: 1000;
+  }
+  > header > .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  > section {
+    position: relative;
+    height: 100%;
+    //    padding: 10px;
+    //    border-bottom: 10px solid red;
+  }
+  > section > .content {
+    //    background-color: mediumpurple;
+    padding: 10px;
+  }
+  > footer {
+    //  position: relative;
+    //  clear: both;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: table;
+    width: 100%;
+    height: @panel-footer-height;
+    //  margin-bottom: - @panel-footer-height;
+    background-color: @panel-footer-bg;
+    color: @panel-footer-col;
+    z-index: 1000
+
+  }
+  > footer > .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+.image.ao-panel{
+  .ao-panel;
+
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.ao-panel[title=signin] {
+  @signin-background-color: @Aqua;
+  @panel-header-height: 40px;
+
+  background-color: @signin-background-color;
+
+  &.align-content-to-header {
+    .align-content-to-header(@panel-header-height);
+  }
+  > header {
+    height: @panel-header-height;
+    background-color: @Black75;
+    color: @Aqua;
+  }
+  > section {
+    > .content {
+      > input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-bottom: 1px;
+      }
+      > input[type=text] {
+        .with.round.top.corners;
+//        .rounded-top;
+        .remove-border;
+      }
+      > input[type=password] {
+        .with.round.bottom.corners;
+        .remove-border;
+        border-bottom: 1px solid @Black25;
+      }
+      > button {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.ao-panel[title=financePanel] {
+  @panel-header-height: 60px;
+  @panel-footer-height: 60px;
+
+
+
+  &.align-content-to-header {
+    .align-content-to-header(@panel-header-height);
+  }
+  &.align-content-to-footer {
+    .align-content-to-footer(@panel-footer-height);
+  }
+  > header {
+    height: @panel-header-height;
+    background-color: @OceanBlue;
+    color: @Aqua;
+  }
+  > section {
+    height:390px;
+  }
+  > footer {
+    height: @panel-footer-height;
+  }
+}
+
+
+
+/*!
+ * AO Bootstrap v1.0.0
+ * End:Panel Overrides
+ */
