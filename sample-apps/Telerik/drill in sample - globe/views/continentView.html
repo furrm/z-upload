@@ -1,0 +1,44 @@
+
+    <div id="continent-div"
+        data-role="view"
+        data-title="Continent Details"
+        data-model="app.continentViewModel">
+
+        <p>
+        	Continent: <span data-bind="text: Name"></span>
+        </p>
+        <p>
+        	Area: <span data-bind="text: Area"></span>
+        </p>
+        <p>
+        	Population: <span data-bind="text: Population"></span>
+        </p>
+        
+        Countries:
+        
+        <ul data-role="listview"
+            data-style="inset"
+            data-bind="source: countryDataSource"
+            data-template="continent-template"
+            data-click="onCountrySelected"
+            selectable= "true">
+        </ul>
+    </div>
+
+	<script>
+        function onCountrySelected(e)
+        {
+            app.continentViewModel.onChange(e);
+            app.application.navigate('views/countryView.html');
+        }
+    </script>
+
+    <script id="continent-template" type="text/x-kendo-tmpl">
+        <div class="w-item-template">
+            <h5>${Name}</h5>
+        	<h6>Capital: ${Capital}</h6>
+        	<h6>Language: ${Language}</h6>
+            <h6>Area: ${numberWithCommas(Area)} km2</h6>
+            <h6>Population: ${numberWithCommas(Population)}</h6>
+        </div>
+    </script>

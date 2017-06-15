@@ -1,0 +1,132 @@
+@import "variables";
+
+@mixin tileContent($colour) {
+  > div {
+    &.content {
+      background-color: $colour;
+    }
+  }
+}
+
+.tileContainer{
+  background-color: $google-deep-orange;
+}
+
+.tile {
+  width: $tileWidth;
+  height: $tileHeight;
+  margin: 0px;
+  //  padding: 5px;
+  display: inline-block;
+  float: left;
+  border: 5px solid transparent; // gives the illusion that padding is being used.
+  box-sizing: border-box; // ensures that the border is drawn inside the box.
+  position: relative;
+  color: white;
+  > div {
+    height: 100%;
+    width: 100%;
+    &.content {background-color: #000000;};
+
+  }
+}
+
+// Note:  To get rid of the colour border, comment out the background-color element
+
+.one-by-one.tile{
+  width: $tileWidth;
+  height: $tileHeight;
+  background-color: $green-sea;
+
+  @include tileContent($turquoise);
+}
+
+
+.one-by-two.tile{
+  width: $tileWidth;
+  height: $tileHeight * 2;
+  background-color: $nephritis;
+
+  @include tileContent($emerald );
+}
+
+.two-by-one.tile{
+  width: $tileWidth * 2;
+  height: $tileHeight;
+  background-color: $belize-hole;
+
+  @include tileContent($peter-river );
+}
+
+.two-by-two.tile{
+  width: $tileWidth * 2;
+  height: $tileHeight * 2;
+  background-color: $wisteria;
+
+  @include tileContent($amethyst );
+}
+
+.two-by-three.tile{
+  width: $tileWidth * 2;
+  height: $tileHeight * 3;
+  background-color: $midnight-blue;
+
+  @include tileContent($wet-asphalt );
+}
+
+.two-by-four.tile{
+  width: $tileWidth * 2;
+  height: $tileHeight * 4;
+  background-color: $midnight-blue;
+
+  @include tileContent($wet-asphalt );
+}
+
+.three-by-two.tile{
+  width: $tileWidth * 3;
+  height: $tileHeight * 2;
+  background-color: $orange;
+
+  @include tileContent($sun-flower);
+;
+}
+
+.three-by-three.tile{
+  width: $tileWidth * 3;
+  height: $tileHeight * 3;
+  background-color: $pumpkin;
+
+  @include tileContent($carrot);
+}
+
+.three-by-four.tile{
+  width: $tileWidth * 3;
+  height: $tileHeight * 4;
+  background-color: $pomegranate;
+
+  @include tileContent($alizarin);
+}
+
+.four-by-two.tile{
+  width: $tileWidth * 4;
+  height: $tileHeight * 2;
+  background-color: $pomegranate;
+
+  @include tileContent($alizarin);
+}
+
+.four-by-three.tile{
+  width: $tileWidth * 4;
+  height: $tileHeight * 3;
+  background-color: $silver;
+
+  @include tileContent($clouds);
+}
+
+.four-by-four.tile{
+  width: $tileWidth * 4;
+  height: $tileHeight * 4;
+  background-color: $asbestos;
+
+  @include tileContent($concrete);
+}

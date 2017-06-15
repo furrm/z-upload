@@ -1,0 +1,124 @@
+<html ng-app="ionicApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>Side Menus</title>
+
+    <link href="http://code.ionicframework.com/0.9.24/css/ionic.min.css" rel="stylesheet">
+    <script src="http://code.ionicframework.com/0.9.24/js/ionic.bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div ng-controller="MainCtrl">
+
+    <nav-view></nav-view>
+</div>
+
+<script id="event-menu.html" type="text/ng-template">
+    <side-menus>
+
+        <pane side-menu-content drag-content="false">
+            <nav-bar type="bar-positive"
+                     back-button-type="button-icon"
+                     back-button-icon="ion-ios7-arrow-back"
+                     animation="nav-title-slide-ios7"></nav-bar>
+            <nav-view name="menuContent"></nav-view>
+        </pane>
+
+        <side-menu side="left" ng-click="sideMenuClick()">
+            <ul class="ulMenu">
+                <li class="active visible"><a ng-click="go('eventmenu.home')"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active visible"><a ng-click="go('eventmenu.checkin')"><i class="fa fa-home"></i><span>Check-in</span></a></li>
+                <li class="visible"><a ng-click="go('eventmenu.attendees')"><i class="fa fa-info"></i><span>Attendees</span></a></li>
+            </ul>
+        </side-menu>
+
+    </side-menus>
+</script>
+
+<script id="home.html" type="text/ng-template">
+    <view title="'Welcome'" hide-back-button="true" left-buttons="menuButton">
+        <content has-header="true" padding="true">
+            <p>Click on the menu icon to show menu</p>
+            <a ui-sref="eventmenu.nextpage" class="button">Next Page</a>
+        </content>
+    </view>
+</script>
+
+<script id="next-page.html" type="text/ng-template">
+    <view title="'Next Page'">
+        <content has-header="true">
+            Welcome from next page
+        </content>
+    </view>
+</script>
+
+<script id="check-in.html" type="text/ng-template">
+    <view title="'Event Check-in'" hide-back-button="true" left-buttons="menuButton">
+        <content has-header="true">
+            <form class="list" ng-show="showForm">
+                <div class="item item-divider">
+                    Attendee Info
+                </div>
+                <label class="item item-input">
+                    <input type="text" placeholder="First Name" ng-model="attendee.firstname">
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="Last Name" ng-model="attendee.lastname">
+                </label>
+                <div class="item item-divider">
+                    Shirt Size
+                </div>
+                <radio ng-repeat="shirtSize in shirtSizes"
+                       ng-value="shirtSize.value"
+                       ng-model="attendee.shirtSize">
+                    {{ shirtSize.text }}
+                </radio>
+                <div class="item item-divider">
+                    Lunch
+                </div>
+                <toggle ng-model="attendee.vegetarian">
+                    Vegetarian
+                </toggle>
+                <div class="padding">
+                    <button class="button button-block" ng-click="submit()">Checkin</button>
+                </div>
+            </form>
+
+            <div ng-hide="showForm">
+                <pre ng-bind="attendee | json"></pre>
+                <a href="#/event/attendees">View attendees</a>
+            </div>
+        </content>
+    </view>
+</script>
+
+<script id="attendees.html" type="text/ng-template">
+    <view title="'Event Attendees'" hide-back-button="true" left-buttons="menuButton">
+        <content has-header="true">
+            <div class="list">
+                <toggle ng-repeat="attendee in attendees | orderBy:'firstname' | orderBy:'lastname'"
+                        ng-model="attendee.arrived"
+                        ng-change="arrivedChange(attendee)">
+                    {{ attendee.firstname }}
+                    {{ attendee.lastname }}
+                </toggle>
+                <div class="item item-divider">
+                    Activity
+                </div>
+                <div class="item" ng-repeat="msg in activity">
+                    {{ msg }}
+                </div>
+            </div>
+        </content>
+    </view>
+</script>
+
+</body>
+</html>

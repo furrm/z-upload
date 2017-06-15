@@ -1,0 +1,51 @@
+{
+  "ProjectGuid": "18598dab-2066-4d9f-8ec5-bf82ff1e95a4",
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "AppIdentifier": "com.telerik.samplelocalstorage",
+  "ProjectName": "sample-localstorage",
+  "IsRunnable": "true",
+  "AndroidPermissions": [
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "iOSStatusBarStyle": "Default",
+  "BundleVersion": "1.0",
+  "iOSDisplayName": "",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "AndroidVersionCode": "1",
+  "AndroidHardwareAcceleration": "false",
+  "iOSBackgroundMode": [],
+  "CorePlugins": [
+    "org.apache.cordova.keyboard",
+    "org.apache.cordova.splashscreen"
+  ],
+  "FrameworkVersion": "3.5.0",
+  "DisplayName": "",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "Author": "",
+  "Description": "sample-localstorage",
+  "Framework": "Cordova"
+}

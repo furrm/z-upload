@@ -1,0 +1,129 @@
+/* START:FONTS */
+/* END:FONTS */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+/*!important this needs to be the same width as the isotope column*/
+.tile {
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+}
+.tile > div {
+  height: 100%;
+  width: 100%;
+}
+.tile > div.content {
+  background-color: #000000;
+}
+.one-by-one.tile {
+  width: 120px;
+  height: 120px;
+  background-color: #16a085;
+}
+.one-by-one.tile > div.content {
+  background-color: #1abc9c;
+}
+.one-by-two.tile {
+  width: 120px;
+  height: 240px;
+  background-color: #27ae60;
+}
+.one-by-two.tile > div.content {
+  background-color: #2ecc71;
+}
+.two-by-one.tile {
+  width: 240px;
+  height: 120px;
+  background-color: #2980b9;
+}
+.two-by-one.tile > div.content {
+  background-color: #3498db;
+}
+.two-by-two.tile {
+  width: 240px;
+  height: 240px;
+  background-color: #8e44ad;
+}
+.two-by-two.tile > div.content {
+  background-color: #9b59b6;
+}
+.two-by-three.tile {
+  width: 240px;
+  height: 360px;
+  background-color: #2c3e50;
+}
+.two-by-three.tile > div.content {
+  background-color: #34495e;
+}
+.two-by-four.tile {
+  width: 240px;
+  height: 480px;
+  background-color: #2c3e50;
+}
+.two-by-four.tile > div.content {
+  background-color: #34495e;
+}
+.three-by-two.tile {
+  width: 360px;
+  height: 240px;
+  background-color: #f39c12;
+}
+.three-by-two.tile > div.content {
+  background-color: #f1c40f;
+}
+.three-by-three.tile {
+  width: 360px;
+  height: 360px;
+  background-color: #d35400;
+}
+.three-by-three.tile > div.content {
+  background-color: #e67e22;
+}
+.three-by-four.tile {
+  width: 360px;
+  height: 480px;
+  background-color: #c0392b;
+}
+.three-by-four.tile > div.content {
+  background-color: #e74c3c;
+}
+.four-by-two.tile {
+  width: 480px;
+  height: 240px;
+  background-color: #c0392b;
+}
+.four-by-two.tile > div.content {
+  background-color: #e74c3c;
+}
+.four-by-three.tile {
+  width: 480px;
+  height: 360px;
+  background-color: #bdc3c7;
+}
+.four-by-three.tile > div.content {
+  background-color: #ecf0f1;
+}
+.four-by-four.tile {
+  width: 480px;
+  height: 480px;
+  background-color: #7f8c8d;
+}
+.four-by-four.tile > div.content {
+  background-color: #95a5a6;
+}
+.tile .title {
+  left: 0.5em;
+  bottom: 1.6em;
+  font-size: 1.05em;
+}
+.tile .size {
+  font-size: 0.9em;
+  left: 0.5em;
+  bottom: 0.5em;
+}

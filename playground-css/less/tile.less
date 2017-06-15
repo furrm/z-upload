@@ -1,0 +1,144 @@
+@import "branding";
+
+@tileWidth:120px; /*!important this needs to be the same width as the isotope column*/
+@tileHeight:120px;
+
+.tileContent(@colour) {
+  > div {
+    &.content {
+      background-color: @colour;
+    }
+  }
+}
+
+.tile {
+  width: @tileWidth;
+  height: @tileHeight;
+  margin: 0px;
+//  padding: 5px;
+  display: inline-block;
+  float: left;
+  border: 5px solid transparent; // gives the illusion that padding is being used.
+  box-sizing: border-box; // ensures that the border is drawn inside the box.
+  position: relative;
+  color: white;
+  > div {
+  height: 100%;
+  width: 100%;
+    &.content {background-color: #000000;};
+
+  }
+}
+
+.one-by-one.tile{
+  width: @tileWidth;
+  height: @tileHeight;
+  background-color: @green-sea;
+
+  .tileContent(@turquoise );
+}
+
+.one-by-two.tile{
+  width: @tileWidth;
+  height: @tileHeight * 2;
+  background-color: @nephritis;
+
+  .tileContent(@emerald );
+}
+
+.two-by-one.tile{
+  width: @tileWidth * 2;
+  height: @tileHeight;
+  background-color: @belize-hole;
+
+  .tileContent(@peter-river );
+}
+
+.two-by-two.tile{
+  width: @tileWidth * 2;
+  height: @tileHeight * 2;
+  background-color: @wisteria;
+
+  .tileContent(@amethyst );
+}
+
+.two-by-three.tile{
+  width: @tileWidth * 2;
+  height: @tileHeight * 3;
+  background-color: @midnight-blue;
+
+  .tileContent(@wet-asphalt );
+}
+
+.two-by-four.tile{
+  width: @tileWidth * 2;
+  height: @tileHeight * 4;
+  background-color: @midnight-blue;
+
+  .tileContent(@wet-asphalt );
+}
+
+.three-by-two.tile{
+  width: @tileWidth * 3;
+  height: @tileHeight * 2;
+  background-color: @orange;
+
+  .tileContent(@sun-flower);
+;
+}
+
+.three-by-three.tile{
+  width: @tileWidth * 3;
+  height: @tileHeight * 3;
+  background-color: @pumpkin;
+
+  .tileContent(@carrot);
+}
+
+.three-by-four.tile{
+  width: @tileWidth * 3;
+  height: @tileHeight * 4;
+  background-color: @pomegranate;
+
+  .tileContent(@alizarin);
+}
+
+.four-by-two.tile{
+  width: @tileWidth * 4;
+  height: @tileHeight * 2;
+  background-color: @pomegranate;
+
+  .tileContent(@alizarin);
+}
+
+.four-by-three.tile{
+  width: @tileWidth * 4;
+  height: @tileHeight * 3;
+  background-color: @silver;
+
+  .tileContent(@clouds);
+}
+
+.four-by-four.tile{
+  width: @tileWidth * 4;
+  height: @tileHeight * 4;
+  background-color: @asbestos;
+
+  .tileContent(@concrete);
+}
+
+
+
+
+
+.tile .title {
+  left: 0.5em;
+  bottom: 1.6em;
+  font-size: 1.05em;
+}
+
+.tile .size {
+  font-size: 0.9em;
+  left: 0.5em;
+  bottom: 0.5em;
+}

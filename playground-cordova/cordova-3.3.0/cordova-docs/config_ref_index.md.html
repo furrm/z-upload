@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+--><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<meta name="generator" content="joDoc">
+<title>Apache Cordova API Documentation</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-device-width: 1024px)">
+<link rel="stylesheet" type="text/css" href="prettify/prettify.css">
+</head>
+<body>
+        <div id="header">
+            <h1><a href="index.html">Apache <strong>Cordova</strong> Documentation</a></h1>
+            <small>
+                <select><optgroup label="Chinese" value="zh">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="English" value="en">
+<option value="edge">edge</option>
+<option selected value="3.3.0">3.3.0</option>
+<option value="3.2.0">3.2.0</option>
+<option value="3.1.0">3.1.0</option>
+<option value="3.0.0">3.0.0</option>
+<option value="2.9.0">2.9.0</option>
+<option value="2.8.0">2.8.0</option>
+<option value="2.7.0">2.7.0</option>
+<option value="2.6.0">2.6.0</option>
+<option value="2.5.0">2.5.0</option>
+<option value="2.4.0">2.4.0</option>
+<option value="2.3.0">2.3.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.8.0">1.8.0</option>
+<option value="1.7.0">1.7.0</option>
+<option value="1.6.1">1.6.1</option>
+<option value="1.6.0">1.6.0</option>
+<option value="1.5.0">1.5.0</option>
+</optgroup>
+<optgroup label="French" value="fr">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="German" value="de">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Italian" value="it">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Japanese" value="ja">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.7.0">1.7.0</option>
+</optgroup>
+<optgroup label="Korean" value="ko">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.0.0">2.0.0</option>
+</optgroup>
+<optgroup label="Russian" value="ru">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Spanish" value="es">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup></select></small>
+        </div>
+        <div id="subheader">
+            <h1>The config.xml File</h1>
+            <small><select><option value="The%2520config.xml%2520File">The config.xml File</option>
+<option value="The%20config.xml%20File_core_configuration_elements">      - Core Configuration Elements</option>
+<option value="The%20config.xml%20File_global_preferences">      - Global Preferences</option>
+<option value="The%20config.xml%20File_multi_platform_preferences">      - Multi-Platform Preferences</option>
+<option value="The%20config.xml%20File_the_feature_element">      - The feature Element</option></select></small>
+        </div>
+
+        <div id="sidebar">
+            <div class="vertical_divider"></div>
+        <h1>Guides</h1>
+<ul>
+<li><a href="guide_overview_index.md.html#Overview">Overview</a></li>
+<li><a href="guide_support_index.md.html#Platform%20Support">Platform Support</a></li>
+<li><a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a></li>
+<li><a href="guide_platforms_index.md.html#Platform%20Guides">Platform Guides</a></li>
+<li><a href="plugin_ref_plugman.md.html#Using%20Plugman%20to%20Manage%20Plugins">Using Plugman to Manage Plugins</a></li>
+<li><a href="config_ref_index.md.html#The%20config.xml%20File">The config.xml File</a></li>
+<li><a href="config_ref_images.md.html#Icons%20and%20Splash%20Screens">Icons and Splash Screens</a></li>
+<li><a href="guide_hybrid_webviews_index.md.html#Embedding%20WebViews">Embedding WebViews</a></li>
+<li><a href="guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide">Plugin Development Guide</a></li>
+<li><a href="guide_appdev_privacy_index.md.html#Privacy%20Guide">Privacy Guide</a></li>
+<li><a href="guide_appdev_whitelist_index.md.html#Whitelist%20Guide">Whitelist Guide</a></li>
+<li><a href="_index.html">Keyword Index</a></li>
+</ul>
+<h1>API Reference</h1>
+<ul>
+<li><a href="cordova_accelerometer_accelerometer.md.html#Accelerometer">Accelerometer</a></li>
+<li><a href="cordova_camera_camera.md.html#Camera">Camera</a></li>
+<li><a href="cordova_media_capture_capture.md.html#Capture">Capture</a></li>
+<li><a href="cordova_compass_compass.md.html#Compass">Compass</a></li>
+<li><a href="cordova_connection_connection.md.html#Connection">Connection</a></li>
+<li><a href="cordova_contacts_contacts.md.html#Contacts">Contacts</a></li>
+<li><a href="cordova_device_device.md.html#Device">Device</a></li>
+<li><a href="cordova_events_events.md.html#Events">Events</a></li>
+<li><a href="cordova_file_file.md.html#File">File</a></li>
+<li><a href="cordova_geolocation_geolocation.md.html#Geolocation">Geolocation</a></li>
+<li><a href="cordova_globalization_globalization.md.html#Globalization">Globalization</a></li>
+<li><a href="cordova_inappbrowser_inappbrowser.md.html#InAppBrowser">InAppBrowser</a></li>
+<li><a href="cordova_media_media.md.html#Media">Media</a></li>
+<li><a href="cordova_notification_notification.md.html#Notification">Notification</a></li>
+<li><a href="cordova_splashscreen_splashscreen.md.html#Splashscreen">Splashscreen</a></li>
+<li><a href="cordova_storage_storage.md.html#Storage">Storage</a></li>
+</ul>
+</div>
+
+        <div id="scrollable">
+            <div id="content">
+                <h1><a name="The%20config.xml%20File">The config.xml File</a></h1>
+
+<p>Many aspects of an app's behavior can be controlled with a global
+configuration file, <code>config.xml</code>, that belongs in the top-level web
+asset directory along with the app's home page.  This
+platform-agnostic XML file is arranged based on the W3C's <a class="external" href="http://www.w3.org/TR/widgets/">Packaged
+Web Apps (Widgets)</a> specification, and
+extended to specify core Cordova API features, plugins, and
+platform-specific settings.</p>
+
+<p>For projects created with the Cordova CLI (described in <a href="#The%0ACommand-Line%20Interface">The
+Command-Line Interface</a>), this file can be found in the top-level <code>www</code>
+directory:</p>
+
+<pre class="prettyprint"><code>    app/www/config.xml
+</code></pre>
+
+<p>When using the CLI to build a project, versions of this file are
+passively copied along with other web-asset source files into various
+<code>platforms/*/www</code> subdirectories, for example:</p>
+
+<pre class="prettyprint"><code>    app/platforms/ios/www/config.xml
+    app/platforms/blackberry10/www/config.xml
+</code></pre>
+
+<p>An exception is Android, whose path specifies an additional <code>assets</code>
+subdirectory:</p>
+
+<pre class="prettyprint"><code>    app/platforms/android/assets/www/config.xml
+</code></pre>
+
+<p>If you use the CLI to create a project, but then shift your workflow
+to an SDK, you need to use an alternate set of source files for
+Android and iOS:</p>
+
+<pre class="prettyprint"><code>    app/platforms/android/res/www/config.xml
+    app/platforms/ios/&lt;APP_NAME&gt;/config.xml
+</code></pre>
+
+<p>This section details global and cross-platform configuration options.
+See the following sections for platform-specific options:</p>
+
+<ul>
+<li><a href="guide_platforms_ios_config.md.html#iOS%20Configuration">iOS Configuration</a></li>
+<li><a href="guide_platforms_android_config.md.html#Android%20Configuration">Android Configuration</a></li>
+<li><a href="guide_platforms_blackberry10_config.md.html#BlackBerry%2010%20Configuration">BlackBerry 10 Configuration</a></li>
+</ul>
+<p>In addition to the various configuration options detailed below, you
+can also configure an application's core set of images for each target
+platform. See <a href="config_ref_images.md.html#Icons%20and%20Splash%20Screens">Icons and Splash Screens</a> for more information.</p>
+
+<h2>
+<a name="The%20config.xml%20File_core_configuration_elements">Core Configuration Elements</a>
+</h2>
+
+<p>This example shows the default <code>config.xml</code> generated by the CLI's
+<code>create</code> command, described in <a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a>:</p>
+
+<pre class="prettyprint"><code>    &lt;widget id="com.example.hello" version="0.0.1"&gt;
+        &lt;name&gt;HelloWorld&lt;/name&gt;
+        &lt;description&gt;
+            A sample Apache Cordova application that responds to the <a href="cordova_events_events.md.html#deviceready">deviceready</a> event.
+        &lt;/description&gt;
+        &lt;author email="dev@callback.apache.org" href="http://cordova.io"&gt;
+            Apache Cordova Team
+        &lt;/author&gt;
+        &lt;content src="index.html" /&gt;
+        &lt;access origin="*" /&gt;
+        &lt;preference name="Fullscreen" value="true" /&gt;
+        &lt;preference name="WebViewBounce" value="true" /&gt;
+    &lt;/widget&gt;
+</code></pre>
+
+<!-- QUERY: is WebViewBounce superseded by DisallowOverscroll? -->
+
+<p>The following configuration elements appear in the top-level
+<code>config.xml</code> file, and are supported across all supported Cordova
+platforms:</p>
+
+<ul>
+<li><p>The <code>&lt;widget&gt;</code> element's <code>id</code> attribute provides the app's
+reverse-domain identifier, and the <code>version</code> its full version number
+expressed in major/minor/patch notation.</p></li>
+<li><p>The <code>&lt;name&gt;</code> element specifies the app's formal name, as it appears
+on the device's home screen and within app-store interfaces.</p></li>
+<li><p>The <code>&lt;description&gt;</code> and <code>&lt;author&gt;</code> elements specify metadata and
+contact information that may appear within app-store listings.</p></li>
+<li><p>The optional <code>&lt;content&gt;</code> element defines the app's starting
+page in the top-level web assets directory. The default value is
+<code>index.html</code>, which customarily appears in a project's top-level
+<code>www</code> directory.</p></li>
+<li><p><code>&lt;access&gt;</code> elements define the set of external domains the app is
+allowed to communicate with. The default value shown above allows
+it to access any server. See the Domain <a href="guide_appdev_whitelist_index.md.html#Whitelist%20Guide">Whitelist Guide</a> for details.</p></li>
+<li><p>The <code>&lt;preference&gt;</code> tag sets various options as pairs of
+<code>name</code>/<code>value</code> attributes. Each preference's <code>name</code> is
+case-insensitive.  Many preferences are unique to specific
+platforms, as listed at the top of this page. The following sections
+detail preferences that apply to more than one platform.</p></li>
+</ul>
+<h2>
+<a name="The%20config.xml%20File_global_preferences">Global Preferences</a>
+</h2>
+
+<p>The following global preferences apply to all platforms:</p>
+
+<ul>
+<li>
+<p><code>Fullscreen</code> allows you to hide the status bar at the top of the
+screen. The default value is <code>false</code>. Example:</p>
+
+<pre class="prettyprint"><code>&lt;preference name="Fullscreen" value="true" /&gt;
+</code></pre>
+</li>
+<li>
+<p><code>Orientation</code> allows you to lock orientation and prevent the
+interface from rotating in response to changes in orientation.
+Possible values are <code>default</code>, <code>landscape</code>, or <code>portrait</code>. Example:</p>
+
+<pre class="prettyprint"><code>&lt;preference name="Orientation" value="landscape" /&gt;
+</code></pre>
+
+<p><strong>NOTE</strong>: The <code>default</code> value means <em>both</em> landscape and portrait
+orientations are enabled.  If you want to use each platform's
+default settings (usually portrait-only), leave this tag out of the
+<code>config.xml</code> file.</p>
+</li>
+</ul>
+<h2>
+<a name="The%20config.xml%20File_multi_platform_preferences">Multi-Platform Preferences</a>
+</h2>
+
+<p>The following preferences apply to more than one platform, but not to
+all of them:</p>
+
+<ul>
+<li>
+<p><code>DisallowOverscroll</code> (boolean, defaults to <code>false</code>): set to <code>true</code>
+if you don't want the interface to display any feedback when users
+scroll past the beginning or end of content.</p>
+
+<pre class="prettyprint"><code>&lt;preference name="DisallowOverscroll" value="true"/&gt;
+</code></pre>
+
+<p>Applies to Android and iOS. On iOS, overscroll gestures cause
+content to bounce back to its original position.  On Android, they
+produce a more subtle glowing effect along the top or bottom edge of
+the content.</p>
+</li>
+<li>
+<p><code>BackgroundColor</code>: Set the app's background color.  Supports a
+four-byte hex value, with the first byte representing the alpha
+channel, and standard RGB values for the following three bytes.  This
+example specifies blue:</p>
+
+<pre class="prettyprint"><code>&lt;preference name="BackgroundColor" value="0xff0000ff"/&gt;
+</code></pre>
+
+<p>Applies to Android and BlackBerry. Overrides CSS otherwise available
+across <em>all</em> platforms, for example: <code>body{background-color:blue}</code>.</p>
+</li>
+<li>
+<p><code>HideKeyboardFormAccessoryBar</code> (boolean, defaults to <code>false</code>): set
+to <code>true</code> to hide the additional toolbar that appears above the
+keyboard, helping users navigate from one form input to another.</p>
+
+<pre class="prettyprint"><code>&lt;preference name="HideKeyboardFormAccessoryBar" value="true"/&gt;
+</code></pre>
+
+<p>Applies to iOS and BlackBerry. </p>
+</li>
+</ul>
+<h2>
+<a name="The%20config.xml%20File_the_feature_element">The feature Element</a>
+</h2>
+
+<p>If you use the CLI to build applications, you use the <code>plugin</code> command
+to enable device APIs. This does not modify the top-level <code>config.xml</code>
+file, so the <code>&lt;feature&gt;</code> element does not apply to your workflow. If
+you work directly in an SDK and using the platform-specific
+<code>config.xml</code> file as source, you use the <code>&lt;feature&gt;</code> tag to enable
+device-level APIs and external plugins. They typically appear in this
+form:</p>
+
+<pre class="prettyprint"><code>    &lt;feature name="Plugin" value="PluginID" /&gt;
+</code></pre>
+
+<p>They often appear with custom values in platform-specific <code>config.xml</code>
+files. For example, here is how to specify the <a href="cordova_device_device.md.html#Device">Device</a> API for Android
+projects:</p>
+
+<pre class="prettyprint"><code>    &lt;feature name="<a href="cordova_device_device.md.html#Device">Device</a>"&gt;
+        &lt;param name="android-package" value="org.apache.cordova.device.<a href="cordova_device_device.md.html#Device">Device</a>" /&gt;
+    &lt;/feature&gt;
+</code></pre>
+
+<p>Here is how the element appears for iOS projects:</p>
+
+<pre class="prettyprint"><code>    &lt;feature name="<a href="cordova_device_device.md.html#Device">Device</a>"&gt;
+        &lt;param name="ios-package" value="CDVDevice" /&gt;
+    &lt;/feature&gt;
+</code></pre>
+
+<p>See the <a href="index.md.html#API%20Reference">API Reference</a> for details on how to specify each feature. See
+the <a href="guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide">Plugin Development Guide</a> for more information on plugins.</p>
+
+            </div>
+        </div>
+
+        <!-- Functionality and Syntax Highlighting -->
+        <script type="text/javascript" src="index.js"></script><script type="text/javascript" src="prettify/prettify.js"></script>
+</body>
+</html>

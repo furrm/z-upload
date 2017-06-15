@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Orbitron Black';
+  src: url('fonts/orbitron/webfonts/orbitron-black-webfont.eot');
+  src: url('fonts/orbitron/webfonts/orbitron-black-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron/webfonts/orbitron-black-webfont.woff') format('woff'), url('fonts/orbitron/webfonts/orbitron-black-webfont.ttf') format('truetype'), url('fonts/orbitron/webfonts/orbitron-black-webfont.svg#orbitron-blackregular') format('svg');
+}
+@font-face {
+  font-family: 'Orbitron Bold';
+  src: url('fonts/orbitron/webfonts/orbitron-bold-webfont.eot');
+  src: url('fonts/orbitron/webfonts/orbitron-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron/webfonts/orbitron-bold-webfont.woff') format('woff'), url('fonts/orbitron/webfonts/orbitron-bold-webfont.ttf') format('truetype'), url('fonts/orbitron/webfonts/orbitron-bold-webfont.svg#orbitron-boldregular') format('svg');
+}
+@font-face {
+  font-family: 'Orbitron Light';
+  src: url('fonts/orbitron/webfonts/orbitron-light-webfont.eot');
+  src: url('fonts/orbitron/webfonts/orbitron-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron/webfonts/orbitron-light-webfont.woff') format('woff'), url('fonts/orbitron/webfonts/orbitron-light-webfont.ttf') format('truetype'), url('fonts/orbitron/webfonts/orbitron-light-webfont.svg#orbitron-lightregular') format('svg');
+}
+@font-face {
+  font-family: 'League Gothic';
+  src: url('fonts/league-gothic/webfonts/leaguegothic-italic-webfont.eot');
+  src: url('fonts/league-gothic/webfonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/webfonts/leaguegothic-italic-webfont.woff') format('woff'), url('fonts/league-gothic/webfonts/leaguegothic-italic-webfont.ttf') format('truetype'), url('fonts/league-gothic/webfonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+/* Italic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url('fonts/league-gothic/webfonts/leaguegothic-regular-webfont.eot');
+  src: url('fonts/league-gothic/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/webfonts/leaguegothic-regular-webfont.woff') format('woff'), url('fonts/league-gothic/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('fonts/league-gothic/webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Condensed */
+@font-face {
+  font-family: 'League Gothic Condensed';
+  src: url('fonts/league-gothic/webfonts/leaguegothic-condensed-regular-webfont.eot');
+  src: url('fonts/league-gothic/webfonts/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/webfonts/leaguegothic-condensed-regular-webfont.woff') format('woff'), url('fonts/league-gothic/webfonts/leaguegothic-condensed-regular-webfont.ttf') format('truetype'), url('fonts/league-gothic/webfonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Condensed Italic */
+@font-face {
+  font-family: 'League Gothic Condensed';
+  src: url('fonts/league-gothic/webfonts/leaguegothic-condensed-italic-webfont.eot');
+  src: url('fonts/league-gothic/webfonts/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/webfonts/leaguegothic-condensed-italic-webfont.woff') format('woff'), url('fonts/league-gothic/webfonts/leaguegothic-condensed-italic-webfont.ttf') format('truetype'), url('fonts/league-gothic/webfonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'destroyregular';
+  src: url('fonts/destroy/DESTROY_-webfont.eot');
+  src: url('fonts/destroy/DESTROY_-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/destroy/DESTROY_-webfont.woff') format('woff'), url('fonts/destroy/DESTROY_-webfont.ttf') format('truetype'), url('fonts/destroy/DESTROY_-webfont.svg#destroyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'st_marie_thinthin';
+  src: url('fonts/st-marie/StMarie-Thin-webfont.eot');
+  src: url('fonts/st-marie/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/st-marie/StMarie-Thin-webfont.woff') format('woff'), url('fonts/st-marie/StMarie-Thin-webfont.ttf') format('truetype'), url('fonts/st-marie/StMarie-Thin-webfont.svg#st_marie_thinthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url('fonts/museo-sans-500/2985AF_0_0.eot');
+  src: url('fonts/museo-sans-500/2985AF_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/2985AF_0_0.woff') format('woff'), url('webfonts/2985AF_0_0.ttf') format('truetype');
+}
+.font-container > .destroy-regular {
+  font-family: 'destroyregular', arial, helvetica;
+}
+.font-container > .st-marie {
+  font-family: 'st_marie_thinthin', arial;
+}
+.font-container > .museo-sans-500-italic {
+  font-family: 'MuseoSans-500', arial;
+}
+.font-container > .league-gothic {
+  font-family: 'League Gothic', arial;
+  color: #b73c3c;
+  font-size: 70px;
+  background-color: black;
+  letter-spacing: 5px;
+}
+.font-container > .league-gothic-condensed {
+  font-family: 'League Gothic Condensed', arial;
+  color: #b73c3c;
+  font-size: 70px;
+  background-color: black;
+  letter-spacing: 5px;
+}
+.font-container > .orbitron-black {
+  font-family: 'Orbitron Black';
+  color: #b73c3c;
+  font-size: 70px;
+  background-color: black;
+  letter-spacing: 5px;
+}
+.font-container > .orbitron-bold {
+  font-family: 'Orbitron Bold';
+  color: #b73c3c;
+  font-size: 70px;
+  background-color: black;
+  letter-spacing: 5px;
+}
+.font-container > .orbitron-light {
+  font-family: 'Orbitron Light';
+  color: #b73c3c;
+  font-size: 50px;
+  background-color: black;
+  letter-spacing: 5px;
+}
+.temperature {
+  font-size: 70px;
+  font-family: arial;
+}

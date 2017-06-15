@@ -1,0 +1,24 @@
+{
+  "name": "d3",
+  "version": "0.0.0",
+  "authors": [
+    "furrmao <mikefurrhotmail.co.uk>"
+  ],
+  "description": "Data driven documents",
+  "main": "index.html",
+  "keywords": [
+    "d3"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.4.13"
+  }
+}

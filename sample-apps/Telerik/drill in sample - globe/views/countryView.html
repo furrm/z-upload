@@ -1,0 +1,54 @@
+
+	
+
+    <div id="country-div"
+        data-role="view"
+        data-title="Country Details"
+        data-model="app.countryViewModel">
+
+        <!--
+        <h4>${parentCountry.Name}</h4>
+        <h4>#: parentCountry.Name #</h4>
+        <h4>#= parentCountry.Name #</h4>
+        -->
+        <p>
+            Country: <span data-bind="text: parentCountry.Name"></span>
+        </p>
+        <p>
+        	Capital: <span data-bind="text: parentCountry.Capital"></span>
+        </p>
+        <p>
+        	Language: <span data-bind="text: parentCountry.Language"></span>
+        </p>
+        <p>
+        	Population: <span data-bind="text: parentCountry.Population"></span>
+        </p>
+        <p>
+        	Area: <span data-bind="text: parentCountry.Area + ' km2'"></span>
+        </p>
+		
+        Cities:
+        
+        <ul data-role="listview"
+            data-style="inset"
+            data-bind="source: cityDataSource"
+            data-template="country-template"
+            selectable= "true">
+        </ul>
+    </div>
+
+	<!--script>
+        function onCitySelected(e)
+        {
+            app.cityViewModel.onChange(e);
+            app.application.navigate('views/cityView.html');
+        }
+    </script-->
+
+    <script id="country-template" type="text/x-kendo-tmpl">
+        <div class="w-item-template">
+            <h5>${Name}</h5>
+            <h6>Area: ${numberWithCommas(Area)} km2</h6>
+            <h6>Population: ${numberWithCommas(Population)}</h6>
+        </div>
+    </script>

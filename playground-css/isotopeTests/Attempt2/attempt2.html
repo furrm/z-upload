@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="../../libs/bootstrap-3.0.3/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/app.css">
+</head>
+<body>
+
+<div class="hidden-sm hidden-md hidden-lg" style="width: 100px; height: 100px">SMART PHONE</div>
+<div class="hidden-xs hidden-md hidden-lg" style="width: 100px; height: 100px">TABLET</div>
+<div class="hidden-xs hidden-sm hidden-lg" style="width: 100px; height: 100px">SMALL DESKTOP</div>
+<div class="hidden-xs hidden-sm hidden-md" style="width: 100px; height: 100px">LARGE DESKTOP</div>
+
+
+<div ng-controller="ItemsCtrl" >
+    <button ng-click="add('one-by-one')">ADD 1,1</button>
+    <button ng-click="add('one-by-two')">ADD 1,2</button>
+    <button ng-click="add('two-by-one')">ADD 2,1</button>
+    <button ng-click="add('two-by-two')">ADD 2,2</button>
+    <button ng-click="add('two-by-three')">ADD 2,3</button>
+    <button ng-click="add('three-by-two')">ADD 3,2</button>
+    <button ng-click="add('three-by-three')">ADD 3,3</button>
+    <button ng-click="add('three-by-four')">ADD 3,4</button>
+    <button ng-click="add('four-by-three')">ADD 4,3</button>
+    <button ng-click="add('four-by-four')">ADD 4,4</button>
+    <button ng-click="refresh()">REFRESH</button>
+<section id="container" style="border: 1px solid green"
+         class="js-isotope" tiles="items"
+         data-isotope-options='{ "itemSelector": ".tile",
+         "masonry": {
+                "columnWidth": 120
+            }}' isotope>
+
+    <div class="tile" ng-class="item.class" ng-repeat="item in tiles"><tile>test</tile></div>
+
+</section>
+</div>
+
+<script src="../../libs/jquery/jquery-1.7.1.min.js"></script>
+<script src="../../libs/isotope/v2/isotope.pkgd.js"></script>
+<script src="../../libs/bootstrap-3.0.3/js/bootstrap.js"></script>
+<script src="../../libs/angular-1.2.0-rc.2/angular.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>

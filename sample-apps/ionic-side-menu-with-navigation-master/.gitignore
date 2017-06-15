@@ -1,0 +1,15 @@
+# bower & grunt
+bower_components
+node_modules
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+*.keystore
+*.sw*
+platforms/^.*

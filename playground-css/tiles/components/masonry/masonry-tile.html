@@ -1,0 +1,11 @@
+<div class="item tile" ng-switch on="tileTemplate">
+    <div ng-switch-when="image">
+        <div class="content" ng-include="'components/masonry/tile-image-template.html'"></div>
+    </div>
+    <div ng-switch-when="video">
+        <div class="content" ng-include="'components/masonry/tile-video-template.html'"></div>
+    </div>
+    <div ng-switch-default class="content">
+        {{ item.title }}
+    </div>
+</div>

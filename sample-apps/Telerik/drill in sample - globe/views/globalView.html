@@ -1,0 +1,32 @@
+
+    <div id="global-div"
+        data-role="view"
+        data-title="Globe"
+        data-model="app.globalViewModel">
+
+        Continents:
+        
+        <ul data-role="listview"
+            data-style="inset"
+            data-bind="source: continentDataSource"
+            data-template="global-template"
+            data-click="onContinentSelected"
+            selectable= "true">
+        </ul>
+    </div>
+
+	<script>
+        function onContinentSelected(e)
+        {
+            app.globalViewModel.onChange(e);
+            app.application.navigate('views/continentView.html');
+        }
+    </script>
+
+    <script id="global-template" type="text/x-kendo-tmpl">
+        <div class="w-item-template">
+            <h5>${Name}</h5>
+            <h6>Area: ${numberWithCommas(Area*1000)} km2</h6>
+            <h6>Population: ${numberWithCommas(Population*1000)}</h6>
+        </div>
+    </script>

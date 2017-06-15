@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tiles</title>
+
+    <link rel="stylesheet" href="../libs/bootstrap-3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../sass/app.css">
+</head>
+<body ng-controller="Application as application">
+
+
+ {{application.items}}
+
+
+
+ <h2>Angular Masonry Directive</h2>
+
+<div class="tileContainer" masonry='{ "columnWidth": 120, "transitionDuration":"0.4s", "itemSelector": ".item" }'>
+    <masonry-tile ng-repeat="item in application.items" tile="{{ item }}">
+    <!--{{ item.title }}-->
+    </masonry-tile>
+</div>
+
+ <script type="application/javascript" src="libs/lo-dash-2.4.1/lodash.js"></script>
+ <script type="application/javascript" src="libs/masonry-3.1.5/masonry.pkgd.js"></script>
+ <script type="application/javascript" src="libs/isotope-2.0.0/isotope.pkgd.js"></script>
+ <script type="application/javascript" src="libs/angular-1.2.23/angular.js"></script>
+
+ <script type="application/javascript" src="js/app.js"></script>
+ <script type="application/javascript" src="js/app.controller.js"></script>
+
+ <script type="application/javascript" src="components/masonry/components.masonry.js"></script>
+ <script type="application/javascript" src="components/isotope/components.isotope.js"></script>
+
+</body>
+</html>

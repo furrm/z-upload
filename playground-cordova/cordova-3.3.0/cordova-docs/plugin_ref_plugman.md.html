@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+--><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<meta name="generator" content="joDoc">
+<title>Apache Cordova API Documentation</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-device-width: 1024px)">
+<link rel="stylesheet" type="text/css" href="prettify/prettify.css">
+</head>
+<body>
+        <div id="header">
+            <h1><a href="index.html">Apache <strong>Cordova</strong> Documentation</a></h1>
+            <small>
+                <select><optgroup label="Chinese" value="zh">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="English" value="en">
+<option value="edge">edge</option>
+<option selected value="3.3.0">3.3.0</option>
+<option value="3.2.0">3.2.0</option>
+<option value="3.1.0">3.1.0</option>
+<option value="3.0.0">3.0.0</option>
+<option value="2.9.0">2.9.0</option>
+<option value="2.8.0">2.8.0</option>
+<option value="2.7.0">2.7.0</option>
+<option value="2.6.0">2.6.0</option>
+<option value="2.5.0">2.5.0</option>
+<option value="2.4.0">2.4.0</option>
+<option value="2.3.0">2.3.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.8.0">1.8.0</option>
+<option value="1.7.0">1.7.0</option>
+<option value="1.6.1">1.6.1</option>
+<option value="1.6.0">1.6.0</option>
+<option value="1.5.0">1.5.0</option>
+</optgroup>
+<optgroup label="French" value="fr">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="German" value="de">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Italian" value="it">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Japanese" value="ja">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.7.0">1.7.0</option>
+</optgroup>
+<optgroup label="Korean" value="ko">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.0.0">2.0.0</option>
+</optgroup>
+<optgroup label="Russian" value="ru">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Spanish" value="es">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup></select></small>
+        </div>
+        <div id="subheader">
+            <h1>Using Plugman to Manage Plugins</h1>
+            <small><select><option value="Using%2520Plugman%2520to%2520Manage%2520Plugins">Using Plugman to Manage Plugins</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_installing_plugman">      - Installing Plugman</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_create_a_cordova_project">      - Create a Cordova Project</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_adding_a_plugin">      - Adding a Plugin</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_remove_a_plugin">      - Remove a Plugin</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_help_commands">      - Help Commands</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_registry_actions">      - Registry Actions</option>
+<option value="Using%20Plugman%20to%20Manage%20Plugins_installing_core_plugins">      - Installing Core Plugins</option></select></small>
+        </div>
+
+        <div id="sidebar">
+            <div class="vertical_divider"></div>
+        <h1>Guides</h1>
+<ul>
+<li><a href="guide_overview_index.md.html#Overview">Overview</a></li>
+<li><a href="guide_support_index.md.html#Platform%20Support">Platform Support</a></li>
+<li><a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a></li>
+<li><a href="guide_platforms_index.md.html#Platform%20Guides">Platform Guides</a></li>
+<li><a href="plugin_ref_plugman.md.html#Using%20Plugman%20to%20Manage%20Plugins">Using Plugman to Manage Plugins</a></li>
+<li><a href="config_ref_index.md.html#The%20config.xml%20File">The config.xml File</a></li>
+<li><a href="config_ref_images.md.html#Icons%20and%20Splash%20Screens">Icons and Splash Screens</a></li>
+<li><a href="guide_hybrid_webviews_index.md.html#Embedding%20WebViews">Embedding WebViews</a></li>
+<li><a href="guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide">Plugin Development Guide</a></li>
+<li><a href="guide_appdev_privacy_index.md.html#Privacy%20Guide">Privacy Guide</a></li>
+<li><a href="guide_appdev_whitelist_index.md.html#Whitelist%20Guide">Whitelist Guide</a></li>
+<li><a href="_index.html">Keyword Index</a></li>
+</ul>
+<h1>API Reference</h1>
+<ul>
+<li><a href="cordova_accelerometer_accelerometer.md.html#Accelerometer">Accelerometer</a></li>
+<li><a href="cordova_camera_camera.md.html#Camera">Camera</a></li>
+<li><a href="cordova_media_capture_capture.md.html#Capture">Capture</a></li>
+<li><a href="cordova_compass_compass.md.html#Compass">Compass</a></li>
+<li><a href="cordova_connection_connection.md.html#Connection">Connection</a></li>
+<li><a href="cordova_contacts_contacts.md.html#Contacts">Contacts</a></li>
+<li><a href="cordova_device_device.md.html#Device">Device</a></li>
+<li><a href="cordova_events_events.md.html#Events">Events</a></li>
+<li><a href="cordova_file_file.md.html#File">File</a></li>
+<li><a href="cordova_geolocation_geolocation.md.html#Geolocation">Geolocation</a></li>
+<li><a href="cordova_globalization_globalization.md.html#Globalization">Globalization</a></li>
+<li><a href="cordova_inappbrowser_inappbrowser.md.html#InAppBrowser">InAppBrowser</a></li>
+<li><a href="cordova_media_media.md.html#Media">Media</a></li>
+<li><a href="cordova_notification_notification.md.html#Notification">Notification</a></li>
+<li><a href="cordova_splashscreen_splashscreen.md.html#Splashscreen">Splashscreen</a></li>
+<li><a href="cordova_storage_storage.md.html#Storage">Storage</a></li>
+</ul>
+</div>
+
+        <div id="scrollable">
+            <div id="content">
+                <h1><a name="Using%20Plugman%20to%20Manage%20Plugins">Using Plugman to Manage Plugins</a></h1>
+
+<p>From version 3.0 onward, Cordova implements all device APIs as
+plugins, and leaves them disabled by default. It also supports two
+different ways to add and remove plugins. The first is by using the
+<code>cordova</code> CLI described in <a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a>. The second is
+by using a lower-level
+<a class="external" href="https://github.com/apache/cordova-plugman/">Plugman</a>
+command-line interface ("Native platform dev" workflow.) The main difference between these two development
+paths is that Plugman can only add plugins to one platform at a time, whereas the CLI will add plugins
+to all of the platforms that you are targeting.  Because of this, it makes more sense to use Plugman when
+you are working closely with a single platform, hence the "Native Platform Dev" name of the workflow. </p>
+
+<p>For more information on Plugman, especially if you are interested in consuming Plugman as a node module 
+or hacking on the Plugman code, see <a class="external" href="https://github.com/apache/cordova-plugman/blob/master/README.md">the README file in its repository</a>.</p>
+
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_installing_plugman">Installing Plugman</a>
+</h2>
+
+<p>To install plugman, you must have <a class="external" href="http://nodejs.org/">node</a> installed
+on your machine. Then you can run the following command from anywhere in your environment to install plugman globally, so that it
+is available from any directory on your machine:</p>
+
+<pre class="prettyprint"><code>$ npm install -g plugman
+</code></pre>
+
+<p>You must have also have <code>git</code> on your <code>PATH</code> to be able to install plugins directly from remote git URLs.</p>
+
+<p><strong>TIP:</strong> If you find that after installing plugman with npm you are still unable to run any <code>plugman</code> commands, make sure that you have
+added the <code>/npm/</code> directory into your <code>PATH</code>. </p>
+
+<p><strong>NOTE:</strong> You can skip this step if you don't want to pollute your global npm namespace by installing Plugman globally. If this is the case, then
+when you create a Cordova project with the shell tools, there will be a <code>node_modules</code> directory inside your project which contains Plugman. 
+Since you did not instally globally, you will have to invoke node for every Plugman command, for example <code>node ./node_modules/plugman/main.js -version</code>.
+The rest of this guide assumes you have installed Plugman globally, meaning you can invoke it with just <code>plugman</code>. </p>
+
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_create_a_cordova_project">Create a Cordova Project</a>
+</h2>
+
+<p>Before you can use Plugman, you must create a Cordova project.  You can do this with either the Command-line Interface or with
+the lower level shell scripts. Instructions for using the shell scripts to create your project are located in the various "Command-line Tools" guides
+listed on the <a href="guide_platforms_index.md.html#Platform%20Guides">Platform Guides</a> page. </p>
+
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_adding_a_plugin">Adding a Plugin</a>
+</h2>
+
+<p>Once you have installed Plugman and have created a Cordova project, you can start adding plugins to the platform with:</p>
+
+<pre class="prettyprint"><code>$ plugman --platform &lt;ios|amazon-fireos|android|blackberry10|wp7|wp8&gt; --project &lt;directory&gt; --plugin &lt;name|url|path&gt; [--plugins_dir &lt;directory&gt;] [--www &lt;directory&gt;] [--variable &lt;name&gt;=&lt;value&gt; [--variable &lt;name&gt;=&lt;value&gt; ...]]
+</code></pre>
+
+<p>Using minimum parameters, this command installs a plugin into a cordova project. You must specify a platform and cordova project location for that platform. You also must specify a plugin, with the different <code>--plugin</code> parameter forms being:</p>
+
+<ul>
+<li>
+<code>name</code>: The directory name where the plugin contents exist. This must be an existing directory under the <code>--plugins_dir</code> path (see below for more info) or a plugin in the Cordova registry.</li>
+<li>
+<code>url</code>: A URL starting with https:// or git://, pointing to a valid git repository that is clonable and contains a <code>plugin.xml</code> file. The contents of this repository would be copied into the <code>--plugins_dir</code>.</li>
+<li>
+<code>path</code>: A path to a directory containing a valid plugin which includes a <code>plugin.xml</code> file. This path's contents will be copied into the <code>--plugins_dir</code>.</li>
+</ul>
+<p>Other parameters: </p>
+
+<ul>
+<li>
+<code>--plugins_dir</code> defaults to <code>&lt;project&gt;/cordova/plugins</code>, but can be any directory containing a subdirectory for each fetched plugin.</li>
+<li>
+<code>--www</code> defaults to the project's <code>www</code> folder location, but can be any directory that is to be used as cordova project application web assets.</li>
+<li>
+<code>--variable</code> allows to specify certain variables at install time, necessary for certain plugins requiring API keys or other custom, user-defined parameters. Please see the <a href="plugin_spec.md">plugin specification</a> for more information.</li>
+</ul>
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_remove_a_plugin">Remove a Plugin</a>
+</h2>
+
+<p>To uninstall a plugin, you simply pass the <code>--uninstall</code> flag and provide the plugin ID.</p>
+
+<pre class="prettyprint"><code>$ plugman --uninstall --platform &lt;ios|amazon-fireos|android|blackberry10|wp7|wp8&gt; --project &lt;directory&gt; --plugin &lt;id&gt; [--www &lt;directory&gt;] [--plugins_dir &lt;directory&gt;]
+</code></pre>
+
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_help_commands">Help Commands</a>
+</h2>
+
+<p>Plugman features a global help command which may help you if you get stuck or are experiencing problems. It will display
+a list of all available Plugman commands and their syntax:</p>
+
+<pre class="prettyprint"><code>plugman -help
+plugman  # same as above
+</code></pre>
+
+<p><strong>NOTE</strong>: <code>plugman -help</code> may <a href="cordova_inappbrowser_inappbrowser.md.html#show">show</a> some additional registry-related commands. These commands are for plugin developers and may not be implemented on third-party plugin registries.</p>
+
+<p>You can also append the <code>--debug|-d</code> flag to any Plugman command to run that command in verbose mode, which will display
+any internal debugging messages as they are emitted and may help you track down problems like missing files. </p>
+
+<pre class="prettyprint"><code># Adding Android battery-status plugin to "myProject":
+plugman -d --platform android --project myProject --plugin org.apache.cordova.battery-status
+</code></pre>
+
+<p>Finally, you can use the <code>--version|-v</code> flag to see which version of Plugman you are using.</p>
+
+<pre class="prettyprint"><code>plugman -v
+</code></pre>
+
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_registry_actions">Registry Actions</a>
+</h2>
+
+<p>There are a number of plugman commands that can be used for interacting with the <a class="external" href="http://plugins.cordova.io">Plugin registry</a>.
+Please note that these registry commands are specific to the <em>plugins.cordova.io</em> plugin registry and may not be implemented by
+third-party plugin registries.</p>
+
+<h3>Searching for a Plugin</h3>
+
+<p>You can use Plugman to search the <a class="external" href="http://plugins.cordova.io">Plugin registry</a> for plugin id's that match the given space separated list of keywords.</p>
+
+<pre class="prettyprint"><code>plugman search &lt;plugin keywords&gt;
+</code></pre>
+
+<h3>Changing the Plugin Registry</h3>
+
+<p>You can get or set the URL of the current plugin registry that plugman is using. Generally you should leave this set at http://registry.cordova.io unless you want to use a third party plugin registry.</p>
+
+<pre class="prettyprint"><code>plugman config set registry &lt;url-to-registry&gt;
+plugman config get registry
+</code></pre>
+
+<h3>Get Plugin Information</h3>
+
+<p>You can get information about any specific plugin stored in the plugin repository with:</p>
+
+<pre class="prettyprint"><code>plugman info &lt;id&gt;
+</code></pre>
+
+<p>This will contact the plugin registry and fetch information such as the plugin's version number. </p>
+
+<h2>
+<a name="Using%20Plugman%20to%20Manage%20Plugins_installing_core_plugins">Installing Core Plugins</a>
+</h2>
+
+<p>The examples below <a href="cordova_inappbrowser_inappbrowser.md.html#show">show</a> how to add plugins as needed so that any
+Cordova APIs you use in your project still work after you upgrade to
+version 3.0.  For each command, you need to select the target
+platform, and reference the platform's project directory.</p>
+
+<ul>
+<li>
+<p>cordova-plugin-battery-status</p>
+
+<p>plugman --platform <ios> --project <directory> --plugin org.apache.cordova.battery-status</directory></ios></p>
+</li>
+<li><p>cordova-plugin-camera
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.camera</directory></ios></p></li>
+<li><p>cordova-plugin-console
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.console</directory></ios></p></li>
+<li><p>cordova-plugin-contacts
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.contacts</directory></ios></p></li>
+<li><p>cordova-plugin-device
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.device</directory></ios></p></li>
+<li><p>cordova-plugin-device-motion (accelerometer)
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.device-motion</directory></ios></p></li>
+<li><p>cordova-plugin-device-orientation (compass)
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.device-orientation</directory></ios></p></li>
+<li><p>cordova-plugin-dialogs
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.dialogs</directory></ios></p></li>
+<li><p>cordova-plugin-file
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.file</directory></ios></p></li>
+<li><p>cordova-plugin-file-transfer
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.file-transfer</directory></ios></p></li>
+<li><p>cordova-plugin-geolocation
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.geolocation</directory></ios></p></li>
+<li><p>cordova-plugin-globalization
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.globalization</directory></ios></p></li>
+<li><p>cordova-plugin-inappbrowser
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.inappbrowser</directory></ios></p></li>
+<li><p>cordova-plugin-media
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.media</directory></ios></p></li>
+<li><p>cordova-plugin-media-capture
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.media-capture</directory></ios></p></li>
+<li><p>cordova-plugin-network-information
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.network-information</directory></ios></p></li>
+<li><p>cordova-plugin-splashscreen
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.splashscreen</directory></ios></p></li>
+<li><p>cordova-plugin-vibration
+plugman --platform <ios> --project <directory> --plugin org.apache.cordova.vibration</directory></ios></p></li>
+</ul>
+</div>
+        </div>
+
+        <!-- Functionality and Syntax Highlighting -->
+        <script type="text/javascript" src="index.js"></script><script type="text/javascript" src="prettify/prettify.js"></script>
+</body>
+</html>

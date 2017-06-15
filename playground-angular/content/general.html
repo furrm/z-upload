@@ -1,0 +1,67 @@
+<div>
+    <h1>General</h1>
+    <h2>Controllers</h2>
+    <p>In AngulaJS, a controller is responsible for</p>
+    <ul>
+        <li>Setting up the scope so data can be bound to the view.</li>
+        <li>Receiving action from the view, either internally, or marshalling an action off to the right place.</li>
+        <li>Should never be used to manipulate the DOM.</li>
+    </ul>
+    <h2>Services</h2>
+    <p>Services do everything the other objects don't do.  The term services is an overloaded term in IT, so below are
+    a few examples of what services in AngularJS are used for:</p>
+    <ul>
+        <li>Handle non-view related logic.</li>
+        <li>Contain business logic.</li>
+        <li>Used to communicate with the server.</li>
+        <li>Used to hold data and state, but this is not exclusive to services alone.</li>
+        <li>On very rare cases, services are used to manipulate the DOM.</li>
+    </ul>
+    <h2>Directives</h2>
+    <p>Directives are by far the most complex object that AngularJS has to offer. This complexity is based on the fact
+    that directives can contain a controller and a view. Below are the key responsibilities for directives:</p>
+    <ul>
+        <li>DOM manipulation.</li>
+        <li>Receives interaction from the views (DOM).</li>
+    </ul>
+    <h2>Views</h2>
+    <p>Views have 2 primary responsibilities:</p>
+    <ul>
+        <li>Display the Application</li>
+        <li>Declare bindings and directives</li>
+    </ul>
+    <h2>Minification</h2>
+    <p>Minification is used to:</p>
+    <ul>
+        <li>Remove whitespace.</li>
+        <li>Shorten variable and parameter names.</li>
+    </ul>
+    <p><em>Note:</em>If you intend to minify your AngularJS script, you need to ensure that you make your script
+    safe from the minification process.</p>
+    <p>Example 1: Unsafe script:</p>
+    <code>angular.module('app', []).controller('AppCtrl', function($scope){$scope.name = 'AppCtrl'});</code>
+    <p>Example 2: Safe script:</p>
+    <code>angular.module('app', []).controller('AppCtrl', ['$scope', function(scope){scope.name = 'AppCtrl'}]);</code>
+    <p class="todo">//TODO: Explain the difference between the 2 examples.</p>
+    <h3>ngmin</h3>
+    <p>ngmin is a utility that will go through any unsafe AngularJS script and make is safe for minification. ngmin
+    ia a node utility, so to use it you will need node installed.</p>
+    <p>Use NPM to install ngmin.</p>
+    <code class="command">$ npm install ngmin -g</code>
+    <p>The -g switch tells node to install the package globally.</p>
+    <p>To use ngmin, you need to tell specify a name for the input and output script files like so:</p>
+    <code class="command">$ ngmin app.js app.safe.js</code>
+    <p>ngmin will prefer you to use a coding style where inline functions are used instead of external functions.  To
+    explain the better, see the following examples:</p>
+    <code>
+        function MyController(){$scope.val = 'ngmin won\'t work';}<br>
+        <br>
+        angular.module('app', []).controller('MyCtrl', MyController);
+    </code>
+    <br>
+    <br>
+    <br>
+    <code>
+        angular.module('app', []).controller('MyCtrl', function($scope){$scope.val = 'ng min will work =)'});
+    </code>
+</div>

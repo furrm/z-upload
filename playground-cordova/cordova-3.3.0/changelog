@@ -1,0 +1,200 @@
+Cordova Commits from 3.2.0 -> 3.3.0
+
+cordova-android
+---
+97ad4d8 Updating release notes to be in line with latest
+446202d Set VERSION to 3.3.0 (via coho)
+81ed0d8 Update JS snapshot to version 3.3.0 (via coho)
+32ce970 CB-5481 Fix for Cordova trying to get config.xml from the wrong namespace
+fe450e3 Forgot Apache Headers on MessageTest
+214934c Set VERSION to 3.3.0-rc1 (via coho)
+1c710f8 Update JS snapshot to version 3.3.0-rc1 (via coho)
+e3430a9 prevent ClassNotFound exception for emtpy class name
+ea1f041 CB-5487: Remote Debugging is on when your Android app is debuggable.
+0fe6d9f Updating the README
+46e7359 Making the object less chatty
+41cace9 Updating tests to KitKat, and making the tests more thread-safe
+4638331 Incrementing API target
+e339a75 CB-5445: Adding onScrollChanged and the ScrollEvent object. (Forgot to add the WebView)
+0b7570c CB-5445: Adding onScrollChanged and the ScrollEvent object
+a85acfc Updated CordovaWebView to experiment with onScrollChanged messages
+3d4ccbe Moving the console.log out of run() method
+2f66ec6 CB-5422: Don't require JAVA_HOME to be defined
+f1cfe2b Thanks for Benn Mapes for making this process easy.  Updating the Android API level.
+6160ca6 CB-5490: add javadoc target to ant script
+b621c3e CB-5471: add deprecation javadoc/annotation
+64d2ae9 Add javadoc comments to source classes
+39fc45b CB-5255: Checking in the Google Check, TODO: Add Amazon FireOS check
+fd954ad CB-5232 Change create script to use Cordova as a library.
+8b379cb Remove Application settings from framework/AndroidManifest.xml
+59c0b04 CB-5346: remove dependency on device plugin
+11b3cf3 CB-5346: delete a stale file that isn't needed
+9254f5a Updating instructions to indicate that the device plugin is required to be installed via plugman
+e5b68f4 Fixing plugins configuration, Device shouldn't be checked in here
+95babc0 Removing device plugin
+4dd792a Removing the plugins directory after the plugins were incorrectly removed
+207c50e This should use plugman to install plugins.  Adding path depenencies for plugins is wrong, and shouldn't be done
+763e34e CB-5349: fixed regression in update script
+b895a0c CB-5346 Fix and cleanup broken Android unit test
+c5767eb CB-5307 Remove references to Callback and Incubator
+94fb79c CB-5302: Massive movement to get tests working again
+6856b02 Set VERSION to 3.3.0-dev (via coho)
+04f812c CB-5301 add missing license headers
+8783cf0 [CB-4996] Fix paths with spaces while launching on emulator and device
+4e1156e CB-5284 Fixing the version from coho
+1d6e1d4 Fixing the VERSION file, it got auto-incremented by coho by accident
+fd02e5a Update JS snapshot to version 2.10.0-dev (via coho)
+937056f Set VERSION to 2.10.0-dev (via coho)
+41ed186 CB-5209 Win: Cannot build Android app if project path contains spaces
+96d4a22 CB-5209: Dirty, Dirty Fix for Building.  This works, but needs to be prettier.
+
+cordova-ios
+---
+4972510 Set VERSION to 3.3.0 (via coho)
+fe1bd91 Update JS snapshot to version 3.3.0 (via coho)
+170d383 Set VERSION to 3.3.0-rc1 (via coho)
+aaad523 Update JS snapshot to version 3.3.0-rc1 (via coho)
+5dec9cc Updated CDVAvailability.h version to 3.3
+8d14970 CB-5503 - iOS guides broken web locations
+a99167b Updated RELEASENOTES for 3.2.0
+d398b14 CB-5124 - Remove splashscreen config.xml values from iOS Configuration Docs, move to plugin docs
+a19c02f CB-5229 - cordova/emulate important improvements (stderr, check ios-sim before build)
+2d89e23 Update JS snapshot to version 3.3.0-dev (via coho)
+9a4e9d5 Set VERSION to 3.3.0-dev (via coho)
+
+cordova-blackberry
+---
+ac5f461 Update release notes
+6dfeea3 Update VERSION to 3.3.0
+d4b183e Update JS snapshot to version 3.3.0
+0c20296 Update js for 3.3-rc1
+076547d CB-5434 Fix debug token warning test
+df49094 CB-5434 add homedir() function and use USERPROFILE on Windows
+5689a49 CB-5443 Windows: Handle installed 64 bit Java
+1b90651 CB-5468 improve config.xml encoding handling
+7a7d50d CB-5509 Remove ability to set default target
+339ea78 CB-5510 update response codes for plugin success/fail callbacks
+1896d2c Update cordova-js
+3c5c5d0 CB-5433 init.bat use %USERPROFILE% on Windows
+e2c7d81 CB-5413 Device detection - iterate through all 169.254.x.x networks
+fb6a59c Fix unit tests
+0c959f0 CB-5317 Move signing warn logic to build/run scripts
+b61a885 CB-5329 re-adds rim-permissions element to config.xml, which plugman installation scripts require
+11961ff CB-5258 use exit library for process.exit
+e783280 Update JS snapshot to version 3.3.0-dev (via coho)
+86beaf2 Set VERSION to 3.3.0-dev (via coho)
+
+cordova-windows
+---
+b92941c Add RELEASENOTES.md
+8b53ee3 update VERSION to 3.3.0
+f327d43 Update 3.3.0 tagged js
+66eabb6 CB-5543 update to 3.3.0-rc1
+d32a3cf CB-5040 cordova run windows8 has no effect
+e83959d CB-5324 Windows8 build fails due to invalid image references
+65e9ba5 CB-5323 Windows8 build fails due to expired certificate. Generated new temporary certificate, valid untill 11.11.2014
+cb99798 Fix issue using VS 2013 version of MSBuild
+
+cordova-wp8
+---
+68de03b Update 3.3.0 JS + VERSION
+a5dff1f CB-5544 update versions, js for 3.3.0-rc1
+9aa586a CB-5360 fix compiler whinings
+15b25cc CB-5360 fix compiler warnings
+4ea5ef8 CB-4538 copy check_reqs scripts in create script
+5722f27 CB-4538 copy check_reqs scripts
+22ef68d CB-4103 Make config parameter checks case-insensitive WP7+WP8
+ea812f8 CB-2347 Add support for config.xml preference: fullscreen
+0e2d032 Applied Sergey's changes to WP7 as well
+73211a9 CB-5203 Using XmlHTTPRequest.open on WP8 raises a TypeError Added basic support of add/removeEventListener for XHRShim
+25aa789 CB-5435 Handle missing preferences gracefully
+f1be308 CB-5418 BrowserMouseHelper fails on WP8 for WP7 apps
+f3a5166 update master dev version
+5c5274f CB-5354 Networking becomes a required permission so that XHR can work out of the box
+22fb224 disable idle detection when debugging for wp8 as well
+5820365 forgot debugger is attached
+b35dc6f proper location
+7e75fff disable idle detection mode when debug by default
+
+cordova-firefoxos
+---
+02b07df Set VERSION to 3.3.0 (via coho)
+e3671ab Update JS snapshot to version 3.3.0 (via coho)
+cb309a8 added version file
+fd5f809 Set VERSION to 3.3.0-rc1 (via coho)
+4f47c2c Update JS snapshot to version 3.3.0-rc1 (via coho)
+103e9b6 Update JS snapshot to version 3.3.0-dev (via coho)
+03774c6 CB-5234: fixed ffos update script
+09bf380 fixed root reference in update script
+b719e9e fixed errors with update script
+7c3d849 Update JS snapshot to version 3.3.0-dev (via coho)
+1eb60f6 Set VERSION to 3.3.0-dev (via coho)
+
+cordova-ubuntu
+---
+c477479 Set VERSION to 3.3.0 (via coho)
+bf1cda2 Update JS snapshot to version 3.3.0 (via coho)
+fb1c314 use child_process.exec correctly
+777ca3e bin/create check for shelljs/elementtree
+50586c2 Set VERSION to 3.3.0-rc1 (via coho)
+428fbca Update JS snapshot to version 3.3.0-rc1 (via coho)
+
+cordova-amazon-fireos
+---
+e9d39c5 Set VERSION to 3.3.0 (via coho)
+82c66db Update JS snapshot to version 3.3.0 (via coho)
+0afe92e Set VERSION to 3.3.0-rc1 (via coho)
+36c2bc0 Update JS snapshot to version 3.3.0-rc1 (via coho)
+
+cordova-docs
+---
+c6219cf Version 3.3.0
+bbde834 CB-4229 Remove BlackBerry OS platform
+9b42839 [CB-5398] Add Android 4.4 quirk about StorageAccessFramework
+37b7124 Added Amazon Fire OS platform to platform guides index.
+1383554 added description of steps needed to enable Contacts API in FirefoxOS
+4a87e63 CB-5528 Link to Upgrading BlackBerry10
+
+cordova-mobile-spec
+---
+86d912c Set VERSION to 3.3.0 (via coho)
+3fa9c1d CB-5466: Revert: we're not ready yes for FS urls in file-transfer
+33aba2f Set VERSION to 3.3.0-rc1 (via coho)
+e1ab4d4 CB-5404: Change filename shared between two file tests
+e1977e8 added amazon-fireos to platforms
+7b5ef93 CB-5404: Fix three tests that were sensitive to existing files
+b949ac2 CB-5466: Use URLs rather than full paths in file transfer tests
+bc9aaf0 CB-5403: Remove test for undocumented File API quirks
+e82cff7 CB-5405: Remove test that doesn't make sense for filesystem URLs
+196bb1f CB-5405: Update tests to work with URL paths in File objects
+d6f07da CB-5404: Add test for actually reading directory contents
+e7c2630 CB-5404: Fix fragile file tests
+a5d2413 Add author to config.xml
+a9bd97c Fix non-functional typo.
+4aa9244 CB-5222 - add check for Keyboard plugin being installed
+8e60a00 CB-5222 - ios - Add manual mobile-spec tests for Keyboard plugin org.apache.cordova.keyboard
+82e06ca Set VERSION to 3.3.0-dev (via coho)
+
+cordova-js
+---
+b7feb74 Set VERSION to 3.3.0 (via coho)
+9f22fe2 fixed licensed headers for ubuntu
+9d74694 add ubuntu platform
+e1fe3a5 Spelling: SEPERATOR -> SEPARATOR
+4a0eaec Added amazon-fireos port to lib files + grunt file.
+b8e29d3 CB-5316 Spell Cordova as a brand unless it's a command or script
+72b53e0 Set VERSION to 3.3.0-rc1 (via coho)
+c9de1bc CB-5334 [BlackBerry10] Add command proxy to exec
+d5e4e9e CB-5307 Remove references to Callback and Incubator
+9740276 CB-5253 remove webworksready event
+6568e94 CB-5253 remove webworks.exec
+9bbf2b7 CB-5247 [BlackBerry10] Map blackberry.event to document
+4e2e780 CB-5247 [BlackBerry10] Map blackberry.event to document
+6b42cba Set VERSION to 3.3.0-dev (via coho)
+
+cordova-app-hello-world
+---
+01af7dc Set VERSION to 3.3.0 (via coho)
+3a94666 Set VERSION to 3.3.0-rc1 (via coho)
+866695b CB-5290 iOS: Updated launch images sizes to include the status bar region
+7ef67ca Set VERSION to 3.3.0-dev (via coho)

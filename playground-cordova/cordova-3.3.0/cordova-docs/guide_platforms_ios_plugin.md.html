@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+--><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<meta name="generator" content="joDoc">
+<title>Apache Cordova API Documentation</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-device-width: 1024px)">
+<link rel="stylesheet" type="text/css" href="prettify/prettify.css">
+</head>
+<body>
+        <div id="header">
+            <h1><a href="index.html">Apache <strong>Cordova</strong> Documentation</a></h1>
+            <small>
+                <select><optgroup label="Chinese" value="zh">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="English" value="en">
+<option value="edge">edge</option>
+<option selected value="3.3.0">3.3.0</option>
+<option value="3.2.0">3.2.0</option>
+<option value="3.1.0">3.1.0</option>
+<option value="3.0.0">3.0.0</option>
+<option value="2.9.0">2.9.0</option>
+<option value="2.8.0">2.8.0</option>
+<option value="2.7.0">2.7.0</option>
+<option value="2.6.0">2.6.0</option>
+<option value="2.5.0">2.5.0</option>
+<option value="2.4.0">2.4.0</option>
+<option value="2.3.0">2.3.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.8.0">1.8.0</option>
+<option value="1.7.0">1.7.0</option>
+<option value="1.6.1">1.6.1</option>
+<option value="1.6.0">1.6.0</option>
+<option value="1.5.0">1.5.0</option>
+</optgroup>
+<optgroup label="French" value="fr">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="German" value="de">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Italian" value="it">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Japanese" value="ja">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.7.0">1.7.0</option>
+</optgroup>
+<optgroup label="Korean" value="ko">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.0.0">2.0.0</option>
+</optgroup>
+<optgroup label="Russian" value="ru">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Spanish" value="es">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup></select></small>
+        </div>
+        <div id="subheader">
+            <h1>iOS Plugins</h1>
+            <small><select><option value="iOS%2520Plugins">iOS Plugins</option>
+<option value="iOS%20Plugins_plugin_class_mapping">      - Plugin Class Mapping</option>
+<option value="iOS%20Plugins_plugin_initialization_and_lifetime">      - Plugin Initialization and Lifetime</option>
+<option value="iOS%20Plugins_writing_an_ios_cordova_plugin">      - Writing an iOS Cordova Plugin</option>
+<option value="iOS%20Plugins_ios_cdvpluginresult_message_types">      - iOS CDVPluginResult Message Types</option>
+<option value="iOS%20Plugins_echo_ios_plugin_example">      - Echo iOS Plugin Example</option>
+<option value="iOS%20Plugins_ios_integration">      - iOS Integration</option>
+<option value="iOS%20Plugins_threading">      - Threading</option>
+<option value="iOS%20Plugins_debugging_ios_plugins">      - Debugging iOS Plugins
+</option>
+<option value="iOS%20Plugins_common_pitfalls">      - Common Pitfalls</option></select></small>
+        </div>
+
+        <div id="sidebar">
+            <div class="vertical_divider"></div>
+        <h1>Guides</h1>
+<ul>
+<li><a href="guide_overview_index.md.html#Overview">Overview</a></li>
+<li><a href="guide_support_index.md.html#Platform%20Support">Platform Support</a></li>
+<li><a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a></li>
+<li><a href="guide_platforms_index.md.html#Platform%20Guides">Platform Guides</a></li>
+<li><a href="plugin_ref_plugman.md.html#Using%20Plugman%20to%20Manage%20Plugins">Using Plugman to Manage Plugins</a></li>
+<li><a href="config_ref_index.md.html#The%20config.xml%20File">The config.xml File</a></li>
+<li><a href="config_ref_images.md.html#Icons%20and%20Splash%20Screens">Icons and Splash Screens</a></li>
+<li><a href="guide_hybrid_webviews_index.md.html#Embedding%20WebViews">Embedding WebViews</a></li>
+<li><a href="guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide">Plugin Development Guide</a></li>
+<li><a href="guide_appdev_privacy_index.md.html#Privacy%20Guide">Privacy Guide</a></li>
+<li><a href="guide_appdev_whitelist_index.md.html#Whitelist%20Guide">Whitelist Guide</a></li>
+<li><a href="_index.html">Keyword Index</a></li>
+</ul>
+<h1>API Reference</h1>
+<ul>
+<li><a href="cordova_accelerometer_accelerometer.md.html#Accelerometer">Accelerometer</a></li>
+<li><a href="cordova_camera_camera.md.html#Camera">Camera</a></li>
+<li><a href="cordova_media_capture_capture.md.html#Capture">Capture</a></li>
+<li><a href="cordova_compass_compass.md.html#Compass">Compass</a></li>
+<li><a href="cordova_connection_connection.md.html#Connection">Connection</a></li>
+<li><a href="cordova_contacts_contacts.md.html#Contacts">Contacts</a></li>
+<li><a href="cordova_device_device.md.html#Device">Device</a></li>
+<li><a href="cordova_events_events.md.html#Events">Events</a></li>
+<li><a href="cordova_file_file.md.html#File">File</a></li>
+<li><a href="cordova_geolocation_geolocation.md.html#Geolocation">Geolocation</a></li>
+<li><a href="cordova_globalization_globalization.md.html#Globalization">Globalization</a></li>
+<li><a href="cordova_inappbrowser_inappbrowser.md.html#InAppBrowser">InAppBrowser</a></li>
+<li><a href="cordova_media_media.md.html#Media">Media</a></li>
+<li><a href="cordova_notification_notification.md.html#Notification">Notification</a></li>
+<li><a href="cordova_splashscreen_splashscreen.md.html#Splashscreen">Splashscreen</a></li>
+<li><a href="cordova_storage_storage.md.html#Storage">Storage</a></li>
+</ul>
+</div>
+
+        <div id="scrollable">
+            <div id="content">
+                <h1><a name="iOS%20Plugins">iOS Plugins</a></h1>
+
+<p>This section provides details for how to implement native plugin code
+on the iOS platform. Before reading this, see Application Plugins for
+an overview of the plugin's structure and its common JavaScript
+interface. This section continues to demonstrate the sample <em>echo</em>
+plugin that communicates from the Cordova webview to the native
+platform and back.</p>
+
+<p>An iOS plugin is implemented as an Objective-C class that extends the
+<code>CDVPlugin</code> class.  For JavaScript's <code>exec</code> method's <code>service</code>
+parameter to map to an Objective-C class, each plugin class must be
+registered as a <code>&lt;feature&gt;</code> tag in the named application directory's
+<code>config.xml</code> file.</p>
+
+<h2>
+<a name="iOS%20Plugins_plugin_class_mapping">Plugin Class Mapping</a>
+</h2>
+
+<p>The JavaScript portion of a plugin uses the <code>cordova.exec</code> method as
+follows:</p>
+
+<pre class="prettyprint"><code>    exec(&lt;successFunction&gt;, &lt;failFunction&gt;, &lt;service&gt;, &lt;action&gt;, [&lt;args&gt;]);
+</code></pre>
+
+<p>This marshals a request from the <code>UIWebView</code> to the iOS native side,
+effectively calling the <code>action</code> method on the <code>service</code> class, with
+the arguments passed in the <code>args</code> array.</p>
+
+<p>Specify the plugin as a <code>&lt;feature&gt;</code> tag in your Cordova-iOS
+application's project's <code>config.xml</code> file, using the <code>plugin.xml</code> file
+to inject this markup automatically, as described in Application
+Plugins:</p>
+
+<pre class="prettyprint"><code>    &lt;feature name="LocalStorage"&gt;
+        &lt;param name="ios-package" value="CDVLocalStorage" /&gt;
+    &lt;/feature&gt;
+</code></pre>
+
+<p>The feature's <code>name</code> attribute should match what you specify as the
+JavaScript <code>exec</code> call's <code>service</code> parameter. The <code>value</code> attribute
+should match the name of the plugin's Objective-C class. The <code>&lt;param&gt;</code>
+element's <code>name</code> should always be <code>ios-package</code>.  If you do not follow
+these guidelines, the plugin may compile, but Cordova may still not be
+able to access it.</p>
+
+<h2>
+<a name="iOS%20Plugins_plugin_initialization_and_lifetime">Plugin Initialization and Lifetime</a>
+</h2>
+
+<p>One instance of a plugin object is created for the life of each
+<code>UIWebView</code>. Plugins are ordinarily instantiated when first referenced
+by a call from JavaScript. Otherwise they can be instantiated by
+setting a <code>param</code> named <code>onload</code> to <code>true</code> in the <code>config.xml</code> file:</p>
+
+<pre class="prettyprint"><code>    &lt;feature name="Echo"&gt;
+        &lt;param name="ios-package" value="Echo" /&gt;
+        &lt;param name="onload" value="true" /&gt;
+    &lt;/feature&gt;
+</code></pre>
+
+<p>There is <em>no</em> designated initializer for plugins. Instead, plugins
+should use the <code>pluginInitialize</code> method for their startup logic.</p>
+
+<p>Plugins with long-running requests, background activity such as media
+playback, listeners, or that maintain internal state should implement
+the <code>onReset</code> method to clean up those activities. The method runs
+when the <code>UIWebView</code> navigates to a new page or refreshes, which
+reloads the JavaScript.</p>
+
+<h2>
+<a name="iOS%20Plugins_writing_an_ios_cordova_plugin">Writing an iOS Cordova Plugin</a>
+</h2>
+
+<p>A JavaScript call fires off a plugin request to the native side, and
+the corresponding iOS Objective-C plugin is mapped properly in the
+<code>config.xml</code> file, but what does the final iOS Objective-C plugin
+class look like?  Whatever is dispatched to the plugin with
+JavaScript's <code>exec</code> function is passed into the corresponding plugin
+class's <code>action</code> method. A plugin method has this signature:</p>
+
+<pre class="prettyprint"><code>    - (void)myMethod:(CDVInvokedUrlCommand*)command
+    {
+        CDVPluginResult* pluginResult = nil;
+        NSString* myarg = [command.arguments objectAtIndex:0];
+
+        if (myarg != nil) {
+            pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+        } else {
+            pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"Arg was null"];
+        }
+        [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+    }
+</code></pre>
+
+<p>For more details, see
+ <code>[CDVInvokedUrlCommand.h](https://github.com/apache/cordova-ios/blob/master/CordovaLib/Classes/CDVInvokedUrlCommand.h)</code>,
+ <code>[CDVPluginResult.h](https://github.com/apache/cordova-ios/blob/master/CordovaLib/Classes/CDVPluginResult.h)</code>,
+and
+ <code>[CDVCommandDelegate.h](https://github.com/apache/cordova-ios/blob/master/CordovaLib/Classes/CDVCommandDelegate.h)</code>.</p>
+
+<h2>
+<a name="iOS%20Plugins_ios_cdvpluginresult_message_types">iOS CDVPluginResult Message Types</a>
+</h2>
+
+<p>You can use <code>CDVPluginResult</code> to return a variety of result types back to
+the JavaScript callbacks, using class methods that follow this pattern:</p>
+
+<pre class="prettyprint"><code>    + (CDVPluginResult*)resultWithStatus:(CDVCommandStatus)statusOrdinal messageAs...
+</code></pre>
+
+<p>You can create <code>String</code>, <code>Int</code>, <code>Double</code>, <code>Bool</code>, <code>Array</code>,
+<code>Dictionary</code>, <code>ArrayBuffer</code>, and <code>Multipart</code> types. You can also leave
+out any arguments to send a status, or return an error, or even choose
+not to send any plugin result, in which case neither callback fires.</p>
+
+<p>Note the following for complex return values:</p>
+
+<ul>
+<li><p><code>messageAsArrayBuffer</code> expects <code>NSData*</code> and converts to an
+<code>ArrayBuffer</code> in the JavaScript callback. Likewise, any
+<code>ArrayBuffer</code> the JavaScript sends to a plugin are converted to
+<code>NSData*</code>.</p></li>
+<li><p><code>messageAsMultipart</code> expects an <code>NSArray*</code> containing any of the
+other supported types, and sends the entire array as the <code>arguments</code>
+to your JavaScript callback.  This way, all of the arguments are
+serialized or deserialized as necessary, so it is safe to return
+<code>NSData*</code> as multipart, but not as <code>Array</code>/<code>Dictionary</code>.</p></li>
+</ul>
+<h2>
+<a name="iOS%20Plugins_echo_ios_plugin_example">Echo iOS Plugin Example</a>
+</h2>
+
+<p>To match the JavaScript interface's <em>echo</em> feature described in
+Application Plugins, use the <code>plugin.xml</code> to inject a <code>feature</code>
+specification to the local platform's <code>config.xml</code> file:</p>
+
+<pre class="prettyprint"><code>    &lt;platform name="ios"&gt;
+        &lt;config-file target="config.xml" parent="/*"&gt;
+            &lt;feature name="Echo"&gt;
+                &lt;param name="ios-package" value="Echo" /&gt;
+            &lt;/feature&gt;
+        &lt;/config-file&gt;
+    &lt;/platform&gt;
+</code></pre>
+
+<p>Then we would add the following <code>Echo.h</code> and <code>Echo.m</code> files to the
+<code>Plugins</code> folder within the Cordova-iOS application directory:</p>
+
+<pre class="prettyprint"><code>    /********* Echo.h Cordova Plugin Header *******/
+
+    #import &lt;Cordova/CDV.h&gt;
+
+    @interface Echo : CDVPlugin
+
+    - (void)echo:(CDVInvokedUrlCommand*)command;
+
+    @end
+
+    /********* Echo.m Cordova Plugin Implementation *******/
+
+    #import "Echo.h"
+    #import &lt;Cordova/CDV.h&gt;
+
+    @implementation Echo
+
+    - (void)echo:(CDVInvokedUrlCommand*)command
+    {
+        CDVPluginResult* pluginResult = nil;
+        NSString* echo = [command.arguments objectAtIndex:0];
+
+        if (echo != nil &amp;&amp; [echo length] &gt; 0) {
+            pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:echo];
+        } else {
+            pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
+        }
+
+        [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+    }
+
+    @end
+</code></pre>
+
+<p>The necessary imports at the top of the file extends the class from
+<code>CDVPlugin</code>.  In this case, the plugin only supports a single <code>echo</code>
+action. It obtains the echo string by calling the <code>objectAtIndex</code>
+method get the first parameter of the <code>arguments</code> array, which
+corresponds to the arguments passed in by the JavaScript <code>exec()</code>
+function.</p>
+
+<p>It checks the parameter to make sure it is not <code>nil</code> or an empty
+string, returning a <code>PluginResult</code> with an <code>ERROR</code> status if so.  If
+the parameter passes the check, it returns a <code>PluginResult</code> with an
+<code>OK</code> status, passing in the original <code>echo</code> string.  Finally, it sends
+the result to <code>self.commandDelegate</code>, which executes the <code>exec</code>
+method's success or failure callbacks on the JavaScript side. If the
+success callback is called, it passes in the <code>echo</code> parameter.</p>
+
+<h2>
+<a name="iOS%20Plugins_ios_integration">iOS Integration</a>
+</h2>
+
+<p>The <code>CDVPlugin</code> class features other methods that your plugin can
+override.  For example, you can capture the <code><a href="cordova_events_events.md.html#pause">pause</a></code>, <code><a href="cordova_events_events.md.html#resume">resume</a></code>, app
+terminate and <code>handleOpenURL</code> events. See the
+<a class="external" href="https://github.com/apache/cordova-ios/blob/master/CordovaLib/Classes/CDVPlugin.h">CDVPlugin.h</a>
+and
+<a class="external" href="https://github.com/apache/cordova-ios/blob/master/CordovaLib/Classes/CDVPlugin.m">CDVPlugin.m</a>
+class for guidance.</p>
+
+<h2>
+<a name="iOS%20Plugins_threading">Threading</a>
+</h2>
+
+<p>Plugin methods ordinarily execute in the same thread as the main
+interface. If your plugin requires a great deal of processing or
+requires a blocking call, you should use a background thread. For
+example:</p>
+
+<pre class="prettyprint"><code>    - (void)myPluginMethod:(CDVInvokedUrlCommand*)command
+    {
+        // Check command.arguments here.
+        [self.commandDelegate runInBackground:^{
+            NSString* payload = nil;
+            // Some blocking logic...
+            CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:payload];
+            // The sendPluginResult method is thread-safe.
+            [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+        }];
+    }
+</code></pre>
+
+<h2>
+<a name="iOS%20Plugins_debugging_ios_plugins">Debugging iOS Plugins
+</a>
+</h2>
+
+<p>To debug on the Objective-C side, you need Xcode's built-in debugger.
+For JavaScript, on iOS 5.0 you can use <a class="external" href="https://github.com/apache/cordova-weinre">Weinre, an Apache Cordova
+Project</a> or <a class="external" href="http://www.iwebinspector.com/">iWebInspector,
+a third-party utility</a>.  For iOS 6, you
+can attach Safari 6.0 to your app running within the iOS 6 Simulator.</p>
+
+<h2>
+<a name="iOS%20Plugins_common_pitfalls">Common Pitfalls</a>
+</h2>
+
+<ul>
+<li><p>Don't forget to add your plugin's mapping to <code>config.xml</code>. If you
+forget, an error is logged in the Xcode console.</p></li>
+<li><p>Don't forget to add any hosts you connect to in the whitelist, as
+described in Domain <a href="guide_appdev_whitelist_index.md.html#Whitelist%20Guide">Whitelist Guide</a>. If you forget, an error is
+logged in the Xcode console.</p></li>
+</ul>
+</div>
+        </div>
+
+        <!-- Functionality and Syntax Highlighting -->
+        <script type="text/javascript" src="index.js"></script><script type="text/javascript" src="prettify/prettify.js"></script>
+</body>
+</html>

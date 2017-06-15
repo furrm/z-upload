@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>playground-js</title>
+</head>
+<body>
+<h1>Javascript Playground</h1>
+<p>A place to play with plain old Javascript and capture best practices.</p>
+<h2>Best Practice</h2>
+<p>This document contains inline JavaScript capturing the following best practices:</p>
+<ul>
+    <li>Don't use the <<b>with</b> statement</li>
+    <li>Always use semicolon to end statements</li>
+    <li>Left versus right curly braces</li>
+    <li>Always use === never use ==</li>
+    <li>Don't use multiline string literals.</li>
+    <li>Avoid global variables.  Use THIS_CONVENTION for naming global variables when required.</li>
+    <li>Classes should use ThisConvention when being defined.</li>
+    <li>Avoid using x++ to increment.  Instead, use x += 1</li>
+    <li>Always put curly braces around if statements.</li>
+    <li style="color: red">What is a Truthy?</li>
+</ul>
+<script type="text/javascript">
+// Left or right curly braces?
+    function leftCurly(){
+        return
+        {
+            ok:true
+        }
+    }
+
+    function rightCurly(){
+        return {
+            ok:true
+        }
+    }
+
+function goodStringLiteral(){
+
+    var longLine1 = 'his is a long \
+                line'; // Works
+
+    return longLine1;
+
+}
+
+
+function badStringLiteral(){
+
+    var longLine2 = 'This is a long \
+                line'; // Syntax error.
+
+    return longLine2;
+
+}
+
+    console.log('Left Curly', leftCurly());
+    console.log('Right Curly', rightCurly());
+console.log('goodStringLiteral', goodStringLiteral());
+console.log('badStringLiteral', badStringLiteral());
+</script>
+
+<script type="text/javascript">
+    // Immediately Invocable Function Expression:
+    (function(){
+
+    })();
+</script>
+</body>
+</html>

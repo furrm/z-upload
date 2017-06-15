@@ -1,0 +1,128 @@
+/* START:AO COLOUR SCHEME */
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* END:AO COLOUR SCHEME */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+/* START:GOOGLE MATERIAL COLOUR SCHEME */
+/* END:GOOGLE MATERIAL COLOUR SCHEME */
+/*!important this needs to be the same width as the isotope column*/
+/* START:AO COLOUR SCHEME */
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* END:AO COLOUR SCHEME */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+/* START:GOOGLE MATERIAL COLOUR SCHEME */
+/* END:GOOGLE MATERIAL COLOUR SCHEME */
+/*!important this needs to be the same width as the isotope column*/
+.tileContainer {
+  background-color: #FF5722; }
+
+.tile {
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  position: relative;
+  color: white; }
+  .tile > div {
+    height: 100%;
+    width: 100%; }
+    .tile > div.content {
+      background-color: #000000; }
+
+.one-by-one.tile {
+  width: 120px;
+  height: 120px;
+  background-color: #16A085; }
+  .one-by-one.tile > div.content {
+    background-color: #1ABC9C; }
+
+.one-by-two.tile {
+  width: 120px;
+  height: 240px;
+  background-color: #27AE60; }
+  .one-by-two.tile > div.content {
+    background-color: #2ECC71; }
+
+.two-by-one.tile {
+  width: 240px;
+  height: 120px;
+  background-color: #2980B9; }
+  .two-by-one.tile > div.content {
+    background-color: #3498DB; }
+
+.two-by-two.tile {
+  width: 240px;
+  height: 240px;
+  background-color: #8E44AD; }
+  .two-by-two.tile > div.content {
+    background-color: #9B59B6; }
+
+.two-by-three.tile {
+  width: 240px;
+  height: 360px;
+  background-color: #2C3E50; }
+  .two-by-three.tile > div.content {
+    background-color: #34495E; }
+
+.two-by-four.tile {
+  width: 240px;
+  height: 480px;
+  background-color: #2C3E50; }
+  .two-by-four.tile > div.content {
+    background-color: #34495E; }
+
+.three-by-two.tile {
+  width: 360px;
+  height: 240px;
+  background-color: #F39C12; }
+  .three-by-two.tile > div.content {
+    background-color: #F1C40F; }
+
+.three-by-three.tile {
+  width: 360px;
+  height: 360px;
+  background-color: #D35400; }
+  .three-by-three.tile > div.content {
+    background-color: #E67E22; }
+
+.three-by-four.tile {
+  width: 360px;
+  height: 480px;
+  background-color: #C0392B; }
+  .three-by-four.tile > div.content {
+    background-color: #E74C3C; }
+
+.four-by-two.tile {
+  width: 480px;
+  height: 240px;
+  background-color: #C0392B; }
+  .four-by-two.tile > div.content {
+    background-color: #E74C3C; }
+
+.four-by-three.tile {
+  width: 480px;
+  height: 360px;
+  background-color: #BDC3C7; }
+  .four-by-three.tile > div.content {
+    background-color: #ECF0F1; }
+
+.four-by-four.tile {
+  width: 480px;
+  height: 480px;
+  background-color: #7F8C8D; }
+  .four-by-four.tile > div.content {
+    background-color: #95A5A6; }
+
+/*# sourceMappingURL=app.css.map */

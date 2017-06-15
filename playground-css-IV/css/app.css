@@ -1,0 +1,654 @@
+/* START:FONTS */
+/* END:FONTS */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+.swatch {
+  float: left;
+  width: 20%;
+  height: 200px;
+}
+.turquoise.swatch {
+  background-color: #1abc9c;
+  color: #aef4e6;
+}
+.emerald.swatch {
+  background-color: #2ecc71;
+  color: #d1f5e0;
+}
+.peter-river.swatch {
+  background-color: #3498db;
+  color: #e1f0fa;
+}
+.amethyst.swatch {
+  background-color: #9b59b6;
+  color: #f0e7f4;
+}
+.green-sea.swatch {
+  background-color: #16a085;
+  color: #92f0de;
+}
+.wet-asphalt.swatch {
+  background-color: #34495e;
+  color: #98afc6;
+}
+.green-sea.swatch {
+  background-color: #16a085;
+  color: #92f0de;
+}
+.nephritis.swatch {
+  background-color: #27ae60;
+  color: #b3eecc;
+}
+.belize-hole.swatch {
+  background-color: #2980b9;
+  color: #bedcf0;
+}
+.wisteria.swatch {
+  background-color: #8e44ad;
+  color: #e4d0ed;
+}
+.midnight-blue.swatch {
+  background-color: #2c3e50;
+  color: #8aa4be;
+}
+.sun-flower.swatch {
+  background-color: #f1c40f;
+  color: #fcf3d0;
+}
+.carrot.swatch {
+  background-color: #e67e22;
+  color: #fbe9d9;
+}
+.alizarin.swatch {
+  background-color: #e74c3c;
+  color: #fdf3f2;
+}
+.clouds.swatch {
+  background-color: #ecf0f1;
+  color: #77939a;
+}
+.concrete {
+  background-color: #95a5a6;
+  color: #ffffff;
+}
+.orange {
+  background-color: #f39c12;
+  color: #fdedd4;
+}
+.pumpkin {
+  background-color: #d35400;
+  color: #ffc6a0;
+}
+.pomegranate {
+  background-color: #c0392b;
+  color: #f2c9c5;
+}
+.silver {
+  background-color: #bdc3c7;
+  color: #ffffff;
+}
+.asbestos {
+  background-color: #7f8c8d;
+  color: #ebeded;
+}
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/**** Isotope styles ****/
+/* required for containers to inherit vertical size from window */
+#container {
+  border: 1px solid #666;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.tile * {
+  position: absolute;
+  margin: 0;
+}
+.tile.large .symbol {
+  font-size: 4.5em;
+}
+.tile.fake .symbol {
+  color: #000;
+}
+.variable-sizes .tile.width2 {
+  width: 230px;
+}
+.variable-sizes .tile.height2 {
+  height: 230px;
+}
+.variable-sizes .tile.width2.height2 {
+  font-size: 2.0em;
+}
+.tile.large,
+.variable-sizes .tile.large,
+.variable-sizes .tile.large.width2.height2 {
+  font-size: 3.0em;
+  width: 350px;
+  height: 350px;
+  z-index: 100;
+}
+.clickable .tile:hover {
+  cursor: pointer;
+}
+.clickable .tile:hover h3 {
+  text-shadow: 0 0 10px white,
+    0 0 10px white
+;
+}
+.clickable .tile:hover h2 {
+  color: white;
+}
+/**** Example Options ****/
+/**** Infinite Scroll ****/
+#infscr-loading {
+  position: fixed;
+  text-align: center;
+  bottom: 30px;
+  left: 42%;
+  z-index: 100;
+  background: white;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  color: #222;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+/*!important this needs to be the same width as the isotope column*/
+.tile {
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  float: left;
+  border: 5px solid transparent;
+  position: relative;
+  color: white;
+}
+.tile > div {
+  height: 100%;
+  width: 100%;
+}
+.tile > div.content {
+  background-color: #000000;
+}
+.one-by-one.tile {
+  width: 120px;
+  height: 120px;
+  background-color: #16a085;
+}
+.one-by-one.tile > div.content {
+  background-color: #1abc9c;
+}
+.one-by-two.tile {
+  width: 120px;
+  height: 240px;
+  background-color: #27ae60;
+}
+.one-by-two.tile > div.content {
+  background-color: #2ecc71;
+}
+.two-by-one.tile {
+  width: 240px;
+  height: 120px;
+  background-color: #2980b9;
+}
+.two-by-one.tile > div.content {
+  background-color: #3498db;
+}
+.two-by-two.tile {
+  width: 240px;
+  height: 240px;
+  background-color: #8e44ad;
+}
+.two-by-two.tile > div.content {
+  background-color: #9b59b6;
+}
+.two-by-three.tile {
+  width: 240px;
+  height: 360px;
+  background-color: #2c3e50;
+}
+.two-by-three.tile > div.content {
+  background-color: #34495e;
+}
+.three-by-two.tile {
+  width: 360px;
+  height: 240px;
+  background-color: #f39c12;
+}
+.three-by-two.tile > div.content {
+  background-color: #f1c40f;
+}
+.three-by-three.tile {
+  width: 360px;
+  height: 360px;
+  background-color: #d35400;
+}
+.three-by-three.tile > div.content {
+  background-color: #e67e22;
+}
+.three-by-four.tile {
+  width: 360px;
+  height: 480px;
+  background-color: #c0392b;
+}
+.three-by-four.tile > div.content {
+  background-color: #e74c3c;
+}
+.four-by-three.tile {
+  width: 480px;
+  height: 360px;
+  background-color: #bdc3c7;
+}
+.four-by-three.tile > div.content {
+  background-color: #ecf0f1;
+}
+.four-by-four.tile {
+  width: 480px;
+  height: 480px;
+  background-color: #7f8c8d;
+}
+.four-by-four.tile > div.content {
+  background-color: #95a5a6;
+}
+.tile .title {
+  left: 0.5em;
+  bottom: 1.6em;
+  font-size: 1.05em;
+}
+.tile .size {
+  font-size: 0.9em;
+  left: 0.5em;
+  bottom: 0.5em;
+}
+.leadin {
+  margin-bottom: 32px;
+}
+.leadin .wrap {
+  height: 368px;
+}
+.leadin .text-block {
+  position: absolute;
+  left: 384px;
+  top: 64px;
+}
+.leadin img {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+}
+.leadin li {
+  list-style: none;
+  margin: 9px 8px;
+}
+.leadin h1 {
+  background: red;
+  display: inline;
+  padding: 4px 8px;
+}
+.leadin .button-container {
+  bottom: 0;
+}
+.midnight-blue.row {
+  background-color: #2c3e50;
+}
+.wet-asphalt.container {
+  background-color: #34495e;
+}
+.clouds-offset {
+  background-color: #ecf0f1;
+}
+.clouds-offset::after {
+  content: 'offset';
+}
+.col-lg-1::after {
+  content: 'col-lg-1';
+}
+.col-lg-2::after {
+  content: 'col-lg-2';
+}
+.col-lg-3::after {
+  content: 'col-lg-3';
+}
+.col-lg-4::after {
+  content: 'col-lg-4';
+}
+.col-lg-5::after {
+  content: 'col-lg-5';
+}
+.col-lg-6::after {
+  content: 'col-lg-6';
+}
+.col-lg-7::after {
+  content: 'col-lg-7';
+}
+.col-lg-8::after {
+  content: 'col-lg-8';
+}
+.col-lg-9::after {
+  content: 'col-lg-9';
+}
+.col-lg-10::after {
+  content: 'col-lg-10';
+}
+.col-lg-11::after {
+  content: 'col-lg-11';
+}
+.col-lg-12::after {
+  content: 'col-lg-12';
+}
+.orange.col-lg-1 {
+  background-color: #f39c12;
+}
+.sun-flower.col-lg-2 {
+  background-color: #f1c40f;
+}
+.turquoise.col-lg-3 {
+  background-color: #1abc9c;
+}
+.green-sea.col-lg-4 {
+  background-color: #2ecc71;
+}
+.peter-river.col-lg-5 {
+  background-color: #3498db;
+}
+.belize-hole.col-lg-6 {
+  background-color: #2980b9;
+}
+.amethyst.col-lg-7 {
+  background-color: #9b59b6;
+}
+.wisteria.col-lg-8 {
+  background-color: #8e44ad;
+}
+.carrot.col-lg-9 {
+  background-color: #e67e22;
+}
+.pumpkin.col-lg-10 {
+  background-color: #d35400;
+}
+.alizarin.col-lg-11 {
+  background-color: #e74c3c;
+}
+.pomegranate.col-lg-12 {
+  background-color: #c0392b;
+}
+.col-md-1::after {
+  content: 'col-md-1';
+}
+.col-md-2::after {
+  content: 'col-md-2';
+}
+.col-md-3::after {
+  content: 'col-md-3';
+}
+.col-md-4::after {
+  content: 'col-md-4';
+}
+.col-md-5::after {
+  content: 'col-md-5';
+}
+.col-md-6::after {
+  content: 'col-md-6';
+}
+.col-md-7::after {
+  content: 'col-md-7';
+}
+.col-md-8::after {
+  content: 'col-md-8';
+}
+.col-md-9::after {
+  content: 'col-md-9';
+}
+.col-md-10::after {
+  content: 'col-md-10';
+}
+.col-md-11::after {
+  content: 'col-md-11';
+}
+.col-md-12::after {
+  content: 'col-md-12';
+}
+.orange.col-md-1 {
+  background-color: #f39c12;
+}
+.sun-flower.col-md-2 {
+  background-color: #f1c40f;
+}
+.turquoise.col-md-3 {
+  background-color: #1abc9c;
+}
+.green-sea.col-md-4 {
+  background-color: #2ecc71;
+}
+.peter-river.col-md-5 {
+  background-color: #3498db;
+}
+.belize-hole.col-md-6 {
+  background-color: #2980b9;
+}
+.amethyst.col-md-7 {
+  background-color: #9b59b6;
+}
+.wisteria.col-md-8 {
+  background-color: #8e44ad;
+}
+.carrot.col-md-9 {
+  background-color: #e67e22;
+}
+.pumpkin.col-md-10 {
+  background-color: #d35400;
+}
+.alizarin.col-md-11 {
+  background-color: #e74c3c;
+}
+.pomegranate.col-md-12 {
+  background-color: #c0392b;
+}
+.col-sm-1::after {
+  content: 'col-sm-1';
+}
+.col-sm-2::after {
+  content: 'col-sm-2';
+}
+.col-sm-3::after {
+  content: 'col-sm-3';
+}
+.col-sm-4::after {
+  content: 'col-sm-4';
+}
+.col-sm-5::after {
+  content: 'col-sm-5';
+}
+.col-sm-6::after {
+  content: 'col-sm-6';
+}
+.col-sm-7::after {
+  content: 'col-sm-7';
+}
+.col-sm-8::after {
+  content: 'col-sm-8';
+}
+.col-sm-9::after {
+  content: 'col-sm-9';
+}
+.col-sm-10::after {
+  content: 'col-sm-10';
+}
+.col-sm-11::after {
+  content: 'col-sm-11';
+}
+.col-sm-12::after {
+  content: 'col-sm-12';
+}
+.orange.col-sm-1 {
+  background-color: #f39c12;
+}
+.sun-flower.col-sm-2 {
+  background-color: #f1c40f;
+}
+.turquoise.col-sm-3 {
+  background-color: #1abc9c;
+}
+.green-sea.col-sm-4 {
+  background-color: #2ecc71;
+}
+.peter-river.col-sm-5 {
+  background-color: #3498db;
+}
+.belize-hole.col-sm-6 {
+  background-color: #2980b9;
+}
+.amethyst.col-sm-7 {
+  background-color: #9b59b6;
+}
+.wisteria.col-sm-8 {
+  background-color: #8e44ad;
+}
+.carrot.col-sm-9 {
+  background-color: #e67e22;
+}
+.pumpkin.col-sm-10 {
+  background-color: #d35400;
+}
+.alizarin.col-sm-11 {
+  background-color: #e74c3c;
+}
+.pomegranate.col-sm-12 {
+  background-color: #c0392b;
+}
+.col-xs-1::after {
+  content: 'col-xs-1';
+}
+.col-xs-2::after {
+  content: 'col-xs-2';
+}
+.col-xs-3::after {
+  content: 'col-xs-3';
+}
+.col-xs-4::after {
+  content: 'col-xs-4';
+}
+.col-xs-5::after {
+  content: 'col-xs-5';
+}
+.col-xs-6::after {
+  content: 'col-xs-6';
+}
+.col-xs-7::after {
+  content: 'col-xs-7';
+}
+.col-xs-8::after {
+  content: 'col-xs-8';
+}
+.col-xs-9::after {
+  content: 'col-xs-9';
+}
+.col-xs-10::after {
+  content: 'col-xs-10';
+}
+.col-xs-11::after {
+  content: 'col-xs-11';
+}
+.col-xs-12::after {
+  content: 'col-xs-12';
+}
+.orange.col-xs-1 {
+  background-color: #f39c12;
+}
+.sun-flower.col-xs-2 {
+  background-color: #f1c40f;
+}
+.turquoise.col-xs-3 {
+  background-color: #1abc9c;
+}
+.green-sea.col-xs-4 {
+  background-color: #2ecc71;
+}
+.peter-river.col-xs-5 {
+  background-color: #3498db;
+}
+.belize-hole.col-xs-6 {
+  background-color: #2980b9;
+}
+.amethyst.col-xs-7 {
+  background-color: #9b59b6;
+}
+.wisteria.col-xs-8 {
+  background-color: #8e44ad;
+}
+.carrot.col-xs-9 {
+  background-color: #e67e22;
+}
+.pumpkin.col-xs-10 {
+  background-color: #d35400;
+}
+.alizarin.col-xs-11 {
+  background-color: #e74c3c;
+}
+.pomegranate.col-xs-12 {
+  background-color: #c0392b;
+}

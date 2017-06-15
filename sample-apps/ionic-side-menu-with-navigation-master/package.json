@@ -1,0 +1,8 @@
+{
+  "name": "ionic-side-menu-with-navigation",
+  "version": "2.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bowercopy": "~0.7.1"
+  }
+}

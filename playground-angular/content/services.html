@@ -1,0 +1,50 @@
+<h1>Services</h1>
+The responsibilities of an angular service are as follows:
+<ul>
+    <li>Handle non-view logic.</li>
+    <li>To communicate with the server.</li>
+    <li>To hold data and state.</li>
+    <li>In rare situations, you may do DOM manipulation.</li>
+</ul>
+<h3>Single Responsibility Principle</h3>
+<p>The SRP tells un that an object, in this case, should have a single responsibility.</p>
+<h3>Service Creation</h3>
+There are several ways to create a service:
+<h4>Value Function</h4>
+<p>valueStringSvc service output:<span class="output">{{valueStringSvc}}</span></p>
+<p>valueObjSvc service output:<span class="output">{{valueObjSvc}}</span></p>
+<h4>Constant Function</h4>
+<p>The constant function is the same as the value function, but it's available at the application configuration
+    stage.</p>
+<p><span class="todo">//TODO: Read up on this.</span></p>
+<h4>The Factory Function</h4>
+<p>The factory function has to receive a function as it's second parameter and it executes this function and then caches
+    the result, and whatever is the result of the function is returned every time someone asks for this service.</p>
+<p>factoryObjSvc service output:<span class="output">{{factoryObjSvc}}</span></p>
+<h4>Service Function</h4>
+<p>The service function is similar to the factory function with one difference. The service function will accept a
+    function as the second parameter except and will call new on it. It will then cache the result of that function and
+    give you the result every time you call that service.</p>
+<p>serviceObjSvc service output:<span class="output">{{serviceObjSvc}}</span></p>
+<p><span class="todo">//TODO: Get the example working.</span></p>
+<h4>Provider Function</h4>
+<p>The provider function is what all the other service related functions use under the covers. It allow you to create a
+    service at a much lower level.</p>
+<p>A provider service must provide a $get function.</p>
+<p>The benefit of creating services this way is that it allows the service to be configurable and allows you to
+    configure it before it's created.</p>
+<p>providerSvc service output:<span class="output">{{providerSvc}}</span></p>
+<p>For more information on services, see the <a
+        href="http://pluralsight.com/training/Player?author=joe-eames&name=angular-best-practices-m3&mode=live&clip=5&course=angular-best-practices">Writing
+    Controllers & Services</a> module from the Angular Best Practice course.</p>
+<h4>Filters</h4>
+<p>In AngularJS, filters are just services with a particular name.</p>
+<p>For more information on filters, see the <a
+        href="http://pluralsight.com/training/Player?author=joe-eames&name=angular-best-practices-m3&mode=live&clip=6&course=angular-best-practices">Filters
+    as Services</a> module from the Angular Best Practices course.</p>
+<p class="todo">//TODO: Work on the example to create a custom filter.</p>
+<p>The following is data taken from the peopleSvc service:</p>
+personFilter:<input type="text" ng-model="personFilter" placeholder="type here">
+<ul class="dataContainer scroll-y">
+    <li ng-repeat="person in peopleSvc.people|filter:personFilter">{{person.firstName}} {{person.lastName}}</li>
+</ul>

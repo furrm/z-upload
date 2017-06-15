@@ -1,0 +1,15 @@
+<div>MAIN MAIN</div>
+
+<div masonry='{ "columnWidth":120 , "transitionDuration" : "0.4s" , "itemSelector" : ".item"}'
+     style="border: 1px solid green;">
+    <!-- items -->
+    <!--<masonry-tile class="item tile one-by-one" ng-repeat="item in items">-->
+        <!--{{ item.title }}-->
+    <!--</masonry-tile>-->
+    <masonry-tile ng-repeat="item in items">
+        {{ item.title }}
+    </masonry-tile>
+
+
+
+</div>

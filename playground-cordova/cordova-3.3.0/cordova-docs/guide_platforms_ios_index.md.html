@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+--><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<meta name="generator" content="joDoc">
+<title>Apache Cordova API Documentation</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-device-width: 1024px)">
+<link rel="stylesheet" type="text/css" href="prettify/prettify.css">
+</head>
+<body>
+        <div id="header">
+            <h1><a href="index.html">Apache <strong>Cordova</strong> Documentation</a></h1>
+            <small>
+                <select><optgroup label="Chinese" value="zh">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="English" value="en">
+<option value="edge">edge</option>
+<option selected value="3.3.0">3.3.0</option>
+<option value="3.2.0">3.2.0</option>
+<option value="3.1.0">3.1.0</option>
+<option value="3.0.0">3.0.0</option>
+<option value="2.9.0">2.9.0</option>
+<option value="2.8.0">2.8.0</option>
+<option value="2.7.0">2.7.0</option>
+<option value="2.6.0">2.6.0</option>
+<option value="2.5.0">2.5.0</option>
+<option value="2.4.0">2.4.0</option>
+<option value="2.3.0">2.3.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.8.0">1.8.0</option>
+<option value="1.7.0">1.7.0</option>
+<option value="1.6.1">1.6.1</option>
+<option value="1.6.0">1.6.0</option>
+<option value="1.5.0">1.5.0</option>
+</optgroup>
+<optgroup label="French" value="fr">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="German" value="de">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Italian" value="it">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Japanese" value="ja">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.2.0">2.2.0</option>
+<option value="2.1.0">2.1.0</option>
+<option value="2.0.0">2.0.0</option>
+<option value="1.9.0">1.9.0</option>
+<option value="1.8.1">1.8.1</option>
+<option value="1.7.0">1.7.0</option>
+</optgroup>
+<optgroup label="Korean" value="ko">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+<option value="2.0.0">2.0.0</option>
+</optgroup>
+<optgroup label="Russian" value="ru">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup>
+<optgroup label="Spanish" value="es">
+<option value="edge">edge</option>
+<option value="3.1.0">3.1.0</option>
+</optgroup></select></small>
+        </div>
+        <div id="subheader">
+            <h1>iOS Platform Guide</h1>
+            <small><select><option value="iOS%2520Platform%2520Guide">iOS Platform Guide</option>
+<option value="iOS%20Platform%20Guide_requirements_and_support">      - Requirements and Support</option>
+<option value="iOS%20Platform%20Guide_install_the_sdk">      - Install the SDK</option>
+<option value="iOS%20Platform%20Guide_open_a_project_in_the_sdk">      - Open a Project in the SDK</option>
+<option value="iOS%20Platform%20Guide_deploy_to_emulator">      - Deploy to Emulator</option>
+<option value="iOS%20Platform%20Guide_deploy_to_device">      - Deploy to Device
+</option>
+<option value="iOS%20Platform%20Guide_common_problems">      - Common Problems</option></select></small>
+        </div>
+
+        <div id="sidebar">
+            <div class="vertical_divider"></div>
+        <h1>Guides</h1>
+<ul>
+<li><a href="guide_overview_index.md.html#Overview">Overview</a></li>
+<li><a href="guide_support_index.md.html#Platform%20Support">Platform Support</a></li>
+<li><a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a></li>
+<li><a href="guide_platforms_index.md.html#Platform%20Guides">Platform Guides</a></li>
+<li><a href="plugin_ref_plugman.md.html#Using%20Plugman%20to%20Manage%20Plugins">Using Plugman to Manage Plugins</a></li>
+<li><a href="config_ref_index.md.html#The%20config.xml%20File">The config.xml File</a></li>
+<li><a href="config_ref_images.md.html#Icons%20and%20Splash%20Screens">Icons and Splash Screens</a></li>
+<li><a href="guide_hybrid_webviews_index.md.html#Embedding%20WebViews">Embedding WebViews</a></li>
+<li><a href="guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide">Plugin Development Guide</a></li>
+<li><a href="guide_appdev_privacy_index.md.html#Privacy%20Guide">Privacy Guide</a></li>
+<li><a href="guide_appdev_whitelist_index.md.html#Whitelist%20Guide">Whitelist Guide</a></li>
+<li><a href="_index.html">Keyword Index</a></li>
+</ul>
+<h1>API Reference</h1>
+<ul>
+<li><a href="cordova_accelerometer_accelerometer.md.html#Accelerometer">Accelerometer</a></li>
+<li><a href="cordova_camera_camera.md.html#Camera">Camera</a></li>
+<li><a href="cordova_media_capture_capture.md.html#Capture">Capture</a></li>
+<li><a href="cordova_compass_compass.md.html#Compass">Compass</a></li>
+<li><a href="cordova_connection_connection.md.html#Connection">Connection</a></li>
+<li><a href="cordova_contacts_contacts.md.html#Contacts">Contacts</a></li>
+<li><a href="cordova_device_device.md.html#Device">Device</a></li>
+<li><a href="cordova_events_events.md.html#Events">Events</a></li>
+<li><a href="cordova_file_file.md.html#File">File</a></li>
+<li><a href="cordova_geolocation_geolocation.md.html#Geolocation">Geolocation</a></li>
+<li><a href="cordova_globalization_globalization.md.html#Globalization">Globalization</a></li>
+<li><a href="cordova_inappbrowser_inappbrowser.md.html#InAppBrowser">InAppBrowser</a></li>
+<li><a href="cordova_media_media.md.html#Media">Media</a></li>
+<li><a href="cordova_notification_notification.md.html#Notification">Notification</a></li>
+<li><a href="cordova_splashscreen_splashscreen.md.html#Splashscreen">Splashscreen</a></li>
+<li><a href="cordova_storage_storage.md.html#Storage">Storage</a></li>
+</ul>
+</div>
+
+        <div id="scrollable">
+            <div id="content">
+                <h1><a name="iOS%20Platform%20Guide">iOS Platform Guide</a></h1>
+
+<p>This guide shows how to set up your SDK development environment to
+deploy Cordova apps for iOS devices such as iPhone and iPad. See the
+following for more detailed platform-specific information:</p>
+
+<ul>
+<li><a href="guide_platforms_ios_config.md.html#iOS%20Configuration">iOS Configuration</a></li>
+<li><a href="guide_platforms_ios_upgrading.md.html#Upgrading%20iOS">Upgrading iOS</a></li>
+<li><a href="guide_platforms_ios_webview.md.html#iOS%20WebViews">iOS WebViews</a></li>
+<li><a href="guide_platforms_ios_plugin.md.html#iOS%20Plugins">iOS Plugins</a></li>
+<li><a href="guide_platforms_ios_tools.md.html#iOS%20Command-line%20Tools">iOS Command-line Tools</a></li>
+</ul>
+<p>The command-line tools above refer to versions prior to Cordova 3.0.
+See <a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a> for information about the
+current interface.</p>
+
+<h2>
+<a name="iOS%20Platform%20Guide_requirements_and_support">Requirements and Support</a>
+</h2>
+
+<p>Apple® tools required to build iOS applications run only on the OS X
+operating system on Intel-based Macs. Xcode® 4.5 (the minimum required
+version) runs only on OS X version 10.7 (Lion) or greater, and
+includes the iOS 6 SDK (Software Development Kit).  To submit apps to
+the Apple App Store℠ requires the latest versions of the Apple tools.</p>
+
+<p>You can test many of the Cordova features using the iOS emulator
+installed with the iOS SDK and Xcode, but you need an actual device to
+fully test all of the app's device features before submitting to the
+App Store.  The device must have at least iOS 5.x installed, the
+minimum iOS version supported as of Cordova 2.3.  Supporting devices
+include all iPad® models, iPhone® 3GS and above, and iPod® Touch 3rd
+Generation or later. To install apps onto a device, you must also be a
+member of Apple's
+<a class="external" href="https://developer.apple.com/programs/ios/">iOS Developer Program</a>,
+which costs $99 per year. This guide shows how to deploy apps to the
+iOS emulator, for which you don't need to register with the developer
+program.</p>
+
+<h2>
+<a name="iOS%20Platform%20Guide_install_the_sdk">Install the SDK</a>
+</h2>
+
+<p>There are two ways to download Xcode:</p>
+
+<ul>
+<li><p>from the <a class="external" href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">App Store</a>,
+available by searching for "Xcode" in the <strong>App Store</strong> application.</p></li>
+<li><p>from <a class="external" href="https://developer.apple.com/downloads/index.action">Apple Developer Downloads</a>,
+which requires registration as an Apple Developer.</p></li>
+</ul>
+<p>Once Xcode is installed, several command-line tools need to be enabled
+for Cordova to run. From the <strong>Xcode</strong> menu, select <strong>Preferences</strong>,
+then the <strong>Downloads</strong> tab. From the <strong>Components</strong> panel, press the
+<strong>Install</strong> button next to the <strong>Command Line Tools</strong> listing.</p>
+
+<h2>
+<a name="iOS%20Platform%20Guide_open_a_project_in_the_sdk">Open a Project in the SDK</a>
+</h2>
+
+<p>Use the <code>cordova</code> utility to set up a new project, as described in The
+Cordova <a href="guide_cli_index.md.html#The%20Command-Line%20Interface">The Command-Line Interface</a>. For example, in a source-code directory:</p>
+
+<pre class="prettyprint"><code>    $ cordova create hello com.example.hello "HelloWorld"
+    $ cd hello
+    $ cordova platform add ios
+    $ cordova prepare              # or "cordova build"
+</code></pre>
+
+<p>Once created, you can open it from within Xcode. Double-click to open
+the <code>hello/platforms/ios/hello.xcodeproj</code> file.  The screen should
+look like this:</p>
+
+<p><img src="img/guide/platforms/ios/helloworld_project.png" alt="" title=""></p>
+
+<h2>
+<a name="iOS%20Platform%20Guide_deploy_to_emulator">Deploy to Emulator</a>
+</h2>
+
+<p>To preview the app in the iOS emulator:</p>
+
+<ol>
+<li><p>Make sure the <em>.xcodeproj</em> file is selected in the left panel.</p></li>
+<li><p>Select the <strong>hello</strong> app in the panel immediately to the right.</p></li>
+<li>
+<p>Select the intended device from the toolbar's <strong>Scheme</strong> menu, such
+as the iPhone 6.0 Simulator as highlighted here:</p>
+
+<p><img src="img/guide/platforms/ios/select_xcode_scheme.png" alt="" title=""></p>
+</li>
+<li>
+<p>Press the <strong>Run</strong> button that appears in the same toolbar to the
+left of the <strong>Scheme</strong>. That builds, deploys and runs the
+application in the emulator. A separate emulator application opens
+to display the app:</p>
+
+<p><img src="img/guide/platforms/ios/HelloWorldStandard.png" alt="" title=""></p>
+
+<p>Only one emulator may run at a time, so if you want to test the app
+in a different emulator, you need to quit the emulator application
+and run a different target within Xcode.</p>
+</li>
+</ol>
+<p>Xcode comes bundled with emulators for the lastest versions of iPhone
+and iPad. Older versions may be available from the <strong>Xcode →
+Preferences → Downloads → Components</strong> panel.</p>
+
+<h2>
+<a name="iOS%20Platform%20Guide_deploy_to_device">Deploy to Device
+</a>
+</h2>
+
+<p>For details about various requirements to deploy to a device, refer
+to the <em>Configuring Development and Distribution Assets</em> section of
+Apple's
+<a class="external" href="http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/ios_development_workflow/00-About_the_iOS_Application_Development_Workflow/introduction.html#//apple_ref/doc/uid/TP40007959">Tools Workflow Guide for iOS</a>.
+Briefly, you need to do the following before deploying:</p>
+
+<ol>
+<li><p>Join the Apple iOS Developer Program.</p></li>
+<li><p>Create a <em>Provisioning Profile</em> within the
+<a class="external" href="https://developer.apple.com/ios/manage/overview/index.action">iOS Provisioning Portal</a>.
+You can use its <em>Development Provisioning Assistant</em> to create and
+install the profile and certificate Xcode requires.</p></li>
+<li><p>Verify that the <em>Code Signing</em> section's <em>Code Signing Identity</em>
+within the project settings is set to your provisioning profile
+name.</p></li>
+</ol>
+<p>To deploy to the device:</p>
+
+<ol>
+<li><p>Use the USB cable to plug the device into your Mac.</p></li>
+<li><p>Select the name of the project in the Xcode window's <strong>Scheme</strong>
+drop-down list.</p></li>
+<li><p>Select your device from the <strong><a href="cordova_device_device.md.html#Device">Device</a></strong> drop-down list. If it is
+plugged in via USB but still does not appear, press the
+<strong>Organizer</strong> button to resolve any errors.</p></li>
+<li><p>Press the <strong>Run</strong> button to build, deploy and run the application
+on your device.</p></li>
+</ol>
+<h2>
+<a name="iOS%20Platform%20Guide_common_problems">Common Problems</a>
+</h2>
+
+<p><strong>Deprecation Warnings</strong>: When an application programming interface
+(API) is changed or replaced by another API, it is marked as
+<em>deprecated</em>.  The API still works in the near term, but is eventually
+removed.  Some of these deprecated interfaces are reflected in Apache
+Cordova, and Xcode issues warnings about them when you build and
+deploy an application.</p>
+
+<p>Xcode's warning about the <code>invokeString</code> method concerns functionality
+that launches an app from a custom URL. While the mechanism to load
+from a custom URL has changed, this code is still present to provide
+backwards functionality for apps created with older versions of
+Cordova.  The sample app does not use this functionality, so these
+warnings can be ignored.  To prevent these warnings from appearing,
+remove the code that references the deprecated invokeString API:</p>
+
+<ul>
+<li>
+<p>Edit the <em>Classes/MainViewController.m</em> file, surround the following
+block of code with <code>/*</code> and <code>*/</code> comments as shown below, then type
+<strong>Command-s</strong> to save the file:</p>
+
+<pre class="prettyprint"><code>(void)webViewDidFinishLoad:(UIWebView*)theWebView
+{
+// only valid if ___PROJECTNAME__-Info.plist specifies a protocol to handle
+/*
+if (self.invokeString) {
+  // this is passed before the <a href="cordova_events_events.md.html#deviceready">deviceready</a> event is fired, so you can access it in js when you receive <a href="cordova_events_events.md.html#deviceready">deviceready</a>
+  NSLog(@"DEPRECATED: window.invokeString - use the window.handleOpenURL(url) function instead, which is always called when the app is launched through a custom scheme url.");
+  NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+  [theWebView stringByEvaluatingJavaScriptFromString:jsString];
+}
+*/
+// Black base color for background matches the native apps
+theWebView.backgroundColor = [UIColor blackColor];
+
+
+return [super webViewDidFinishLoad:theWebView];
+}
+</code></pre>
+</li>
+<li>
+<p>Edit the <em>Classes/AppViewDelegate.m</em> file, comment out the following
+line by inserting a double slash as shown below, then type
+<strong>Command-s</strong> to save the file:</p>
+
+<pre class="prettyprint"><code>//self.viewController.invokeString = invokeString;
+</code></pre>
+</li>
+<li><p>Press <strong>Command-b</strong> to rebuild the project and eliminate the warnings.</p></li>
+</ul>
+<!-- Does this fix only last until the next "cordova prepare"? --><p><strong>Missing Headers</strong>: Compilation errors relating to missing headers
+result from problems with the build location, and can be fixed 
+via Xcode preferences:</p>
+
+<ol>
+<li><p>Select <strong>Xcode → Preferences → Locations</strong>.</p></li>
+<li>
+<p>In the <strong>Derived Data</strong> section, press the <strong>Advanced</strong> button and
+select <strong>Unique</strong> as the <strong>Build Location</strong> as shown here:</p>
+
+<p><img src="img/guide/platforms/ios/xcode_build_location.png" alt="" title=""></p>
+</li>
+</ol>
+<p>This is the default setting for a new Xcode install, but it may be set
+differently following an upgrade from an older version of Xcode.</p>
+
+<p>For further information, consult Apple's documentation:</p>
+
+<ul>
+<li><p><a class="external" href="http://developer.apple.com/library/ios/#referencelibrary/GettingStarted/RoadMapiOS/index.html#//apple_ref/doc/uid/TP40011343">Start Developing iOS Apps Today</a> provides a quick overview of steps for developing iOS Apps.</p></li>
+<li><p><a class="external" href="https://developer.apple.com/membercenter/index.action">Member Center home page</a>
+provides links to several iOS technical resources including
+technical resources, the provisioning portal, distribution guides
+and community forums.</p></li>
+<li><p><a class="external" href="http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/ios_development_workflow/00-About_the_iOS_Application_Development_Workflow/introduction.html#//apple_ref/doc/uid/TP40007959">Tools Workflow Guide for iOS</a></p></li>
+<li><p><a class="external" href="http://developer.apple.com/library/ios/#documentation/ToolsLanguages/Conceptual/Xcode4UserGuide/000-About_Xcode/about.html#//apple_ref/doc/uid/TP40010215">Xcode 4 User Guide</a></p></li>
+<li><p><a class="external" href="https://developer.apple.com/videos/wwdc/2012/">Session Videos</a> from
+the Apple World Wide Developer Conference 2012 (WWDC2012)</p></li>
+<li><p>The <a class="external" href="http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/xcode-select.1.html">xcode-select command</a>,
+which helps specify the correct version of Xcode if more than one is installed.</p></li>
+</ul>
+<p>(Mac®, OS X®, Apple®, Xcode®, App Store℠, iPad®, iPhone®, iPod® and  Finder® are Trademarks of Apple Inc.)</p>
+
+            </div>
+        </div>
+
+        <!-- Functionality and Syntax Highlighting -->
+        <script type="text/javascript" src="index.js"></script><script type="text/javascript" src="prettify/prettify.js"></script>
+</body>
+</html>

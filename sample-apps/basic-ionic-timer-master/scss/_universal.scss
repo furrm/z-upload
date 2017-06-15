@@ -1,0 +1,83 @@
+.pane {
+  background-color: $black;
+  border: none !important;
+}
+.bar {
+  background-color: transparent;
+  background-image: none;
+  border-bottom: 1px solid $dark;
+}
+h1, timer {
+  color: $white;
+}
+.icon {
+  color: $white;
+}
+div.range {
+  padding: 0;
+  
+  input {
+    margin: 0;
+  }
+  i {
+    cursor: pointer;
+    line-height: 45px;
+    min-width: 40px !important;
+    
+    &:first-child {
+      text-align: left;
+    }
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
+
+input, .button {
+  height: 45px !important;
+  -webkit-appearance: none;
+}
+div.range {
+  margin-bottom: 1em;
+}
+section {
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+input[type="submit"] {
+  background-color: $balanced;
+  color: $light;
+  width: 100%;
+  line-height: 2em;
+}
+
+#clock-timer {
+  position: relative;
+}
+.progress-bar {
+  background: $night;
+  height: 120px;
+  margin-bottom: 1em;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.progress {
+  background: $dark;
+  height: 100%;
+  max-width: 100% !important;
+}
+button.button {
+  background: none !important;
+  color: $light !important;
+  position: absolute;
+  border: none;
+  font-size: 24px;
+  width: 60px !important;
+  height: 120px !important;
+  top: 0;
+  right: 0;
+}

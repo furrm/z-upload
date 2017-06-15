@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="wu.masonry'">
+<head>
+    <title>test1</title>
+    <style>
+        body {
+            margin-top: 1em;
+        }
+
+        .masonry-brick {
+            margin: 1em;
+            display: none;
+        }
+
+        .masonry-brick.loaded {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<masonry item-selector=".mybrick">
+    <div masonry-brick class="mybrick">Unicorns</div>
+    <div masonry-brick class="mybrick">Sparkles</div>
+</masonry>
+
+<script src="angular-1.2.13/angular.js"></script>
+<script src="angular-masonry.js"></script>
+</body>
+</html>

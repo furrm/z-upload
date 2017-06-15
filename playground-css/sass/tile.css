@@ -1,0 +1,29 @@
+/* START:AO COLOUR SCHEME */
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* END:AO COLOUR SCHEME */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+/* START:GOOGLE MATERIAL COLOUR SCHEME */
+/* END:GOOGLE MATERIAL COLOUR SCHEME */
+/*!important this needs to be the same width as the isotope column*/
+.tile {
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  position: relative;
+  color: white; }
+  .tile > div {
+    height: 100%;
+    width: 100%; }
+    .tile > div.content {
+      background-color: #000000; }
+
+/*# sourceMappingURL=tile.css.map */

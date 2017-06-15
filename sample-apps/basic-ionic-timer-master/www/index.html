@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimal-ui">
+    <title>Basic Ionic Timer</title>
+
+    <link href="css/ionic.app.css" rel="stylesheet">
+    
+    <!-- ionic/angular script -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    
+    <!-- vendor scripts -->
+    <script src="js/vendor/timer.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/moment.js"></script>
+    <script src="js/vendor/moment-duration-format.js"></script>
+    <script src="js/vendor/shake.js"></script>
+    
+    <!-- the app scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+  
+  <body ng-app="basic-timer" animation="slide-left-right-ios7">
+    
+    <ion-nav-bar class="nav-title-slide-ios7">
+    </ion-nav-bar>
+    
+    <ion-nav-view name="template"></ion-nav-view>
+    
+  </body>
+</html>

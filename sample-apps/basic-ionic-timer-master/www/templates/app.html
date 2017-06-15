@@ -1,0 +1,18 @@
+<ion-view title="Home">
+  <ion-content class="has-header padding" ng-controller="GoalCtrl">
+    <h1>Set A Goal ({{duration}})</h1>
+    
+    <form ng-submit="submit()">
+      <div class="range">
+        <i class="icon ion-minus" ng-click="downOne()"></i>
+        <input type="range" ng-model="range" name="volume" min="600" max="7200" />
+        <i class="icon ion-plus" ng-click="upOne()"></i>
+      </div>
+      
+      <div class="start">
+        <input class="button button-balanced" type="submit" name="submit" value="Start" />
+      </div>
+    </form>
+    
+  </ion-content>
+</ion-view>

@@ -1,0 +1,28 @@
+.leadin {
+  margin-bottom: 32px;
+}
+.leadin .wrap {
+  height: 368px;
+}
+.leadin .text-block {
+  position: absolute;
+  left: 384px;
+  top: 64px;
+}
+.leadin img {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+}
+.leadin li {
+  list-style: none;
+  margin: 9px 8px;
+}
+.leadin h1 {
+  background: red;
+  display: inline;
+  padding: 4px 8px;
+}
+.leadin .button-container {
+  bottom: 0;
+}
