@@ -1,0 +1,52 @@
+//vars
+@menuWidth:300px;
+
+
+/* General styles for all menus */
+
+.k-menu {
+  //background: #47a3da;
+  position: fixed;
+}
+
+
+
+/* Orientation-dependent styles for the content of the menu */
+
+.k-menu-vertical {
+  width: @menuWidth;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.k-menu-left {
+  left: -@menuWidth;
+}
+
+.k-menu-left.k-menu-open {
+  left: 0px;
+}
+
+/* Push classes applied to the main div */
+
+.k-main-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.k-main-push-toright {
+  left: @menuWidth;
+}
+
+/* Transitions */
+
+.k-menu,
+.k-main-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}

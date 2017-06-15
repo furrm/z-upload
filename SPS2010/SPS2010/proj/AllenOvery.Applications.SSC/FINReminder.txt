@@ -1,0 +1,1 @@
+<body>	<p>This is a friendly reminder that all data for the {month} Finance ({country}) dashboard should be entered by midnight tomorrow.</p>	<p>Thank you.</p></body>

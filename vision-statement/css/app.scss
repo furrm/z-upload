@@ -1,0 +1,100 @@
+@import "vars";
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot');
+  src: url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'),
+  url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'),
+  url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto_condensedregular';
+  src: url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.eot');
+  src: url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.woff') format('woff'),
+  url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+  url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('fonts/roboto_light_macroman/Roboto-Light-webfont.eot');
+  src: url('fonts/roboto_light_macroman/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/roboto_light_macroman/Roboto-Light-webfont.woff') format('woff'),
+  url('fonts/roboto_light_macroman/Roboto-Light-webfont.ttf') format('truetype'),
+  url('fonts/roboto_light_macroman/Roboto-Light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+body {
+  background-color: $bodyColour;
+  color: $bodyFontColour;
+  font-family: 'robotoregular', arial, helvetica;
+  margin-bottom: 50px;
+}
+
+header.page {
+  height: 230px;
+  padding: 115px 16px 0;
+  background-color: $google-deep-orange;
+}
+
+.header-title {
+  color: white;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.5;
+  //  margin-left:116px;
+  overflow: hidden;
+  white-space: nowrap;
+  > span {
+    float: left;
+  }
+}
+
+.chapter-intro {
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 60px;
+  padding-right: 20%;
+  padding-bottom: 40px;
+}
+
+.card {
+  font-family: 'robotolight', arial, helvetica;
+  background-color: #ffffff;
+  margin: 8px;
+  -webkit-box-shadow: -1px 1px 2px 0 #A8A8A8;
+  -moz-box-shadow: -1px 1px 2px 0 #A8A8A8;
+  box-shadow: -1px 1px 2px 0 #A8A8A8;
+  margin-bottom: 10px;
+  > div {
+    padding: 16px;
+    font-size: 14px;
+    color: lighten( #000000, 13%);
+    > header {
+      background-color: #ffffff;
+      margin-bottom: 8px;
+      > span.card-header {
+        font-size: 24px;
+        color: $google-indigo;
+      }
+    }
+  }
+
+}
+
+//DROP SHADOW
+//http://www.dwuser.com/education/content/a-shadowy-topic-drop-shadows-in-your-webpages/

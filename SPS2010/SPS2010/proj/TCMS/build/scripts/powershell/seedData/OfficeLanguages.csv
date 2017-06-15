@@ -1,0 +1,99 @@
+﻿OfficeID,OfficeName,LanguageID,LanguageName,DefaultLanguage
+54,"A&O Holdings",1,English (UK),Yes
+36,"Abu Dhabi",1,English (UK),Yes
+1,"Amsterdam",1,English (UK),Yes
+1,"Amsterdam",10,Dutch,No
+2,"Antwerp",1,English (UK),Yes
+2,"Antwerp",6,German,No
+2,"Antwerp",7,Dutch (Belgium),No
+2,"Antwerp",8,French (Belgium),No
+42,"Athens",1,English (UK),Yes
+42,"Athens",16,Greek,No
+30,"Bangkok",1,English (UK),Yes
+3,"Beijing",1,English (UK),Yes
+58,"Belfast - Admin",1,English (UK),Yes
+57,"Belfast - Law",1,English (UK),Yes
+5,"Bratislava",1,English (UK),Yes
+5,"Bratislava",3,Slovak,No
+6,"Brussels",1,English (UK),Yes
+6,"Brussels",6,German,No
+6,"Brussels",7,Dutch (Belgium),No
+6,"Brussels",8,French (Belgium),No
+62,"Bucharest",1,English (UK),Yes
+4,"Budapest",1,English (UK),Yes
+4,"Budapest",11,Hungarian,No
+61,"Casablanca",1,English (UK),Yes
+61,"Casablanca",2,French,No
+40,"Doha",1,English (UK),Yes
+7,"Dubai",1,English (UK),Yes
+34,"Düsseldorf",1,English (UK),Yes
+34,"Düsseldorf",6,German,No
+8,"Frankfurt",1,English (UK),Yes
+8,"Frankfurt",6,German,No
+28,"Hamburg",1,English (UK),Yes
+28,"Hamburg",6,German,No
+69,"Hanoi",1,English (UK),Yes
+69,"Hanoi",19,Vietnamese,No
+68,"Ho Chi Minh City",1,English (UK),Yes
+68,"Ho Chi Minh City",19,Vietnamese,No
+25,"Hong Kong - Admin",1,English (UK),Yes
+9,"Hong Kong - Law",1,English (UK),Yes
+66,"Istanbul - Admin",1,English (UK),Yes
+66,"Istanbul - Admin",18,Turkish,No
+67,"Istanbul - Law",1,English (UK),Yes
+67,"Istanbul - Law",18,Turkish,No
+70,"Istanbul GE - Admin",1,English (UK),Yes
+70,"Istanbul GE - Admin",18,Turkish,No
+71,"Istanbul GE - Law",1,English (UK),Yes
+71,"Istanbul GE - Law",18,Turkish,No
+50,"Jakarta",1,English (UK),Yes
+50,"Jakarta",14,English (US),No
+10,"London",1,English (UK),Yes
+10,"London",2,French,No
+10,"London",4,Italian,No
+10,"London",6,German,No
+12,"Luxembourg Office",1,English (UK),Yes
+12,"Luxembourg Office",2,French,No
+12,"Luxembourg Office",6,German,No
+13,"Madrid",1,English (UK),Yes
+13,"Madrid",12,Spanish,No
+49,"Mannheim",1,English (UK),Yes
+49,"Mannheim",6,German,No
+15,"Milan",1,English (UK),Yes
+15,"Milan",4,Italian,No
+16,"Moscow",1,English (UK),Yes
+16,"Moscow",13,Russian,No
+38,"Munich",1,English (UK),Yes
+38,"Munich",6,German,No
+17,"New York",1,English (UK),Yes
+17,"New York",14,English (US),No
+18,"Paris",1,English (UK),Yes
+18,"Paris",2,French,No
+46,"Perth - Admin",1,English (UK),Yes
+46,"Perth - Admin",15,English (AUS),No
+48,"Perth - Law",1,English (UK),Yes
+48,"Perth - Law",15,English (AUS),No
+19,"Prague - Admin",1,English (UK),Yes
+19,"Prague - Admin",9,Czech,No
+20,"Prague - Law",1,English (UK),Yes
+20,"Prague - Law",9,Czech,No
+35,"Riyadh",1,English (UK),Yes
+29,"Rome",1,English (UK),Yes
+29,"Rome",4,Italian,No
+43,"São Paulo",1,English (UK),Yes
+43,"São Paulo",17,Portuguese (Brazil),No
+21,"Shanghai",1,English (UK),Yes
+65,"Singapore",1,English (UK),Yes
+64,"Singapore - AOA",1,English (UK),Yes
+33,"Singapore - ASSPL",1,English (UK),Yes
+45,"Sydney - Admin",1,English (UK),Yes
+45,"Sydney - Admin",15,English (AUS),No
+47,"Sydney - Law",1,English (UK),Yes
+47,"Sydney - Law",15,English (AUS),No
+23,"Tokyo",1,English (UK),Yes
+63,"Trilegal",1,English (UK),Yes
+26,"Warsaw - Admin",1,English (UK),Yes
+26,"Warsaw - Admin",5,Polish,No
+27,"Warsaw - Law",1,English (UK),Yes
+27,"Warsaw - Law",5,Polish,No
+59,"Washington, D.C.",14,English (US),Yes

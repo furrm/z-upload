@@ -1,0 +1,5 @@
+NameError: .clearfix is undefined in /Users/furrm/Projects/web-design/www/libs/kapcha-bootstrap-1.0.0/less/bootstrap-3.0.0/navbar.less on line 19, column 3:
+18   // Prevent floats from breaking the navbar
+19   .clearfix();
+20 
+

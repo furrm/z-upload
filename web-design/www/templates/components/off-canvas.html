@@ -1,0 +1,34 @@
+<div class="off-canvas-container">
+    <menu-side>
+    </menu-side>
+    <!--<menu-top></menu-top>-->
+    <!--<div class="slide-menu slide-menu-horizontal slide-menu-top" style="background-color: red;">Hello</div>-->
+    <!--<a ng-click="toggleSideMenuState()" ng-class="maskCss"></a>-->
+    <div id="content" ng-class=mainCss>
+        <nav class="off-canvas-navbar off-canvas-navbar-default">
+            <div class="off-canvas-nav">
+                <div class="pull-left">
+                    <button href class="menu-activate-btn menu-activate-btn-default"
+                            ng-disabled="!authentication.userLoggedIn" ng-click="toggleSideMenuState()">
+                        <i class="icon-reorder navbar-font-height"></i></button>
+                </div>
+                <div class="pull-right">
+                    <ng-switch on="authentication.userLoggedIn">
+                        <a ng-click="toggleAuthentication('1', '', '')" href="#/signin" class="btn btn-default"
+                           ng-switch-when="true"><i class="icon-user"></i>&nbsp;{{authentication.userName}} - Sign
+                            Out</a>
+                        <a ng-click="toggleAuthentication('0', '', '')" href="#/signin" class="btn btn-default"
+                           ng-switch-when="false"><i class="icon-lock"></i>&nbsp;Sign In</a>
+
+
+                        <span ng-switch-default style="font-size:20px;">Something is wrong!</span>
+                    </ng-switch>
+
+                </div>
+            </div>
+        </nav>
+        <div class="view-wrapper add-touch-scroll">
+            <ng-view></ng-view>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+﻿LanguageID,LanguageName,LocaleID,DateFormat,LanguageCode
+9,"Czech",1029,"d. MMMM yyyy",cs
+10,"Dutch",1043,"d MMMM yyyy",nl
+7,"Dutch (Belgium)",2067,"d MMMM yyyy",nl-BE
+15,"English (AUS)",3081,"d MMMM yyyy",en-AU
+1,"English (UK)",2057,"d MMMM yyyy",en-GB
+14,"English (US)",1033,"MMMM d, yyyy",en-US
+2,"French",1036,"'le 'd MMMM yyyy",fr
+8,"French (Belgium)",2060,"'le 'd MMMM yyyy",fr-BE
+6,"German",1031,"d. MMMM yyyy",de
+16,"Greek",1032,"d MMMM yyyy",el
+11,"Hungarian",1038,"yyyy. MMMM d.",hu
+4,"Italian",1040,"d MMMM yyyy",it
+5,"Polish",1045,"d MMMM yyyy",pl
+17,"Portuguese (Brazil)",1046,"d' de 'MMMM' de 'yyyy",pt-BR
+13,"Russian",1049,"d MMMM yyyy 'г.'",ru
+3,"Slovak",1051,"d. MMMM yyyy",sk
+12,"Spanish",1034,"'Madrid, 'd' de 'MMMM' de 'yyyy",es
+18,"Turkish",1055,"dd.MM.yyyy",tr
+19,"Vietnamese",1066,"dd/MM/yyyy",vi

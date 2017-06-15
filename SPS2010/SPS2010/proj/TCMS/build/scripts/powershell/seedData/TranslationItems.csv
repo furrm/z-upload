@@ -1,0 +1,792 @@
+﻿LanguageID,LanguageName,BookmarkName,Translation,TranslationName
+1,English (UK),bmkAttendingLabel,"Attending",AttendingLabel
+2,French,bmkAttendingLabel,"Présents",AttendingLabel
+3,Slovak,bmkAttendingLabel,"Účastník",AttendingLabel
+4,Italian,bmkAttendingLabel,"Partecipanti",AttendingLabel
+5,Polish,bmkAttendingLabel,"Uczestnicy",AttendingLabel
+6,German,bmkAttendingLabel,"Teilnehmer",AttendingLabel
+7,Dutch (Belgium),bmkAttendingLabel,"Aanwezig",AttendingLabel
+8,French (Belgium),bmkAttendingLabel,"Présent",AttendingLabel
+9,Czech,bmkAttendingLabel,"Účast",AttendingLabel
+11,Hungarian,bmkAttendingLabel,"Megjelentek",AttendingLabel
+12,Spanish,bmkAttendingLabel,"Asistentes",AttendingLabel
+13,Russian,bmkAttendingLabel,"Присутствующий",AttendingLabel
+14,English (US),bmkAttendingLabel,"Attending",AttendingLabel
+15,English (AUS),bmkAttendingLabel,"Attending",AttendingLabel
+16,Greek,bmkAttendingLabel,"Συμμετέχοντες ",AttendingLabel
+17,Portuguese (Brazil),bmkAttendingLabel,"Participante(s)",AttendingLabel
+18,Turkish,bmkAttendingLabel,"Katılımcı",AttendingLabel
+19,Vietnamese,bmkAttendingLabel,"Những người tham gia vụ việc",AttendingLabel
+1,English (UK),bmkAuthorEmailLabel,"Email",AuthorEmailLabel
+6,German,bmkAuthorEmailLabel,"Email",AuthorEmailLabel
+7,Dutch (Belgium),bmkAuthorEmailLabel,"E-mail",AuthorEmailLabel
+8,French (Belgium),bmkAuthorEmailLabel,"Email",AuthorEmailLabel
+10,Dutch,bmkAuthorEmailLabel,"E-mail",AuthorEmailLabel
+1,English (UK),bmkAuthorFaxLabel,"Personal fax",AuthorFaxLabel
+2,French,bmkAuthorFaxLabel,"Télécopie directe",AuthorFaxLabel
+3,Slovak,bmkAuthorFaxLabel,"Osobný fax",AuthorFaxLabel
+4,Italian,bmkAuthorFaxLabel,"Fax Personale",AuthorFaxLabel
+5,Polish,bmkAuthorFaxLabel,"Faks bezp",AuthorFaxLabel
+6,German,bmkAuthorFaxLabel,"Direktes Fax",AuthorFaxLabel
+7,Dutch (Belgium),bmkAuthorFaxLabel,"Fax",AuthorFaxLabel
+8,French (Belgium),bmkAuthorFaxLabel,"Télécopie directe",AuthorFaxLabel
+9,Czech,bmkAuthorFaxLabel,"Osobní fax",AuthorFaxLabel
+10,Dutch,bmkAuthorFaxLabel,"Fax",AuthorFaxLabel
+11,Hungarian,bmkAuthorFaxLabel,"Személyes fax",AuthorFaxLabel
+12,Spanish,bmkAuthorFaxLabel,"Fax personal",AuthorFaxLabel
+13,Russian,bmkAuthorFaxLabel,"Личный Факс",AuthorFaxLabel
+14,English (US),bmkAuthorFaxLabel,"Personal fax",AuthorFaxLabel
+15,English (AUS),bmkAuthorFaxLabel,"Personal fax",AuthorFaxLabel
+16,Greek,bmkAuthorFaxLabel,"Προσωπικό φαξ ",AuthorFaxLabel
+17,Portuguese (Brazil),bmkAuthorFaxLabel,"Fax pessoal",AuthorFaxLabel
+18,Turkish,bmkAuthorFaxLabel,"Kişisel faks",AuthorFaxLabel
+19,Vietnamese,bmkAuthorFaxLabel,"Số fax cá nhân",AuthorFaxLabel
+1,English (UK),bmkAuthorMobileLabel,"Mobile",AuthorMobileLabel
+2,French,bmkAuthorMobileLabel,"Portable",AuthorMobileLabel
+3,Slovak,bmkAuthorMobileLabel,"Mobil",AuthorMobileLabel
+4,Italian,bmkAuthorMobileLabel,"Mobile",AuthorMobileLabel
+5,Polish,bmkAuthorMobileLabel,"Tel kom",AuthorMobileLabel
+6,German,bmkAuthorMobileLabel,"Mobiltelefon",AuthorMobileLabel
+7,Dutch (Belgium),bmkAuthorMobileLabel,"Mobile",AuthorMobileLabel
+8,French (Belgium),bmkAuthorMobileLabel,"Numéro de portable",AuthorMobileLabel
+9,Czech,bmkAuthorMobileLabel,"Mobil",AuthorMobileLabel
+10,Dutch,bmkAuthorMobileLabel,"Mobiel",AuthorMobileLabel
+11,Hungarian,bmkAuthorMobileLabel,"Mobiltelefon",AuthorMobileLabel
+12,Spanish,bmkAuthorMobileLabel,"Móvil",AuthorMobileLabel
+13,Russian,bmkAuthorMobileLabel,"Мобильный",AuthorMobileLabel
+14,English (US),bmkAuthorMobileLabel,"Mobile",AuthorMobileLabel
+15,English (AUS),bmkAuthorMobileLabel,"Mobile",AuthorMobileLabel
+16,Greek,bmkAuthorMobileLabel,"Κινητό",AuthorMobileLabel
+17,Portuguese (Brazil),bmkAuthorMobileLabel,"Celular",AuthorMobileLabel
+18,Turkish,bmkAuthorMobileLabel,"Cep telefonu",AuthorMobileLabel
+19,Vietnamese,bmkAuthorMobileLabel,"Số điện thoại di động",AuthorMobileLabel
+1,English (UK),bmkClientLabel,"Client",ClientLabel
+2,French,bmkClientLabel,"Client",ClientLabel
+3,Slovak,bmkClientLabel,"Klient",ClientLabel
+4,Italian,bmkClientLabel,"Cliente",ClientLabel
+5,Polish,bmkClientLabel,"Klient",ClientLabel
+6,German,bmkClientLabel,"Mandant",ClientLabel
+7,Dutch (Belgium),bmkClientLabel,"Klant",ClientLabel
+8,French (Belgium),bmkClientLabel,"Client",ClientLabel
+9,Czech,bmkClientLabel,"Klient",ClientLabel
+11,Hungarian,bmkClientLabel,"Ügyfél",ClientLabel
+12,Spanish,bmkClientLabel,"Cliente",ClientLabel
+13,Russian,bmkClientLabel,"Клиент",ClientLabel
+14,English (US),bmkClientLabel,"Client",ClientLabel
+15,English (AUS),bmkClientLabel,"Client",ClientLabel
+16,Greek,bmkClientLabel,"Πελάτης",ClientLabel
+17,Portuguese (Brazil),bmkClientLabel,"Cliente",ClientLabel
+18,Turkish,bmkClientLabel,"Müvekkil",ClientLabel
+19,Vietnamese,bmkClientLabel,"Khách hàng",ClientLabel
+1,English (UK),bmkClientMatterNoLabel,"Our ref",ClientMatterNoLabel
+2,French,bmkClientMatterNoLabel,"Notre réf.",ClientMatterNoLabel
+3,Slovak,bmkClientMatterNoLabel,"Naša značka",ClientMatterNoLabel
+4,Italian,bmkClientMatterNoLabel,"Ns rif",ClientMatterNoLabel
+5,Polish,bmkClientMatterNoLabel,"Nasze ref",ClientMatterNoLabel
+6,German,bmkClientMatterNoLabel,"Unser Zeichen",ClientMatterNoLabel
+7,Dutch (Belgium),bmkClientMatterNoLabel,"Ons kenmerk",ClientMatterNoLabel
+8,French (Belgium),bmkClientMatterNoLabel,"Notre réf.",ClientMatterNoLabel
+9,Czech,bmkClientMatterNoLabel,"Naše značka",ClientMatterNoLabel
+11,Hungarian,bmkClientMatterNoLabel,"Ügyszámunk",ClientMatterNoLabel
+12,Spanish,bmkClientMatterNoLabel,"Nuestra ref",ClientMatterNoLabel
+13,Russian,bmkClientMatterNoLabel,"Исх. номер",ClientMatterNoLabel
+14,English (US),bmkClientMatterNoLabel,"Our ref",ClientMatterNoLabel
+15,English (AUS),bmkClientMatterNoLabel,"Our ref",ClientMatterNoLabel
+16,Greek,bmkClientMatterNoLabel,"Αναφορικά με",ClientMatterNoLabel
+17,Portuguese (Brazil),bmkClientMatterNoLabel,"Nossa ref",ClientMatterNoLabel
+18,Turkish,bmkClientMatterNoLabel,"İlgi",ClientMatterNoLabel
+19,Vietnamese,bmkClientMatterNoLabel,"Số tham chiếu của chúng tôi",ClientMatterNoLabel
+1,English (UK),bmkCopyLabel,"Copy",CopyLabel
+2,French,bmkCopyLabel,"Copie",CopyLabel
+3,Slovak,bmkCopyLabel,"Kópia",CopyLabel
+4,Italian,bmkCopyLabel,"Copia",CopyLabel
+5,Polish,bmkCopyLabel,"Kopia",CopyLabel
+6,German,bmkCopyLabel,"Kopie",CopyLabel
+7,Dutch (Belgium),bmkCopyLabel,"Kopie",CopyLabel
+8,French (Belgium),bmkCopyLabel,"Copie",CopyLabel
+9,Czech,bmkCopyLabel,"Kopie na vědomí",CopyLabel
+10,Dutch,bmkCopyLabel,"Kopie aan",CopyLabel
+11,Hungarian,bmkCopyLabel,"Másolatot kap",CopyLabel
+12,Spanish,bmkCopyLabel,"Copia",CopyLabel
+13,Russian,bmkCopyLabel,"Копия",CopyLabel
+14,English (US),bmkCopyLabel,"Copy",CopyLabel
+15,English (AUS),bmkCopyLabel,"Copy",CopyLabel
+16,Greek,bmkCopyLabel,"Κοινοποίηση",CopyLabel
+17,Portuguese (Brazil),bmkCopyLabel,"Cópia",CopyLabel
+18,Turkish,bmkCopyLabel,"Kopya",CopyLabel
+19,Vietnamese,bmkCopyLabel,"Sao y",CopyLabel
+1,English (UK),bmkCoverAccountLabel,"Account Nº",CoverAccountLabel
+2,French,bmkCoverAccountLabel,"Compte",CoverAccountLabel
+6,German,bmkCoverAccountLabel,"Konto",CoverAccountLabel
+1,English (UK),bmkCoverAppointmentLabel,"Please call for an appointment",CoverAppointmentLabel
+2,French,bmkCoverAppointmentLabel,"Prière de téléphoner pour un rendez-vous",CoverAppointmentLabel
+6,German,bmkCoverAppointmentLabel,"bitte anrufen, um einen Termin festzusetzen",CoverAppointmentLabel
+1,English (UK),bmkCoverCommentsLabel,"For your comments",CoverCommentsLabel
+2,French,bmkCoverCommentsLabel,"Pour prendre attitude",CoverCommentsLabel
+6,German,bmkCoverCommentsLabel,"zur Stellungnahme",CoverCommentsLabel
+1,English (UK),bmkCoverEnclosedLabel,"Enclosed herewith",CoverEnclosedLabel
+2,French,bmkCoverEnclosedLabel,"En restitution",CoverEnclosedLabel
+6,German,bmkCoverEnclosedLabel,"Anlage(n)",CoverEnclosedLabel
+1,English (UK),bmkCoverInformationLabel,"For your information",CoverInformationLabel
+2,French,bmkCoverInformationLabel,"Pour information",CoverInformationLabel
+6,German,bmkCoverInformationLabel,"Zur Kenntnisnahme",CoverInformationLabel
+1,English (UK),bmkCoverRefToLabel,"The following document(s):",CoverRefToLabel
+2,French,bmkCoverRefToLabel,"Le(s) document(s) suivant(s):",CoverRefToLabel
+6,German,bmkCoverRefToLabel,"Anliegende(s) Schriftstück(e):",CoverRefToLabel
+1,English (UK),bmkCoverRemarksLabel,"Remarks",CoverRemarksLabel
+2,French,bmkCoverRemarksLabel,"Commentaires",CoverRemarksLabel
+6,German,bmkCoverRemarksLabel,"Anmerkungen",CoverRemarksLabel
+1,English (UK),bmkCoverSettleLabel,"Please settle",CoverSettleLabel
+2,French,bmkCoverSettleLabel,"Pour règlement",CoverSettleLabel
+6,German,bmkCoverSettleLabel,"zur Erledigung",CoverSettleLabel
+1,English (UK),bmkCoverSignLabel,"Please sign and return",CoverSignLabel
+2,French,bmkCoverSignLabel,"En communication avec prière de me retourner le récépissé dûment signé",CoverSignLabel
+6,German,bmkCoverSignLabel,"Bitte um Unterschrift und Rückgabe",CoverSignLabel
+1,English (UK),bmkCoverSubjectLabel,"Subject",CoverSubjectLabel
+2,French,bmkCoverSubjectLabel,"Objet",CoverSubjectLabel
+6,German,bmkCoverSubjectLabel,"Betreff",CoverSubjectLabel
+1,English (UK),bmkDateLabel,"Date",DateLabel
+2,French,bmkDateLabel,"Date",DateLabel
+3,Slovak,bmkDateLabel,"Dátum",DateLabel
+4,Italian,bmkDateLabel,"Data",DateLabel
+5,Polish,bmkDateLabel,"Data",DateLabel
+6,German,bmkDateLabel,"Datum",DateLabel
+7,Dutch (Belgium),bmkDateLabel,"Datum",DateLabel
+8,French (Belgium),bmkDateLabel,"Date",DateLabel
+9,Czech,bmkDateLabel,"Datum",DateLabel
+10,Dutch,bmkDateLabel,"Datum",DateLabel
+11,Hungarian,bmkDateLabel,"Dátum",DateLabel
+12,Spanish,bmkDateLabel,"Fecha",DateLabel
+13,Russian,bmkDateLabel,"Число",DateLabel
+14,English (US),bmkDateLabel,"Date",DateLabel
+15,English (AUS),bmkDateLabel,"Date",DateLabel
+16,Greek,bmkDateLabel,"Ημερομηνία",DateLabel
+17,Portuguese (Brazil),bmkDateLabel,"Data",DateLabel
+18,Turkish,bmkDateLabel,"Tarih",DateLabel
+19,Vietnamese,bmkDateLabel,"Ngày",DateLabel
+1,English (UK),bmkDirectLineLabel,"Direct",DirectLineLabel
+2,French,bmkDirectLineLabel,"Ligne directe",DirectLineLabel
+3,Slovak,bmkDirectLineLabel,"Priama linka",DirectLineLabel
+4,Italian,bmkDirectLineLabel,"Linea diretta",DirectLineLabel
+5,Polish,bmkDirectLineLabel,"Tel bezp",DirectLineLabel
+6,German,bmkDirectLineLabel,"Durchwahl",DirectLineLabel
+7,Dutch (Belgium),bmkDirectLineLabel,"Directe lijn",DirectLineLabel
+8,French (Belgium),bmkDirectLineLabel,"Ligne directe",DirectLineLabel
+9,Czech,bmkDirectLineLabel,"Přímá linka",DirectLineLabel
+10,Dutch,bmkDirectLineLabel,"Telefoon",DirectLineLabel
+11,Hungarian,bmkDirectLineLabel,"Közvetlen szám",DirectLineLabel
+12,Spanish,bmkDirectLineLabel,"Número directo",DirectLineLabel
+13,Russian,bmkDirectLineLabel,"Прямой тел",DirectLineLabel
+14,English (US),bmkDirectLineLabel,"Direct line",DirectLineLabel
+15,English (AUS),bmkDirectLineLabel,"Direct",DirectLineLabel
+16,Greek,bmkDirectLineLabel,"Προσωπική γραμμή",DirectLineLabel
+17,Portuguese (Brazil),bmkDirectLineLabel,"Direto",DirectLineLabel
+18,Turkish,bmkDirectLineLabel,"Direkt hat",DirectLineLabel
+19,Vietnamese,bmkDirectLineLabel,"Trực tiếp",DirectLineLabel
+1,English (UK),bmkDirectLineTelLabel,"Telephone",DirectLineTelLabel
+6,German,bmkDirectLineTelLabel,"Zentrale",DirectLineTelLabel
+10,Dutch,bmkDirectLineTelLabel,"Telefoon",DirectLineTelLabel
+1,English (UK),bmkEnclLabel,"Encl",EnclLabel
+2,French,bmkEnclLabel,"P.J.",EnclLabel
+3,Slovak,bmkEnclLabel,"Prílohy",EnclLabel
+4,Italian,bmkEnclLabel,"All",EnclLabel
+5,Polish,bmkEnclLabel,"Załączniki",EnclLabel
+6,German,bmkEnclLabel,"Anlage(n)",EnclLabel
+7,Dutch (Belgium),bmkEnclLabel,"Incl",EnclLabel
+8,French (Belgium),bmkEnclLabel,"P.J.",EnclLabel
+9,Czech,bmkEnclLabel,"Příloha",EnclLabel
+10,Dutch,bmkEnclLabel,"Bijlagen",EnclLabel
+11,Hungarian,bmkEnclLabel,"melléklet",EnclLabel
+12,Spanish,bmkEnclLabel,"Adjunto",EnclLabel
+13,Russian,bmkEnclLabel,"Прил",EnclLabel
+14,English (US),bmkEnclLabel,"Encl",EnclLabel
+15,English (AUS),bmkEnclLabel,"Encl",EnclLabel
+16,Greek,bmkEnclLabel,"Συνημμένα",EnclLabel
+17,Portuguese (Brazil),bmkEnclLabel,"Anexo(a)",EnclLabel
+18,Turkish,bmkEnclLabel,"Ekli",EnclLabel
+19,Vietnamese,bmkEnclLabel,"Bao gồm",EnclLabel
+1,English (UK),bmkFaxLabel,"Fax",FaxLabel
+2,French,bmkFaxLabel,"Télécopie",FaxLabel
+3,Slovak,bmkFaxLabel,"Fax",FaxLabel
+4,Italian,bmkFaxLabel,"Fax",FaxLabel
+5,Polish,bmkFaxLabel,"Faks",FaxLabel
+6,German,bmkFaxLabel,"Fax",FaxLabel
+7,Dutch (Belgium),bmkFaxLabel,"Fax",FaxLabel
+8,French (Belgium),bmkFaxLabel,"Télécopie",FaxLabel
+9,Czech,bmkFaxLabel,"Fax",FaxLabel
+10,Dutch,bmkFaxLabel,"Fax",FaxLabel
+11,Hungarian,bmkFaxLabel,"Fax",FaxLabel
+12,Spanish,bmkFaxLabel,"Fax",FaxLabel
+13,Russian,bmkFaxLabel,"Факс",FaxLabel
+14,English (US),bmkFaxLabel,"Fax",FaxLabel
+15,English (AUS),bmkFaxLabel,"Fax",FaxLabel
+16,Greek,bmkFaxLabel,"Φαξ",FaxLabel
+17,Portuguese (Brazil),bmkFaxLabel,"Fax",FaxLabel
+18,Turkish,bmkFaxLabel,"Faks",FaxLabel
+19,Vietnamese,bmkFaxLabel,"Fax",FaxLabel
+1,English (UK),bmkFaxLabelAlt,"Fax",FaxLabelAlt
+5,Polish,bmkFaxLabelAlt,"Faks",FaxLabelAlt
+1,English (UK),bmkFromLabel,"From",FromLabel
+2,French,bmkFromLabel,"De",FromLabel
+3,Slovak,bmkFromLabel,"Odosielateľ",FromLabel
+4,Italian,bmkFromLabel,"Da",FromLabel
+5,Polish,bmkFromLabel,"Od",FromLabel
+6,German,bmkFromLabel,"Von",FromLabel
+7,Dutch (Belgium),bmkFromLabel,"Van",FromLabel
+8,French (Belgium),bmkFromLabel,"De",FromLabel
+9,Czech,bmkFromLabel,"Od",FromLabel
+10,Dutch,bmkFromLabel,"Van",FromLabel
+11,Hungarian,bmkFromLabel,"Feladó",FromLabel
+12,Spanish,bmkFromLabel,"De",FromLabel
+13,Russian,bmkFromLabel,"От кого",FromLabel
+14,English (US),bmkFromLabel,"From",FromLabel
+15,English (AUS),bmkFromLabel,"From",FromLabel
+16,Greek,bmkFromLabel,"Από",FromLabel
+17,Portuguese (Brazil),bmkFromLabel,"De",FromLabel
+18,Turkish,bmkFromLabel,"Gönderen",FromLabel
+19,Vietnamese,bmkFromLabel,"Từ",FromLabel
+1,English (UK),bmkInclThisPageLabel,"(including this page)",InclThisPageLabel
+2,French,bmkInclThisPageLabel,"(y compris celle-ci)",InclThisPageLabel
+3,Slovak,bmkInclThisPageLabel,"(vrátane tejto strany)",InclThisPageLabel
+4,Italian,bmkInclThisPageLabel,"(inclusa la presente)",InclThisPageLabel
+5,Polish,bmkInclThisPageLabel,"(łącznie ze stroną tytułową)",InclThisPageLabel
+6,German,bmkInclThisPageLabel,"(einschließlich dieser Seite)",InclThisPageLabel
+7,Dutch (Belgium),bmkInclThisPageLabel,"(deze pagina inbegrepen)",InclThisPageLabel
+8,French (Belgium),bmkInclThisPageLabel,"(y compris celle-ci)",InclThisPageLabel
+9,Czech,bmkInclThisPageLabel,"(včetně této strany)",InclThisPageLabel
+10,Dutch,bmkInclThisPageLabel,"(incl. deze pagina)",InclThisPageLabel
+11,Hungarian,bmkInclThisPageLabel,"(címlappal együtt)",InclThisPageLabel
+12,Spanish,bmkInclThisPageLabel,"(incluyendo esta página)",InclThisPageLabel
+13,Russian,bmkInclThisPageLabel,"(включая данную)",InclThisPageLabel
+14,English (US),bmkInclThisPageLabel,"(incl this page)",InclThisPageLabel
+15,English (AUS),bmkInclThisPageLabel,"(including this page)",InclThisPageLabel
+16,Greek,bmkInclThisPageLabel,"(συμπεριλαμβανομένης αυτής της σελίδας)",InclThisPageLabel
+17,Portuguese (Brazil),bmkInclThisPageLabel,"(incluindo esta página)",InclThisPageLabel
+18,Turkish,bmkInclThisPageLabel,"(bu sayfa dahil olarak)",InclThisPageLabel
+19,Vietnamese,bmkInclThisPageLabel,"(bao gồm trang này)",InclThisPageLabel
+1,English (UK),bmkMatterLabel,"Matter",MatterLabel
+2,French,bmkMatterLabel,"Dossier",MatterLabel
+3,Slovak,bmkMatterLabel,"Vec",MatterLabel
+4,Italian,bmkMatterLabel,"Pratica",MatterLabel
+5,Polish,bmkMatterLabel,"Sprawa",MatterLabel
+6,German,bmkMatterLabel,"Matter",MatterLabel
+7,Dutch (Belgium),bmkMatterLabel,"Dossier",MatterLabel
+8,French (Belgium),bmkMatterLabel,"Dossier",MatterLabel
+9,Czech,bmkMatterLabel,"Věc",MatterLabel
+11,Hungarian,bmkMatterLabel,"Ügy",MatterLabel
+12,Spanish,bmkMatterLabel,"Asunto",MatterLabel
+13,Russian,bmkMatterLabel,"Дело",MatterLabel
+14,English (US),bmkMatterLabel,"Matter",MatterLabel
+15,English (AUS),bmkMatterLabel,"Matter",MatterLabel
+16,Greek,bmkMatterLabel,"Θέμα",MatterLabel
+17,Portuguese (Brazil),bmkMatterLabel,"Assunto",MatterLabel
+18,Turkish,bmkMatterLabel,"Proje",MatterLabel
+19,Vietnamese,bmkMatterLabel,"Vụ việc",MatterLabel
+1,English (UK),bmkNoOfPagesLabel,"Pages",NoOfPagesLabel
+2,French,bmkNoOfPagesLabel,"Pages",NoOfPagesLabel
+3,Slovak,bmkNoOfPagesLabel,"Počet strán",NoOfPagesLabel
+4,Italian,bmkNoOfPagesLabel,"Pagine",NoOfPagesLabel
+5,Polish,bmkNoOfPagesLabel,"Ilość stron",NoOfPagesLabel
+6,German,bmkNoOfPagesLabel,"Seiten",NoOfPagesLabel
+7,Dutch (Belgium),bmkNoOfPagesLabel,"Bladzijden",NoOfPagesLabel
+8,French (Belgium),bmkNoOfPagesLabel,"Pages",NoOfPagesLabel
+9,Czech,bmkNoOfPagesLabel,"Stránky",NoOfPagesLabel
+10,Dutch,bmkNoOfPagesLabel,"Pagina's",NoOfPagesLabel
+11,Hungarian,bmkNoOfPagesLabel,"Oldalak",NoOfPagesLabel
+12,Spanish,bmkNoOfPagesLabel,"Páginas",NoOfPagesLabel
+13,Russian,bmkNoOfPagesLabel,"Cтраниц",NoOfPagesLabel
+14,English (US),bmkNoOfPagesLabel,"Pages",NoOfPagesLabel
+15,English (AUS),bmkNoOfPagesLabel,"Pages",NoOfPagesLabel
+16,Greek,bmkNoOfPagesLabel,"Σελίδες",NoOfPagesLabel
+17,Portuguese (Brazil),bmkNoOfPagesLabel,"Páginas",NoOfPagesLabel
+18,Turkish,bmkNoOfPagesLabel,"Sayfalar",NoOfPagesLabel
+19,Vietnamese,bmkNoOfPagesLabel,"Trang",NoOfPagesLabel
+1,English (UK),bmkOurRefLabel,"Our ref",OurRefLabel
+2,French,bmkOurRefLabel,"Notre réf.",OurRefLabel
+3,Slovak,bmkOurRefLabel,"Naša značka",OurRefLabel
+4,Italian,bmkOurRefLabel,"Ns rif",OurRefLabel
+5,Polish,bmkOurRefLabel,"Nasze ref",OurRefLabel
+6,German,bmkOurRefLabel,"Unser Zeichen",OurRefLabel
+7,Dutch (Belgium),bmkOurRefLabel,"Ons kenmerk",OurRefLabel
+8,French (Belgium),bmkOurRefLabel,"Notre réf.",OurRefLabel
+9,Czech,bmkOurRefLabel,"Naše značka",OurRefLabel
+10,Dutch,bmkOurRefLabel,"Ons kenmerk",OurRefLabel
+11,Hungarian,bmkOurRefLabel,"Ügyszámunk",OurRefLabel
+12,Spanish,bmkOurRefLabel,"Nuestra ref",OurRefLabel
+13,Russian,bmkOurRefLabel,"Исх. номер",OurRefLabel
+14,English (US),bmkOurRefLabel,"Our ref",OurRefLabel
+15,English (AUS),bmkOurRefLabel,"Our ref",OurRefLabel
+16,Greek,bmkOurRefLabel,"Αναφορικά με",OurRefLabel
+17,Portuguese (Brazil),bmkOurRefLabel,"Nossa ref",OurRefLabel
+18,Turkish,bmkOurRefLabel,"İlgi",OurRefLabel
+19,Vietnamese,bmkOurRefLabel,"Số tham chiếu của chúng tôi",OurRefLabel
+1,English (UK),bmkSubjectLabel,"Subject",SubjectLabel
+2,French,bmkSubjectLabel,"Objet",SubjectLabel
+3,Slovak,bmkSubjectLabel,"Vec",SubjectLabel
+4,Italian,bmkSubjectLabel,"Oggetto",SubjectLabel
+5,Polish,bmkSubjectLabel,"Dotyczy",SubjectLabel
+6,German,bmkSubjectLabel,"Betreff",SubjectLabel
+7,Dutch (Belgium),bmkSubjectLabel,"Onderwerp",SubjectLabel
+8,French (Belgium),bmkSubjectLabel,"Objet",SubjectLabel
+9,Czech,bmkSubjectLabel,"Věc",SubjectLabel
+10,Dutch,bmkSubjectLabel,"Onderwerp",SubjectLabel
+11,Hungarian,bmkSubjectLabel,"Tárgy",SubjectLabel
+12,Spanish,bmkSubjectLabel,"Asunto",SubjectLabel
+13,Russian,bmkSubjectLabel,"Кас",SubjectLabel
+14,English (US),bmkSubjectLabel,"Subject",SubjectLabel
+15,English (AUS),bmkSubjectLabel,"Subject",SubjectLabel
+16,Greek,bmkSubjectLabel,"Θέμα",SubjectLabel
+17,Portuguese (Brazil),bmkSubjectLabel,"Assunto",SubjectLabel
+18,Turkish,bmkSubjectLabel,"Konu",SubjectLabel
+19,Vietnamese,bmkSubjectLabel,"Nội dung",SubjectLabel
+1,English (UK),bmkTelLabel,"Tel",TelLabel
+2,French,bmkTelLabel,"Téléphone",TelLabel
+3,Slovak,bmkTelLabel,"Tel",TelLabel
+4,Italian,bmkTelLabel,"Tel",TelLabel
+5,Polish,bmkTelLabel,"Tel",TelLabel
+6,German,bmkTelLabel,"Tel",TelLabel
+7,Dutch (Belgium),bmkTelLabel,"Tel",TelLabel
+8,French (Belgium),bmkTelLabel,"Téléphone",TelLabel
+9,Czech,bmkTelLabel,"Tel",TelLabel
+10,Dutch,bmkTelLabel,"Tel",TelLabel
+11,Hungarian,bmkTelLabel,"Tel",TelLabel
+12,Spanish,bmkTelLabel,"Teléfono",TelLabel
+13,Russian,bmkTelLabel,"Тел",TelLabel
+14,English (US),bmkTelLabel,"Tel",TelLabel
+15,English (AUS),bmkTelLabel,"Tel",TelLabel
+16,Greek,bmkTelLabel,"Τηλέφωνο",TelLabel
+17,Portuguese (Brazil),bmkTelLabel,"Telefone",TelLabel
+18,Turkish,bmkTelLabel,"Telefon",TelLabel
+19,Vietnamese,bmkTelLabel,"Điện thoại",TelLabel
+1,English (UK),bmkTelLabelAlt,"Tel",TelLabelAlt
+5,Polish,bmkTelLabelAlt,"Tel",TelLabelAlt
+1,English (UK),bmkTimeEngagedLabel,"Time engaged",TimeEngagedLabel
+2,French,bmkTimeEngagedLabel,"Durée",TimeEngagedLabel
+3,Slovak,bmkTimeEngagedLabel,"Trvanie",TimeEngagedLabel
+4,Italian,bmkTimeEngagedLabel,"Ore lavorate",TimeEngagedLabel
+5,Polish,bmkTimeEngagedLabel,"Czas trwania",TimeEngagedLabel
+6,German,bmkTimeEngagedLabel,"Dauer",TimeEngagedLabel
+7,Dutch (Belgium),bmkTimeEngagedLabel,"Duur",TimeEngagedLabel
+8,French (Belgium),bmkTimeEngagedLabel,"Durée",TimeEngagedLabel
+9,Czech,bmkTimeEngagedLabel,"Doba trvání",TimeEngagedLabel
+11,Hungarian,bmkTimeEngagedLabel,"Időtartam",TimeEngagedLabel
+12,Spanish,bmkTimeEngagedLabel,"Tiempo incurrido",TimeEngagedLabel
+13,Russian,bmkTimeEngagedLabel,"Затрачено времени",TimeEngagedLabel
+14,English (US),bmkTimeEngagedLabel,"Time engaged",TimeEngagedLabel
+15,English (AUS),bmkTimeEngagedLabel,"Time engaged",TimeEngagedLabel
+16,Greek,bmkTimeEngagedLabel,"Διάρκεια (Χρόνος που απαιτήθηκε)",TimeEngagedLabel
+17,Portuguese (Brazil),bmkTimeEngagedLabel,"Duração",TimeEngagedLabel
+18,Turkish,bmkTimeEngagedLabel,"Harcanan süre",TimeEngagedLabel
+19,Vietnamese,bmkTimeEngagedLabel,"Thời gian tham gia",TimeEngagedLabel
+1,English (UK),bmkToLabel,"To",ToLabel
+2,French,bmkToLabel,"A",ToLabel
+3,Slovak,bmkToLabel,"Príjemca",ToLabel
+4,Italian,bmkToLabel,"A",ToLabel
+5,Polish,bmkToLabel,"Do",ToLabel
+6,German,bmkToLabel,"An",ToLabel
+7,Dutch (Belgium),bmkToLabel,"Aan",ToLabel
+8,French (Belgium),bmkToLabel,"A",ToLabel
+9,Czech,bmkToLabel,"Komu",ToLabel
+10,Dutch,bmkToLabel,"Aan",ToLabel
+11,Hungarian,bmkToLabel,"Címzett",ToLabel
+12,Spanish,bmkToLabel,"A",ToLabel
+13,Russian,bmkToLabel,"Кому",ToLabel
+14,English (US),bmkToLabel,"To",ToLabel
+15,English (AUS),bmkToLabel,"To",ToLabel
+16,Greek,bmkToLabel,"Προς",ToLabel
+17,Portuguese (Brazil),bmkToLabel,"Para",ToLabel
+18,Turkish,bmkToLabel,"Alıcı",ToLabel
+19,Vietnamese,bmkToLabel,"Tới",ToLabel
+1,English (UK),bmkYourRefLabel,"Your ref",YourRefLabel
+2,French,bmkYourRefLabel,"Votre réf.",YourRefLabel
+3,Slovak,bmkYourRefLabel,"Vaša značka",YourRefLabel
+4,Italian,bmkYourRefLabel,"Vs rif",YourRefLabel
+5,Polish,bmkYourRefLabel,"Wasze ref",YourRefLabel
+6,German,bmkYourRefLabel,"Ihr Zeichen",YourRefLabel
+7,Dutch (Belgium),bmkYourRefLabel,"Uw kenmerk",YourRefLabel
+8,French (Belgium),bmkYourRefLabel,"Votre réf.",YourRefLabel
+9,Czech,bmkYourRefLabel,"Vaše značka",YourRefLabel
+10,Dutch,bmkYourRefLabel,"Uw kenmerk",YourRefLabel
+11,Hungarian,bmkYourRefLabel,"Ügyszámuk",YourRefLabel
+12,Spanish,bmkYourRefLabel,"Su ref",YourRefLabel
+13,Russian,bmkYourRefLabel,"Вх. номер",YourRefLabel
+14,English (US),bmkYourRefLabel,"Your ref",YourRefLabel
+15,English (AUS),bmkYourRefLabel,"Your ref",YourRefLabel
+16,Greek,bmkYourRefLabel,"Αναφορικά με",YourRefLabel
+17,Portuguese (Brazil),bmkYourRefLabel,"Sua ref",YourRefLabel
+18,Turkish,bmkYourRefLabel,"Referansınız",YourRefLabel
+19,Vietnamese,bmkYourRefLabel,"Số tham chiếu của quý vị",YourRefLabel
+1,English (UK),bmkFPContentsLabel,"Contents",Contents
+2,French,bmkFPContentsLabel,"Table des matières",Contents
+3,Slovak,bmkFPContentsLabel,"Obsah",Contents
+4,Italian,bmkFPContentsLabel,"Indice dei Contenuti",Contents
+5,Polish,bmkFPContentsLabel,"Spis treści",Contents
+6,German,bmkFPContentsLabel,"Inhaltsverzeichnis",Contents
+7,Dutch (Belgium),bmkFPContentsLabel,"Inhoudsopgave",Contents
+8,French (Belgium),bmkFPContentsLabel,"Table des matières",Contents
+9,Czech,bmkFPContentsLabel,"Obsah",Contents
+10,Dutch,bmkFPContentsLabel,"Inhoudsopgave",Contents
+11,Hungarian,bmkFPContentsLabel,"Tartalomjegyzék",Contents
+12,Spanish,bmkFPContentsLabel,"Índice",Contents
+13,Russian,bmkFPContentsLabel,"Содержание",Contents
+14,English (US),bmkFPContentsLabel,"Contents",Contents
+15,English (AUS),bmkFPContentsLabel,"Contents",Contents
+16,Greek,bmkFPContentsLabel,"Περιεχόμενα",Contents
+17,Portuguese (Brazil),bmkFPContentsLabel,"Conteúdo",Contents
+18,Turkish,bmkFPContentsLabel,"İçindekiler",Contents
+19,Vietnamese,bmkFPContentsLabel,"Nội dung",Contents
+1,English (UK),bmkSFPAuthorLabel,"AUTHOR",AuthorLabel
+1,English (UK),bmkSFPAuthorLabel,"AUTHOR",Author
+2,French,bmkSFPAuthorLabel,"AUTEUR",AuthorLabel
+2,French,bmkSFPAuthorLabel,"AUTEUR",Author
+3,Slovak,bmkSFPAuthorLabel,"AUTOR",AuthorLabel
+3,Slovak,bmkSFPAuthorLabel,"AUTOR",Author
+4,Italian,bmkSFPAuthorLabel,"AUTORE",AuthorLabel
+4,Italian,bmkSFPAuthorLabel,"AUTORE",Author
+5,Polish,bmkSFPAuthorLabel,"AUTOR",AuthorLabel
+5,Polish,bmkSFPAuthorLabel,"AUTOR",Author
+6,German,bmkSFPAuthorLabel,"AUTOR",AuthorLabel
+6,German,bmkSFPAuthorLabel,"AUTOR",Author
+7,Dutch (Belgium),bmkSFPAuthorLabel,"AUTEUR",AuthorLabel
+7,Dutch (Belgium),bmkSFPAuthorLabel,"AUTEUR",Author
+8,French (Belgium),bmkSFPAuthorLabel,"AUTEUR",AuthorLabel
+8,French (Belgium),bmkSFPAuthorLabel,"AUTEUR",Author
+9,Czech,bmkSFPAuthorLabel,"AUTOR",AuthorLabel
+9,Czech,bmkSFPAuthorLabel,"AUTOR",Author
+10,Dutch,bmkSFPAuthorLabel,"AUTEUR",AuthorLabel
+10,Dutch,bmkSFPAuthorLabel,"AUTEUR",Author
+11,Hungarian,bmkSFPAuthorLabel,"LÉTREHOZÓ",AuthorLabel
+11,Hungarian,bmkSFPAuthorLabel,"LÉTREHOZÓ",Author
+12,Spanish,bmkSFPAuthorLabel,"AUTOR",AuthorLabel
+12,Spanish,bmkSFPAuthorLabel,"AUTOR",Author
+13,Russian,bmkSFPAuthorLabel,"АВТОР",AuthorLabel
+13,Russian,bmkSFPAuthorLabel,"АВТОР",Author
+14,English (US),bmkSFPAuthorLabel,"AUTHOR",AuthorLabel
+14,English (US),bmkSFPAuthorLabel,"AUTHOR",Author
+15,English (AUS),bmkSFPAuthorLabel,"AUTHOR",AuthorLabel
+15,English (AUS),bmkSFPAuthorLabel,"AUTHOR",Author
+16,Greek,bmkSFPAuthorLabel,"ΣΥΓΓΡΑΦΕΑΣ",AuthorLabel
+16,Greek,bmkSFPAuthorLabel,"ΣΥΓΓΡΑΦΕΑΣ",Author
+17,Portuguese (Brazil),bmkSFPAuthorLabel,"AUTOR",AuthorLabel
+17,Portuguese (Brazil),bmkSFPAuthorLabel,"AUTOR",Author
+18,Turkish,bmkSFPAuthorLabel,"Kaleme Alan",AuthorLabel
+18,Turkish,bmkSFPAuthorLabel,"Kaleme Alan",Author
+19,Vietnamese,bmkSFPAuthorLabel,"Người lập",AuthorLabel
+19,Vietnamese,bmkSFPAuthorLabel,"Người lập",Author
+1,English (UK),bmkSFPCopyrightLabel,"COPYRIGHT CONFIDENTIAL
+NO UNAUTHORISED COPYING
+TRANSMISSION OR REMOVAL
+FROM OFFICE",Copyright
+2,French,bmkSFPCopyrightLabel,"COPYRIGHT CONFIDENTIEL IL EST INTERDIT DE COPIER, TRANSMETTRE OU FAIRE SORTIR CE DOCUMENT DU BUREAU SANS Y ETRE AUTORISE",Copyright
+3,Slovak,bmkSFPCopyrightLabel,"AUTORSKÉ PRÁVA VYHRADENÉ. NEOPPRÁVNENÉ ROZMNOŽOVANIE, PRENOS ALEBO PREMIESTŇOVANIE  Z KANCELÁRIE",Copyright
+4,Italian,bmkSFPCopyrightLabel,"COPYRIGHT RISERVATO
+NESSUNA COPIATURA NON AUTORIZZATA, 
+TRASMISSIONE O RIMOZIONE 
+DALL'UFFICIO",Copyright
+5,Polish,bmkSFPCopyrightLabel,"PRAWA AUTORSKIE POUFNE                                                                ZAKAZ KOPIOWANIA BEZ ZEZWOLENIA                                  PRZEKAZANIA LUB USUNIĘCIA                                                                           Z BIURA",Copyright
+6,German,bmkSFPCopyrightLabel,"URHEBERRECHTLICH GESCHÜTZT UND VERTRAULICH
+KOPIEREN, ÜBERTRAGUNG ODER ENTFERNUNG AUS DEM BÜRO NICHT GESTATTET",Copyright
+7,Dutch (Belgium),bmkSFPCopyrightLabel,"COPYRIGHT VERTROUWELIJK             MAG NIET ZONDER TOESTEMMING GEKOPIEERD, UITGEZONDEN OF UIT HET KANTOOR VERWIJDERD WORDEN",Copyright
+8,French (Belgium),bmkSFPCopyrightLabel,"COPYRIGHT CONFIDENTIEL IL EST INTERDIT DE COPIER, TRANSMETTRE OU FAIRE SORTIR CE DOCUMENT DU BUREAU SANS Y ETRE AUTORISE",Copyright
+9,Czech,bmkSFPCopyrightLabel,"DŮVĚRNÉ. CHRÁNĚNO AUTORSKÝM PRÁVEM
+NENÍ POVOLENO NEOPRÁVNĚNÉ KOPÍROVÁNÍ , PŘENOS NEBO ODEBRÁNÍ Z KANCELÁŘE",Copyright
+10,Dutch,bmkSFPCopyrightLabel,"COPYRIGHT VERTROUWELIJK             MAG NIET ZONDER TOESTEMMING GEKOPIEERD, UITGEZONDEN OF UIT HET KANTOOR VERWIJDERD WORDEN",Copyright
+11,Hungarian,bmkSFPCopyrightLabel,"SZERZŐI JOGOKKAL VÉDETT BIZALMAS DOKUMENTUM: ILLETÉKTELEN MÁSOLÁSA, TERJESZTÉSE VAGY AZ IRODÁBÓL VALÓ ELVITELE TILOS",Copyright
+12,Spanish,bmkSFPCopyrightLabel,"COPYRIGHT CONFIDENCIAL. PROHIBIDA LA REPRODUCCIÓN, TRANSMISIÓN O ELIMINACIÓN",Copyright
+13,Russian,bmkSFPCopyrightLabel,"ЗАЩИЩЕННЫЙ АВТОРСКИМ ПРАВОМ НЕРАЗРЕШЕННОЕ КОПИРОВАНИЕ ПЕРЕДАЧА ИЛИ УДАЛЕНИЕ ЗАПРЕЩЕНО",Copyright
+14,English (US),bmkSFPCopyrightLabel,"COPYRIGHT CONFIDENTIAL
+NO UNAUTHORISED COPYING
+TRANSMISSION OR REMOVAL
+FROM OFFICE",Copyright
+15,English (AUS),bmkSFPCopyrightLabel,"COPYRIGHT CONFIDENTIAL
+NO UNAUTHORISED COPYING
+TRANSMISSION OR REMOVAL
+FROM OFFICE",Copyright
+16,Greek,bmkSFPCopyrightLabel,"ΕΜΠΙΣΤΕΥΤΙΚΟ ΑΝΤΙΓΡΑΦΟ.
+ΑΠΑΓΟΡΕΥΕΤΑΙ Η ΑΝΑΠΑΡΑΓΩΓΗ Ή Η ΑΠΟΜΑΚΡΥΝΣΗ ΤΟΥ ΑΠΟ ΤΟ ΓΡΑΦΕΙΟ ΧΩΡΙΣ ΑΔΕΙΑ",Copyright
+17,Portuguese (Brazil),bmkSFPCopyrightLabel,"DIREITO DE CÓPIA CONFIDENCIAL
+CÓPIA NÃO AUTORIZADA
+TRANSMISSÃO OU REMOÇÃO DO ESCRITÓRIO",Copyright
+18,Turkish,bmkSFPCopyrightLabel,"TELİF HAKLARI SAKLIDIR
+İZİNSİZ KOPYALAMAK GÖNDERMEK VEYA OFİSTEN ÇIKARTMAK YASAKTIR    
+",Copyright
+19,Vietnamese,bmkSFPCopyrightLabel,"BảO MậT BảN QUYềN. KHÔNG SAO CHÉP,GửI HOặC MANG RA KHỏI VĂN PHÒNG NếU KHÔNG ĐƯợC CHO PHÉP.",Copyright
+1,English (UK),bmkSFPDocumentLabel,"DOCUMENT",Document
+2,French,bmkSFPDocumentLabel,"DOCUMENT",Document
+3,Slovak,bmkSFPDocumentLabel,"DOKUMENT",Document
+4,Italian,bmkSFPDocumentLabel,"DOCUMENTO",Document
+5,Polish,bmkSFPDocumentLabel,"DOKUMENT",Document
+6,German,bmkSFPDocumentLabel,"DOKUMENT",Document
+7,Dutch (Belgium),bmkSFPDocumentLabel,"DOCUMENT",Document
+8,French (Belgium),bmkSFPDocumentLabel,"DOCUMENT",Document
+9,Czech,bmkSFPDocumentLabel,"DOKUMENT",Document
+10,Dutch,bmkSFPDocumentLabel,"DOCUMENT",Document
+11,Hungarian,bmkSFPDocumentLabel,"DOKUMENTUM",Document
+12,Spanish,bmkSFPDocumentLabel,"DOCUMENTO",Document
+13,Russian,bmkSFPDocumentLabel,"ДОКУМЕНТ",Document
+14,English (US),bmkSFPDocumentLabel,"DOCUMENT",Document
+15,English (AUS),bmkSFPDocumentLabel,"DOCUMENT",Document
+16,Greek,bmkSFPDocumentLabel,"ΚΕΙΜΕΝΟ",Document
+17,Portuguese (Brazil),bmkSFPDocumentLabel,"DOCUMENTO",Document
+18,Turkish,bmkSFPDocumentLabel,"DOKÜMAN",Document
+19,Vietnamese,bmkSFPDocumentLabel,"TÀI LIệU",Document
+1,English (UK),bmkSFPNotesLabel,"NOTES",Notes
+2,French,bmkSFPNotesLabel,"NOTES",Notes
+3,Slovak,bmkSFPNotesLabel,"POZNÁMKY",Notes
+4,Italian,bmkSFPNotesLabel,"NOTE",Notes
+5,Polish,bmkSFPNotesLabel,"UWAGI",Notes
+6,German,bmkSFPNotesLabel,"ANMERKUNGEN",Notes
+7,Dutch (Belgium),bmkSFPNotesLabel,"Aantekeningen",Notes
+8,French (Belgium),bmkSFPNotesLabel,"NOTES",Notes
+9,Czech,bmkSFPNotesLabel,"POZNÁMKY",Notes
+10,Dutch,bmkSFPNotesLabel,"Aantekeningen",Notes
+11,Hungarian,bmkSFPNotesLabel,"MEGJEGYZÉSEK",Notes
+12,Spanish,bmkSFPNotesLabel,"NOTAS",Notes
+13,Russian,bmkSFPNotesLabel,"ПРИМЕЧАНИЯ",Notes
+14,English (US),bmkSFPNotesLabel,"NOTES",Notes
+15,English (AUS),bmkSFPNotesLabel,"NOTES",Notes
+16,Greek,bmkSFPNotesLabel,"ΣΗΜΕΙΩΣΕΙΣ",Notes
+17,Portuguese (Brazil),bmkSFPNotesLabel,"ANOTAÇÕES",Notes
+18,Turkish,bmkSFPNotesLabel,"NOTLAR",Notes
+19,Vietnamese,bmkSFPNotesLabel,"Chú ý",Notes
+1,English (UK),bmkSFPNumberLabel,"SFP NUMBER",SFPNumber
+2,French,bmkSFPNumberLabel,"NUMÉRO DE SFP",SFPNumber
+3,Slovak,bmkSFPNumberLabel,"ČÍSLO SFP",SFPNumber
+4,Italian,bmkSFPNumberLabel,"SFP NUMERO",SFPNumber
+5,Polish,bmkSFPNumberLabel,"SFP NUMER",SFPNumber
+6,German,bmkSFPNumberLabel,"SFP-NUMMER",SFPNumber
+7,Dutch (Belgium),bmkSFPNumberLabel,"SFP NUMMER",SFPNumber
+8,French (Belgium),bmkSFPNumberLabel,"NUMÉRO DE SFP",SFPNumber
+9,Czech,bmkSFPNumberLabel,"SFP ČÍSLO",SFPNumber
+10,Dutch,bmkSFPNumberLabel,"SPF NUMMER",SFPNumber
+11,Hungarian,bmkSFPNumberLabel,"SFP SZÁM",SFPNumber
+12,Spanish,bmkSFPNumberLabel,"SFP NÚMERO",SFPNumber
+13,Russian,bmkSFPNumberLabel,"НОМЕР ПРЕЦЕДЕНТА СТАНДАРТНОЙ ФОРМЫ",SFPNumber
+14,English (US),bmkSFPNumberLabel,"SFP NUMBER",SFPNumber
+15,English (AUS),bmkSFPNumberLabel,"SFP NUMBER",SFPNumber
+16,Greek,bmkSFPNumberLabel,"SFP ΑΡΙΘΜΟΣ",SFPNumber
+17,Portuguese (Brazil),bmkSFPNumberLabel,"NÚMERO SFP",SFPNumber
+18,Turkish,bmkSFPNumberLabel,"SFP NUMARASI",SFPNumber
+19,Vietnamese,bmkSFPNumberLabel,"TRANG TIÊU CHUẩN Số",SFPNumber
+1,English (UK),bmkSFPRecentLabel,"RECENT UPDATES",RecentUpdates
+2,French,bmkSFPRecentLabel,"RECENTES MISES A JOUR",RecentUpdates
+3,Slovak,bmkSFPRecentLabel,"POSLEDNÉ AKTUALIZÁCIE",RecentUpdates
+4,Italian,bmkSFPRecentLabel,"AGGIORNAMENTI RECENTI",RecentUpdates
+5,Polish,bmkSFPRecentLabel,"NAJNOWSZE AKTUALIZACJE",RecentUpdates
+6,German,bmkSFPRecentLabel,"LETZTE ÄNDERUNGEN",RecentUpdates
+7,Dutch (Belgium),bmkSFPRecentLabel,"RECENTE BIJWERKINGEN",RecentUpdates
+8,French (Belgium),bmkSFPRecentLabel,"RECENTES MISES A JOUR",RecentUpdates
+9,Czech,bmkSFPRecentLabel,"NEDÁVNÁ AKTUALIZACE",RecentUpdates
+10,Dutch,bmkSFPRecentLabel,"RECENTE BIJWERKINGEN",RecentUpdates
+11,Hungarian,bmkSFPRecentLabel,"LEGUTÓBBI MÓDOSÍTÁSOK",RecentUpdates
+12,Spanish,bmkSFPRecentLabel,"ÚLTIMAS ACTUALIZACIONES",RecentUpdates
+13,Russian,bmkSFPRecentLabel,"НЕДАВНИЕ ОБНОВЛЕНИЯ",RecentUpdates
+14,English (US),bmkSFPRecentLabel,"RECENT UPDATES",RecentUpdates
+15,English (AUS),bmkSFPRecentLabel,"RECENT UPDATES",RecentUpdates
+16,Greek,bmkSFPRecentLabel,"ΠΡΟΣΦΑΤΕΣ ΔΙΟΡΘΩΣΕΙΣ",RecentUpdates
+17,Portuguese (Brazil),bmkSFPRecentLabel,"ATUALIZAÇÕES RECENTES",RecentUpdates
+18,Turkish,bmkSFPRecentLabel,"EN SON GÜNCELLEMELER",RecentUpdates
+19,Vietnamese,bmkSFPRecentLabel,"LầN CậP NHậT GầN NHấT",RecentUpdates
+1,English (UK),bmkSFPReviewLabel,"LAST GENERAL REVIEW",LastGeneralReview
+2,French,bmkSFPReviewLabel,"DERNIERE REVISION GENERALE",LastGeneralReview
+3,Slovak,bmkSFPReviewLabel,"POSLEDNÁ VŠEOBECNÁ KONTROLA",LastGeneralReview
+4,Italian,bmkSFPReviewLabel,"ULTIMA REVISIONE GENERALE",LastGeneralReview
+5,Polish,bmkSFPReviewLabel,"OSTATNI PRZEGLĄD OGÓLNY",LastGeneralReview
+6,German,bmkSFPReviewLabel,"LETZTE GESAMTÜBERARBEITUNG",LastGeneralReview
+7,Dutch (Belgium),bmkSFPReviewLabel,"LAATSTE ALGEMENE HERZIENING",LastGeneralReview
+8,French (Belgium),bmkSFPReviewLabel,"DERNIERE REVISION GENERALE",LastGeneralReview
+9,Czech,bmkSFPReviewLabel,"POSLEDNÍ POSOUZENÍ",LastGeneralReview
+10,Dutch,bmkSFPReviewLabel,"LAATSTE ALGEMENE HERZIENING",LastGeneralReview
+11,Hungarian,bmkSFPReviewLabel,"UTOLSÓ ÁLTALÁNOS FELÜLVIZSGÁLAT",LastGeneralReview
+12,Spanish,bmkSFPReviewLabel,"ÚLTIMA REVISIÓN LEGAL",LastGeneralReview
+13,Russian,bmkSFPReviewLabel,"ДАТА ПОСЛЕДНЕЙ РЕДАКЦИИ",LastGeneralReview
+14,English (US),bmkSFPReviewLabel,"LAST GENERAL REVIEW",LastGeneralReview
+15,English (AUS),bmkSFPReviewLabel,"LAST GENERAL REVIEW",LastGeneralReview
+16,Greek,bmkSFPReviewLabel,"ΤΕΛΕΥΤΑΙΑ ΣΥΝΟΛΙΚΗ ΑΝΑΣΚΟΠΗΣΗ",LastGeneralReview
+17,Portuguese (Brazil),bmkSFPReviewLabel,"ÚLTIMA REVISÃO GERAL",LastGeneralReview
+18,Turkish,bmkSFPReviewLabel,"SON GENEL KONTROL",LastGeneralReview
+19,Vietnamese,bmkSFPReviewLabel,"XEM XÉT LầN CUốI",LastGeneralReview
+1,English (UK),Clause,"Clause",Clause
+2,French,Clause,"Clause",Clause
+3,Slovak,Clause,"Clause",Clause
+4,Italian,Clause,"Clause",Clause
+5,Polish,Clause,"Clause",Clause
+6,German,Clause,"Klausel",Clause
+7,Dutch (Belgium),Clause,"Clause",Clause
+8,French (Belgium),Clause,"Clause",Clause
+9,Czech,Clause,"Clause",Clause
+10,Dutch,Clause,"Clause",Clause
+11,Hungarian,Clause,"Szakasz",Clause
+12,Spanish,Clause,"Clause",Clause
+13,Russian,Clause,"Статья",Clause
+14,English (US),Clause,"Clause",Clause
+15,English (AUS),Clause,"Clause",Clause
+16,Greek,Clause,"Clause",Clause
+17,Portuguese (Brazil),Clause,"Cláusula",Clause
+18,Turkish,Clause,"Madde",Clause
+19,Vietnamese,Clause,"Điều khoản",Clause
+1,English (UK),Page,"Page",Page
+2,French,Page,"Page",Page
+3,Slovak,Page,"Page",Page
+4,Italian,Page,"Page",Page
+5,Polish,Page,"Page",Page
+6,German,Page,"Seite",Page
+7,Dutch (Belgium),Page,"Page",Page
+8,French (Belgium),Page,"Page",Page
+9,Czech,Page,"Page",Page
+10,Dutch,Page,"Pagina",Page
+11,Hungarian,Page,"Oldal",Page
+12,Spanish,Page,"Page",Page
+13,Russian,Page,"Страница",Page
+14,English (US),Page,"Page",Page
+15,English (AUS),Page,"Page",Page
+16,Greek,Page,"Σελίδα",Page
+17,Portuguese (Brazil),Page,"Página",Page
+18,Turkish,Page,"Sayfa",Page
+19,Vietnamese,Page,"Trang",Page
+1,English (UK),ScheduleHeading,"Schedule",ScheduleHeading
+2,French,ScheduleHeading,"Schedule",ScheduleHeading
+3,Slovak,ScheduleHeading,"Schedule",ScheduleHeading
+4,Italian,ScheduleHeading,"Schedule",ScheduleHeading
+5,Polish,ScheduleHeading,"Schedule",ScheduleHeading
+6,German,ScheduleHeading,"Anlage",ScheduleHeading
+7,Dutch (Belgium),ScheduleHeading,"Schedule",ScheduleHeading
+8,French (Belgium),ScheduleHeading,"Schedule",ScheduleHeading
+9,Czech,ScheduleHeading,"Schedule",ScheduleHeading
+10,Dutch,ScheduleHeading,"Schedule",ScheduleHeading
+11,Hungarian,ScheduleHeading,"Melléklet",ScheduleHeading
+12,Spanish,ScheduleHeading,"Schedule",ScheduleHeading
+13,Russian,ScheduleHeading,"Приложения",ScheduleHeading
+14,English (US),ScheduleHeading,"Schedule",ScheduleHeading
+15,English (AUS),ScheduleHeading,"Schedule",ScheduleHeading
+16,Greek,ScheduleHeading,"Παράρτημα",ScheduleHeading
+17,Portuguese (Brazil),ScheduleHeading,"Anexo",ScheduleHeading
+18,Turkish,ScheduleHeading,"Ek",ScheduleHeading
+19,Vietnamese,ScheduleHeading,"Phụ lục",ScheduleHeading
+1,English (UK),AppendixHeading,"Appendix",AppendixHeading
+2,French,AppendixHeading,"Appendice",AppendixHeading
+3,Slovak,AppendixHeading,"Príloha",AppendixHeading
+4,Italian,AppendixHeading,"Appendice",AppendixHeading
+5,Polish,AppendixHeading,"Załączony Dokument",AppendixHeading
+6,German,AppendixHeading,"Anlage",AppendixHeading
+7,Dutch (Belgium),AppendixHeading,"Appendix",AppendixHeading
+8,French (Belgium),AppendixHeading,"Appendice",AppendixHeading
+9,Czech,AppendixHeading,"Příloha",AppendixHeading
+10,Dutch,AppendixHeading,"Aanhangsel",AppendixHeading
+11,Hungarian,AppendixHeading,"Függelék",AppendixHeading
+12,Spanish,AppendixHeading,"Anexo",AppendixHeading
+13,Russian,AppendixHeading,"Приложение Второго Уровня",AppendixHeading
+14,English (US),AppendixHeading,"Appendix",AppendixHeading
+15,English (AUS),AppendixHeading,"Appendix",AppendixHeading
+16,Greek,AppendixHeading,"Παράρτημα",AppendixHeading
+17,Portuguese (Brazil),AppendixHeading,"Apêndice",AppendixHeading
+18,Turkish,AppendixHeading,"Ek",AppendixHeading
+19,Vietnamese,AppendixHeading,"Phụ lục",AppendixHeading
+1,English (UK),AnnexHeading,"Annex",AnnexHeading
+2,French,AnnexHeading,"Annexe",AnnexHeading
+3,Slovak,AnnexHeading,"Príloha",AnnexHeading
+4,Italian,AnnexHeading,"Allegato",AnnexHeading
+5,Polish,AnnexHeading,"Aneks",AnnexHeading
+6,German,AnnexHeading,"Anlage",AnnexHeading
+7,Dutch (Belgium),AnnexHeading,"Annex",AnnexHeading
+8,French (Belgium),AnnexHeading,"Annexe",AnnexHeading
+9,Czech,AnnexHeading,"Příloha",AnnexHeading
+10,Dutch,AnnexHeading,"Bijlage",AnnexHeading
+11,Hungarian,AnnexHeading,"Melléklet",AnnexHeading
+12,Spanish,AnnexHeading,"Anexo",AnnexHeading
+13,Russian,AnnexHeading,"Дополнение",AnnexHeading
+14,English (US),AnnexHeading,"Annex",AnnexHeading
+15,English (AUS),AnnexHeading,"Annex",AnnexHeading
+16,Greek,AnnexHeading,"Παράρτημα",AnnexHeading
+17,Portuguese (Brazil),AnnexHeading,"Anexo",AnnexHeading
+18,Turkish,AnnexHeading,"Ek",AnnexHeading
+19,Vietnamese,AnnexHeading,"Phụ lục",AnnexHeading
+13,Russian,SignatoryHeading,"Подписи сторон",SignatoryHeading
+16,Greek,SignatoryHeading,"Υπογράφων",SignatoryHeading
+17,Portuguese (Brazil),SignatoryHeading,"Signatário",SignatoryHeading
+18,Turkish,SignatoryHeading,"İmzalayan",SignatoryHeading
+19,Vietnamese,SignatoryHeading,"Chữ ký",SignatoryHeading
+6,German,Chapter,"Kapitel",Chapter
+1,English (UK),PlaintiffFemale,"Plaintiff",PlaintiffFemale
+6,German,PlaintiffFemale,"Klägerin",PlaintiffFemale
+1,English (UK),PlaintiffMale,"Plaintiff",PlaintiffMale
+6,German,PlaintiffMale,"Kläger",PlaintiffMale
+1,English (UK),DefendantFemale,"Defendant",DefendantFemale
+6,German,DefendantFemale,"Beklagte",DefendantFemale
+1,English (UK),DefendantMale,"Defendant",DefendantMale
+6,German,DefendantMale,"Beklagter",DefendantMale
+1,English (UK),FaxHeaderLabel,"FAX MESSAGE",FaxHeaderLabel
+2,French,FaxHeaderLabel,"TÉLÉCOPIE",FaxHeaderLabel
+3,Slovak,FaxHeaderLabel,"FAXOVÁ SPRÁVA",FaxHeaderLabel
+4,Italian,FaxHeaderLabel,"FAX",FaxHeaderLabel
+5,Polish,FaxHeaderLabel,"TELEFAKS",FaxHeaderLabel
+6,German,FaxHeaderLabel,"TELEFAX",FaxHeaderLabel
+7,Dutch (Belgium),FaxHeaderLabel,"FAXBERICHT",FaxHeaderLabel
+8,French (Belgium),FaxHeaderLabel,"TÉLÉCOPIE",FaxHeaderLabel
+9,Czech,FaxHeaderLabel,"FAXOVÁ ZPRÁVA",FaxHeaderLabel
+10,Dutch,FaxHeaderLabel,"FAX",FaxHeaderLabel
+11,Hungarian,FaxHeaderLabel,"FAX ÜZENET",FaxHeaderLabel
+12,Spanish,FaxHeaderLabel,"FAX",FaxHeaderLabel
+13,Russian,FaxHeaderLabel,"ФАКС",FaxHeaderLabel
+14,English (US),FaxHeaderLabel,"FAX MESSAGE",FaxHeaderLabel
+15,English (AUS),FaxHeaderLabel,"FAX MESSAGE",FaxHeaderLabel
+16,Greek,FaxHeaderLabel,"ΜΗΝΥΜΑ ΦΑΞ",FaxHeaderLabel
+17,Portuguese (Brazil),FaxHeaderLabel,"MENSAGEM DE FAX",FaxHeaderLabel
+18,Turkish,FaxHeaderLabel,"FAKS",FaxHeaderLabel
+19,Vietnamese,FaxHeaderLabel,"THU TÍN",FaxHeaderLabel
+1,English (UK),MemoLabel,"MEMORANDUM",MemoLabel
+2,French,MemoLabel,"NOTE",MemoLabel
+3,Slovak,MemoLabel,"MEMORANDUM",MemoLabel
+4,Italian,MemoLabel,"PROMEMORIA",MemoLabel
+5,Polish,MemoLabel,"MEMORANDUM",MemoLabel
+6,German,MemoLabel,"MEMORANDUM",MemoLabel
+7,Dutch (Belgium),MemoLabel,"MEMORANDUM",MemoLabel
+8,French (Belgium),MemoLabel,"Memorandum",MemoLabel
+9,Czech,MemoLabel,"MEMORANDUM",MemoLabel
+10,Dutch,MemoLabel,"Memorandum",MemoLabel
+12,Spanish,MemoLabel,"MEMORANDUM",MemoLabel
+13,Russian,MemoLabel,"МЕМОРАНДУМ",MemoLabel
+14,English (US),MemoLabel,"MEMORANDUM",MemoLabel
+15,English (AUS),MemoLabel,"MEMORANDUM",MemoLabel
+16,Greek,MemoLabel,"ΥΠΟΜΝΗΜΑ",MemoLabel
+17,Portuguese (Brazil),MemoLabel,"MEMORANDUM",MemoLabel
+18,Turkish,MemoLabel,"Bilgi Notu",MemoLabel
+19,Vietnamese,MemoLabel,"Bản ghi nhớ",MemoLabel
+1,English (UK),AttendLabel,"Attendance Note",AttendLabel
+2,French,AttendLabel,"Compte-rendu",AttendLabel
+3,Slovak,AttendLabel,"Záznam z rokovania",AttendLabel
+4,Italian,AttendLabel,"Verbale",AttendLabel
+5,Polish,AttendLabel,"Protokół ze spotkania",AttendLabel
+6,German,AttendLabel,"GESPRÄCHSNOTIZ",AttendLabel
+7,Dutch (Belgium),AttendLabel,"Verslag",AttendLabel
+8,French (Belgium),AttendLabel,"Compte-rendu",AttendLabel
+9,Czech,AttendLabel,"Zápis z jednání",AttendLabel
+11,Hungarian,AttendLabel,"Jegyzőkönyv",AttendLabel
+12,Spanish,AttendLabel,"Nota de asistencia",AttendLabel
+13,Russian,AttendLabel,"Отчет о встрече",AttendLabel
+14,English (US),AttendLabel,"Attendance Note",AttendLabel
+15,English (AUS),AttendLabel,"Attendance note",AttendLabel
+16,Greek,AttendLabel,"Πρακτικα Συναντησης",AttendLabel
+17,Portuguese (Brazil),AttendLabel,"ATA DE REUNIÃO",AttendLabel
+18,Turkish,AttendLabel,"KATILIM NOTU",AttendLabel
+19,Vietnamese,AttendLabel,"Lưu ý về những người tham gia vụ việc",AttendLabel
+10,Dutch,bmkOffices,"Allen & Overy LLP of een daarmee verbonden kantoor heeft vestigingen in de volgende steden: Abu Dhabi, Amsterdam, Antwerpen, Athene, Bangkok, Belfast, Boedapest, Boekarest (verbonden kantoor), Bratislava, Brussel, Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho Chi Minhstad, Hongkong, Istanbul, Jakarta (verbonden kantoor), Londen, Luxemburg, Madrid, Mannheim, Milaan, Moskou, München, New York, Parijs, Peking, Perth, Praag, Riyad (verbonden kantoor), Rome, São Paulo, Shanghai, Singapore, Sydney, Tokio, Warschau en Washington, D.C.",OfficesList
+7,Dutch (Belgium),bmkOffices,"Allen & Overy LLP of een daarmee verbonden kantoor heeft vestigingen in de volgende steden: Abu Dhabi, Amsterdam, Antwerpen, Athene, Bangkok, Belfast, Boedapest, Boekarest (geassocieerd kantoor), Bratislava, Brussel, Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho Chi Minhstad, Hongkong, Istanbul, Jakarta (verbonden kantoor), Londen, Luxemburg, Madrid, Mannheim, Milaan, Moskou, München, New York, Parijs, Peking, Perth, Praag, Riyadh (geassocieerd kantoor), Rome, São Paulo, Shanghai, Singapore, Sydney, Tokio, Warschau en Washington, D.C.",OfficesList
+15,English (AUS),bmkOffices,"Allen & Overy LLP or an affiliated undertaking has an office in each of: Abu Dhabi, Amsterdam, Antwerp, Athens, Bangkok, Beijing, Belfast, Bratislava, Brussels, Bucharest (associated office), Budapest, Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho Chi Minh City, Hong Kong, Istanbul, Jakarta (associated office), London, Luxembourg, Madrid, Mannheim, Milan, Moscow, Munich, New York, Paris, Perth, Prague, Riyadh (associated office), Rome, São Paulo, Shanghai, Singapore, Sydney, Tokyo, Warsaw and Washington, D.C.",OfficesList
+1,English (UK),bmkOffices," ",OfficesList
+1,English (UK),bmkOffices,"Allen & Overy LLP or an affiliated undertaking has an office in each of: Abu Dhabi, Amsterdam, Antwerp, Athens, Bangkok, Beijing, Belfast, Bratislava, Brussels, Bucharest (associated office), Budapest, Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho Chi Minh City, Hong Kong, Istanbul, Jakarta (associated office), London, Luxembourg, Madrid, Mannheim, Milan, Moscow, Munich, New York, Paris, Perth, Prague, Riyadh (associated office), Rome, São Paulo, Shanghai, Singapore, Sydney, Tokyo, Warsaw and Washington, D.C.",OfficesList
+14,English (US),bmkOffices,"Allen & Overy LLP or an affiliated undertaking has an office in each of: Abu Dhabi, Amsterdam, Antwerp, Athens, Bangkok, Beijing, Belfast, Bratislava, Brussels, Bucharest (associated office), Budapest, Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho Chi Minh City, Hong Kong, Istanbul, Jakarta (associated office), London, Luxembourg, Madrid, Mannheim, Milan, Moscow, Munich, New York, Paris, Perth, Prague, Riyadh (associated office), Rome, São Paulo, Shanghai, Singapore, Sydney, Tokyo, Warsaw and Washington, D.C.",OfficesList
+2,French,bmkOffices,"Bureaux d'Allen & Overy LLP ou de ses entités affiliées: Abou Dabi, Amsterdam, Anvers, Athènes, Bangkok, Beijing, Belfast, Bratislava, Bruxelles, Bucarest (cabinet partenaire), Budapest, Casablanca, Doha, Dubaï, Düsseldorf, Francfort, Hambourg, Hanoi, Ho Chi Minh, Hong Kong, Istanbul, Jakarta (cabinet partenaire), Londres, Luxembourg, Madrid, Mannheim, Milan, Moscou, Munich, New York, Paris, Perth, Prague, Riyad (cabinet partenaire), Rome, São Paulo, Shanghai, Singapour, Sydney, Tokyo, Varsovie et Washington, D.C.",OfficesList
+8,French (Belgium),bmkOffices,"Bureaux d'Allen & Overy LLP ou de ses entités affiliées: Abou Dhabi, Amsterdam, Anvers, Athènes, Bangkok, Beijing, Belfast, Bratislava, Bruxelles, Bucarest (bureau associé), Budapest, Casablanca, Doha, Dubaï, Düsseldorf, Francfort, Hambourg, Hanoi, Ho Chi Minh, Hong Kong, Istanbul, Jakarta (bureau associé), Londres, Luxembourg, Madrid, Mannheim, Milan, Moscou, Munich, New York, Paris, Perth, Prague, Riyad (bureau associé), Rome, São Paulo, Shanghai, Singapour, Sydney, Tokyo, Varsovie et Washington, D.C.",OfficesList
+6,German,bmkOffices,"Die Allen & Overy LLP oder ein Mitglied des Allen & Overy-Verbundes unterhalten Büros in: Abu Dhabi, Amsterdam, Antwerpen, Athen, Bangkok, Belfast, Bratislava, Brüssel, Budapest, Bukarest (assoziiertes Büro), Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho-Chi-Minh-Stadt, Hongkong, Istanbul, Jakarta (assoziiertes Büro), London, Luxemburg, Madrid, Mailand, Mannheim, Moskau, München, New York, Paris, Peking, Perth, Prag, Riad (assoziiertes Büro), Rom, Sao Paulo, Schanghai, Singapur, Sydney, Tokio, Warschau und Washington, D.C.",OfficesList
+16,Greek,bmkOffices,"Allen & Overy LLP ή η συνεργαζόμενη εταιρεία έχει γραφείο σε: Αθήνα, Αμβέρσα,Αμβούργο Αμπού Ντάμπι, Άμστερνταμ, Ανόι, Βαρσοβία, Βουδαπέστη, Βουκουρέστι (συνεργαζόμενο γραφείο), Βρυξέλλες, Ιστανμπούλ, Καζαμπλάνκα, Λονδίνο, Λουξεμβούργο, Μαδρίτη, Μάνχαϊμ, Μιλάνο Μόναχο Μόσχα, Μπανγκόκ, Μπέλφαστ, Μπρατισλάβα, Νέα Υόρκη, Ντουμπάϊ, Ντόχα, Ντίσελντορφ, Ουάσινγκτον, Παρίσι, Πεκίνο, Περθ, Πράγα, Ριάντ (συνεργαζόμενο γραφείο), Ρώμη, Σαγκάη, Σάο Πάολο, Σιγκαπούρη, Σίδνευ, Τζακάρτα (συνεργαζόμενο γραφείο), Τόκυο, Φρανκφούρτη, Χόνγκ-Κόνγκ, Χο Τσι Μινχ.",OfficesList
+11,Hungarian,bmkOffices,"Az Allen & Overy LLP vagy valamely társult irodája a következő városokban működik: Abu Dhabi, Amszterdam, Antwerpen, Athén, Bangkok, Belfast, Brüsszel, Budapest, Bukarest (társiroda), Casablanca, Doha, Dubai, Düsseldorf, Frankfurt, Hamburg, Hanoi, Ho Si Minh-város, Hong Kong, Isztambul, Jakarta (társiroda), London, Luxemburg, Madrid, Mannheim, Milánó, Moszkva, München, New York, Párizs, Peking, Perth, Pozsony, Prága, Rijád (társiroda), Róma, Sanghaj, São Paulo, Szingapúr, Sydney, Tokió, Varsó, Washington.",OfficesList
+4,Italian,bmkOffices,"Allen & Overy LLP o associazioni collegate sono presenti con un proprio ufficio in ciascuna delle seguenti località: Abu Dhabi, Amburgo, Amsterdam, Anversa, Atene, Bangkok, Belfast, Bratislava, Bruxelles, Bucarest (Ufficio Associato), Budapest, Casablanca, Doha, Dubai, Düsseldorf, Francoforte, Giacarta (Ufficio Associato), Hanoi, Ho Chi Minh, Hong Kong, Istanbul, Londra, Lussemburgo, Madrid, Mannheim, Milano, Mosca, Monaco di Baviera, New York, Parigi, Pechino, Perth, Praga, Riyadh (Ufficio Associato), Roma, San Paolo, Shanghai, Singapore, Sydney, Tokyo, Varsavia, Washington, D.C.",OfficesList
+5,Polish,bmkOffices,"Allen & Overy LLP lub jej jednostki stowarzyszone posiadają biura w następujących miastach: Abu Zabi, Amsterdam, Antwerpia, Ateny, Bangkok, Belfast, Bratysława, Bruksela, Budapeszt, Bukareszt (jednostka stowarzyszona), Casablanca, Doha, Dubaj, Düsseldorf, Dżakarta (jednostka stowarzyszona), Frankfurt, Hamburg, Hanoi, Ho Chi Minh, Hong Kong, Londyn, Luksemburg, Madryt, Mannheim, Mediolan, Moskwa, Monachium, Nowy Jork, Paryż, Pekin, Perth, Praga, Rijad (jednostka stowarzyszona), Rzym, São Paulo, Singapur, Stambuł, Sydney, Szanghaj, Tokio, Warszawa, Waszyngton.",OfficesList
+17,Portuguese (Brazil),bmkOffices,"Allen & Overy LLP ou uma de suas afiliadas tem escritório em cada uma das seguintes cidades: Abu Dhabi, Amsterdam, Antuérpia, Atenas, Bangkok, Belfast, Bratislava, Bruxelas, Bucareste (escritório associado), Budapeste, Casablanca, Cidade de Ho Chi Minh, Doha, Dubai, Dusseldorf, Frankfurt, Hamburgo, Hanói, Hong Kong, Istambul, Jacarta (escritório associado), Londres, Luxemburgo, Madri, Mannheim, Milão, Moscou, Munique, Nova York, Paris, Pequim, Perth, Praga, Riade (escritório associado), Roma, São Paulo, Xangai, Cingapura, Sydney, Tóquio, Varsóvia e Washington, D.C.",OfficesList
+13,Russian,bmkOffices,"Аллен энд Овери ЛЛП или аффилированные предприятия Аллен энд Овери ЛЛП имеют представительства в Абу-Даби, Амстердаме, Антверпене, Aфинах (представительство), Бангкоке, Белфасте, Братиславе, Брюсселе, Будапеште, Бухаресте (ассоциированный офис), Варшаве, Вашингтоне (округ Колумбия), Гамбурге, Гонконге,  Джакарте (ассоциированный офис), Дохе, Дубае, Дюссельдорфе, Касабланке, Лондоне, Люксембурге, Мадриде, Мангейме, Милане, Москве, Мюнхене, Нью-Йорке, Париже, Пекине, Перте, Праге, Риме, Стамбуле, Сингапуре, Сан-Паулу, Сиднее, Токио, Франкфурте, Ханой, Хошимин, Шанхае, Эр-Рияде (ассоциированный офис).",OfficesList
+3,Slovak,bmkOffices,"Allen & Overy LLP alebo jeho pridružený podnik má kanceláriu v každom z nasledovných miest: Abú Dhabí, Amsterdam, Antverpy, Atény, Bangkok, Belfast, Bratislava, Brusel, Budapešť, Bukurešť (pridružená kancelária), Casablanca, Doha, Dubaj, Düsseldorf, Frankfurt, Hamburg, Hanoj, Hočiminove mesto, Hong Kong, Istanbul, Jakarta (pridružená kancelária), Londýn, Luxemburg, Madrid, Mannheim, Miláno, Moskva, Mnichov, New York, Paríž, Peking, Perth, Praha, Rím, Rijád (pridružená kancelária), Šanghaj, Sao Paulo, Singapúr, Sydney, Tokio, Varšava, Washington.",OfficesList
+12,Spanish,bmkOffices,"Allen & Overy LLP o alguna de sus entidades asociadas tiene una oficina en cada una de las siguientes ciudades: Abu Dhabi, Amberes, Amsterdam, Atenas, Bangkok, Beijing, Belfast, Bratislava, Bruselas, Bucarest (Oficina Asociada), Budapest, Casablanca, Doha, Dubai, Düsseldorf, Estambul, Francfort, Hamburgo, Hanói, Ciudad Ho Chi Minh, Hong Kong, Londres, Luxemburgo, Madrid, Mannheim, Milán, Moscú, Múnich, Nueva York, París, Perth, Praga, Riyadh (Oficina Asociada), Roma, São Paulo, Shanghai, Singapur, Sydney, Tokio, Varsovia, Washington, D.C. y Yakarta (Oficina Asociada).",OfficesList
+18,Turkish,bmkOffices," ",OfficesList
+18,Turkish,bmkOffices,"To be provided. ",OfficesList
+19,Vietnamese,bmkOffices,"Công ty Luật TNHH Allen & Overy hoặc các công ty liên kết của Allen & Overy có trụ sở tại các thành phố sau: Abu Dhabi, Amsterdam, Antwerp, Băng Cốc, Bắc Kinh, Bratislava, Brussels, Bu-ca-ret (Văn phòng liên kết), Bu-đa-pet, Doha, Dubai, Dusseldort, Frankfurt, Hamburg, Hà Nội, Hồ Chí Minh, Hồng Kông, Luân Đôn, Luc-xem-bua, Madrid, Milan, Moscow, Munich, New York, Paris, Prague, Riyadh (văn phòng liên kết), Rome, San-pao-lô, Thượng Hải, Singapore, Sydney, Tokyo và Warsaw.",OfficesList

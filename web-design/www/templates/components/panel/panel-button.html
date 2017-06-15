@@ -1,0 +1,17 @@
+<a href="{{link}}" class="btn-select-report btn-select-report-default fill-parent">
+    <div style="height:90px;"><h2>{{name}}</h2></div>
+    <div class="push-to-bottom-of-parent report-status-wrapper">
+
+        <div class="report-status">
+            <ng-switch on="status">
+                <span ng-switch-when="1"><i class="icon-remove-sign"></i></span>
+                <span ng-switch-when="2"><i class="icon-spinner icon-spin"></i></span>
+                <span ng-switch-when="3"><i class="icon-ok-sign"></i></span>
+
+                <span ng-switch-default style="font-size:20px;">Something is wrong!</span>
+            </ng-switch>
+        </div>
+
+
+    </div>
+</a>

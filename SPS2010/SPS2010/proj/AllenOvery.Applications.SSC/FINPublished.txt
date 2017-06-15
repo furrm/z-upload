@@ -1,0 +1,1 @@
+<body>	<p>Dear all,</p>	<p>The {month} Finance ({country}) Dashboard is now available.<br/>Please click <a href="{reportURL}">here</a> to view it or older dashboards.</p>	<p>Please contact <a href="mailto:{replyToEmail}">{replyToName}</a> with any queries.</p></body>

@@ -1,0 +1,247 @@
+﻿LanguageID,LanguageName,PicklistName,Translation,Name
+1,English (UK),Delivery,"BY COURIER",Delivery
+1,English (UK),Delivery,"BY FAX",Delivery
+1,English (UK),Delivery,"BY FAX & BY POST",Delivery
+1,English (UK),Delivery,"BY REGISTERED AIR MAIL",Delivery
+1,English (UK),Delivery,"DRAFT",Delivery
+1,English (UK),Delivery,"PERSONAL",Delivery
+1,English (UK),Delivery,"STRICTLY PRIVATE & CONFIDENTIAL",Delivery
+1,English (UK),Delivery,"SUBJECT TO CONTRACT",Delivery
+1,English (UK),Delivery,"TO BE OPENED BY ADDRESSEE ONLY",Delivery
+1,English (UK),Delivery,"URGENT",Delivery
+1,English (UK),Delivery,"WITHOUT PREJUDICE",Delivery
+2,French,Delivery,"EN RECOMMANDÉ",Delivery
+2,French,Delivery,"EN RECOMMANDÉ AVEC ACCUSÉ DE RÉCEPTION",Delivery
+2,French,Delivery,"MERCI DE CONTACTER LE DESTINATAIRE DE CETTE TÉLÉCOPIE DÈS RÉCEPTION",Delivery
+2,French,Delivery,"MERCI DE TRANSMETTRE À TOUS LES DESTINATAIRES DE CETTE TÉLÉCOPIE",Delivery
+2,French,Delivery,"PAR COURSIER",Delivery
+2,French,Delivery,"PAR TÉLÉCOPIE",Delivery
+2,French,Delivery,"PAR TÉLÉCOPIE ET PAR COURRIER",Delivery
+2,French,Delivery,"PERSONNEL",Delivery
+2,French,Delivery,"PROJET",Delivery
+2,French,Delivery,"STRICTEMENT CONFIDENTIEL",Delivery
+2,French,Delivery,"URGENT",Delivery
+3,Slovak,Delivery,"DO VLASTNÝCH RÚK",Delivery
+3,Slovak,Delivery,"DOPORUČENOU LETECKOU POŠTOU",Delivery
+3,Slovak,Delivery,"FAXOM",Delivery
+3,Slovak,Delivery,"FAXOM A POŠTOU",Delivery
+3,Slovak,Delivery,"KONCEPT",Delivery
+3,Slovak,Delivery,"KURIÉROM",Delivery
+3,Slovak,Delivery,"NA ZÁKLADE ZMLUVY",Delivery
+3,Slovak,Delivery,"OBJEKTÍVNE",Delivery
+3,Slovak,Delivery,"OSOBNÉ",Delivery
+3,Slovak,Delivery,"PRÍSNE SÚKROMNÉ A DÔVERNÉ",Delivery
+3,Slovak,Delivery,"SÚRNE",Delivery
+4,Italian,Delivery,"ANTICIPATO VIA FAX - ORIGINALE SEGUIRÀ A MEZZO POSTA",Delivery
+4,Italian,Delivery,"BOZZA",Delivery
+4,Italian,Delivery,"PER LETTERA RACCOMANDATA",Delivery
+4,Italian,Delivery,"PERSONALE",Delivery
+4,Italian,Delivery,"PERSONALE - RISERVATO",Delivery
+4,Italian,Delivery,"RACCOMANDATA A.R.",Delivery
+4,Italian,Delivery,"RISERVATO AL COLLEGA",Delivery
+4,Italian,Delivery,"S.P.M.",Delivery
+4,Italian,Delivery,"URGENTE",Delivery
+4,Italian,Delivery,"VIA CORRIERE",Delivery
+4,Italian,Delivery,"VIA FAX",Delivery
+5,Polish,Delivery,"BEZ OGRANICZEŃ",Delivery
+5,Polish,Delivery,"DOTYCZY TRANSAKCJI",Delivery
+5,Polish,Delivery,"FAKSEM",Delivery
+5,Polish,Delivery,"FAKSEM I POCZTĄ",Delivery
+5,Polish,Delivery,"KURIEREM",Delivery
+5,Polish,Delivery,"LISTEM POLECONYM",Delivery
+5,Polish,Delivery,"PILNE",Delivery
+5,Polish,Delivery,"POUFNE",Delivery
+5,Polish,Delivery,"PROJEKT",Delivery
+5,Polish,Delivery,"PRYWATNE",Delivery
+5,Polish,Delivery,"WYŁĄCZNIE DO WIADOMOŚCI ADRESATA",Delivery
+6,German,Delivery,"DRINGEND",Delivery
+6,German,Delivery,"EINSCHREIBEN",Delivery
+6,German,Delivery,"ENTWURF",Delivery
+6,German,Delivery,"NUR VOM EMPFÄNGER ZU ÖFFNEN",Delivery
+6,German,Delivery,"PER FAX",Delivery
+6,German,Delivery,"PER FAX UND POST",Delivery
+6,German,Delivery,"PER KURIER",Delivery
+6,German,Delivery,"PERSÖNLICH",Delivery
+6,German,Delivery,"STRENG VERTRAULICH",Delivery
+6,German,Delivery,"UNTER VORBEHALT",Delivery
+6,German,Delivery,"UNVERBINDLICH",Delivery
+7,Dutch (Belgium),Delivery,"CONFIDENTIEL",Delivery
+7,Dutch (Belgium),Delivery,"DRAFT",Delivery
+7,Dutch (Belgium),Delivery,"ENKEL TE OPENEN DOOR DE GEADRESSEERDE",Delivery
+7,Dutch (Belgium),Delivery,"HOOGDRINGEND",Delivery
+7,Dutch (Belgium),Delivery,"ONDER CONTRACT",Delivery
+7,Dutch (Belgium),Delivery,"PER AANGETEKEND SCHRIJVEN",Delivery
+7,Dutch (Belgium),Delivery,"PER FAX",Delivery
+7,Dutch (Belgium),Delivery,"PER FAX EN POST",Delivery
+7,Dutch (Belgium),Delivery,"PER KOERIER",Delivery
+7,Dutch (Belgium),Delivery,"PERSOONLIJK",Delivery
+7,Dutch (Belgium),Delivery,"VERTROUWELIJK",Delivery
+8,French (Belgium),Delivery,"A OUVRIR UNIQUEMENT PAR LE DESTINATAIRE",Delivery
+8,French (Belgium),Delivery,"CONFIDENTIEL",Delivery
+8,French (Belgium),Delivery,"EN RECOMMANDÉ",Delivery
+8,French (Belgium),Delivery,"PAR COURSIER",Delivery
+8,French (Belgium),Delivery,"PAR TÉLÉCOPIE",Delivery
+8,French (Belgium),Delivery,"PAR TÉLÉCOPIE ET PAR COURRIER",Delivery
+8,French (Belgium),Delivery,"PERSONNEL",Delivery
+8,French (Belgium),Delivery,"PROJET",Delivery
+8,French (Belgium),Delivery,"SOUS-RÉSERVE DE CONTRAT",Delivery
+8,French (Belgium),Delivery,"STRICTEMENT CONFIDENTIEL",Delivery
+8,French (Belgium),Delivery,"URGENT",Delivery
+9,Czech,Delivery,"ANIŽ BY TÍM BYLO DOTČENO",Delivery
+9,Czech,Delivery,"DO VLASTNÍCH RUKOU",Delivery
+9,Czech,Delivery,"DOPORUČENĚ LETECKY",Delivery
+9,Czech,Delivery,"FAXEM",Delivery
+9,Czech,Delivery,"FAXEM A POŠTOU",Delivery
+9,Czech,Delivery,"KURÝREM",Delivery
+9,Czech,Delivery,"NÁVRH",Delivery
+9,Czech,Delivery,"OSOBNÍ",Delivery
+9,Czech,Delivery,"PŘÍSNĚ DŮVĚRNÉ",Delivery
+9,Czech,Delivery,"URGENTNÍ",Delivery
+9,Czech,Delivery,"V SOULADU S PODMÍNKAMI SMLOUVY",Delivery
+10,Dutch,Delivery,"AANTEKENEN",Delivery
+10,Dutch,Delivery,"AANTEKENEN (M.H.R.)",Delivery
+10,Dutch,Delivery,"CONCEPT",Delivery
+10,Dutch,Delivery,"PER FAX",Delivery
+10,Dutch,Delivery,"PER KOERIER",Delivery
+10,Dutch,Delivery,"PER LUCHTPOST",Delivery
+10,Dutch,Delivery,"PER POST & PER FAX",Delivery
+10,Dutch,Delivery,"PRIVÉ",Delivery
+10,Dutch,Delivery,"STRIKT PERSOONLIJK",Delivery
+10,Dutch,Delivery,"URGENT",Delivery
+11,Hungarian,Delivery,"AJÁNLOTT LÉGIPOSTA ÚTJÁN",Delivery
+11,Hungarian,Delivery,"FUTÁRPOSTA ÚTJÁN",Delivery
+11,Hungarian,Delivery,"KIZÁRÓLAG CÍMZETT ÁLTALI FELBONTÁSRA",Delivery
+11,Hungarian,Delivery,"MAGNÁNJELLEGŰ",Delivery
+11,Hungarian,Delivery,"NEM KORLÁTOZVA",Delivery
+11,Hungarian,Delivery,"SÜRGŐS",Delivery
+11,Hungarian,Delivery,"SZERZŐDÉS FÜGGVÉNYÉBEN",Delivery
+11,Hungarian,Delivery,"SZIGORÚAN BIZALMAS",Delivery
+11,Hungarian,Delivery,"TELEFAXON",Delivery
+11,Hungarian,Delivery,"TELEFAXON ÉS POSTÁN",Delivery
+11,Hungarian,Delivery,"TERVEZET",Delivery
+12,Spanish,Delivery,"BORRADOR",Delivery
+12,Spanish,Delivery,"CONFIDENCIAL",Delivery
+12,Spanish,Delivery,"CORREO CERTIFICADO",Delivery
+12,Spanish,Delivery,"PERSONAL",Delivery
+12,Spanish,Delivery,"POR FAX",Delivery
+12,Spanish,Delivery,"POR FAX Y CORREO",Delivery
+12,Spanish,Delivery,"POR MENSAJERO",Delivery
+12,Spanish,Delivery,"SER ABIERTO POR DESTINATARIO",Delivery
+12,Spanish,Delivery,"SIN PERJUICIO",Delivery
+12,Spanish,Delivery,"SUJETO AL CONTRATO",Delivery
+12,Spanish,Delivery,"URGENTE",Delivery
+13,Russian,Delivery,"ЗАКАЗНЫМ ПИСЬМОМ",Delivery
+13,Russian,Delivery,"ЛИЧНО",Delivery
+13,Russian,Delivery,"ЛИЧНО В РУКИ",Delivery
+13,Russian,Delivery,"ПО ФАКСУ",Delivery
+13,Russian,Delivery,"ПО ФАКСУ/ ПОЧТОЙ",Delivery
+13,Russian,Delivery,"ПРОЕКТ",Delivery
+13,Russian,Delivery,"С КУРЬЕРОМ",Delivery
+13,Russian,Delivery,"СРОЧНО",Delivery
+13,Russian,Delivery,"СТРОГО КОНФИДЕНЦИАЛЬНО",Delivery
+14,English (US),Delivery,"BY COURIER",Delivery
+14,English (US),Delivery,"BY FAX",Delivery
+14,English (US),Delivery,"BY FAX & BY POST",Delivery
+14,English (US),Delivery,"BY REGISTERED AIR MAIL",Delivery
+14,English (US),Delivery,"DRAFT",Delivery
+14,English (US),Delivery,"PERSONAL",Delivery
+14,English (US),Delivery,"STRICTLY PRIVATE & CONFIDENTIAL",Delivery
+14,English (US),Delivery,"SUBJECT TO CONTRACT",Delivery
+14,English (US),Delivery,"TO BE OPENED BY ADDRESSEE ONLY",Delivery
+14,English (US),Delivery,"URGENT",Delivery
+14,English (US),Delivery,"WITHOUT PREJUDICE",Delivery
+15,English (AUS),Delivery,"BY COURIER",Delivery
+15,English (AUS),Delivery,"BY FAX",Delivery
+15,English (AUS),Delivery,"BY FAX & BY POST",Delivery
+15,English (AUS),Delivery,"BY REGISTERED AIR MAIL",Delivery
+15,English (AUS),Delivery,"DRAFT",Delivery
+15,English (AUS),Delivery,"PERSONAL",Delivery
+15,English (AUS),Delivery,"STRICTLY PRIVATE & CONFIDENTIAL",Delivery
+15,English (AUS),Delivery,"SUBJECT TO CONTRACT",Delivery
+15,English (AUS),Delivery,"TO BE OPENED BY ADDRESSEE ONLY",Delivery
+15,English (AUS),Delivery,"URGENT",Delivery
+15,English (AUS),Delivery,"WITHOUT PREJUDICE",Delivery
+16,Greek,Delivery,"ΕΠΕΙΓΟΝ",Delivery
+16,Greek,Delivery,"ΜΕ COURIER",Delivery
+16,Greek,Delivery,"Με επιφύλαξη των δικαιωμάτων μας",Delivery
+16,Greek,Delivery,"Με Φαξ",Delivery
+16,Greek,Delivery,"Με Φαξ και ταχυδρομικώς",Delivery
+16,Greek,Delivery,"Να ανοιχτεί μόνο από τον παραλήπτη",Delivery
+16,Greek,Delivery,"ΠΡΟΣΩΠΙΚΟ",Delivery
+16,Greek,Delivery,"Συστημένη επιστολή ",Delivery
+16,Greek,Delivery,"ΣΧΕΔΙΟ",Delivery
+16,Greek,Delivery,"Υπό την αίρεση υπογραφής συμβάσεως",Delivery
+17,Portuguese (Brazil),Delivery,"A SER ABERTO SOMENTE PELO DESTINATÁRIO",Delivery
+17,Portuguese (Brazil),Delivery,"ESTRITAMENTE PRIVADO E CONFIDENCIAL",Delivery
+17,Portuguese (Brazil),Delivery,"PESSOAL",Delivery
+17,Portuguese (Brazil),Delivery,"POR CORREIO AÉREO REGISTRADO",Delivery
+17,Portuguese (Brazil),Delivery,"POR COURIER",Delivery
+17,Portuguese (Brazil),Delivery,"POR FAX",Delivery
+17,Portuguese (Brazil),Delivery,"POR FAX E PELO CORREIO",Delivery
+17,Portuguese (Brazil),Delivery,"RASCUNHO",Delivery
+17,Portuguese (Brazil),Delivery,"SEM PREJUÍZO",Delivery
+17,Portuguese (Brazil),Delivery,"SUJEITO A CONTRATO",Delivery
+17,Portuguese (Brazil),Delivery,"URGENTE",Delivery
+18,Turkish,Delivery,"Acil",Delivery
+18,Turkish,Delivery,"Faks ile",Delivery
+18,Turkish,Delivery,"Faks ve posta ile",Delivery
+18,Turkish,Delivery,"Kişiye Özel",Delivery
+18,Turkish,Delivery,"Kişiye/Kuruma Özel ve Gizli",Delivery
+18,Turkish,Delivery,"Kuryeyle",Delivery
+18,Turkish,Delivery,"Saklı Kalmak Koşuluyla",Delivery
+18,Turkish,Delivery,"Sözleşmeye Tabi",Delivery
+18,Turkish,Delivery,"Taahhütlü Hava Postası İle",Delivery
+18,Turkish,Delivery,"TASLAK",Delivery
+18,Turkish,Delivery,"Yalnızca Belirtilen Alıcı Tarafından Açılmalı",Delivery
+19,Vietnamese,Delivery,"Bản phác thảo",Delivery
+19,Vietnamese,Delivery,"Bằng đường bưu điện",Delivery
+19,Vietnamese,Delivery,"Cá nhân",Delivery
+19,Vietnamese,Delivery,"Chỉ dành cho người nhận",Delivery
+19,Vietnamese,Delivery,"Gửi bằng thư bảo đảm",Delivery
+19,Vietnamese,Delivery,"Gửi qua fax",Delivery
+19,Vietnamese,Delivery,"Gửi qua fax hay gửi đường bưu điện",Delivery
+19,Vietnamese,Delivery,"Khẩn",Delivery
+19,Vietnamese,Delivery,"Miễn trừ trách nhiệm",Delivery
+19,Vietnamese,Delivery,"Theo thỏa thuận",Delivery
+19,Vietnamese,Delivery,"Tuyệt mật",Delivery
+1,English (UK),Closing,"Kind regards",Closing
+1,English (UK),Closing,"Yours faithfully",Closing
+1,English (UK),Closing,"Yours sincerely",Closing
+2,French,Closing,"Bien cordialement",Closing
+3,Slovak,Closing,"S pozdravom,",Closing
+3,Slovak,Closing,"S úctou,",Closing
+4,Italian,Closing,"Con i migliori saluti,",Closing
+4,Italian,Closing,"Cordiali saluti,",Closing
+4,Italian,Closing,"Distinti saluti,",Closing
+5,Polish,Closing,"Łączę pozdrowienia,",Closing
+5,Polish,Closing,"Z poważaniem,",Closing
+5,Polish,Closing,"Z wyrazami szacunku,",Closing
+6,German,Closing,"Mit freundlichen Grüßen",Closing
+7,Dutch (Belgium),Closing,"Hoogachtend",Closing
+7,Dutch (Belgium),Closing,"Met de meeste hoogachting",Closing
+7,Dutch (Belgium),Closing,"Met vriendelijke groeten",Closing
+8,French (Belgium),Closing,"Bien cordialement",Closing
+9,Czech,Closing,"S pozdravem,",Closing
+9,Czech,Closing,"S úctou,",Closing
+9,Czech,Closing,"S veškerou úctou,",Closing
+10,Dutch,Closing,"Hoogachtend,",Closing
+10,Dutch,Closing,"Met vriendelijke groet,",Closing
+11,Hungarian,Closing,"Tisztelettel:",Closing
+11,Hungarian,Closing,"Üdvözlettel:",Closing
+12,Spanish,Closing,"Atentamente",Closing
+12,Spanish,Closing,"Un saludo",Closing
+13,Russian,Closing,"С уважением,",Closing
+14,English (US),Closing,"Kind regards,",Closing
+14,English (US),Closing,"Very truly yours,",Closing
+14,English (US),Closing,"Yours sincerely,",Closing
+15,English (AUS),Closing,"Kind regards",Closing
+15,English (AUS),Closing,"Yours faithfully",Closing
+15,English (AUS),Closing,"Yours sincerely",Closing
+16,Greek,Closing,"Με εκτίμηση,",Closing
+16,Greek,Closing,"Με φιλικούς χαιρετισμούς,",Closing
+16,Greek,Closing,"Μετά τιμής",Closing
+17,Portuguese (Brazil),Closing,"Atenciosamente",Closing
+18,Turkish,Closing,"Saygılarımızla",Closing
+19,Vietnamese,Closing,"Kính thư",Closing
+19,Vietnamese,Closing,"Trân trọng",Closing
+19,Vietnamese,Closing,"Trân trọng kính chào",Closing

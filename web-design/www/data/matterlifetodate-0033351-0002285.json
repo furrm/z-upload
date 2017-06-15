@@ -1,0 +1,65 @@
+{
+    "valueCollectionFees": {
+        "column": "Fees",
+        "net": "256,193.00",
+        "volumeDiscount": "-6,579.00",
+        "billed": "262,772.00",
+        "variance": "684.00",
+        "agreed": "262,088.00",
+        "variance2": "-92,469.00",
+        "standard": "354,556.00",
+        "totalWriteDown": "-91,784.00",
+        "percentage": "-25.89 %"
+    },
+    "valueCollectionEffectiveRate": {
+        "column": "Effective Rate",
+        "net": "376.15",
+        "volumeDiscount": "",
+        "billed": "385.81",
+        "variance": "",
+        "agreed": "384.80",
+        "variance2": "",
+        "standard": "520.56",
+        "totalWriteDown": "-134.76",
+        "percentage": "-25.89 %"
+    },
+    "valueCollectionHours": {
+        "column": "Hours",
+        "net": "676.57",
+        "volumeDiscount": "",
+        "billed": "676.57",
+        "variance": "",
+        "agreed": "681.10",
+        "variance2": "",
+        "standard": "",
+        "totalWriteDown": "-4.53",
+        "percentage": "-0.67 %"
+    },
+    "valueCollectionLeverage": {
+        "column": "Leverage",
+        "net": "3.03",
+        "volumeDiscount": "",
+        "billed": "",
+        "variance": "",
+        "agreed": "",
+        "variance2": "",
+        "standard": "",
+        "totalWriteDown": "",
+        "percentage": ""
+    },
+    "matterStanding": {
+        "matterId": "1111111111-2222222222",
+        "matterCurrency": "GBP",
+        "matterName": "OK - Servicing Agreement with Bedrock",
+        "clientName": "OK Something Bank, N.A",
+        "clientContact": "David A Fellowes-Freeman",
+        "matterPartner": "Benny Hill",
+        "matterManager": "Tom Jones,
+        "matterDepartment": "Muppet Department",
+        "matterOffice": "Planet Mars",
+        "matterWorkType": "Outsourcing",
+        "matterType": "Own Account",
+        "openDate": "2010-07-16",
+        "closeDate": ""
+    }
+}

@@ -1,0 +1,1 @@
+This folder is used to store a copy of the SharePoint solution files (wsp)

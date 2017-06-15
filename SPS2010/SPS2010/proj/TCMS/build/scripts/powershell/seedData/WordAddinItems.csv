@@ -1,0 +1,13 @@
+Title,ElementValue,ADGroup,Template,ChangeRecordRef
+Afrekeningen,Used for creating Statement of Accounts. Must be a member of AM_VANBRUG,TemplDevelop,1;#afrekeningen.dot,1;#RI0
+Belgium Numbering,Adds margin numbering as per requirements for Belgian offices,TemplDevelop,2;#AOBelgiumNumbering.dotm,1;#RI0
+ConversieWPt,Conversion tool for Wordperfect documents. Must be a member of AM_VANBRUG,TemplDevelop,6;#ConversieWP.dot,1;#RI0
+Defined Terms,The Defined Terms addin assists users with making a list of capitalised terms within a document,TemplDevelop,3;#AODefinedTerms.dotm,1;#RI0
+GetalConversie,Converts numbers into words. Must be a member of AM_VANBRUG,TemplDevelop,7;#GetalConversie.dot,1;#RI0
+Jaws Tools,Jaws Tools provides some additional functionality to assist users of the Jaws application,TemplDevelop,4;#AOJawsTools.dotm,1;#RI0
+Kadaster,Used for documents for the land registry. Must be a member of AM_VANBRUG,TemplDevelop,8;#Kadaster.dot,1;#RI0
+KIK,Used for documents for the land registry. Must be a member of AM_VANBRUG,TemplDevelop,9;#KIK.dotm,1;#RI0
+Margin Numbering,The Margin Numbering addin assists user with putting additional (non-paragraph) numbering in the margins,TemplDevelop,5;#AOMarginNumbering.dotm,1;#RI0
+Offerte,Bid creation template. Must be a member of AM_VANBRUG,TemplDevelop,10;#Offerte.dot,1;#RI0
+VBBalk,"Toolbar with various functionality including: Model Documents, Aflijn-menu & Wordperfect to MS Word Conversion. Must be a member of AM_VANBRUG",TemplDevelop,11;#VBBalk.dotm,1;#RI0
+WordPlus,Kaartenbak application to add autotext entries to documents. Must be a member of AM_VANBRUG,TemplDevelop,12;#WordPlus.dotm,1;#RI0

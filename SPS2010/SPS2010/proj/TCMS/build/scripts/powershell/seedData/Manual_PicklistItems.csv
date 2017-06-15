@@ -1,0 +1,38 @@
+﻿LanguageID,LanguageName,PicklistName,Translation,Name
+1,English (UK),Salutation,"Dear",Salutation
+1,English (UK),Salutation,"To Whom It May Concern",Salutation
+1,English (UK),Salutation,"Dear Sir",Salutation
+2,French,Salutation,"Chère con2ère,",Salutation
+2,French,Salutation,"Cher ami,",Salutation
+2,French,Salutation,"Cher Monsieur,",Salutation
+2,French,Salutation,"Monsieur,",Salutation
+2,French,Salutation,"Chère Madame,",Salutation
+2,French,Salutation,"Madame,",Salutation
+2,French,Salutation,"Cher Maître,",Salutation
+2,French,Salutation,"Monsieur le Président,",Salutation
+2,French,Salutation,"Monsieur le Consul,",Salutation
+2,French,Salutation,"Monsieur le Greffier,",Salutation
+2,French,Salutation,"Monsieur l'expert,",Salutation
+4,Italian,Salutation,"Caro",Salutation
+4,Italian,Salutation,"A chi di interesse",Salutation
+4,Italian,Salutation,"Egregio signore",Salutation
+5,Polish,Salutation,"Szanowny Panie",Salutation
+5,Polish,Salutation,"Szanowna Pani",Salutation
+5,Polish,Salutation,"Szanowni Państwo",Salutation
+6,German,Salutation,"Sehr geehrter Herr",Salutation
+6,German,Salutation,"Sehr geehrte 2au",Salutation
+6,German,Salutation,"Sehr geehrte Damen und Herren",Salutation
+10,Dutch,Salutation,"Empty",Salutation
+11,Hungarian,Salutation,"Tisztelt",Salutation
+11,Hungarian,Salutation,"Kedves",Salutation
+13,Russian,Salutation,"Уважаемый (-ая)",Salutation
+13,Russian,Salutation,"Для сведения заинтересованных лиц",Salutation
+13,Russian,Salutation,"เรียน",Salutation
+14,English (US),Salutation,"Dear",Salutation
+14,English (US),Salutation,"To Whom It May Concern",Salutation
+14,English (US),Salutation,"Dear Sir",Salutation
+15,English (AUS),Salutation,"Dear",Salutation
+15,English (AUS),Salutation,"To Whom It May Concern",Salutation
+15,English (AUS),Salutation,"Dear Sir",Salutation
+17,Portuguese (Brazil),Salutation,"Prezado",Salutation
+17,Portuguese (Brazil),Salutation,"Prezada",Salutation

@@ -1,0 +1,283 @@
+//imports
+//@import "../libs/kapcha-bootstrap-1.0.0/less/variables-k.less";
+
+//vars
+@vMenuWidth:300px;
+@hMenuHeight:100%;
+
+@off-canvas-nav-background: #1B1E1F;
+@off-canvas-menu-background:#333;
+@off-canvas-menu-section-title:#727272;
+
+@menu-panel-body-height: 70%;
+@menu-panel-footer-height: 50px;
+//@side-menu-background:#1B1E1F;
+
+.menu-activate-btn{
+  .btn;
+  color: @White;
+  background-color: transparent;
+  border-color: transparent;
+}
+.menu-activate-btn-default{
+  .btn-default;
+  padding: 0px;
+  color: @White;
+  background-color:transparent;
+  border-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  padding: 0px;
+}
+.menu-activate-btn-default[disabled]{
+  background-color: transparent;
+  border-color: transparent;
+}
+.menu-activate-btn-default:hover
+{
+  color: @White;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.menu-panel-body{
+  .panel-body;
+   height:   @menu-panel-body-height;
+  overflow: scroll;
+  padding:0px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.menu-panel-footer{
+  .panel-footer;
+  height:@menu-panel-footer-height;
+}
+
+//.off-canvas-navbar{
+//  height: 50px;
+//  width: 100%;
+//  padding: 10px;
+//
+//  -webkit-box-sizing: border-box;
+//  -moz-box-sizing: border-box;
+//  box-sizing: border-box;
+//}
+//
+//.off-canvas-navbar-default{
+//  display: table;
+//  vertical-align: middle;
+////  text-align: center;
+//  background-color: @off-canvas-nav-background;
+//  -webkit-box-sizing: border-box;
+//  -moz-box-sizing: border-box;
+//  box-sizing: border-box;
+//}
+//
+//.off-canvas-nav{
+//  display: table-cell;
+//  text-align: left;
+//  vertical-align: middle;
+//  background-color: transparent;
+//
+//  -webkit-box-sizing: border-box;
+//  -moz-box-sizing: border-box;
+//  box-sizing: border-box;
+//}
+//
+//.navbar-font-height{font-size: 40px;}
+
+/* General styles for all menus */
+
+.slide-menu {
+  //background: #47a3da;
+  position: fixed;
+}
+
+
+
+/* Orientation-dependent styles for the content of the menu */
+
+.slide-menu-vertical {
+  width: @vMenuWidth;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+//  background-color: @base-darken1;
+  background-color: @White;
+}
+
+.slide-menu-horizontal {
+  width: 100%;
+  height: @hMenuHeight;
+  left: 0;
+  z-index: 1000;
+  background-color: @base;
+
+  //  overflow: hidden;
+}
+
+/* Menu Sections */
+.slide-menu-section-header {
+  height: 80px;
+  color: @Black50;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: solid 1px @base;
+}
+
+/* Centering */
+.block {
+  text-align: center;
+  background: #c0c0c0;
+  border: #a0a0a0 solid 1px;
+  margin: 20px;
+}
+
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+
+  /* For visualization
+  background: #808080; width: 5px;
+  */
+}
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 15px;
+  border: #a0a0a0 solid 1px;
+  background: #f5f5f5;
+}
+
+.slide-menu-section {
+  margin-top: 10px;
+  //  padding-left: 10px;
+  //  padding-bottom: 10px;
+  padding: 10px;
+  border-bottom: solid 1px @base;
+}
+
+.slide-menu-section-title {
+  color: @Black50;
+  font-size: 20px;
+//  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.slide-menu-textbox {
+  width:80%;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.slide-menu-left {
+  left: -@vMenuWidth;
+}
+
+.slide-menu-bottom {
+  bottom: -@hMenuHeight;
+}
+
+.slide-menu-top {
+  top: -@hMenuHeight;
+}
+
+.slide-menu-left.slide-menu-open {
+  left: 0px;
+}
+
+.slide-menu-bottom.slide-menu-open {
+  bottom: 0px;
+}
+
+.slide-menu-top.slide-menu-open {
+  top: 0px;
+}
+
+/* Push classes applied to the main div */
+
+.main-push {
+  position: relative;
+  left: 0;
+  height: 100%;
+}
+
+.main-push-toright {
+  left: @vMenuWidth;
+}
+
+.main-mask {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1002;
+  background-color: black;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=70);
+}
+
+//.main-mask-menu-open {
+//  visibility: visible;
+//  left: @vMenuWidth;
+//}
+
+/* Transitions */
+
+.slide-menu,
+.main-push,
+{
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+
+.subscribed-matter
+{
+  height: 100px;
+//  border-bottom: solid 1px @Black25;
+  padding: 10px;
+  cursor: hand;
+}
+
+.subscribed-matter a {
+  color: @base-darken1;
+  text-decoration: none;
+}
+.subscribed-matter-panel{
+  .panel;
+  margin-bottom: 0px;
+//  background-color: red;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.subscribed-matter-panel-footer{
+  .panel-footer;
+  background-color: @White;
+  border-top: 1px solid #dddddd;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.menu-panel-heading{
+  .panel-heading;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

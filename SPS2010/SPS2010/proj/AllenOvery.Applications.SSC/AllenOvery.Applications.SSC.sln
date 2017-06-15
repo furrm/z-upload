@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllenOvery.Applications.SSC", "AllenOvery.Applications.SSC\AllenOvery.Applications.SSC.csproj", "{C0C00E84-7631-4E58-9289-DB3F259537AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7EE69966-F701-4366-B531-E92D1149A53D}"
+	ProjectSection(SolutionItems) = preProject
+		AllenOvery.Applications.SSC.PowerShell.CreateDiagnosticAreas.ps1 = AllenOvery.Applications.SSC.PowerShell.CreateDiagnosticAreas.ps1
+		AllenOvery.Applications.SSC.PowerShell.Deploy.ps1 = AllenOvery.Applications.SSC.PowerShell.Deploy.ps1
+		AllenOvery.Applications.SSC.PowerShell.Functions.ps1 = AllenOvery.Applications.SSC.PowerShell.Functions.ps1
+		AllenOvery.Applications.SSC.PowerShell.Notify.Functions.ps1 = AllenOvery.Applications.SSC.PowerShell.Notify.Functions.ps1
+		AllenOvery.Applications.SSC.PowerShell.Notify.ps1 = AllenOvery.Applications.SSC.PowerShell.Notify.ps1
+		AllenOvery.Applications.SSC.PowerShell.Notify.Variables.ps1 = AllenOvery.Applications.SSC.PowerShell.Notify.Variables.ps1
+		AllenOvery.Applications.SSC.PowerShell.ps1 = AllenOvery.Applications.SSC.PowerShell.ps1
+		AllenOvery.Applications.SSC.PowerShell.Variables.ps1 = AllenOvery.Applications.SSC.PowerShell.Variables.ps1
+		FINOpen.txt = FINOpen.txt
+		FINPublished.txt = FINPublished.txt
+		FINReminder.txt = FINReminder.txt
+		Fixup.ps1 = Fixup.ps1
+		OPSOpen.txt = OPSOpen.txt
+		OPSPublished.txt = OPSPublished.txt
+		OPSReminder.txt = OPSReminder.txt
+		QuestionMetrics.xso = QuestionMetrics.xso
+		SSC_20141104.xml = SSC_20141104.xml
+		SSCOpen.txt = SSCOpen.txt
+		SSCPublished.txt = SSCPublished.txt
+		SSCReminder.txt = SSCReminder.txt
+		SSCSurveys.Full.xml = SSCSurveys.Full.xml
+		SSCSurveys.xml = SSCSurveys.xml
+	EndProjectSection
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "AllenOvery.Applications.SSC.Database", "AllenOvery.Applications.SSC.Database\AllenOvery.Applications.SSC.Database.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{06B0E7CE-359A-49F0-9BBA-088AB235FCDC}"
+	ProjectSection(SolutionItems) = preProject
+		Build.proj = Build.proj
+		.build\MSBuild.Community.Tasks.dll = .build\MSBuild.Community.Tasks.dll
+		.build\MSBuild.Community.Tasks.targets = .build\MSBuild.Community.Tasks.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AllenOvery.Applications.SSC\\AllenOvery.Applications.SSC.csproj
+		SccLocalPath1 = AllenOvery.Applications.SSC
+		SccProjectUniqueName2 = AllenOvery.Applications.SSC.Database\\AllenOvery.Applications.SSC.Database.dbproj
+		SccLocalPath2 = AllenOvery.Applications.SSC.Database
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CTE|Any CPU = CTE|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DEV|Any CPU = DEV|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.CTE|Any CPU.ActiveCfg = Release (CTE)|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.CTE|Any CPU.Build.0 = Release (CTE)|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.CTE|Any CPU.Deploy.0 = Release (CTE)|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.DEV|Any CPU.Deploy.0 = DEV|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C00E84-7631-4E58-9289-DB3F259537AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.CTE|Any CPU.ActiveCfg = Release (CTE)|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.CTE|Any CPU.Build.0 = Release (CTE)|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.CTE|Any CPU.Deploy.0 = Release (CTE)|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.DEV|Any CPU.Deploy.0 = DEV|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

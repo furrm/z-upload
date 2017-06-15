@@ -1,0 +1,1 @@
+Proposed root for all SharePoint 2010 projects.

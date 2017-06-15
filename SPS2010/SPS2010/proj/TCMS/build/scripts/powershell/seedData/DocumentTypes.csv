@@ -1,0 +1,30 @@
+﻿DocumentTypeID,DocumentType,CoreTemplate
+5,Attendance Note|Attend,True
+10,Bill Narrative|BillNarr,False
+7,Bollo Court|Document,False
+42,Court Letter|Document,False
+19,Cover Sheet|Document,False
+4,Document|Document,True
+2,Fax|Fax,True
+12,Fountain Guide|Document,False
+14,HR Letter|Letter,False
+46,HR Letter (Belfast)|Letter,False
+20,ICM Special|Document,False
+13,Jaws Document|Document,False
+1,Letter|Letter,True
+16,Letter Engagement|Engage,True
+15,Litigation|Document,False
+25,Litigation Attachment|Document,False
+30,Litigation Other|Document,False
+26,Litigation Pleading Notes|Document,False
+27,Litigation Statement|Document,False
+28,Litigation Summary Proceedings|Document,False
+29,Litigation Summons|Document,False
+3,Memo|Memo,True
+18,Memo External|Memo,True
+38,Notary Deed|Document,False
+43,Pitch|Document,False
+24,SN Admin Letter|Letter,False
+44,Standalone CV|Document,False
+45,Structure Paper|Document,False
+6,Sworn Translations|Document,False

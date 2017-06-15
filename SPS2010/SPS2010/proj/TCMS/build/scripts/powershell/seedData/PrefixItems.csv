@@ -1,0 +1,154 @@
+﻿PrefixID,PrefixName,LanguageID,LanguageName,Translation
+3,"Appendix",1,English (UK),Appendix
+3,"Appendix",2,French,Annexe
+3,"Appendix",2,French,Appendice
+3,"Appendix",3,Slovak,Príloha
+3,"Appendix",4,Italian,Appendice
+3,"Appendix",5,Polish,Załączony Dokument
+3,"Appendix",6,German,Anhang
+3,"Appendix",6,German,Anlage
+3,"Appendix",7,Dutch (Belgium),Appendix
+3,"Appendix",7,Dutch (Belgium),Bijlage
+3,"Appendix",8,French (Belgium),Annexe
+3,"Appendix",8,French (Belgium),Appendice
+3,"Appendix",9,Czech,Příloha
+3,"Appendix",10,Dutch,Aanhangsel
+3,"Appendix",10,Dutch,Appendix
+3,"Appendix",10,Dutch,Bijlage
+3,"Appendix",11,Hungarian,Függelék
+3,"Appendix",11,Hungarian,Függelék-ek
+3,"Appendix",12,Spanish,Anexo
+3,"Appendix",13,Russian,Приложение Второго Уровня
+3,"Appendix",14,English (US),Appendix
+3,"Appendix",14,English (US),Exhibit
+3,"Appendix",15,English (AUS),Appendix
+3,"Appendix",16,Greek,Παράρτημα
+3,"Appendix",17,Portuguese (Brazil),Anexo
+3,"Appendix",17,Portuguese (Brazil),Apêndice
+3,"Appendix",18,Turkish,Ek
+3,"Appendix",19,Vietnamese,Phụ lục
+4,"AppendixPart",1,English (UK),Part
+4,"AppendixPart",2,French,Partie
+4,"AppendixPart",2,French,Section
+4,"AppendixPart",3,Slovak,Časť
+4,"AppendixPart",4,Italian,Parte
+4,"AppendixPart",5,Polish,Część
+4,"AppendixPart",6,German,Teil
+4,"AppendixPart",7,Dutch (Belgium),Deel
+4,"AppendixPart",7,Dutch (Belgium),Part
+4,"AppendixPart",8,French (Belgium),Partie
+4,"AppendixPart",8,French (Belgium),Section
+4,"AppendixPart",9,Czech,Část
+4,"AppendixPart",10,Dutch,Deel
+4,"AppendixPart",10,Dutch,Part
+4,"AppendixPart",11,Hungarian,Rész
+4,"AppendixPart",11,Hungarian,Rész-ek
+4,"AppendixPart",12,Spanish,Apartado
+4,"AppendixPart",13,Russian,Часть
+4,"AppendixPart",14,English (US),Part
+4,"AppendixPart",15,English (AUS),Part
+4,"AppendixPart",16,Greek,Παράρτημα
+4,"AppendixPart",17,Portuguese (Brazil),Parte
+4,"AppendixPart",18,Turkish,Bölüm
+4,"AppendixPart",19,Vietnamese,Tài liệu kèm theo
+5,"Schedule",1,English (UK),Schedule
+5,"Schedule",2,French,Annexe
+5,"Schedule",2,French,Programme
+5,"Schedule",2,French,Schéma
+5,"Schedule",3,Slovak,Príloha
+5,"Schedule",4,Italian,Allegato
+5,"Schedule",5,Polish,Załącznik
+5,"Schedule",6,German,Anhang
+5,"Schedule",6,German,Verzeichnis
+5,"Schedule",7,Dutch (Belgium),Annex
+5,"Schedule",7,Dutch (Belgium),Bijlage
+5,"Schedule",7,Dutch (Belgium),Programma
+5,"Schedule",7,Dutch (Belgium),Schema
+5,"Schedule",8,French (Belgium),Annexe
+5,"Schedule",8,French (Belgium),Programme
+5,"Schedule",8,French (Belgium),Schéma
+5,"Schedule",9,Czech,Příloha
+5,"Schedule",10,Dutch,Bijlage
+5,"Schedule",10,Dutch,Schedule
+5,"Schedule",10,Dutch,Schema
+5,"Schedule",11,Hungarian,Melléklet
+5,"Schedule",11,Hungarian,Melléklet-ek
+5,"Schedule",12,Spanish,Anexo
+5,"Schedule",13,Russian,Приложение
+5,"Schedule",14,English (US),Exhibit
+5,"Schedule",14,English (US),Schedule
+5,"Schedule",15,English (AUS),Schedule
+5,"Schedule",16,Greek,Παράρτημα
+5,"Schedule",17,Portuguese (Brazil),Anexo
+5,"Schedule",18,Turkish,Ek
+5,"Schedule",19,Vietnamese,Phụ lục
+6,"SchedulePart",1,English (UK),Part
+6,"SchedulePart",2,French,Partie
+6,"SchedulePart",2,French,Section
+6,"SchedulePart",3,Slovak,Časť
+6,"SchedulePart",4,Italian,Parte
+6,"SchedulePart",5,Polish,Część
+6,"SchedulePart",6,German,Teil
+6,"SchedulePart",7,Dutch (Belgium),Deel
+6,"SchedulePart",8,French (Belgium),Partie
+6,"SchedulePart",8,French (Belgium),Section
+6,"SchedulePart",9,Czech,Část
+6,"SchedulePart",10,Dutch,Deel
+6,"SchedulePart",10,Dutch,Part
+6,"SchedulePart",11,Hungarian,Rész
+6,"SchedulePart",11,Hungarian,Rész-ek
+6,"SchedulePart",12,Spanish,Apartado
+6,"SchedulePart",13,Russian,Часть
+6,"SchedulePart",14,English (US),Part
+6,"SchedulePart",15,English (AUS),Part
+6,"SchedulePart",16,Greek,Παράρτημα
+6,"SchedulePart",17,Portuguese (Brazil),Parte
+6,"SchedulePart",18,Turkish,Bölüm
+6,"SchedulePart",19,Vietnamese,Tài liệu kèm theo
+7,"Annex",1,English (UK),Annex
+7,"Annex",2,French,Annexe
+7,"Annex",3,Slovak,Doplnok
+7,"Annex",3,Slovak,Príloha
+7,"Annex",4,Italian,Allegato
+7,"Annex",5,Polish,Aneks
+7,"Annex",6,German,Anhang
+7,"Annex",6,German,Anlage
+7,"Annex",7,Dutch (Belgium),Annex
+7,"Annex",7,Dutch (Belgium),Bijlage
+7,"Annex",8,French (Belgium),Annexe
+7,"Annex",9,Czech,Příloha
+7,"Annex",10,Dutch,Annex
+7,"Annex",10,Dutch,Bijlage
+7,"Annex",11,Hungarian,Melléklet
+7,"Annex",11,Hungarian,Melléklet-ek
+7,"Annex",12,Spanish,Anexo
+7,"Annex",13,Russian,Дополнение
+7,"Annex",14,English (US),Annex
+7,"Annex",14,English (US),Exhibit
+7,"Annex",15,English (AUS),Annex
+7,"Annex",16,Greek,Παράρτημα
+7,"Annex",17,Portuguese (Brazil),Anexo
+7,"Annex",18,Turkish,Ek
+7,"Annex",19,Vietnamese,Phụ lục
+8,"AnnexPart",1,English (UK),Part
+8,"AnnexPart",2,French,Partie
+8,"AnnexPart",2,French,Section
+8,"AnnexPart",3,Slovak,Časť
+8,"AnnexPart",4,Italian,Parte
+8,"AnnexPart",5,Polish,Część
+8,"AnnexPart",6,German,Teil
+8,"AnnexPart",7,Dutch (Belgium),Deel
+8,"AnnexPart",8,French (Belgium),Partie
+8,"AnnexPart",8,French (Belgium),Section
+8,"AnnexPart",9,Czech,Část
+8,"AnnexPart",10,Dutch,Deel
+8,"AnnexPart",10,Dutch,Part
+8,"AnnexPart",11,Hungarian,Rész
+8,"AnnexPart",11,Hungarian,Rész-ek
+8,"AnnexPart",12,Spanish,Apartado
+8,"AnnexPart",13,Russian,Часть
+8,"AnnexPart",14,English (US),Part
+8,"AnnexPart",15,English (AUS),Part
+8,"AnnexPart",17,Portuguese (Brazil),Parte
+8,"AnnexPart",18,Turkish,Bölüm
+8,"AnnexPart",19,Vietnamese,Tài liệu kèm theo

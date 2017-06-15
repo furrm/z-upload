@@ -1,0 +1,5 @@
+NameError: variable @base is undefined in /Users/furrm/Projects/web-design/www/libs/kapcha-bootstrap-1.0.0/less/report.less on line 4, column 21:
+3   height: 100%;;
+4   background-color: @base;
+5 }
+

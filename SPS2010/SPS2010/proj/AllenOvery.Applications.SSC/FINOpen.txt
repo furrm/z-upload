@@ -1,0 +1,1 @@
+<body><p>The {month} Finance ({country}) dashboard is now available for data population.</p><p>Please click <a href="{url}">here</a> to enter data for your function.</p><p>Please ensure that you have entered your data by midnight on the 7<sup>th</sup> of this month.</p><p>Thank you.</p></body>

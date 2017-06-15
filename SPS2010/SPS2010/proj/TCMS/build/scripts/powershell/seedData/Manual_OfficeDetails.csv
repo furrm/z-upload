@@ -1,0 +1,451 @@
+﻿OfficeID,OfficeName,LanguageID,LanguageName,BookmarkName,Translation,OfficeElement
+1,Amsterdam,1,English (UK),Logo,LogoStd.bmp,Logo
+1,Amsterdam,10,Dutch,Logo,LogoStd.bmp,Logo
+2,Antwerp,1,English (UK),Logo,LogoStd.bmp,Logo
+2,Antwerp,6,German,Logo,LogoStd.bmp,Logo
+2,Antwerp,7,Dutch (Belgium),Logo,LogoStd.bmp,Logo
+2,Antwerp,8,French (Belgium),Logo,LogoStd.bmp,Logo
+3,Beijing,1,English (UK),Logo,LogoStd.bmp,Logo
+4,Budapest,1,English (UK),Logo,LogoStd.bmp,Logo
+4,Budapest,11,Hungarian,Logo,LogoStd.bmp,Logo
+5,Bratislava,1,English (UK),Logo,LogoStd.bmp,Logo
+5,Bratislava,3,Slovak,Logo,LogoStd.bmp,Logo
+6,Brussels,1,English (UK),Logo,LogoStd.bmp,Logo
+6,Brussels,6,German,Logo,LogoStd.bmp,Logo
+6,Brussels,7,Dutch (Belgium),Logo,LogoStd.bmp,Logo
+6,Brussels,8,French (Belgium),Logo,LogoStd.bmp,Logo
+7,Dubai,1,English (UK),Logo,LogoDubai.bmp,Logo
+8,Frankfurt,1,English (UK),Logo,LogoStd.bmp,Logo
+8,Frankfurt,6,German,Logo,LogoStd.bmp,Logo
+9,Hong Kong - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+10,London,1,English (UK),Logo,LogoStd.bmp,Logo
+10,London,2,French,Logo,LogoStd.bmp,Logo
+10,London,4,Italian,Logo,LogoStd.bmp,Logo
+10,London,6,German,Logo,LogoStd.bmp,Logo
+12,Luxembourg Office,1,English (UK),Logo,LogoLuxembourg.bmp,Logo
+12,Luxembourg Office,2,French,Logo,LogoLuxembourg.bmp,Logo
+12,Luxembourg Office,6,German,Logo,LogoLuxembourg.bmp,Logo
+13,Madrid,1,English (UK),Logo,LogoStd.bmp,Logo
+13,Madrid,12,Spanish,Logo,LogoStd.bmp,Logo
+15,Milan,1,English (UK),Logo,LogoStd.bmp,Logo
+15,Milan,4,Italian,Logo,LogoStd.bmp,Logo
+16,Moscow,1,English (UK),Logo,LogoStd.bmp,Logo
+16,Moscow,13,Russian,Logo,LogoStd.bmp,Logo
+17,New York,1,English (UK),Logo,LogoStd.bmp,Logo
+17,New York,14,English (US),Logo,LogoStd.bmp,Logo
+18,Paris,1,English (UK),Logo,LogoParis.bmp,Logo
+18,Paris,2,French,Logo,LogoParis.bmp,Logo
+19,Prague - Admin,1,English (UK),Logo,LogoStd.bmp,Logo
+19,Prague - Admin,9,Czech,Logo,LogoStd.bmp,Logo
+20,Prague - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+20,Prague - Law,9,Czech,Logo,LogoStd.bmp,Logo
+21,Shanghai,1,English (UK),Logo,LogoStd.bmp,Logo
+23,Tokyo,1,English (UK),Logo,LogoStd.bmp,Logo
+25,Hong Kong - Admin,1,English (UK),Logo,LogoStd.bmp,Logo
+26,Warsaw - Admin,1,English (UK),Logo,LogoWarsawAdmin.bmp,Logo
+26,Warsaw - Admin,5,Polish,Logo,LogoWarsawAdmin.bmp,Logo
+27,Warsaw - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+27,Warsaw - Law,5,Polish,Logo,LogoStd.bmp,Logo
+28,Hamburg,1,English (UK),Logo,LogoStd.bmp,Logo
+28,Hamburg,6,German,Logo,LogoStd.bmp,Logo
+29,Rome,1,English (UK),Logo,LogoStd.bmp,Logo
+29,Rome,4,Italian,Logo,LogoStd.bmp,Logo
+30,Bangkok,1,English (UK),Logo,LogoStd.bmp,Logo
+33,Singapore - ASSPL,1,English (UK),Logo, ,Logo
+34,Düsseldorf,1,English (UK),Logo,LogoStd.bmp,Logo
+34,Düsseldorf,6,German,Logo,LogoStd.bmp,Logo
+35,Riyadh,1,English (UK),Logo,LogoRiyadh.bmp,Logo
+36,Abu Dhabi,1,English (UK),Logo,LogoDubai.bmp,Logo
+38,Munich,1,English (UK),Logo,LogoStd.bmp,Logo
+38,Munich,6,German,Logo,LogoStd.bmp,Logo
+40,Doha,1,English (UK),Logo,LogoDubai.bmp,Logo
+42,Athens,1,English (UK),Logo,LogoStd.bmp,Logo
+42,Athens,16,Greek,Logo,LogoStd.bmp,Logo
+43,São Paulo,1,English (UK),Logo,LogoStd.bmp,Logo
+43,São Paulo,17,Portuguese (Brazil),Logo,LogoStd.bmp,Logo
+45,Sydney - Admin,1,English (UK),Logo,LogoStd.bmp,Logo
+45,Sydney - Admin,15,English (AUS),Logo,LogoStd.bmp,Logo
+46,Perth - Admin,1,English (UK),Logo,LogoStd.bmp,Logo
+46,Perth - Admin,15,English (AUS),Logo,LogoStd.bmp,Logo
+47,Sydney - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+47,Sydney - Law,15,English (AUS),Logo,LogoStd.bmp,Logo
+48,Perth - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+48,Perth - Law,15,English (AUS),Logo,LogoStd.bmp,Logo
+49,Mannheim,1,English (UK),Logo,LogoStd.bmp,Logo
+49,Mannheim,6,German,Logo,LogoStd.bmp,Logo
+50,Jakarta,1,English (UK),Logo,LogoJakarta.bmp,Logo
+50,Jakarta,14,English (US),Logo,LogoJakarta.bmp,Logo
+54,A&O Holdings,1,English (UK),Logo,LogoStd.bmp,Logo
+57,Belfast - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+58,Belfast - Admin,1,English (UK),Logo,LogoStd.bmp,Logo
+59,"Washington, D.C.",14,English (US),Logo,LogoStd.bmp,Logo
+61,Casablanca,1,English (UK),Logo,LogoCasablanca.bmp,Logo
+61,Casablanca,2,French,Logo,LogoCasablanca.bmp,Logo
+64,Singapore - AOA,1,English (UK),Logo,LogoSingaporePTE.bmp,Logo
+65,Singapore,1,English (UK),Logo,LogoSingaporePTE.bmp,Logo
+66,Istanbul - Admin,1,English (UK),Logo,LogoStd.bmp,Logo
+67,Istanbul - Law,1,English (UK),Logo,LogoStd.bmp,Logo
+68,Ho Chi Minh City,1,English (UK),Logo,LogoStd.bmp,Logo
+68,Ho Chi Minh City,19,Vietnamese,Logo,LogoStd.bmp,Logo
+69,Hanoi,1,English (UK),Logo,LogoStd.bmp,Logo
+69,Hanoi,19,Vietnamese,Logo,LogoStd.bmp,Logo
+1,Amsterdam,1,English (UK),AltLogo, ,AltLogo
+1,Amsterdam,10,Dutch,AltLogo, ,AltLogo
+2,Antwerp,1,English (UK),AltLogo, ,AltLogo
+2,Antwerp,6,German,AltLogo, ,AltLogo
+2,Antwerp,7,Dutch (Belgium),AltLogo, ,AltLogo
+2,Antwerp,8,French (Belgium),AltLogo, ,AltLogo
+3,Beijing,1,English (UK),AltLogo, ,AltLogo
+4,Budapest,1,English (UK),AltLogo, ,AltLogo
+4,Budapest,11,Hungarian,AltLogo, ,AltLogo
+5,Bratislava,1,English (UK),AltLogo, ,AltLogo
+5,Bratislava,3,Slovak,AltLogo, ,AltLogo
+6,Brussels,1,English (UK),AltLogo, ,AltLogo
+6,Brussels,6,German,AltLogo, ,AltLogo
+6,Brussels,7,Dutch (Belgium),AltLogo, ,AltLogo
+6,Brussels,8,French (Belgium),AltLogo, ,AltLogo
+7,Dubai,1,English (UK),AltLogo,LogoDubaiAlt.bmp,AltLogo
+8,Frankfurt,1,English (UK),AltLogo, ,AltLogo
+8,Frankfurt,6,German,AltLogo, ,AltLogo
+9,Hong Kong - Law,1,English (UK),AltLogo, ,AltLogo
+10,London,1,English (UK),AltLogo, ,AltLogo
+10,London,2,French,AltLogo, ,AltLogo
+10,London,4,Italian,AltLogo, ,AltLogo
+10,London,6,German,AltLogo, ,AltLogo
+12,Luxembourg Office,1,English (UK),AltLogo, ,AltLogo
+12,Luxembourg Office,2,French,AltLogo, ,AltLogo
+12,Luxembourg Office,6,German,AltLogo, ,AltLogo
+13,Madrid,1,English (UK),AltLogo, ,AltLogo
+13,Madrid,12,Spanish,AltLogo, ,AltLogo
+15,Milan,1,English (UK),AltLogo, ,AltLogo
+15,Milan,4,Italian,AltLogo, ,AltLogo
+16,Moscow,1,English (UK),AltLogo, ,AltLogo
+16,Moscow,13,Russian,AltLogo, ,AltLogo
+17,New York,1,English (UK),AltLogo, ,AltLogo
+17,New York,14,English (US),AltLogo, ,AltLogo
+18,Paris,1,English (UK),AltLogo, ,AltLogo
+18,Paris,2,French,AltLogo, ,AltLogo
+19,Prague - Admin,1,English (UK),AltLogo, ,AltLogo
+19,Prague - Admin,9,Czech,AltLogo, ,AltLogo
+20,Prague - Law,1,English (UK),AltLogo, ,AltLogo
+20,Prague - Law,9,Czech,AltLogo, ,AltLogo
+21,Shanghai,1,English (UK),AltLogo, ,AltLogo
+23,Tokyo,1,English (UK),AltLogo, ,AltLogo
+25,Hong Kong - Admin,1,English (UK),AltLogo, ,AltLogo
+26,Warsaw - Admin,1,English (UK),AltLogo, ,AltLogo
+26,Warsaw - Admin,5,Polish,AltLogo, ,AltLogo
+27,Warsaw - Law,1,English (UK),AltLogo, ,AltLogo
+27,Warsaw - Law,5,Polish,AltLogo, ,AltLogo
+28,Hamburg,1,English (UK),AltLogo, ,AltLogo
+28,Hamburg,6,German,AltLogo, ,AltLogo
+29,Rome,1,English (UK),AltLogo, ,AltLogo
+29,Rome,4,Italian,AltLogo, ,AltLogo
+30,Bangkok,1,English (UK),AltLogo, ,AltLogo
+33,Singapore - ASSPL,1,English (UK),AltLogo, ,AltLogo
+34,Düsseldorf,1,English (UK),AltLogo, ,AltLogo
+34,Düsseldorf,6,German,AltLogo, ,AltLogo
+35,Riyadh,1,English (UK),AltLogo,LogoRiyadhAlt.bmp,AltLogo
+36,Abu Dhabi,1,English (UK),AltLogo,LogoDubaiAlt.bmp,AltLogo
+38,Munich,1,English (UK),AltLogo, ,AltLogo
+38,Munich,6,German,AltLogo, ,AltLogo
+40,Doha,1,English (UK),AltLogo,LogoDubaiAlt.bmp,AltLogo
+42,Athens,1,English (UK),AltLogo, ,AltLogo
+42,Athens,16,Greek,AltLogo, ,AltLogo
+43,São Paulo,1,English (UK),AltLogo, ,AltLogo
+43,São Paulo,17,Portuguese (Brazil),AltLogo, ,AltLogo
+45,Sydney - Admin,1,English (UK),AltLogo, ,AltLogo
+45,Sydney - Admin,15,English (AUS),AltLogo, ,AltLogo
+46,Perth - Admin,1,English (UK),AltLogo, ,AltLogo
+46,Perth - Admin,15,English (AUS),AltLogo, ,AltLogo
+47,Sydney - Law,1,English (UK),AltLogo, ,AltLogo
+47,Sydney - Law,15,English (AUS),AltLogo, ,AltLogo
+48,Perth - Law,1,English (UK),AltLogo, ,AltLogo
+48,Perth - Law,15,English (AUS),AltLogo, ,AltLogo
+49,Mannheim,1,English (UK),AltLogo, ,AltLogo
+49,Mannheim,6,German,AltLogo, ,AltLogo
+50,Jakarta,1,English (UK),AltLogo, ,AltLogo
+50,Jakarta,14,English (US),AltLogo, ,AltLogo
+54,A&O Holdings,1,English (UK),AltLogo, ,AltLogo
+57,Belfast - Law,1,English (UK),AltLogo, ,AltLogo
+58,Belfast - Admin,1,English (UK),AltLogo, ,AltLogo
+59,"Washington, D.C.",14,English (US),AltLogo, ,AltLogo
+61,Casablanca,1,English (UK),AltLogo, ,AltLogo
+61,Casablanca,2,French,AltLogo, ,AltLogo
+64,Singapore - AOA,1,English (UK),AltLogo, ,AltLogo
+65,Singapore,1,English (UK),AltLogo, ,AltLogo
+66,Istanbul - Admin,1,English (UK),AltLogo, ,AltLogo
+67,Istanbul - Law,1,English (UK),AltLogo, ,AltLogo
+68,Ho Chi Minh City,1,English (UK),AltLogo, ,AltLogo
+68,Ho Chi Minh City,19,Vietnamese,AltLogo, ,AltLogo
+69,Hanoi,1,English (UK),AltLogo, ,AltLogo
+69,Hanoi,19,Vietnamese,AltLogo, ,AltLogo
+1,Amsterdam,1,English (UK),OfficeTitle2, ,OfficeTitle2
+1,Amsterdam,10,Dutch,OfficeTitle2, ,OfficeTitle2
+2,Antwerp,1,English (UK),OfficeTitle2, ,OfficeTitle2
+2,Antwerp,6,German,OfficeTitle2, ,OfficeTitle2
+2,Antwerp,7,Dutch (Belgium),OfficeTitle2, ,OfficeTitle2
+2,Antwerp,8,French (Belgium),OfficeTitle2, ,OfficeTitle2
+3,Beijing,1,English (UK),OfficeTitle2,OfficeTitleBJ.bmp,OfficeTitle2
+4,Budapest,1,English (UK),OfficeTitle2, ,OfficeTitle2
+4,Budapest,11,Hungarian,OfficeTitle2, ,OfficeTitle2
+5,Bratislava,1,English (UK),OfficeTitle2, ,OfficeTitle2
+5,Bratislava,3,Slovak,OfficeTitle2, ,OfficeTitle2
+6,Brussels,1,English (UK),OfficeTitle2, ,OfficeTitle2
+6,Brussels,6,German,OfficeTitle2, ,OfficeTitle2
+6,Brussels,7,Dutch (Belgium),OfficeTitle2, ,OfficeTitle2
+6,Brussels,8,French (Belgium),OfficeTitle2, ,OfficeTitle2
+7,Dubai,1,English (UK),OfficeTitle2, ,OfficeTitle2
+8,Frankfurt,1,English (UK),OfficeTitle2, ,OfficeTitle2
+8,Frankfurt,6,German,OfficeTitle2, ,OfficeTitle2
+9,Hong Kong - Law,1,English (UK),OfficeTitle2,OfficeTitleHK.bmp,OfficeTitle2
+10,London,1,English (UK),OfficeTitle2, ,OfficeTitle2
+10,London,2,French,OfficeTitle2, ,OfficeTitle2
+10,London,4,Italian,OfficeTitle2, ,OfficeTitle2
+10,London,6,German,OfficeTitle2, ,OfficeTitle2
+12,Luxembourg Office,1,English (UK),OfficeTitle2, ,OfficeTitle2
+12,Luxembourg Office,2,French,OfficeTitle2, ,OfficeTitle2
+12,Luxembourg Office,6,German,OfficeTitle2, ,OfficeTitle2
+13,Madrid,1,English (UK),OfficeTitle2, ,OfficeTitle2
+13,Madrid,12,Spanish,OfficeTitle2, ,OfficeTitle2
+15,Milan,1,English (UK),OfficeTitle2, ,OfficeTitle2
+15,Milan,4,Italian,OfficeTitle2, ,OfficeTitle2
+16,Moscow,1,English (UK),OfficeTitle2, ,OfficeTitle2
+16,Moscow,13,Russian,OfficeTitle2, ,OfficeTitle2
+17,New York,1,English (UK),OfficeTitle2, ,OfficeTitle2
+17,New York,14,English (US),OfficeTitle2, ,OfficeTitle2
+18,Paris,1,English (UK),OfficeTitle2, ,OfficeTitle2
+18,Paris,2,French,OfficeTitle2, ,OfficeTitle2
+19,Prague - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+19,Prague - Admin,9,Czech,OfficeTitle2, ,OfficeTitle2
+20,Prague - Law,1,English (UK),OfficeTitle2, ,OfficeTitle2
+20,Prague - Law,9,Czech,OfficeTitle2, ,OfficeTitle2
+21,Shanghai,1,English (UK),OfficeTitle2,OfficeTitleSH.bmp,OfficeTitle2
+23,Tokyo,1,English (UK),OfficeTitle2,OfficeTitleTY.bmp,OfficeTitle2
+25,Hong Kong - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+26,Warsaw - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+26,Warsaw - Admin,5,Polish,OfficeTitle2, ,OfficeTitle2
+27,Warsaw - Law,1,English (UK),OfficeTitle2, ,OfficeTitle2
+27,Warsaw - Law,5,Polish,OfficeTitle2, ,OfficeTitle2
+28,Hamburg,1,English (UK),OfficeTitle2, ,OfficeTitle2
+28,Hamburg,6,German,OfficeTitle2, ,OfficeTitle2
+29,Rome,1,English (UK),OfficeTitle2, ,OfficeTitle2
+29,Rome,4,Italian,OfficeTitle2, ,OfficeTitle2
+30,Bangkok,1,English (UK),OfficeTitle2, ,OfficeTitle2
+33,Singapore - ASSPL,1,English (UK),OfficeTitle2, ,OfficeTitle2
+34,Düsseldorf,1,English (UK),OfficeTitle2, ,OfficeTitle2
+34,Düsseldorf,6,German,OfficeTitle2, ,OfficeTitle2
+35,Riyadh,1,English (UK),OfficeTitle2, ,OfficeTitle2
+36,Abu Dhabi,1,English (UK),OfficeTitle2, ,OfficeTitle2
+38,Munich,1,English (UK),OfficeTitle2, ,OfficeTitle2
+38,Munich,6,German,OfficeTitle2, ,OfficeTitle2
+40,Doha,1,English (UK),OfficeTitle2, ,OfficeTitle2
+42,Athens,1,English (UK),OfficeTitle2, ,OfficeTitle2
+42,Athens,16,Greek,OfficeTitle2, ,OfficeTitle2
+43,São Paulo,1,English (UK),OfficeTitle2, ,OfficeTitle2
+43,São Paulo,17,Portuguese (Brazil),OfficeTitle2, ,OfficeTitle2
+45,Sydney - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+45,Sydney - Admin,15,English (AUS),OfficeTitle2, ,OfficeTitle2
+46,Perth - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+46,Perth - Admin,15,English (AUS),OfficeTitle2, ,OfficeTitle2
+47,Sydney - Law,1,English (UK),OfficeTitle2, ,OfficeTitle2
+47,Sydney - Law,15,English (AUS),OfficeTitle2, ,OfficeTitle2
+48,Perth - Law,1,English (UK),OfficeTitle2, ,OfficeTitle2
+48,Perth - Law,15,English (AUS),OfficeTitle2, ,OfficeTitle2
+49,Mannheim,1,English (UK),OfficeTitle2, ,OfficeTitle2
+49,Mannheim,6,German,OfficeTitle2, ,OfficeTitle2
+50,Jakarta,1,English (UK),OfficeTitle2, ,OfficeTitle2
+50,Jakarta,14,English (US),OfficeTitle2, ,OfficeTitle2
+54,A&O Holdings,1,English (UK),OfficeTitle2, ,OfficeTitle2
+57,Belfast - Law,1,English (UK),OfficeTitle2, ,OfficeTitle2
+58,Belfast - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+59,"Washington, D.C.",14,English (US),OfficeTitle2, ,OfficeTitle2
+61,Casablanca,1,English (UK),OfficeTitle2, ,OfficeTitle2
+61,Casablanca,2,French,OfficeTitle2, ,OfficeTitle2
+64,Singapore - AOA,1,English (UK),OfficeTitle2, ,OfficeTitle2
+65,Singapore,1,English (UK),OfficeTitle2, ,OfficeTitle2
+66,Istanbul - Admin,1,English (UK),OfficeTitle2, ,OfficeTitle2
+67,Istanbul - Law,1,English (UK),OfficeTitle2, ,OfficeTitle2
+68,Ho Chi Minh City,1,English (UK),OfficeTitle2, ,OfficeTitle2
+68,Ho Chi Minh City,19,Vietnamese,OfficeTitle2, ,OfficeTitle2
+69,Hanoi,1,English (UK),OfficeTitle2, ,OfficeTitle2
+69,Hanoi,19,Vietnamese,OfficeTitle2, ,OfficeTitle2
+1,Amsterdam,1,English (UK),PartnerList, ,PartnerList
+1,Amsterdam,10,Dutch,PartnerList, ,PartnerList
+2,Antwerp,1,English (UK),PartnerList, ,PartnerList
+2,Antwerp,6,German,PartnerList, ,PartnerList
+2,Antwerp,7,Dutch (Belgium),PartnerList, ,PartnerList
+2,Antwerp,8,French (Belgium),PartnerList, ,PartnerList
+3,Beijing,1,English (UK),PartnerList, ,PartnerList
+4,Budapest,1,English (UK),PartnerList, ,PartnerList
+4,Budapest,11,Hungarian,PartnerList, ,PartnerList
+5,Bratislava,1,English (UK),PartnerList, ,PartnerList
+5,Bratislava,3,Slovak,PartnerList, ,PartnerList
+6,Brussels,1,English (UK),PartnerList, ,PartnerList
+6,Brussels,6,German,PartnerList, ,PartnerList
+6,Brussels,7,Dutch (Belgium),PartnerList, ,PartnerList
+6,Brussels,8,French (Belgium),PartnerList, ,PartnerList
+7,Dubai,1,English (UK),PartnerList, ,PartnerList
+8,Frankfurt,1,English (UK),PartnerList, ,PartnerList
+8,Frankfurt,6,German,PartnerList, ,PartnerList
+9,Hong Kong - Law,1,English (UK),PartnerList, ,PartnerList
+10,London,1,English (UK),PartnerList, ,PartnerList
+10,London,2,French,PartnerList, ,PartnerList
+10,London,4,Italian,PartnerList, ,PartnerList
+10,London,6,German,PartnerList, ,PartnerList
+12,Luxembourg Office,1,English (UK),PartnerList, ,PartnerList
+12,Luxembourg Office,2,French,PartnerList, ,PartnerList
+12,Luxembourg Office,6,German,PartnerList, ,PartnerList
+13,Madrid,1,English (UK),PartnerList, ,PartnerList
+13,Madrid,12,Spanish,PartnerList, ,PartnerList
+15,Milan,1,English (UK),PartnerList,atPartnerListMLRM,PartnerList
+15,Milan,4,Italian,PartnerList,atPartnerListMLRM,PartnerList
+16,Moscow,1,English (UK),PartnerList, ,PartnerList
+16,Moscow,13,Russian,PartnerList, ,PartnerList
+17,New York,1,English (UK),PartnerList, ,PartnerList
+17,New York,14,English (US),PartnerList, ,PartnerList
+18,Paris,1,English (UK),PartnerList, ,PartnerList
+18,Paris,2,French,PartnerList, ,PartnerList
+19,Prague - Admin,1,English (UK),PartnerList, ,PartnerList
+19,Prague - Admin,9,Czech,PartnerList, ,PartnerList
+20,Prague - Law,1,English (UK),PartnerList, ,PartnerList
+20,Prague - Law,9,Czech,PartnerList, ,PartnerList
+21,Shanghai,1,English (UK),PartnerList, ,PartnerList
+23,Tokyo,1,English (UK),PartnerList,atDisclaimerTY,PartnerList
+25,Hong Kong - Admin,1,English (UK),PartnerList, ,PartnerList
+26,Warsaw - Admin,1,English (UK),PartnerList, ,PartnerList
+26,Warsaw - Admin,5,Polish,PartnerList, ,PartnerList
+27,Warsaw - Law,1,English (UK),PartnerList, ,PartnerList
+27,Warsaw - Law,5,Polish,PartnerList, ,PartnerList
+28,Hamburg,1,English (UK),PartnerList, ,PartnerList
+28,Hamburg,6,German,PartnerList, ,PartnerList
+29,Rome,1,English (UK),PartnerList,atPartnerListMLRM,PartnerList
+29,Rome,4,Italian,PartnerList,atPartnerListMLRM,PartnerList
+30,Bangkok,1,English (UK),PartnerList, ,PartnerList
+33,Singapore - ASSPL,1,English (UK),PartnerList, ,PartnerList
+34,Düsseldorf,1,English (UK),PartnerList, ,PartnerList
+34,Düsseldorf,6,German,PartnerList, ,PartnerList
+35,Riyadh,1,English (UK),PartnerList, ,PartnerList
+36,Abu Dhabi,1,English (UK),PartnerList, ,PartnerList
+38,Munich,1,English (UK),PartnerList, ,PartnerList
+38,Munich,6,German,PartnerList, ,PartnerList
+40,Doha,1,English (UK),PartnerList, ,PartnerList
+42,Athens,1,English (UK),PartnerList, ,PartnerList
+42,Athens,16,Greek,PartnerList, ,PartnerList
+43,São Paulo,1,English (UK),PartnerList, ,PartnerList
+43,São Paulo,17,Portuguese (Brazil),PartnerList, ,PartnerList
+45,Sydney - Admin,1,English (UK),PartnerList, ,PartnerList
+45,Sydney - Admin,15,English (AUS),PartnerList, ,PartnerList
+46,Perth - Admin,1,English (UK),PartnerList, ,PartnerList
+46,Perth - Admin,15,English (AUS),PartnerList, ,PartnerList
+47,Sydney - Law,1,English (UK),PartnerList, ,PartnerList
+47,Sydney - Law,15,English (AUS),PartnerList, ,PartnerList
+48,Perth - Law,1,English (UK),PartnerList, ,PartnerList
+48,Perth - Law,15,English (AUS),PartnerList, ,PartnerList
+49,Mannheim,1,English (UK),PartnerList, ,PartnerList
+49,Mannheim,6,German,PartnerList, ,PartnerList
+50,Jakarta,1,English (UK),PartnerList, ,PartnerList
+50,Jakarta,14,English (US),PartnerList, ,PartnerList
+54,A&O Holdings,1,English (UK),PartnerList, ,PartnerList
+57,Belfast - Law,1,English (UK),PartnerList, ,PartnerList
+58,Belfast - Admin,1,English (UK),PartnerList, ,PartnerList
+59,"Washington, D.C.",14,English (US),PartnerList, ,PartnerList
+61,Casablanca,1,English (UK),PartnerList, ,PartnerList
+61,Casablanca,2,French,PartnerList, ,PartnerList
+64,Singapore - AOA,1,English (UK),PartnerList, ,PartnerList
+65,Singapore,1,English (UK),PartnerList, ,PartnerList
+66,Istanbul - Admin,1,English (UK),PartnerList, ,PartnerList
+67,Istanbul - Law,1,English (UK),PartnerList, ,PartnerList
+68,Ho Chi Minh City,1,English (UK),PartnerList, ,PartnerList
+68,Ho Chi Minh City,19,Vietnamese,PartnerList, ,PartnerList
+69,Hanoi,1,English (UK),PartnerList, ,PartnerList
+69,Hanoi,19,Vietnamese,PartnerList, ,PartnerList
+1,Amsterdam,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+1,Amsterdam,10,Dutch,PartnerListDescLabel, ,PartnerListDescLabel
+2,Antwerp,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+2,Antwerp,6,German,PartnerListDescLabel, ,PartnerListDescLabel
+2,Antwerp,7,Dutch (Belgium),PartnerListDescLabel, ,PartnerListDescLabel
+2,Antwerp,8,French (Belgium),PartnerListDescLabel, ,PartnerListDescLabel
+3,Beijing,1,English (UK),PartnerListDescLabel, Chief Representative: Peter Thorp,PartnerListDescLabel
+4,Budapest,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+4,Budapest,11,Hungarian,PartnerListDescLabel, ,PartnerListDescLabel
+5,Bratislava,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+5,Bratislava,3,Slovak,PartnerListDescLabel, ,PartnerListDescLabel
+6,Brussels,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+6,Brussels,6,German,PartnerListDescLabel, ,PartnerListDescLabel
+6,Brussels,7,Dutch (Belgium),PartnerListDescLabel, ,PartnerListDescLabel
+6,Brussels,8,French (Belgium),PartnerListDescLabel, ,PartnerListDescLabel
+7,Dubai,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+8,Frankfurt,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+8,Frankfurt,6,German,PartnerListDescLabel, ,PartnerListDescLabel
+9,Hong Kong - Law,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+10,London,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+10,London,2,French,PartnerListDescLabel, ,PartnerListDescLabel
+10,London,4,Italian,PartnerListDescLabel, ,PartnerListDescLabel
+10,London,6,German,PartnerListDescLabel, ,PartnerListDescLabel
+12,Luxembourg Office,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+12,Luxembourg Office,2,French,PartnerListDescLabel, ,PartnerListDescLabel
+12,Luxembourg Office,6,German,PartnerListDescLabel, ,PartnerListDescLabel
+13,Madrid,1,English (UK),PartnerListDescLabel, ,PartnerListDescLabel
+13,Madrid,12,Spanish,PartnerListDescLabel,,PartnerListDescLabel
+15,Milan,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+15,Milan,4,Italian,PartnerListDescLabel,,PartnerListDescLabel
+16,Moscow,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+16,Moscow,13,Russian,PartnerListDescLabel,,PartnerListDescLabel
+17,New York,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+17,New York,14,English (US),PartnerListDescLabel,,PartnerListDescLabel
+18,Paris,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+18,Paris,2,French,PartnerListDescLabel,,PartnerListDescLabel
+19,Prague - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+19,Prague - Admin,9,Czech,PartnerListDescLabel,,PartnerListDescLabel
+20,Prague - Law,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+20,Prague - Law,9,Czech,PartnerListDescLabel,,PartnerListDescLabel
+21,Shanghai,1,English (UK),PartnerListDescLabel,Chief Representative: Ji Zou,PartnerListDescLabel
+23,Tokyo,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+25,Hong Kong - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+26,Warsaw - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+26,Warsaw - Admin,5,Polish,PartnerListDescLabel,,PartnerListDescLabel
+27,Warsaw - Law,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+27,Warsaw - Law,5,Polish,PartnerListDescLabel,,PartnerListDescLabel
+28,Hamburg,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+28,Hamburg,6,German,PartnerListDescLabel,,PartnerListDescLabel
+29,Rome,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+29,Rome,4,Italian,PartnerListDescLabel,,PartnerListDescLabel
+30,Bangkok,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+33,Singapore - ASSPL,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+34,Düsseldorf,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+34,Düsseldorf,6,German,PartnerListDescLabel,,PartnerListDescLabel
+35,Riyadh,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+36,Abu Dhabi,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+38,Munich,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+38,Munich,6,German,PartnerListDescLabel,,PartnerListDescLabel
+40,Doha,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+42,Athens,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+42,Athens,16,Greek,PartnerListDescLabel,,PartnerListDescLabel
+43,São Paulo,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+43,São Paulo,17,Portuguese (Brazil),PartnerListDescLabel,,PartnerListDescLabel
+45,Sydney - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+45,Sydney - Admin,15,English (AUS),PartnerListDescLabel,,PartnerListDescLabel
+46,Perth - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+46,Perth - Admin,15,English (AUS),PartnerListDescLabel,,PartnerListDescLabel
+47,Sydney - Law,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+47,Sydney - Law,15,English (AUS),PartnerListDescLabel,,PartnerListDescLabel
+48,Perth - Law,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+48,Perth - Law,15,English (AUS),PartnerListDescLabel,,PartnerListDescLabel
+49,Mannheim,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+49,Mannheim,6,German,PartnerListDescLabel,,PartnerListDescLabel
+50,Jakarta,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+50,Jakarta,14,English (US),PartnerListDescLabel,,PartnerListDescLabel
+54,A&O Holdings,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+57,Belfast - Law,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+58,Belfast - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+59,"Washington, D.C.",14,English (US),PartnerListDescLabel,,PartnerListDescLabel
+61,Casablanca,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+61,Casablanca,2,French,PartnerListDescLabel,,PartnerListDescLabel
+64,Singapore - AOA,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+65,Singapore,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+66,Istanbul - Admin,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+67,Istanbul - Law,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+68,Ho Chi Minh City,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+68,Ho Chi Minh City,19,Vietnamese,PartnerListDescLabel,,PartnerListDescLabel
+69,Hanoi,1,English (UK),PartnerListDescLabel,,PartnerListDescLabel
+69,Hanoi,19,Vietnamese,PartnerListDescLabel, ,PartnerListDescLabel

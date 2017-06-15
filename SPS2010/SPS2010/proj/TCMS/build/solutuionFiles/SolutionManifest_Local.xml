@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SolutionDeployment WebApplication="http://ddvm9093-sps1">
+  <Solutions>
+    <Solution>
+      <Name>Dev4Side.SP2010.FilteredLookup.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+    <Solution>
+      <Name>AO.SPS2010.TCMS.Lists.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+    <Solution>
+      <Name>AO.SPS2010.TCMS.FeatureReceivers.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+    <Solution>
+      <Name>AO.SPS2010.TCMS.SiteColumns.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+    <Solution>
+      <Name>AO.SPS2010.TCMS.ContentTypes.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+    <Solution>
+      <Name>AO.SPS2010.TCMS.WebParts.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+    <Solution>
+      <Name>AO.SPS2010.TCMS.TimerJobs.wsp</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Solution>
+  </Solutions>
+  <Features>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.Lists.csproj_AO.SPS2010.TCMS.Lists</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.SiteColumns.csproj_AO.SPS2010.TCMS.SiteColumns</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.ContentTypes.csproj_AO.SPS2010.TCMS.ContentTypes</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.FeatureReceivers.csproj_AO.SPS2010.TCMS.FeatureReceivers FilteredLookup</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.FeatureReceivers.csproj_AO.SPS2010.TCMS.FeatureReceivers UpdateContentTypes</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.FeatureReceivers.csproj_AO.SPS2010.TCMS.EventReceivers</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.WebParts.csproj_AO.SPS2010.TCMS.WebParts</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+    <Feature>
+      <Name>AO.SPS2010.TCMS.TimerJobs.csproj_AO.SPS2010.TCMS.TimerJobs ChangeRecord</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </Feature>
+  </Features>
+  <Lists>
+    <List>
+      <Name>Request ID</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Document Type</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Language</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>TCMS - Graphics</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>TCMS - Templates</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Prefix Names</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Prefix Items</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Picklist Names</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Picklist Items</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Translations</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Translation Items</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Office</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Office Language</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Office Details</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Office Elements</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>TCMS Subscribers</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>TCMS Network Shares</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Shared Documents</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Package Library</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Config Settings</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Word Addins</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Word Addin Names</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+    <List>
+      <Name>Correspondence Header Blocks</Name>
+      <WebApplications>
+        <WebApplication>http://ddvm9093-sps1</WebApplication>
+      </WebApplications>
+    </List>
+  </Lists>
+</SolutionDeployment>

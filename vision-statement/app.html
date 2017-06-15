@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Training</title>
+
+    <link rel="stylesheet" href="lib/bootstrap-3.0.3/bootstrap.css">
+    <link rel="stylesheet" href="lib/angular-1.2.23/angular-csp.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+
+</head>
+<body ng-controller="Application" ng-cloak>
+<header class="page">
+    <div class="container">
+        <div class="row">
+            <div class="header-title">
+                <span class="section-title" ng-cloak>{{page.fields.name}}</span>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+<div class="container">
+    <div class="row">
+
+        <div class="chapter-intro col-lg-12">
+            {{page.fields.introduction}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" ng-repeat="section in page.fields.contents">
+            <div>
+                <header>
+                    <span class="card-header">{{section.fields.title}}</span>
+                </header>
+                <markup markdown="{{section.fields.body}}">
+                </markup>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script type="application/javascript" src="lib/lodash/dist/lodash.js"></script>
+<script type="application/javascript" src="lib/marked/lib/marked.js"></script>
+
+<script type="application/javascript" src="lib/angular-1.2.23/angular.js"></script>
+<script type="application/javascript" src="lib/angular-1.2.23/angular-resource.js"></script>
+<script type="application/javascript" src="lib/angular-contentful/angular-contentful.js"></script>
+
+
+<script type="application/javascript" src="js/app.js"></script>
+<script type="application/javascript" src="js/directives.js"></script>
+<script type="application/javascript" src="js/services.js"></script>
+
+</body>
+</html>
