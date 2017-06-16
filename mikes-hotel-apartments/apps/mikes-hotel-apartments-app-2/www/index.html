@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+
+      <!--STYLES-->
+<style>
+    .shadow-demo {
+        background-color: #26a69a;
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+    }
+</style>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css">
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+
+
+    <!-- custom app styles -->
+    <link href="css/app.css" rel="stylesheet">
+
+    <!--JAVASCRIPT-->
+
+    <!-- jquery required by material css -->
+    <!--<script src="lib/jquery/dist/jquery.min.js"></script>-->
+    <!--<script src="lib/materialize/dist/js/materialize.min.js"></script>-->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!--3rd party js libs-->
+    <!--<script src="lib/matchmedia/matchMedia.js"></script>-->
+    <script src="lib/lodash/lodash.min.js"></script>
+    <script src="lib/masonry/dist/masonry.pkgd.min.js"></script>
+    <script src="lib/marked/lib/marked.js"></script>
+
+
+
+    <!--3rd party angularjs libs-->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.min.js"></script>
+    <script src="lib/angular-aria/angular-aria.min.js"></script>
+    <script src="lib/angular-material/angular-material.min.js"></script>
+
+    <!-- app js -->
+
+    <script src="components/masonry/components.masonry.js"></script>
+    <!--the above angularjs module has a dependency on masonry.pkgd.min.js -->
+
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/services.js"></script>
+
+</head>
+
+<body ng-app="app">
+<ion-nav-view ng-controller="AppCtrl"></ion-nav-view>
+</body>
+</html>

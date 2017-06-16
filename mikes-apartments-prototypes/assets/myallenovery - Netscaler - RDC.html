@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'>
+<title>Contentful</title>
+<link href="//static.contentful.com/app/application-23e84ab0333645dd3bfb79e9dd131667.css" media="all" rel="stylesheet" type="text/css" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="8lSvInT+ACVQL7ZyF1NWpHYTzVVXk7z8VXmUplI0cvc=" name="csrf-token" />
+<link href='//static.contentful.com/app/favicons/favicon32x32-61c61a16b028c1b6f9278851c05cfbc6.png' rel='shortcut icon' type='image/png'>
+<link href='//static.contentful.com/app/favicons/apple_icon57x57-c015ba7bf6742b35cf5e4a99cd99c7fa.png' rel='apple-touch-icon' type='image/png'>
+<link href='//static.contentful.com/app/favicons/apple_icon72x72-4447815a03592064f49fcb8790f87325.png' rel='apple-touch-icon' type='image/png'>
+<link href='//static.contentful.com/app/favicons/apple_icon114x114-4d64f1584820dadcdd499e367c3c01a7.png' rel='apple-touch-icon' type='image/png'>
+<meta content='IE=edge' http-equiv='x-ua-compatible'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600' rel='stylesheet' type='text/css'>
+<style id='disable-outlines'></style>
+<script>
+  //<![CDATA[
+    if (top != self) { top.location.replace(self.location.href); }
+  //]]>
+</script>
+</html>
+<body class='cf-clear-outlines' ng-app='contentful/app'>
+<div class='client ng-hide' ng-controller='ClientCtrl' ng-init='initClient()' ng-show='user'>
+<div class='notifications'>
+<div class='notification {{message.severity}}' ng-repeat='(index, message) in notification.unseen() track by index'>
+{{message.body}}
+</div>
+</div>
+<nav class='account-menus'>
+<div class='dropdown-btn user' label=''>
+<a class='btn dropdown-toggle' ng-click='clickedProfileButton()' tabindex='0'>
+<i class='ss-dropdown button-icon-right'></i>
+<img ng-src='{{user.avatarUrl}}'>
+</a>
+<div class='dropdown-menu fixed-position left-aligned'>
+<p class='account-header dropdown-row'>
+Logged in as {{user.firstName}} {{user.lastName}}
+</p>
+<ul class='dropdown-menu-list separator'>
+<li class='dropdown-menu-item' dropdown-close='' ng-click='goToAccount()'>Account Settings</li>
+<li class='dropdown-menu-item' dropdown-close='' ng-click='startTutorial()' ng-if='canCreateSpace()'>Start Tutorial</li>
+<li class='dropdown-menu-item' dropdown-close='' ng-click='openSupport()'>Support</li>
+<li class='dropdown-menu-item' dropdown-close='' ng-click='logout()'>Log out</li>
+</ul>
+</div>
+</div>
+<div class='dropdown-btn project' ng-hide='spaces.length == 0 &amp;&amp; !canCreateSpaceInAnyOrg()' ng-show='organizations &amp;&amp; organizations.length &gt; 0'>
+<a class='btn dropdown-toggle' ng-click='clickedSpaceSwitcher()' tabindex='0'>
+<i class='ss-dropdown button-icon-right'></i>
+<span ng-bind="spaceContext.space.data.name || 'Spaces'"></span>
+</a>
+<div class='dropdown-menu fixed-position left-aligned'>
+<ul class='dropdown-menu-list dropdown-group'>
+<li cf-click-local='selectOrg(orgId) &amp;&amp; toggleDropdown()' class='dropdown-menu-item no-highlight' ng-class="{'no-action': !canSelectOrg(orgId)}" ng-repeat='(orgId, org) in spacesByOrg'>
+<i class='ss-users'></i>
+<span>{{getOrgName(orgId)}}</span>
+<ul class='dropdown-menu-list'>
+<li cf-click-local='selectSpace(space) &amp;&amp; toggleDropdown()' class='dropdown-menu-item' ng-class='{hibernated: space.isHibernated()}' ng-disabled='!space.isHibernated()' ng-repeat='space in org track by space.getId()' tooltip-container='.project' tooltip-placement='left' tooltip='This space entered hibernation due to lack of use. It will be back online soon.'>
+{{space.data.name}}
+<i class='ss-record' ng-show='space.isHibernated()'></i>
+</li>
+</ul>
+</li>
+<li class='dropdown-menu-item emphasize' dropdown-close='' ng-class="{'top-separator': spaces.length &gt; 0}" ng-click='showCreateSpaceDialog()' ng-show='canCreateSpace()'>
++ Create Space
+</li>
+</ul>
+</div>
+</div>
+<div class='cf-persistent-notification' ng-show='persistentNotification'></div>
+<a href='#' id='intercom' tabindex='-1'></a>
+<div class='navbar-loader'></div>
+</nav>
+<space-view ng-controller='TabViewCtrl'></space-view>
+<div class='advice' ng-show='spaces.length == 0'>
+<i class='ss-folder giant-icon'></i>
+<header class='advice-title'>Nothing to see yet.</header>
+<p class='advice-description' ng-show='!canCreateSpace()'>You need to be part of an Organization to create a space.</p>
+<p class='advice-description' ng-show='canCreateSpace()'>Why don't you create a space?</p>
+<button class='default-button primary-button' ng-click='showCreateSpaceDialog()' ng-show='canCreateSpace()' type='button'>Create Space</button>
+<a class='knowledge-base-link' href='https://contentful.zendesk.com/hc/en-us/articles/200513118-What-is-a-space-' target='_blank'>
+Visit the Knowledge Base Pages
+<i class='ss-help'></i>
+</a>
+</div>
+<div class='cf-account-view' ng-class="{'with-tab-bar': !hideTabBar()}"></div>
+</div>
+<script src="//static.contentful.com/app/application-82a290cc9efa83b273c4615b1f62deb3.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDskFlzw1ujRovNWNG3K64EUsncYTbRPfM&amp;sensor=false" type="text/javascript"></script>
+</body>

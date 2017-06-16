@@ -1,0 +1,240 @@
+BODY {
+	FONT-SIZE: 9pt; OVERFLOW: hidden; FONT-FAMILY: Arial; COLOR:BLACK
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR:BLACK
+}
+TH {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR:BLACK
+}
+INPUT {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR:BLACK
+}
+DIV {
+	HEIGHT: 100%
+}
+.NUI_WindowWideContent {
+	WIDTH: 100%
+}
+.NUI_ContentFrameContainingCell {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.NUI_ContentFrame {
+	
+}
+.NUI_ContentFrameHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; BACKGROUND-COLOR: #bac0ce
+}
+.NUI_ContentFrameContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px;
+  font-size: 8pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.NUI_Icon {
+	MARGIN-TOP: 6px; MARGIN-BOTTOM: 6px; HEIGHT: auto
+}
+.NUI_Icon A {
+	VERTICAL-ALIGN: middle; COLOR: blue; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.NUI_Icon A:hover {
+	TEXT-DECORATION: underline
+}
+.NUI_ActionLink {
+	FONT-WEIGHT: normal; COLOR: blue; TEXT-DECORATION: none
+}
+.NUI_ActionLink:hover {
+	TEXT-DECORATION: underline
+}
+.NUI_ErrorMessage {
+	COLOR: red
+}
+.NUI_RedDivider {
+	HEIGHT: 8px; BACKGROUND-COLOR: #bac0ce
+}
+.NUI_GrayDivider {
+	HEIGHT: 8px; BACKGROUND-COLOR: #dfdfdf
+}
+.NUI_YellowDivider {
+	HEIGHT: 4px; BACKGROUND-COLOR: #ffd149
+}
+.NUI_WhiteDivider {
+	HEIGHT: 8px; BACKGROUND-COLOR: white
+}
+.NUI_WebSitesContainer {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; OVERFLOW: auto; PADDING-TOP: 8px
+}
+.NUI_FileSharesContainer {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; OVERFLOW: auto; PADDING-TOP: 8px
+}
+.NUI_EmailContainer {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.NUI_LocationInput {
+	WIDTH: 100%
+}
+.NUI_Button {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px
+}
+.NUI_Test IFRAME {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 100%
+}
+.NUI_PopupBlockerMessage {
+	BORDER-RIGHT: #dfdfdf 2pt solid; PADDING-RIGHT: 5pt; BORDER-TOP: #dfdfdf 2pt solid; PADDING-LEFT: 5pt; BACKGROUND: #ffd149; PADDING-BOTTOM: 5pt; MARGIN: 0px; BORDER-LEFT: #dfdfdf 2pt solid; PADDING-TOP: 5pt; BORDER-BOTTOM: #dfdfdf 2pt solid
+}
+.NUI_HomePageButton {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; CURSOR: default; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px; BACKGROUND-COLOR: #bac0ce
+}
+.NUI_HomePageButton_Hover {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; CURSOR: hand; COLOR: blue; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.NUI_TabTable {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; WIDTH: 100%; BORDER-BOTTOM: #aaaaaa 1px solid; HEIGHT: 100%
+}
+.NUI_TabPageContent {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: 100%; BORDER-BOTTOM: black 1px solid; HEIGHT: 100%
+}
+.NUI_TabRow {
+	HEIGHT: 21px
+}
+.NUI_TabColumn {
+	WIDTH: 150px
+}
+.NUI_TabPage {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.NUI_TabSelected {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; WIDTH: 100%; CURSOR: default; COLOR: #000000; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana; HEIGHT: 100%; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.NUI_TabUnselected {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; WIDTH: 100%; CURSOR: default; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana; HEIGHT: 100%; BACKGROUND-COLOR: #bac0ce; TEXT-ALIGN: center
+}
+.NUI_TabHover {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: blue; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana; HEIGHT: 100%; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+
+
+.bmoptions{
+  display: inline;
+  float: right;
+  font-size: .8em;
+}
+.tipBody{
+  background-color: [% style.block.background %];
+	color: [% style.item.color %];
+}
+#tipiframe{
+}
+#tip{
+  font-size: 9pt;
+  padding-left: 1em;
+  padding-top: .5em;
+  font-family: Arial;
+}
+#nexttip{
+  font-size: 9pt;
+  float: right;
+}
+
+.block{
+  border: 1px solid [% style.block.border %];
+  margin-bottom: .8em;
+  background-color: [% style.block.background %];
+}
+.block h2{
+  background-color: [% style.h2.background %];
+  color: [% style.h2.color %];
+  padding: .2em;
+  margin: 0;
+  font-size: 1em;	
+}
+.block h3{
+  background-color: [% style.h3.background %];
+  color: [% style.h3.color %];
+  padding: .1em;
+  padding-left:.5em;
+  margin: 0;  
+  font-size: .9em;   
+  margin-bottom: .2em;
+}
+.block .item{
+  color: [% style.item.color %];
+  padding: 0;
+  padding-left: 1em;
+  padding-bottom: .2em;
+  font-size: .8em;
+}
+.block .item a {
+  color: [% style.item.color %];
+}
+/* Begin: Form element styles*/
+#newbm .labelbr{
+  display: none;
+}
+#newbm fieldset {
+  border: 0px solid white;
+}
+#newbm fieldset legend{
+  display: none;
+}
+#newbm fieldset .inlinelabel {
+  color: [% style.item.color %];
+  text-align:right;
+  width:70px;
+  float:left;
+  padding:0.2em;
+  margin:0;
+  margin-top:0.3em; 
+  font-size: 9pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#newbm fieldset .textfield {
+  margin:3px;
+  height:20px;
+  width: 13em;
+}
+#newbm .button {
+  font: Arial
+  margin-right: 1em;
+}
+#newbm .buttonrow{
+  width: 20em;
+  text-align: center;
+}
+/* End: Form element styles*/
+/* Begin: Ping Form element styles*/
+#pingform label{
+  font-size: 9pt;
+}
+#pingform input{
+  float: left;
+}
+#pingform fieldset{
+  border: 0px solid white;
+margin-bottom: 2px;
+padding-bottom: 0px;
+margin: 0;
+padding: 0;
+}
+#pingform .labelbr{
+  display: inline;
+  width: 0px;
+  float: none;
+}
+#ping #response{
+font-size: 9pt;
+}
+#ping{
+  background-color: [% style.block.background %];
+}
+#ping form{
+margin: 0px;
+padding: 0px;
+
+}
+#pingiframe{
+ height: 65px;
+ width: 258px; 
+ border: 0px;
+margin-left: 12px;
+}
+/* End: Ping Form element styles*/

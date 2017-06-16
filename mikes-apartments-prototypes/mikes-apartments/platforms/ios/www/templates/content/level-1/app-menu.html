@@ -1,0 +1,39 @@
+<ion-side-menus>
+    <ion-side-menu-content>
+        <ion-nav-bar class="" animation="nav-title-slide-ios7">
+            <ion-nav-back-button class="button-icon ion-ios7-arrow-left">
+            </ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent" animation="no-animation"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <!--START: LEFT MENU-->
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-assertive">
+            <h1 class="title">Left Menu</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <a ui-sref="app.home" menu-close class="item">Home</a>
+                <a ui-sref="app.checkin" menu-close class="item">Check-in</a>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+    <!--END: LEFT MENU-->
+
+    <!--START: RIGHT MENU-->
+    <ion-side-menu side="right">
+        <ion-header-bar class="bar-assertive">
+            <h1 class="title">Left Menu</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <a ui-sref="app.home" menu-close class="item">Home</a>
+                <a ui-sref="app.settings" menu-close class="item">Settings</a>
+                <a ui-sref="app.page" menu-close class="item">page</a>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+    <!--END: RIGHT MENU-->
+
+</ion-side-menus>

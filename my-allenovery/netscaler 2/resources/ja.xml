@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <Partition id="locale">
+    <String id="ShortDateFormat">yyyy/MM/dd</String>
+    <String id="ShortTimeFormat">HH:mm</String>
+  </Partition>
+  <Partition id="epa">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Internal Error">内部エラー</String>
+    <String id="Err3006">プラグインの起動に失敗しました。&lt;BR&gt;ヘルプ デスクまたはシステム管理者に連絡してください。</String>
+    <String id="You are downgrading the Citrix Endpoint Analysis Client">Citrix Endpoint Analysis Client を古いバージョンにダウングレードしています。\nInternet Explorer ブラウザー ウィンドウは自動的に閉じられます。\nInternet Explorer をもう一度開いて、ログオンしてください。</String>
+    <String id="loginAgentCdaHeaderText">デバイス上のシステム設定のチェック</String>
+    <String id="The Access Gateway must confirm that you have the minimum requirements on your device before you can log on.">ログオンする前に、デバイス上に最低要件がそろっているかを Access Gateway が確認する必要があります。</String>
+    <String id="To begin the check, click the yellow bar on the top of the page and follow the instructions.">チェックを開始するには、ページ上部の黄色いバーをクリックして、表示される指示に従います。</String>
+    <String id="To install or upgrade the software, click Download.">Citrix Endpoint Analysis Plug-in ソフトウェアをインストールまたはアップグレードするには、&lt;b&gt;［ダウンロード］&lt;/b&gt;をクリックします。</String>
+    <String id="Your device is checked automatically if the Citrix Endpoint Analysis Plug-in software is already installed.">すでに Citrix Endpoint Analysis Plug-in ソフトウェアがインストールされている場合は、デバイスが自動的にチェックされます。</String>
+    <String id="If you do not want your device checked, click Skip Check.">デバイスをチェックしない場合は、&lt;B&gt;［チェックをスキップ］&lt;/B&gt;をクリックします。</String>
+    <Property id="downloadbutton" property="value">ダウンロード</Property>
+    <Property id="skipbutton" property="value">チェックをスキップ</Property>
+    <ClassStyle id=".CTX_BlackButton" property="width">110px</ClassStyle>
+    <ClassStyle id=".CTX_BlackButton_Hover" property="width">110px</ClassStyle>
+  </Partition>
+  <Partition id="epaerrorpage">
+    <Title>Citrix Access Gateway: アプリケーション エラー</Title>
+    <String id="Access Denied">アクセスが拒否されました</String>
+    <String id="Your device does not meet the requirements for logging on to the secure network.">デバイスは、セキュアなネットワークへのログオンに必要な要件を満たしていません。</String>
+    <String id="For more information, contact your help desk or system administrator.">詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+    <String id="Provide the following information to your support personnel:">サポート担当者に、次の情報を提供します:</String>
+    <String id="Date:">日付:</String>
+    <String id="Time:">時間:</String>
+    <String id="Error:">エラー:</String>
+    <String id="To check your device again, click Back.">デバイスをもう一度チェックするには、&lt;B&gt;［戻る］&lt;/B&gt;をクリックします。</String>
+    <Property id="Button1" property="value">戻る</Property>
+  </Partition>
+  <Partition id="postepa">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Internal Error">内部エラー</String>
+    <String id="Please ">デバイスのチェックを実行するには、</String>
+    <String id="(Please) use the Access Gateway Plug-in to run the check of your device. ">Access Gateway Plug-in&lt;/A&gt;を使用してください。</String>
+    <String id="For further help or information, contact your help desk or system administrator.">詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+    <String id="The Endpoint Analysis Plug-in failed to start. ">Endpoint Analysis Plug-in の起動に失敗しました。</String>
+    <String id="You can ">デバイスのチェックは、</String>
+    <String id="(You can) use the Access Gateway Plug-in to run the check of your device. ">Access Gateway Plug-in&lt;/A&gt;を使って実行できます。</String>
+    <String id="The user skipped the scan">ユーザーがスキャンをスキップしました。</String>
+    <String iD="You are downgrading the Citrix Endpoint Analysis Client to an earlier version.">Citrix Endpoint Analysis Client を古いバージョンにダウングレードしています。\nInternet Explorer ブラウザー ウィンドウは自動的に閉じられます。\nInternet Explorer をもう一度開いて、ログオンしてください。</String>
+    <String id="Checking System Configuration on your Device">デバイス上のシステム設定のチェック</String>
+    <String id="The Access Gateway must confirm that you have the minimum requirements on your device before you can log on.">ログオンする前に、デバイス上に最小要件がそろっていることを Access Gateway が確認する必要があります。</String>
+    <String id="To begin the check, click the yellow bar on the top of the page and follow the instructions.">チェックを開始するには、ページ上部の黄色いバーをクリックして、表示される指示に従います。</String>
+    <String id="To install or upgrade the software, click Download.">ソフトウェアをインストールまたはアップグレードするには、&lt;b&gt;［ダウンロード］&lt;b&gt;をクリックします。</String>
+    <String id="Your device is checked automatically if the Citrix Endpoint Analysis Plug-in software is already installed.">Citrix Endpoint Analysis Plug-in ソフトウェアがインストールされている場合、デバイスは自動的にチェックされます。</String>
+    <String id="If you do not want your device checked, click Skip Check.">デバイスをチェックしない場合、&lt;B&gt;［チェックをスキップ］&lt;B&gt;をクリックします。</String>
+    <Property id="downloadbutton" property="value">ダウンロード</Property>
+    <Property id="skipbutton" property="value">チェックをスキップ</Property>
+    <ClassStyle id=".CTX_BlackButton" property="width">110px</ClassStyle>
+    <ClassStyle id=".CTX_BlackButton_Hover" property="width">110px</ClassStyle>
+  </Partition>
+  <Partition id="logon">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Welcome">ようこそ</String>
+    <String id="ctl08_loginAgentCdaHeaderText2">処理を続けるには、ログオンしてください。</String>
+    <String id="User_name">ユーザー名:</String>
+    <Property id="Enter user name" property="title">ユーザー名を入力します</Property>
+    <String id="Password">パスワード</String>
+    <String id="Password2">第 2 パスワード:</String>
+    <String id="Enter password">パスワードを入力します</String>
+    <Property id="Log_On" property="value">ログオン</Property>
+    <String id="You need to enter login name">ログオン名を入力する必要があります</String>
+    <String id="You need to enter passwd">パスワードを入力する必要があります</String>
+    <String id="errorMessageLabelBase">errorMessageLabel</String>
+    <String id="errorMessageLabel4001">資格情報が間違っています。もう一度入力してください。</String>
+    <String id="errorMessageLabel4002">現在ログオンするアクセス許可がありません。</String>
+    <String id="errorMessageLabel4003">サーバーに接続できません。数分後に再度接続してみてください。</String>
+    <String id="errorMessageLabel4004">接続できません。もう一度接続してみてください。</String>
+    <String id="errorMessageLabel4005">接続できません。もう一度接続してみてください。</String>
+    <String id="errorMessageLabel4006">ユーザー名が正しくありません。</String>
+    <String id="errorMessageLabel4007">パスワードが正しくありません。</String>
+    <String id="errorMessageLabel4008">パスワードが一致しません。</String>
+    <String id="errorMessageLabel4009">ユーザーが見つかりません。 </String>
+    <String id="errorMessageLabel4010">現在ログオンするアクセス許可がありません。</String>
+    <String id="errorMessageLabel4011">アカウントは無効になっています。</String>
+    <String id="errorMessageLabel4012">パスワードの有効期限が切れました。</String>
+    <String id="errorMessageLabel4013">ログオンするアクセス権限がありません。</String>
+    <String id="errorMessageLabel4014">パスワードを変更できません。</String>
+    <String id="errorMessageLabel4015">アカウントが一時的にロックされています。</String>
+    <String id="errorMessageLabelMax">4015</String>
+  </Partition>
+  <Partition id="loading">
+    <Title>Citrix Access Gateway</Title>
+    <String id="One Moment Please">しばらくお待ちください</String>
+    <String id="Loading...">読み込んでいます...</String>
+  </Partition>
+  <Partition id="changepwd">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Error0">パスワードの変更に失敗しました。指定した現在のパスワードが正しいか確認し、もう一度実行してください。</String>
+    <String id="Error1">パスワードを変更しようとして、Access Gateway でエラーが発生しました。もう一度実行してください。</String>
+    <String id="Error2">パスワードを変更を許可されていません。ヘルプ デスクまたはシステム管理者に連絡してください。</String>
+    <String id="Error3">パスワードを変更するには、すべてのフィールドを指定してください。&lt;BR&gt;</String>
+    <String id="Error4">新しいパスワードと確認用のパスワードが一致しません。もう一度入力してください。</String>
+    <String id="Error5">Access Gateway が予期しない状態になりました。ヘルプ デスクまたはシステム管理者に連絡してください。</String>
+    <String id="The password change failed. Please try again.">パスワードの変更に失敗しました。もう一度実行してください。&lt;BR&gt;</String>
+    <String id="infoMessage">ここでパスワードを変更しない場合は、&lt;B&gt;［キャンセル］&lt;/B&gt;をクリックしてホームページに戻ります。</String>
+    <String id="Change Password">パスワードを変更</String>
+    <String id="For more information about changing your password, contact your help desk or system administrator.">パスワードの変更について詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+    <String id="labelUsername">ユーザー名:</String>
+    <String id="labelOldPassword">古いパスワード:</String>
+    <String id="labelNewPassword">新しいパスワード:</String>
+    <String id="labelConfirmedPassword">確認用のパスワード:</String>
+    <Property id="Submit" property="value">適用</Property>
+    <Property id="Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="chpwdsuccess">
+    <Title>Citrix Access Gateway</Title>
+    <String id="successMessage">パスワードが変更されました。</String>
+    <Property id="Continue" property="value">続行</Property>
+  </Partition>
+  <Partition id="logout">
+    <Title>Citrix Access Gateway</Title>
+    <String id="ctl10_cdaHeaderText">ログオフ</String>
+    <String id="Logoff is successful.">正常にログオフしました。</String>
+  </Partition>
+  <Partition id="VPN_REDIRECT_2000K">
+    <String id="Login Successful. Please click">正常にログオンしました。自動的にリダイレクトしない場合は</String>
+    <String id="here">ここを</String>
+    <String id="if you are not automatically redirected.">クリックしてください。</String>
+  </Partition>
+  <Partition id="AAATM_REDIRECT_FORM">
+    <String id="If you are not automatically redirected click ">自動的にリダイレクトしない場合は</String>
+    <Property id="Continue" property="value">［続行］</Property>
+    <String id="Trailing phrase after Continue button">をクリックしてください。</String>
+  </Partition>
+  <Partition id="REDIRECTION_BODY">
+    <String id="This object may be found ">このオブジェクトは</String>
+    <String id="here">ここで</String>
+    <String id="Trailing phrase after here">見つかる可能性があります</String>
+  </Partition>
+  <Partition id="LOGOUT_OK_BODY">
+    <Title>ページは移動されました</Title>
+    <String id="Logout Succeeded">正常にログオフしました</String>
+  </Partition>
+  <Partition id="VPN_LICERR_BODY">
+    <String id="Error: Login exceeds maximum allowed users.">エラー: 許可された最大ログオン ユーザー数を超えました。</String>
+  </Partition>
+  <Partition id="FS_LOGIN_DNSERR_BODY">
+    <String id="Requested servername too long.">要求したサーバー名が長すぎます。</String>
+  </Partition>
+  <Partition id="NS_PING_DNS_ERR">
+    <Title>Ping フォーム</Title>
+    <String id="Server:">サーバー:</String>
+    <Property id="PingButton" property="value">Ping</Property>
+    <String id="Failed to resolve IP address">IP アドレス解決に失敗しました</String>
+  </Partition>
+  <Partition id="DIALOGUE_HTML">
+    <Title>Citrix Access Gateway</Title>
+    <String id="dialogueHeader">追加情報が必要</String>
+    <String id="dialogueInfo">以下に返信を入力してください。</String>
+    <String id="dialoguePasswordChange">パスワードの有効期限が切れています。新しいパスワードを入力してください。</String>
+    <String id="dialogueConfirmPassword">パスワードを確認してください</String>
+    <Property id="SubmitButton" property="value">適用</Property>
+  </Partition>
+  <Partition id="TRANSFER_RSP">
+    <Title>Citrix Access Gateway</Title>
+    <String id="heading">転送ログオン</String>
+    <String id="You are currently logged on to the Access Gateway on another device.">現在ほかのデバイス上の Access Gateway にログオンしています。</String>
+    <String id="Would you like to end that session?">セッションを終了してもよろしいですか?</String>
+    <String id="You have reached the limit of the allowed Access Gateway sessions.">Access Gateway セッションの限度数に達しました。</String>
+    <String id="Please select which session to release in order to continue with this session.">このセッションを続行するために開放するセッションを選択してください。</String>
+    <String id="Intranet IP Address">内部 IP アドレス</String>
+    <String id="Idle Time">アイドル時間（H:MM:SS）</String>
+    <Property id="TransferButton" property="value">転送</Property>
+    <Property id="TransferButton" property="onclick">function() { this.value = 'Transfer'; }</Property>
+    <Property id="CancelButton" property="value">キャンセル</Property>
+    <Property id="CancelButton" property="onclick">function() { this.value = 'Cancel'; }</Property>
+  </Partition>
+  <Partition id="choices">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Network Access">ネットワーク アクセス</String>
+    <String id="Connect with the Access Gateway Plug-in for ActiveX.">Access Gateway Plug-in for ActiveX を使って接続します。</String>
+    <String id="Connect with the Access Gateway Plug-in.">Access Gateway Plug-in を使って接続します。</String>
+    <String id="Connect with the Access Gateway Plug-in for Java.">Access Gateway Plug-in for Java を使って接続します。</String>
+    <String id="Connect with the Access Gateway Plug-in for MAC.">Access Gateway Plug-in for MAC を使って接続します。</String>
+    <String id="Citrix XenApp">Citrix XenApp</String>
+    <String id="Connect with Citrix XenApp Plug-in for Hosted Apps.">Citrix XenApp Plug-in for Hosted Apps を使って接続します。</String>
+    <String id="Clientless Access">クライアントレス アクセス</String>
+    <String id="Connect without the Access Gateway Plug-in.">Access Gateway Plug-in を使わずに接続します。</String>
+    <String id="Log Off">ログオフ</String>
+    <String id="End your session.">セッションを終了します。</String>
+    <String id="messageTitle">次のいずれかを選択してください:</String>
+  </Partition>
+  <Partition id="f_services">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="waitingmsg">VPN セッションが確立するまでお待ちください。</String>
+    <String id="If the Access Gateway Plug-in is installed">Access Gateway Plug-in がインストールされている場合、&lt;B&gt;［スタート］&lt;/B&gt;をクリックし、&lt;B&gt;［すべてのプログラム］&amp;gt;［Citrix］&amp;gt;［Secure Access Client］&lt;/B&gt;の順に選択してこのアプリケーションを起動します。</String>
+    <String id="If the Access Gateway Plug-in is not installed">Access Gateway Plug-in がインストールされていない場合は、&lt;B&gt;［ダウンロード］&lt;/B&gt;をクリックしてソフトウェアをインストールし、自動的に接続します。</String>
+    <String id="If a proxy server is configured">プロキシ サーバーが設定されている場合は、Web ブラウザーのプロキシ例外に &quot;localhost&quot; を追加する必要があります。</String>
+    <String id="For more information contact your help desk or system administrator.">詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+    <Property id="Button_Download" property="src">/vpns/images/Download_ja.png</Property>
+    <String id="/vpns/images/Download_Hover.png">/vpns/images/Download_Hover_ja.png</String>
+    <String id="/vpns/images/Download.png">/vpns/images/Download_ja.png</String>
+    <String id="To install the Access Gateway Plug-in for Windows">Access Gateway Plug-in for Windows をインストールするには</String>
+    <String id="Click Download">1.  &lt;B&gt;［ダウンロード］&lt;/B&gt;をクリックします。</String>
+    <String id="In the File Download dialog box, click Run.">2.  &lt;B&gt;［ファイルのダウンロード］&lt;/B&gt;ダイアログボックスで、&lt;B&gt;［実行］&lt;/B&gt;をクリックします。</String>
+    <String id="In the Internet Explorer dialog box, click Run to install the Access Gateway Plug-in for Windows.">3.  &lt;B&gt;［Internet Explorer - セキュリティの警告］&lt;/B&gt;ダイアログボックスで、&lt;B&gt;［実行］&lt;/B&gt;をクリックして Access Gateway Plug-in for Windows をインストールします。</String>
+    <String id="The Access Gateway Plug-in is not supported on your operating system.">Access Gateway Plug-in はお使いのオペレーティング システムではサポートされていません。</String>
+    <String id="To connect to the Access Gateway Plug-in, you need to install some software.">Access Gateway Plug-in に接続するには、あるソフトウェアをインストールする必要があります。</String>
+  </Partition>
+  <Partition id="f_ndisagent">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="If the Access Gateway Plug-in is installed">Access Gateway Plug-in がインストールされていて、現在実行中でない場合は、&lt;B&gt;［スタート］&lt;/B&gt;をクリックして&lt;B&gt;［すべてのプログラム］&amp;gt;［Citrix］&amp;gt;［Citrix Access Gateway］&lt;/B&gt;の順に選択し、アプリケーションを起動します。</String>
+    <String id="If the Access Gateway Plug-in is not installed">Access Gateway Plug-in がインストールされていない場合は、&lt;B&gt;［ダウンロード］&lt;/B&gt;をクリックするとソフトウェアがインストールされ、自動的に接続します。</String>
+    <String id="waitingmsg">VPN セッションが確立するまでお待ちください。</String>
+    <String id="If a proxy server is configured">プロキシ サーバーが設定されている場合は、Web ブラウザーのプロキシ例外に &quot;localhost&quot; を追加する必要があります。</String>
+    <String id="For more information contact your help desk or system administrator.">詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+    <Property id="Button_Download" property="src">/vpns/images/Download_ja.png</Property>
+    <String id="/vpns/images/Download_Hover.png">/vpns/images/Download_Hover_ja.png</String>
+    <String id="/vpns/images/Download.png">/vpns/images/Download_ja.png</String>
+    <String id="To install the Access Gateway Plug-in for Windows">Access Gateway Plug-in for Windows をインストールするには</String>
+    <String id="Click Download">1.  &lt;B&gt;［ダウンロード］&lt;/B&gt;をクリックします。</String>
+    <String id="In the File Download dialog box, click Run.">2.  &lt;B&gt;［ファイルのダウンロード］&lt;/B&gt;ダイアログボックスで、&lt;B&gt;［実行］&lt;/B&gt;をクリックします。</String>
+    <String id="In the Internet Explorer dialog box, click Run to install the Access Gateway Plug-in for Windows.">3.  &lt;B&gt;［Internet Explorer - セキュリティの警告］&lt;/B&gt;ダイアログボックスで、&lt;B&gt;［実行］&lt;/B&gt;をクリックして Access Gateway Plug-in for Windows をインストールします。</String>
+  </Partition>
+  <Partition id="m_services">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="This is a beta version of Access Gateway Plug-in for Mac OS X.">これは、Access Gateway Plug-in for Mac OS X のベータ バージョンです。</String>
+    <String id="If the Plug-in is installed">プラグインがインストールされている場合は、&lt;B&gt;［アプリケーション］-&amp;gt;［Citrix Access Gateway］&lt;/B&gt;の順にクリックしてログオンします。</String>
+    <String id="If the Access Gateway Plug-in is not installed">Access Gateway Plug-in がインストールされていない場合は、&lt;B&gt;［ダウンロード］&lt;/B&gt;をクリックしてソフトウェアをインストールして自動的に接続します。</String>
+    <String id="If a proxy server is configured">プロキシ サーバーが設定されている場合は、Web ブラウザーのプロキシ例外に &quot;localhost&quot; を追加する必要があります。</String>
+    <String id="For more information contact your help desk or system administrator.">詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+    <Property id="Button_Download" property="src">/vpns/images/Download_ja.png</Property>
+    <String id="/vpns/images/Download_Hover.png">/vpns/images/Download_Hover_ja.png</String>
+    <String id="/vpns/images/Download.png">/vpns/images/Download_ja.png</String>
+    <String id="To install the Access Gateway Plug-in for Mac OS X">Access Gateway Plug-in for Mac OS X をインストールするには</String>
+    <String id="Click Download">1.  &lt;B&gt;［ダウンロード］&lt;B&gt;をクリックします。</String>
+    <String id="In the File Download dialog box, click Run.">2. &lt;B&gt;［ファイルのダウンロード］&lt;/B&gt;ダイアログボックスで、&lt;B&gt;［実行］&lt;/B&gt;をクリックします。</String>
+    <String id="In the Web browser dialog box, click Run to start the installaTion.">3.  &lt;B&gt;［Web ブラウザー］&lt;/B&gt;ダイアログボックスで、&lt;B&gt;［実行］&lt;/B&gt;をクリックしてインストールを開始します。</String>
+  </Partition>
+  <Partition id="f_services1">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="If the Access Gateway Plug-in for ActiveX does not start automatically">Access Gateway Plug-in for ActiveX が自動的に起動しない場合は、&lt;A HREF=&quot;/vpns/app.html&quot; onclick=&quot;ns_loadsessionwindow(); return false;&quot;&gt;Access Gateway セッション ウィンドウ&lt;/A&gt;を手動で開くことができます。</String>
+    <String id="Please click here to download Secure Access client to this Pocket PC">&lt;A HREF=&quot;/vpns/scripts/ARM/nsvpnc.exe&quot;&gt;ここをクリック&lt;/A&gt;してこの Pocket PC に Secure Access Client をダウンロードし、このクライアントを起動して Secure Access Web サイトにログオンします。</String>
+    <String id="The Access Gateway Plug-in is not supported on your operating system.">Access Gateway Plug-in はお使いのオペレーティング システムではサポートされていません。</String>
+    <String id="For further help or information, contact your help desk or system administrator.">詳しくは、ヘルプ デスクまたはシステム管理者に問い合わせてください。</String>
+  </Partition>
+  <Partition id="app">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Err3001">すでに Access Gateway にログオンしています。</String>
+    <String id="Err3002">Access Gateway にログオンしていません。</String>
+    <String id="Err3003">Citrix Access Gateway は Internet Explorer 4 以降をサポートします。</String>
+    <String id="Err3004">プラグインのロードに失敗しました。Access Gateway 管理者に連絡してください。</String>
+    <String id="Err3005">ActiveX のアクティブ化に失敗しました。Access Gateway 管理者に連絡してください。</String>
+    <String id="Navigating away from this page ends your session.">このページから移動すると、セッションが終了します。</String>
+    <String id="Home">ホーム</String>
+    <String id="File Transfer">ファイル転送</String>
+    <String id="Configuration">設定</String>
+    <String id="Help">ヘルプ</String>
+    <String id="Logoff">ログオフ</String>
+  </Partition>
+  <Partition id="err2002">
+    <Title>SSL VPN ポータル</Title>
+    <String id="errortitle">エラー 2002: dsclient.exe をインストールする必要があります。</String>
+    <String id="info">NetScaler はコンピューターが dsclient.exe をインストールしていないことを検出しました。この Microsoft のソフトウェアは SSL VPN で暗号化/暗号化解除機能を実行するために必要です。&lt;A HREF=&quot;/&quot; onclick=&quot;return ns_doupdate();&quot;&gt;ここをクリックして&lt;/A&gt;このソフトウェアをインストールしてください。指示に従ってこのインストールを完了し、コンピューターを再起動して、もう一度ログオンします。</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. All rights reserved.</String>
+  </Partition>
+  <Partition id="err2004">
+    <Title>SSL VPN ポータル</Title>
+    <String id="errortitle">エラー 2004: 必要なエンドポイント セキュリティ ソフトウェアがインストールされていません。</String>
+    <String id="info">管理者は、SSL VPN にアクセスするためにエンドポイント セキュリティ ソフトウェアでコンピューターを保護する必要があります。NetScaler は、コンピューターがこのセキュリティ要件を満たしていないことを検出しました。必要なエンドポイント セキュリティ ソフトウェアは、個人用ファイヤウォール、アンチウィルス アプリケーション、アンチハッカー アプリケーション、またはカスタマイズされたアプリケーションです。&lt;P&gt;エラー &lt;I&gt;2004&lt;/I&gt;: エンドポイント セキュリティ ソフトウェアがこのコンピューターにインストールされていません。管理者に連絡して、ソフトウェアをインストールしてください。</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. All rights reserved.</String>
+  </Partition>
+  <Partition id="err2005">
+    <Title>SSL VPN ポータル</Title>
+    <String id="errortitle">エラー 2005: 必要なエンドポイント セキュリティ ソフトウェアをアップグレードする必要があります。</String>
+    <String id="info">管理者は、SSL VPN にアクセスするためにエンドポイント セキュリティ ソフトウェアでコンピューターを保護する必要があります。NetScaler は、コンピューターがこのセキュリティ要件を満たしていないことを検出しました。必要なエンドポイント セキュリティ ソフトウェアは、個人用ファイヤウォール、アンチウィルス アプリケーション、アンチハッカー アプリケーション、またはカスタマイズされたアプリケーションです。&lt;P&gt;エラー &lt;I&gt;2005&lt;/I&gt;: このコンピューターにインストールされている必要なエンドポイント セキュリティ ソフトウェアのバージョンが要件を満たしていません。管理者に連絡してソフトウェアを更新してください。</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. All rights reserved.</String>
+  </Partition>
+  <Partition id="err2006">
+    <Title>SSL VPN ポータル</Title>
+    <String id="errortitle">エラー 2006: 必要なエンドポイント セキュリティ ソフトウェアがアクティブになっていません。</String>
+    <String id="info">管理者は、SSL VPN にアクセスするためにエンドポイント セキュリティ ソフトウェアでコンピューターを保護する必要があります。NetScaler は、コンピューターがこのセキュリティ要件を満たしていないことを検出しました。必要なエンドポイント セキュリティ ソフトウェアは、個人用ファイヤウォール、アンチウィルス アプリケーション、アンチハッカー アプリケーション、またはカスタマイズされたアプリケーションです。&lt;P&gt;エラー &lt;I&gt;2006&lt;/I&gt;: このコンピューターにインストールされているエンドポイント セキュリティ ソフトウェアは現在アクティブになっていません。必要なエンドポイント セキュリティ ソフトウェアをアクティブ化してください。</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. All rights reserved.</String>
+  </Partition>
+  <Partition id="portal">
+    <Title>Citrix Access Gateway</Title>
+    <String id="ctl00_applications_label">アプリケーション</String>
+    <String id="ctl00_ping_label">Ping</String>
+    <String id="ctl00_tip_label">ヒント</String>
+    <String id="ctl00_help_label">ヘルプ</String>
+    <String id="ctl00_webSites_label">Web サイト</String>
+    <String id="ctl00_fileShares_label">ファイル共有</String>
+    <String id="id_Home">ホーム</String>
+    <String id="id_Email">電子メール</String>
+    <String id="id_FileTransfer">ファイル転送</String>
+    <Property id="id_ChangePassword" property="value">パスワード変更</Property>
+    <Property id="id_LogOff" property="value">ログオフ</Property>
+    <String id="id_UserGuide">ユーザー ガイド</String>
+    <Property id="id_UserGuide" property="href">/vpns/help/ja/SAC_Windows/Title-Page.html</Property>
+  </Partition>
+  <Partition id="fsping">
+    <String id="ServerLabel">サーバー:</String>
+    <String id="Failed to resolve IP address for">次の IP アドレスを解決できませんでした:</String>
+    <String id="server">サーバー</String>
+    <String id="is alive">稼働中</String>
+    <String id="is not alive">非稼働</String>
+    <Property id="PingButton" property="value">Ping</Property>
+  </Partition>
+  <Partition id="bookmark">
+    <String id="none">なし</String>
+    <String id="id_EnterpriseWebSites">企業 Web サイト</String>
+    <String id="id_PersonalWebSites">個人 Web サイト</String>
+    <String id="id_Add">追加</String>
+    <String id="id_Remove">削除</String>
+  </Partition>
+  <Partition id="newbm">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Add a Bookmark">ブックマークを追加</String>
+    <String id="To add a Web site, type in the full address">Web サイトを追加するには、次のような完全なアドレスを入力します: http://my.company.com/</String>
+    <String id="To add a file share, type in the server and folder name">ファイル共有を追加するには、\\fileserver\foldername のようにサーバーおよびフォルダー名を入力します。</String>
+    <String id="The maximum length of each field is 256 characters.">各フィールドの最大文字数は 256 です。</String>
+    <String id="ctl10_labelUsername">名前:</String>
+    <String id="ctl10_labelNewPassword">アドレス:</String>
+    <String id="ctl10_labelConfirmNewPassword">説明:</String>
+    <Property id="Button_Add" property="value">追加</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+    <String id="You must provide a URL for your bookmark.">ブックマークの URL を指定する必要があります。</String>
+    <String id="The bookmark contains invalid URI characters. Please enter a valid Web address.">ブックマークに無効な URI 文字が含まれています。有効な Web アドレスを入力してください。</String>
+    <String id="The bookmark is using the script tag, which is not allowed. Please enter a valid name.">ブックマークは &lt;script&gt; タグを使用しており、これは許可されていません。有効な名前を入力してください。</String>
+    <String id="The bookmark is using the script tag, which is not allowed. Please enter a valid description.">ブックマークは &lt;script&gt; タグを使用しており、これは許可されていません。有効な説明を入力してください。</String>
+  </Partition>
+  <Partition id="rmbm">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Remove Bookmarks">ブックマークの削除</String>
+    <String id="To remove a bookmark, select it and click Remove.">ブックマークを削除するには、削除するブックマークを選択して&lt;b&gt;［削除］&lt;/b&gt;をクリックします。</String>
+    <String id="When a bookmark is removed, it cannot be retrieved.">ブックマークを削除すると、それを再生できません。ブックマークを誤って削除した場合は、&lt;b&gt;［ブックマークを追加］&lt;/b&gt;を使って再度作成します。</String>
+    <Property id="Button_Remove" property="value">削除</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+    <String id="none">なし</String>
+  </Partition>
+  <Partition id="ftlist">
+    <String id="none">なし</String>
+    <String id="id_EnterpriseFileShares">企業ファイル共有</String>
+    <String id="id_PersonalFileShares">個人ファイル共有</String>
+    <String id="id_Add">追加</String>
+    <String id="id_Remove">削除</String>
+  </Partition>
+  <Partition id="fslogin">
+    <Title>Citrix Secure Access: リモート セキュア ファイル システム アクセス</Title>
+  </Partition>
+  <Partition id="fsicons">
+    <String id="id_LogOn">ログオン</String>
+    <Property id="id_LogOnLink" property="title">サーバーを検索します</Property>
+    <String id="id_Up">上へ</String>
+    <Property id="id_UpLink" property="title">上のフォルダーに移動します</Property>
+    <String id="id_Refresh">更新</String>
+    <Property id="id_RefreshLink" property="title">このフォルダーを更新します</Property>
+    <String id="id_NewFolder">新規フォルダー</String>
+    <Property id="id_NewFolderLink" property="title">フォルダーを作成します</Property>
+    <String id="id_Download">ダウンロード</String>
+    <Property id="id_DownloadLink" property="title">ファイルをダウンロードします</Property>
+    <String id="id_Upload">アップロード</String>
+    <Property id="id_UploadLink" property="title">現在のフォルダーへファイルをアップロードします</Property>
+    <String id="id_Delete">削除</String>
+    <Property id="id_DeleteLink" property="title">ファイルまたは空のフォルダーを削除します</Property>
+    <String id="id_Rename">名前の変更</String>
+    <Property id="id_RenameLink" property="title">ファイルまたはフォルダーの名前を変更します</Property>
+    <String id="id_LogOff">ログオフ</String>
+    <Property id="id_LogOffLink" property="title">ログオフします</Property>
+  </Partition>
+  <Partition id="fsaddress">
+    <String id="id_Address">アドレス:</String>
+  </Partition>
+  <Partition id="fsneighbor">
+    <String id="id_NetworkNeighborhood">ネットワーク コンピューター</String>
+    <String id="id_Login">ログオン:</String>
+    <String id="id_Password">パスワード:</String>
+    <ClassStyle id="INPUT" property="font-family">Sans-Serif</ClassStyle>
+    <String id="id_Domain">ドメイン:</String>
+  </Partition>
+  <Partition id="fsgoto">
+    <String id="loading">サイン インしています...</String>
+    <String id="id_FileServer">ファイル サーバー</String>
+    <String id="id_Address">アドレス:</String>
+    <String id="id_Username">ユーザー名:</String>
+    <String id="id_Password">パスワード:</String>
+    <ClassStyle id="INPUT" property="font-family">Sans-Serif</ClassStyle>
+    <String id="id_Doamin">ドメイン:</String>
+    <Property id="id_LogOnButton" property="value">ログオン</Property>
+    <Property id="id_CancelButton" property="value">キャンセル</Property>
+    <String id="showLink">アカウント情報を入力</String>
+    <String id="hideLink">アカウント情報を非表示にする</String>
+  </Partition>
+  <Partition id="fsgotoerror">
+    <String id="sentenceterminator">。</String>
+    <String id="Internal Error.">内部エラー。</String>
+    <String id="Wins IP is not configured.">Wins IP は設定されていません。</String>
+    <String id="Wins IP is not provided.">Wins IP は指定されていません。</String>
+    <String id="Wins IP is neither provided nor configured.">Wins IP が指定されていないか、設定されていません。</String>
+    <String id="Wins IP is provided in wrong format.">Wins IP が不適切な形式で指定されています。</String>
+    <String id="Need to login neighborhood first.">最初にコンピューターにログオンする必要があります。</String>
+    <String id="Failed to connect.">接続に失敗しました。</String>
+    <String id="Failed to change directory.">ディレクトリを変更できませんでした。</String>
+    <String id="Failed to make a directory.">ディレクトリを作成できませんでした。</String>
+    <String id="Failed to remove a directory.">ディレクトリを削除できませんでした。</String>
+    <String id="Failed to delete the file.">ファイルを削除できませんでした。</String>
+    <String id="Failed to rename the file.">ファイルの名前を変更できませんでした。</String>
+    <String id="Failed to login.">ログオンできませんでした。</String>
+    <String id="Last login session has been expired. Please login again.">最後にログオンしたセッションの有効期限が切れました。もう一度ログオンしてください。</String>
+    <String id="Logoff is successful.">ログオフに成功しました。</String>
+    <String id="Failed to open the file.">ファイルを開けませんでした。</String>
+    <String id="Need to login SSL VPN first.">最初に SSL VPN にログオンする必要があります。</String>
+    <String id="Failed to parse URL, invalid URL.">URL を解析できませんでした。無効な URL です。</String>
+    <String id="Incorrect login credential to this server.">このサーバーに対する不正なログオン アカウント情報です。</String>
+    <String id="Max length (512 bytes) of file system path is exceeded.">ファイル システム パスの最大長（512 バイト）を超えています。</String>
+    <String id="Failed to make TCP connection to the server.">サーバーへの TCP 接続を作成できませんでした。</String>
+    <String id="Failed to establish NetBios session to the server.">サーバーへの NetBios セッションを確立できませんでした。</String>
+    <String id="Failed to negatiate a protocol to the server.">サーバーへのプロトコルをネゴシエートできませんでした。</String>
+    <String id="Failed to setup a session to the server.">サーバーへのセッションをセットアップできませんでした。</String>
+    <String id="Failed to setup the tree connection to the server.">サーバーへのツリー接続をセットアップできませんでした。</String>
+    <String id="This feature is not supported">この機能はサポートされていません。</String>
+    <String id="Failed to download shared folders list.">共有フォルダーの一覧をダウンロードできませんでした。</String>
+    <String id="Failed to create a file in the server due to existing file with the same name.">同じ名前の既存のファイルがあるため、サーバーでファイルを作成できませんでした。</String>
+    <String id="Failed to create file">ファイルを作成できませんでした</String>
+    <String id="Failed to list folder due to too many files in this directory.">このディレクトリ内のファイルが多すぎるため、フォルダーを一覧で表示できませんでした。</String>
+    <String id="Failed to list neighborhood servers due to too many servers in this network.">このネットワーク内のサーバーが多すぎるため、ネットワーク サーバーを一覧で表示できませんでした。</String>
+    <String id="Failed to list share folders due to too many share folders in this server.">このサーバー内の共有フォルダーが多すぎるため、共有フォルダーを一覧で表示できませんでした。</String>
+    <String id="There is no shared folder in this server">このサーバーには共有フォルダーがありません。</String>
+    <String id="Failed to download file">ファイルをダウンロードできませんでした。</String>
+    <String id="Failed to get attributes">属性を取得できませんでした。</String>
+    <String id="sso failed">SSO 失敗</String>
+    <String id="Error: Access is Denied.">エラー: アクセスが拒否されました。</String>
+    <String id="Error: Not a privileged User.">エラー: 特権ユーザーではありません。</String>
+    <String id="Error: File system authorization failed.">エラー: ファイル システム認証に失敗しました。</String>
+    <String id="Error:Session has expired">エラー: セッションの有効期限が切れました。</String>
+    <String id="Error: Login exceeds maximum allowed users.">エラー: 許可されたユーザーの最大ログオン数を超えました。</String>
+    <String id="Error: Access is Denied. Client SSL Certificate Required.">エラー: アクセスが拒否されました。クライアント SSL 証明書が必要です。</String>
+    <String id="Error: Access is Denied. Client SSL Certificate Invalid.">エラー: アクセスが拒否されました。クライアント SSL 証明書が無効です。</String>
+    <String id="Error: Access is Denied. Extraction from Client SSL Certificate Failed.">エラー: アクセスが拒否されました。クライアント SSL 証明書からの抽出に失敗しました。</String>
+    <String id="Error: AAA feature not enabled.">エラー: AAA 機能が有効ではありません。</String>
+  </Partition>
+  <Partition id="nscode">
+    <String id="Name">名前</String>
+    <String id="Size">サイズ</String>
+    <String id="Type">種類</String>
+    <String id="Modified">変更</String>
+    <String id="file">ファイル</String>
+    <String id="folder">フォルダー</String>
+    <String id="Loading...">読み込んでいます...</String>
+    <String id="There is no up folder">上のフォルダーはありません。</String>
+    <String id="Please choose a file to be downloaded first.">最初にダウンロードするファイルを選択してください。</String>
+    <String id="The feature to download a folder is not supported.">フォルダーをダウンロードする機能はサポートされていません。</String>
+    <String id="Cannot upload a file into root directory.">ルート ディレクトリにファイルをアップロードできません。</String>
+    <String id="Cannot create a directory in the root directory.">ルート ディレクトリにディレクトリを作成できません。</String>
+    <String id="Root share folder cannot be deleted.">ルート共有フォルダーを削除できません。</String>
+    <String id="Please choose a file to be deleted first.">最初に削除するファイルを選択してください。</String>
+    <String id="Root share folder cannot be renamed.">ルート共有フォルダー名を変更できません。</String>
+    <String id="Please choose a file to be renamed first.">最初に名前を変更するファイルを選択してください。</String>
+    <String id="Choose a directory to display usage first.">最初に使用量を表示するディレクトリを選択します。</String>
+    <String id="Support file system access only">サポート ファイル システム アクセスのみ</String>
+    <String id="Neighborhood">ネットワーク</String>
+  </Partition>
+  <Partition id="fsmkdir">
+    <String id="No folder name specified. Please enter a folder name.">フォルダー名が指定されていません。フォルダー名を入力してください。</String>
+    <String id="Create Directory">ディレクトリの作成</String>
+    <String id="Under Directory:">下のディレクトリ:</String>
+    <String id="New Folder:">新規フォルダー:</String>
+    <Property id="Button_Create" property="value">作成</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="fsrmdir">
+    <String id="Delete Directory">ディレクトリの削除</String>
+    <String id="Directory:">ディレクトリ:</String>
+    <String id="Are you sure ?">削除してもよろしいですか?</String>
+    <Property id="Button_Delete" property="value">削除</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="fsupload">
+    <String id="Upload File">ファイルのアップロード</String>
+    <String id="No file specified. Please enter a filename">ファイルが指定されていません。ファイル名を入力してください。</String>
+    <String id="Invalid file specified. Please try again.">無効なファイルが指定されています。もう一度指定してください。</String>
+    <String id="Upload File:">アップロード ファイル:</String>
+    <String id="Directory:">ディレクトリ:</String>
+    <Property id="Button_Upload" property="value">アップロード</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="fsdelfile">
+    <String id="Delete">削除</String>
+    <String id="Directory:">ディレクトリ:</String>
+    <String id="File:">ファイル:</String>
+    <String id="Are you sure ?">削除してもよろしいですか?</String>
+    <Property id="Button_Delete" property="value">削除</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="fsrename">
+    <String id="Rename">名前を変更</String>
+    <String id="No alternative name is specified. Please enter one.">代替名が指定されていません。名前を入力してください。</String>
+    <String id="Directory:">ディレクトリ:</String>
+    <String id="From:">元の名前:</String>
+    <String id="To:">新しい名前:</String>
+    <Property id="Button_Rename" property="value">名前を変更</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="fslogout">
+    <String id="Logoff">ログオフ</String>
+    <String id="Are you sure?">ログオフしてもよろしいですか?</String>
+    <Property id="Button_Logoff" property="value">ログオフ</Property>
+    <Property id="Button_Cancel" property="value">キャンセル</Property>
+  </Partition>
+  <Partition id="tips">
+    <String id="id_NextTip">次のヒント</String>
+    <String id="tip_0">ホテルや空港などの公共のコンピューターにログオンしている場合は、コンピューターから離れる時にログオフします。</String>
+    <String id="tip_1">Access Gateway トンネルを通過するネットワーク トラフィックは暗号化されます。</String>
+    <String id="tip_2">この Access Gateway ウィンドウから開始できるファイル転送アプリケーションを使って、内部ネットワークのファイル共有にアクセスできます。</String>
+    <String id="tip_3">お気に入りの Web サイトやファイル共有へのブックマークを作成できます。新しいブックマークを作成するには、&lt;b&gt;［追加］&lt;/b&gt;をクリックしてブックマークに関する情報を入力します。</String>
+    <String id="tip_4">Access Gateway Plug-in について詳しくは、『Citrix Access Gateway Plug-in for Windows ユーザー ガイド』を参照してください。この Access Gateway ウィンドウで&lt;b&gt;［ユーザー ガイド］&lt;/b&gt;をクリックして、または通知領域で Access Gateway アイコン メニューの&lt;b&gt;［ヘルプ］&lt;/b&gt;をクリックして、このドキュメントを開くことができます。</String>
+    <String id="tip_5">セッションを終了する場合は、必ずログオフします。</String>
+    <String id="tip_6">セキュリティ上の理由のため、アプリケーションが指定の期間アイドル状態になっている場合、Access Gatewayはそのアプリケーションを閉じます。</String>
+    <String id="tip_7">ブックマークを削除するには、&lt;b&gt;［削除］&lt;/b&gt;をクリックします。</String>
+    <String id="tip_8">複数のファイル転送セッションを同時に開くことができます。&lt;b&gt;［セキュア リモート セッション］&lt;/b&gt;ウィンドウで&lt;b&gt;［ファイル転送］&lt;/b&gt;をクリックして、ファイル転送アプリケーションを開きます。</String>
+    <String id="tip_9">Access Gateway セッションで使用されるログオン情報は、ファイル転送アプリケーションで使用されるものとは異なります。</String>
+    <String id="tip_10">ファイル転送アプリケーションで、左側のペインの&lt;b&gt;［ネットワーク］&lt;/b&gt;をクリックしてリモート ファイル サーバーにアクセスできます。</String>
+    <String id="tip_11">ファイル転送アプリケーションを終了する場合、この Access Gateway ウィンドウをただ閉じるのではなく、&lt;b&gt;［ログオフ］&lt;/b&gt;をクリックすることをお勧めします。</String>
+    <String id="tip_12">内部ネットワークやインターネット、またはファイルサーバーで Web サイトへのブックマークを作成できます。ファイル サーバーのブックマークを作成するには、\\server\share という形式を使用します。</String>
+    <String id="tip_13">この Access Gateway ウィンドウの Ping ツールを使って、内部ネットワーク内およびインターネット上のサーバーのアクセシビリティをチェックできます。</String>
+    <String id="tip_14">セッション ウィンドウにエラー コードまたはメッセージが表示されたら、トラブルシューティングのため『Citrix Access Gateway Plug-in for Windows ユーザー ガイド』を参照してください。</String>
+    <String id="tip_15">Access Gateway は Telnet、FTP、および SSH などの一般的なコンソール アプリケーションをサポートしています。</String>
+    <String id="tip_16">Access Gateway に関する技術的な問題が発生した場合は、問題の原因を判別するのに役立てるためシステム管理者にクライアント側のトレースを提供します。トレースの抽出については、システム管理者に問い合わせてください。</String>
+    <String id="tip_17">Access Gateway Plug-in がインストール済みでまだ開始されていない場合、Web サイトからダウンロードする代わりに&lt;b&gt;［スタート］&lt;/b&gt;メニューからこのプラグインを開始できます。</String>
+    <String id="tip_18">Access Gateway にログオンした際にアプリケーションへの接続が閉じられている場合は、セキュリティ上の理由で Access Gateway がそのように設定されています。</String>
+    <String id="tip_19">セキュリティ セッション ウィンドウのサイズを小さくするには、通知領域にそれを最小化します。セッション ウィンドウを閉じると、Access Gatewa とのセッションが終了します。</String>
+    <String id="tip_20">Access Gateway Plug-in のログオン レベルを設定して、Access Gateway でどの接続を完了するかを表示できます。</String>
+    <String id="tip_21">Windows のすべての Web ブラウザーがサポートされています。</String>
+    <String id="tip_22">Access Gateway Plug-in を使ってピア Access Gateway に接続するには、次の形式でドメイン名を入力します。\\prefix_logonname</String>
+  </Partition>
+</Resources>

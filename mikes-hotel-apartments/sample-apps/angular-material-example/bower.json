@@ -1,0 +1,11 @@
+{
+  "name": "angular-material-example",
+  "version": "0.0.0",
+  "authors": [
+    "furrmao <mikefurrhotmail.co.uk>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-material": "~0.10.0"
+  }
+}

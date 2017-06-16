@@ -1,0 +1,12 @@
+{
+  "name": "nd-matter-info-app",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0-rc.5"
+  },
+  "dependencies": {
+    "ionic-material": "~0.2.1",
+    "materialize": "~0.96.1",
+    "angular-radial": "https://github.com/brandonaaskov/angular-radial.git#~0.1.4"
+  }
+}

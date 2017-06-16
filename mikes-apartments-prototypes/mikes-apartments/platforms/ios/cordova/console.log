@@ -1,0 +1,131 @@
+2014-07-15 06:22:38.954 Mikes Apartments and Hotel[2802:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 06:22:38.983 Mikes Apartments and Hotel[2802:70b] Unlimited access to network resources
+2014-07-15 06:22:38.986 Mikes Apartments and Hotel[2802:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-15 06:22:39.424 Mikes Apartments and Hotel[2802:70b] Resetting plugins due to page load.
+2014-07-15 06:22:39.706 Mikes Apartments and Hotel[2802:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/51ED094E-BF30-449F-8241-9018C73D7F66/Mikes%20Apartments%20and%20Hotel.app/www/index.html#/app/home
+2014-07-15 06:22:39.813 Mikes Apartments and Hotel[2802:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-15 06:22:39.813 Mikes Apartments and Hotel[2802:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-15 06:22:39.814 Mikes Apartments and Hotel[2802:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device986194234",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2014-07-15 06:42:23.416 Mikes Apartments and Hotel[3179:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 06:42:23.427 Mikes Apartments and Hotel[3179:70b] Unlimited access to network resources
+2014-07-15 06:42:23.430 Mikes Apartments and Hotel[3179:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-15 06:42:23.453 Mikes Apartments and Hotel[3179:70b] [CDVTimer][file] 2.183020ms
+2014-07-15 06:42:23.454 Mikes Apartments and Hotel[3179:70b] [CDVTimer][TotalPluginStartup] 3.154993ms
+2014-07-15 06:42:23.602 Mikes Apartments and Hotel[3179:70b] Resetting plugins due to page load.
+2014-07-15 06:42:23.835 Mikes Apartments and Hotel[3179:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/51ED094E-BF30-449F-8241-9018C73D7F66/Mikes%20Apartments%20and%20Hotel.app/www/index.html#/app/home
+2014-07-15 06:42:23.983 Mikes Apartments and Hotel[3179:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-15 06:42:23.983 Mikes Apartments and Hotel[3179:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-15 06:42:23.984 Mikes Apartments and Hotel[3179:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1839118574",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-07-15 06:46:08.506 Mikes Apartments and Hotel[3448:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 06:46:08.516 Mikes Apartments and Hotel[3448:70b] Unlimited access to network resources
+2014-07-15 06:46:08.520 Mikes Apartments and Hotel[3448:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-15 06:46:08.541 Mikes Apartments and Hotel[3448:70b] [CDVTimer][file] 1.963973ms
+2014-07-15 06:46:08.541 Mikes Apartments and Hotel[3448:70b] [CDVTimer][TotalPluginStartup] 2.590001ms
+2014-07-15 06:46:08.672 Mikes Apartments and Hotel[3448:70b] Resetting plugins due to page load.
+2014-07-15 06:46:08.962 Mikes Apartments and Hotel[3448:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/51ED094E-BF30-449F-8241-9018C73D7F66/Mikes%20Apartments%20and%20Hotel.app/www/index.html#/app/home
+2014-07-15 06:46:09.207 Mikes Apartments and Hotel[3448:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-15 06:46:09.208 Mikes Apartments and Hotel[3448:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-15 06:46:09.208 Mikes Apartments and Hotel[3448:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1456004796",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2014-07-15 06:48:40.816 Mikes Apartments and Hotel[3901:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 06:48:40.826 Mikes Apartments and Hotel[3901:70b] Unlimited access to network resources
+2014-07-15 06:48:40.829 Mikes Apartments and Hotel[3901:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-15 06:48:40.852 Mikes Apartments and Hotel[3901:70b] [CDVTimer][file] 2.260983ms
+2014-07-15 06:48:40.853 Mikes Apartments and Hotel[3901:70b] [CDVTimer][TotalPluginStartup] 2.894998ms
+2014-07-15 06:48:40.993 Mikes Apartments and Hotel[3901:70b] Resetting plugins due to page load.
+2014-07-15 06:48:41.240 Mikes Apartments and Hotel[3901:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/51ED094E-BF30-449F-8241-9018C73D7F66/Mikes%20Apartments%20and%20Hotel.app/www/index.html#/app/home
+2014-07-15 06:48:41.389 Mikes Apartments and Hotel[3901:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-15 06:48:41.390 Mikes Apartments and Hotel[3901:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-15 06:48:41.391 Mikes Apartments and Hotel[3901:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1832132059",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2014-07-15 06:53:27.648 Mikes[4191:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 06:53:27.657 Mikes[4191:70b] Unlimited access to network resources
+2014-07-15 06:53:27.661 Mikes[4191:70b] Fix applied for database locations?: YES
+2014-07-15 06:53:27.683 Mikes[4191:70b] [CDVTimer][file] 2.722979ms
+2014-07-15 06:53:27.683 Mikes[4191:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 06:53:27.684 Mikes[4191:70b] [CDVTimer][statusbar] 0.711024ms
+2014-07-15 06:53:27.685 Mikes[4191:70b] [CDVTimer][TotalPluginStartup] 4.700005ms
+2014-07-15 06:53:27.873 Mikes[4191:70b] Resetting plugins due to page load.
+2014-07-15 06:53:28.131 Mikes[4191:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/12115546-684B-4393-A53B-4A3F015EB7E2/Mikes.app/www/index.html#/app/home
+2014-07-15 06:53:28.276 Mikes[4191:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-15 06:53:28.277 Mikes[4191:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-15 06:53:28.277 Mikes[4191:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device793536208",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2014-07-15 07:01:21.545 Mikes[4470:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 07:01:21.555 Mikes[4470:70b] Unlimited access to network resources
+2014-07-15 07:01:21.578 Mikes[4470:70b] [CDVTimer][file] 1.983047ms
+2014-07-15 07:01:21.579 Mikes[4470:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 07:01:21.579 Mikes[4470:70b] [CDVTimer][statusbar] 0.461042ms
+2014-07-15 07:01:21.579 Mikes[4470:70b] [CDVTimer][TotalPluginStartup] 3.494024ms
+2014-07-15 07:01:21.708 Mikes[4470:70b] Resetting plugins due to page load.
+2014-07-15 07:01:21.993 Mikes[4470:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/12115546-684B-4393-A53B-4A3F015EB7E2/Mikes.app/www/index.html#/app/home
+2014-07-15 07:01:22.211 Mikes[4470:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-15 07:01:22.211 Mikes[4470:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-15 07:01:22.212 Mikes[4470:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device466633004",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]

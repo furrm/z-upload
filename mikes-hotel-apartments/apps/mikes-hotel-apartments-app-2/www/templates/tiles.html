@@ -1,0 +1,8 @@
+<ion-view view-title="Tiles">
+  <ion-content>
+      <div class="tileContainer"
+           masonry='{"transitionDuration":"0", "itemSelector": ".tile"}'>
+          <masonry-tile ng-repeat="item in items" tile="{{ item }}"></masonry-tile>
+      </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<md-card  ng-controller="BottomSheetExample" class="remove-shadow remove-margin fill-parent square-corners">
+    <div ratio="4:3" position="top" class="fill-image" style="background-image: url({{imageUrl}})"></div>
+    <md-card-content ratio="4:3" position="bottom">
+        <h3 class="md-headline">Regular 24px</h3>
+
+    </md-card-content>
+    <md-card-footer class="remove-padding" layout="row" layout-align="end end">
+        <md-button class="md-icon-button" ng-click="showListBottomSheet($event)">
+            <md-icon class="material-icons">
+                more_vert
+            </md-icon>
+        </md-button>
+    </md-card-footer>
+    <!--<div class="fill-x" layout="row" layout-align="end end" style="position: absolute; bottom: 0; z-index:10">-->
+        <!--<md-button class="md-icon-button" aria-label="More" ng-click="showListBottomSheet($event)">-->
+            <!--<md-icon class="material-icons">more_vert</md-icon>-->
+        <!--</md-button>-->
+    <!--</div>-->
+</md-card>

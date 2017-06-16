@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <Partition id="locale">
+    <String id="ShortDateFormat">dd.MM.yyyy</String>
+    <String id="ShortTimeFormat">HH:mm</String>
+  </Partition>
+  <Partition id="epa">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Internal Error">Interner Fehler</String>
+    <String id="Err3006">Das Plug-in konnte nicht gestartet werden. &lt;BR&gt;Wenden Sie sich an Ihren Helpdesk oder Systemadministrator.</String>
+    <String id="You are downgrading the Citrix Endpoint Analysis Client">Sie nehmen ein Downgrade des Citrix Endpoint Analysis Clients auf eine frühere Version vor. \nDas Internet Explorer-Browserfenster wird automatisch geschlossen. \nBitte öffnen Sie Internet Explorer neu, um sich anzumelden.</String>
+    <String id="loginAgentCdaHeaderText">Prüfen der Systemkonfiguration auf dem Gerät</String>
+    <String id="The Access Gateway must confirm that you have the minimum requirements on your device before you can log on.">Access Gateway muss bestätigen, dass die Mindestanforderungen auf Ihrem Gerät erfüllt sind, bevor Sie sich anmelden können.</String>
+    <String id="To begin the check, click the yellow bar on the top of the page and follow the instructions.">Klicken Sie auf die gelbe Leiste oben auf der Seite und folgen Sie den Anleitungen, um mit der Überprüfung zu beginnen.</String>
+    <String id="To install or upgrade the software, click Download.">Klicken Sie auf &lt;b&gt;Download&lt;/b&gt;, um die Software zu installieren bzw. zu aktualisieren.</String>
+    <String id="Your device is checked automatically if the Citrix Endpoint Analysis Plug-in software is already installed.">Das Gerät wird automatisch überprüft, wenn die Citrix Endpoint Analysis Plug-in-Software bereits installiert ist.</String>
+    <String id="If you do not want your device checked, click Skip Check.">Wenn das Gerät nicht überprüft werden soll, klicken Sie auf &lt;b&gt;Scan überspringen&lt;/b&gt;.</String>
+    <Property id="downloadbutton" property="value">Download</Property>
+    <Property id="skipbutton" property="value">Scan überspringen</Property>
+    <ClassStyle id=".CTX_BlackButton" property="width">110px</ClassStyle>
+    <ClassStyle id=".CTX_BlackButton_Hover" property="width">110px</ClassStyle>
+  </Partition>
+  <Partition id="epaerrorpage">
+    <Title>Citrix Access Gateway: Anwendungsfehler</Title>
+    <String id="Access Denied">Zugriff verweigert</String>
+    <String id="Your device does not meet the requirements for logging on to the secure network.">Ihr Gerät erfüllt nicht die Anforderungen für die Anmeldung am gesicherten Netzwerk.</String>
+    <String id="For more information, contact your help desk or system administrator.">Weitere Informationen erhalten Sie von Ihrem Helpdesk oder Systemadministrator.</String>
+    <String id="Provide the following information to your support personnel:">Geben Sie die folgenden Informationen an das Supportpersonal:</String>
+    <String id="Date:">Datum:</String>
+    <String id="Time:">Zeit:</String>
+    <String id="Error:">Fehler:</String>
+    <String id="To check your device again, click Back.">Klicken Sie auf &apos;Zurück&apos;, um das Gerät neu zu prüfen.</String>
+    <Property id="Button1" property="value">Zurück</Property>
+  </Partition>
+  <Partition id="postepa">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Internal Error">Interner Fehler</String>
+    <String id="Please ">Bitte </String>
+    <String id="(Please) use the Access Gateway Plug-in to run the check of your device. ">verwenden Sie das Access GatewayPlug-in&lt;/A&gt;, um den Scan auf dem Gerät auszuführen. </String>
+    <String id="For further help or information, contact your help desk or system administrator.">Weitere Informationen erhalten Sie vom Helpdesk oder Systemadministrator.</String>
+    <String id="The Endpoint Analysis Plug-in failed to start. ">Das Endpoint Analysis Plug-in konnte nicht gestartet werden. </String>
+    <String id="You can ">Sie haben folgende Möglichkeiten: </String>
+    <String id="(You can) use the Access Gateway Plug-in to run the check of your device. ">verwenden Sie das Access GatewayPlug-in&lt;/A&gt;, um den Scan auf dem Gerät auszuführen. </String>
+    <String id="The user skipped the scan">Benutzer hat Scan übersprungen</String>
+    <String iD="You are downgrading the Citrix Endpoint Analysis Client to an earlier version.">Sie nehmen ein Downgrade des Citrix Endpoint Analysis Clients auf eine frühere Version vor. \nDas Internet Explorer-Browserfenster wird automatisch geschlossen. \nBitte öffnen Sie Internet Explorer neu, um sich anzumelden.</String>
+    <String id="Checking System Configuration on your Device">Prüfen der Systemkonfiguration auf dem Gerät</String>
+    <String id="The Access Gateway must confirm that you have the minimum requirements on your device before you can log on.">Access Gateway muss bestätigen, dass die Mindestanforderungen auf Ihrem Gerät erfüllt sind, bevor Sie sich anmelden können.</String>
+    <String id="To begin the check, click the yellow bar on the top of the page and follow the instructions.">Klicken Sie auf die gelbe Leiste oben auf der Seite und folgen Sie den Anleitungen, um mit der Überprüfung zu beginnen.</String>
+    <String id="To install or upgrade the software, click Download.">Klicken Sie auf &lt;b&gt;Download&lt;/b&gt;, um die Software zu installieren bzw. zu aktualisieren.</String>
+    <String id="Your device is checked automatically if the Citrix Endpoint Analysis Plug-in software is already installed.">Das Gerät wird automatisch überprüft, wenn die Citrix Endpoint Analysis Plug-in-Software bereits installiert ist.</String>
+    <String id="If you do not want your device checked, click Skip Check.">Wenn das Gerät nicht überprüft werden soll, klicken Sie auf &lt;b&gt;Scan überspringen&lt;/b&gt;.</String>
+    <Property id="downloadbutton" property="value">Download</Property>
+    <Property id="skipbutton" property="value">Scan überspringen</Property>
+    <ClassStyle id=".CTX_BlackButton" property="width">110px</ClassStyle>
+    <ClassStyle id=".CTX_BlackButton_Hover" property="width">110px</ClassStyle>
+  </Partition>
+  <Partition id="logon">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Welcome">Willkommen</String>
+    <String id="ctl08_loginAgentCdaHeaderText2">Bitte melden Sie sich an.</String>
+    <String id="User_name">Benutzername:</String>
+    <Property id="Enter user name" property="title">Geben Sie Ihren Benutzernamen ein.</Property>
+    <String id="Password">Kennwort</String>
+    <String id="Password2">Kennwort 2:</String>
+    <String id="Enter password">Geben Sie Ihr Kennwort ein.</String>
+    <Property id="Log_On" property="value">Anmelden</Property>
+    <String id="You need to enter login name">Geben Sie den Anmeldenamen ein</String>
+    <String id="You need to enter passwd">Sie müssen ein Kennwort eingeben</String>
+    <String id="errorMessageLabelBase">errorMessageLabel</String>
+    <String id="errorMessageLabel4001">Ungültige Anmeldeinformationen. Versuchen Sie es noch einmal.</String>
+    <String id="errorMessageLabel4002">Sie haben zu diesem Zeitpunkt nicht die Berechtigung, sich anzumelden.</String>
+    <String id="errorMessageLabel4003">Verbindung zum Server kann nicht hergestellt werden. Versuchen Sie es in ein paar Minuten noch einmal.</String>
+    <String id="errorMessageLabel4004">Verbinden nicht möglich. Versuchen Sie noch einmal, die Verbindung herzustellen.</String>
+    <String id="errorMessageLabel4005">Verbinden nicht möglich. Versuchen Sie noch einmal, die Verbindung herzustellen.</String>
+    <String id="errorMessageLabel4006">Ungültiger Benutzername.</String>
+    <String id="errorMessageLabel4007">Ungültiges Kennwort.</String>
+    <String id="errorMessageLabel4008">Kennwörter stimmen nicht überein.</String>
+    <String id="errorMessageLabel4009">Benutzer nicht gefunden. </String>
+    <String id="errorMessageLabel4010">Sie haben zu diesem Zeitpunkt nicht die Berechtigung, sich anzumelden.</String>
+    <String id="errorMessageLabel4011">Ihr Konto ist deaktiviert.</String>
+    <String id="errorMessageLabel4012">Ihr Kennwort ist abgelaufen.</String>
+    <String id="errorMessageLabel4013">Sie haben nicht die Berechtigung, sich anzumelden.</String>
+    <String id="errorMessageLabel4014">Das Kennwort konnte nicht geändert werden.</String>
+    <String id="errorMessageLabel4015">Ihr Konto ist vorübergehend gesperrt.</String>
+    <String id="errorMessageLabelMax">4015</String>
+  </Partition>
+  <Partition id="loading">
+    <Title>Citrix Access Gateway</Title>
+    <String id="One Moment Please">Einen Moment bitte</String>
+    <String id="Loading...">Laden...</String>
+  </Partition>
+  <Partition id="changepwd">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Error0">Die Kennwortänderung ist fehlgeschlagen. Geben Sie das alte Kennwort an und versuchen Sie es noch einmal.</String>
+    <String id="Error1">Im Access Gateway ist ein Fehler aufgetreten, während Sie das Kennwort geändert haben. Bitte versuchen Sie es noch einmal.</String>
+    <String id="Error2">Sie haben nicht die Berechtigung das Kennwort zu ändern. Bitte wenden Sie sich an Ihren Helpdesk bzw. Systemadministrator.</String>
+    <String id="Error3">Füllen Sie alle Felder aus, um das Kennwort zu ändern.&lt;BR&gt;</String>
+    <String id="Error4">Das neue Kennwort und die Kennwortbestätigung stimmen nicht überein. Bitte versuchen Sie es noch einmal.</String>
+    <String id="Error5">Mit Access Gateway ist eine unerwartete Ausnahme aufgetreten. Bitte wenden Sie sich an Ihren Helpdesk bzw. Systemadministrator.</String>
+    <String id="The password change failed. Please try again.">Die Kennwortänderung ist fehlgeschlagen. Bitte versuchen Sie es noch einmal.&lt;BR&gt;</String>
+    <String id="infoMessage">Wenn Sie das Kennwort nicht ändern möchten, klicken Sie auf &apos;Abbrechen&apos;, um zur Homepage zurückzukehren.</String>
+    <String id="Change Password">Kennwort ändern</String>
+    <String id="For more information about changing your password, contact your help desk or system administrator.">Weitere Informationen über das Ändern von Kennwörtern erhalten Sie von Ihrem Helpdesk oder Systemadministrator.</String>
+    <String id="labelUsername">Benutzername:</String>
+    <String id="labelOldPassword">Altes Kennwort:</String>
+    <String id="labelNewPassword">Neues Kennwort:</String>
+    <String id="labelConfirmedPassword">Neues Kennwort bestätigen:</String>
+    <Property id="Submit" property="value">Senden</Property>
+    <Property id="Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="chpwdsuccess">
+    <Title>Citrix Access Gateway</Title>
+    <String id="successMessage"> Ihr Kennwort wurde geändert. </String>
+    <Property id="Continue" property="value">Fortfahren</Property>
+  </Partition>
+  <Partition id="logout">
+    <Title>Citrix Access Gateway</Title>
+    <String id="ctl10_cdaHeaderText">Abmelden</String>
+    <String id="Logoff is successful.">Abmeldung erfolgreich.</String>
+  </Partition>
+  <Partition id="VPN_REDIRECT_2000K">
+    <String id="Login Successful. Please click">Anmeldung erfolgreich. Bitte klicken Sie</String>
+    <String id="here">hier</String>
+    <String id="if you are not automatically redirected.">, wenn Sie nicht automatisch weitergeleitet werden.</String>
+  </Partition>
+  <Partition id="AAATM_REDIRECT_FORM">
+    <String id="If you are not automatically redirected click ">Wenn Sie nicht automatisch weitergeleitet werden, klicken Sie </String>
+    <Property id="Continue" property="value">Fortfahren</Property>
+    <String id="Trailing phrase after Continue button"></String>
+  </Partition>
+  <Partition id="REDIRECTION_BODY">
+    <String id="This object may be found ">Dieses Objekt ist möglicherweise </String>
+    <String id="here">hier</String>
+    <String id="Trailing phrase after here"></String>
+  </Partition>
+  <Partition id="LOGOUT_OK_BODY">
+    <Title>Seite wurde verschoben</Title>
+    <String id="Logout Succeeded">Abmeldung erfolgreich</String>
+  </Partition>
+  <Partition id="VPN_LICERR_BODY">
+    <String id="Error: Login exceeds maximum allowed users.">Fehler: Anmeldung überschreitet die Anzahl der maximal zulässigen Benutzer.</String>
+  </Partition>
+  <Partition id="FS_LOGIN_DNSERR_BODY">
+    <String id="Requested servername too long.">Angeforderter Servername ist zu lang.</String>
+  </Partition>
+  <Partition id="NS_PING_DNS_ERR">
+    <Title>Pingformular</Title>
+    <String id="Server:">Server:</String>
+    <Property id="PingButton" property="value">Ping</Property>
+    <String id="Failed to resolve IP address">IP-Adresse konnte nicht aufgelöst werden</String>
+  </Partition>
+  <Partition id="DIALOGUE_HTML">
+    <Title>Citrix Access Gateway</Title>
+    <String id="dialogueHeader">Weitere Informationen erforderlich</String>
+    <String id="dialogueInfo">Geben Sie unten Ihre Antwort ein.</String>
+    <String id="dialoguePasswordChange">Kennwort abgelaufen. Geben Sie ein neues Kennwort ein.</String>
+    <String id="dialogueConfirmPassword">Kennwort bestätigen</String>
+    <Property id="SubmitButton" property="value">Senden</Property>
+  </Partition>
+  <Partition id="TRANSFER_RSP">
+    <Title>Citrix Access Gateway</Title>
+    <String id="heading">Anmeldung transferieren</String>
+    <String id="You are currently logged on to the Access Gateway on another device.">Sie sind derzeit von einem anderen Gerät am Access Gateway angemeldet.</String>
+    <String id="Would you like to end that session?">Möchten Sie die andere Sitzung beenden?</String>
+    <String id="You have reached the limit of the allowed Access Gateway sessions.">Sie haben das Limit der zulässigen Access Gateway-Sitzungen erreicht.</String>
+    <String id="Please select which session to release in order to continue with this session.">Wählen Sie, welche Sitzung freigegeben wird, um mit dieser Sitzung fortzufahren.</String>
+    <String id="Intranet IP Address">Intranet-IP-Adresse</String>
+    <String id="Idle Time">Leerlaufzeit (H:MM:SS)</String>
+    <Property id="TransferButton" property="value">Transfer</Property>
+    <Property id="TransferButton" property="onclick">function() { this.value = 'Transfer'; }</Property>
+    <Property id="CancelButton" property="value">Abbrechen</Property>
+    <Property id="CancelButton" property="onclick">function() { this.value = 'Cancel'; }</Property>
+  </Partition>
+  <Partition id="choices">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Network Access">Netzwerkzugriff</String>
+    <String id="Connect with the Access Gateway Plug-in for ActiveX.">Mit Access Gateway Plug-in für ActiveX verbinden.</String>
+    <String id="Connect with the Access Gateway Plug-in.">Mit Access Gateway Plug-in verbinden.</String>
+    <String id="Connect with the Access Gateway Plug-in for Java.">Mit Access Gateway Plug-in für Java verbinden.</String>
+    <String id="Connect with the Access Gateway Plug-in for MAC.">Mit Access Gateway Plug-in für Mac verbinden.</String>
+    <String id="Citrix XenApp">Citrix XenApp</String>
+    <String id="Connect with Citrix XenApp Plug-in for Hosted Apps.">Mit Citrix XenApp Plug-in für gehostete Anwendungen verbinden.</String>
+    <String id="Clientless Access">Clientloser Zugriff</String>
+    <String id="Connect without the Access Gateway Plug-in.">Ohne Access Gateway Plug-in verbinden.</String>
+    <String id="Log Off">Abmelden</String>
+    <String id="End your session.">Beenden der Sitzung.</String>
+    <String id="messageTitle">Bitte wählen Sie eine der folgenden Optionen:</String>
+  </Partition>
+  <Partition id="f_services">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="waitingmsg">Warten Sie, bis die VPN-Sitzung eingerichtet wird.</String>
+    <String id="If the Access Gateway Plug-in is installed">Wenn das Access Gateway Plug-in installiert ist, klicken Sie auf &apos;Start &amp;gt; Alle Programme &amp;gt; Citrix &amp;gt; Secure Access Client&apos;, um die Anwendung zu starten.</String>
+    <String id="If the Access Gateway Plug-in is not installed">Wenn das Access Gateway Plug-in nicht installiert ist, klicken Sie auf &apos;Download&apos;, um die Software zu installieren und die Verbindung automatisch herzustellen.</String>
+    <String id="If a proxy server is configured">Wenn ein Proxyserver konfiguriert ist, müssen Sie &apos;localhost&apos; im Webbrowser als Proxyausnahme hinzufügen.  </String>
+    <String id="For more information contact your help desk or system administrator.">Weitere Informationen erhalten Sie von Ihrem Helpdesk oder Systemadministrator.</String>
+    <Property id="Button_Download" property="src">/vpns/images/Download_de.png</Property>
+    <String id="/vpns/images/Download_Hover.png">/vpns/images/Download_Hover_de.png</String>
+    <String id="/vpns/images/Download.png">/vpns/images/Download_de.png</String>
+    <String id="To install the Access Gateway Plug-in for Windows">So installieren Sie das Access Gateway Plug-in für Windows</String>
+    <String id="Click Download">1.  Klicken Sie auf &lt;B&gt;Download&lt;/B&gt;.</String>
+    <String id="In the File Download dialog box, click Run.">2.  Klicken Sie im Dialogfeld &apos;Dateidownload&apos; auf &lt;B&gt;Ausführen&lt;/B&gt;.</String>
+    <String id="In the Internet Explorer dialog box, click Run to install the Access Gateway Plug-in for Windows.">3.  Klicken Sie im Internet Explorer-Dialogfeld auf &lt;B&gt;Ausführen&lt;/B&gt;, um das Access Gateway Plug-in für Windows zu installieren.</String>
+    <String id="The Access Gateway Plug-in is not supported on your operating system.">Das Access Gateway Plug-in unterstützt das Betriebssystem nicht.</String>
+    <String id="To connect to the Access Gateway Plug-in, you need to install some software.">Sie müssen Software installieren, um die Verbindung zum Access Gateway Plug-in herzustellen.</String>
+  </Partition>
+  <Partition id="f_ndisagent">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="If the Access Gateway Plug-in is installed">Wenn das Access Gateway Plug-in installiert ist aber nicht ausgeführt wird, klicken Sie auf &apos;Start &amp;gt; Alle Programme &amp;gt; Citrix &amp;gt; Citrix Access Gateway&apos;, um die Anwendung zu starten.</String>
+    <String id="If the Access Gateway Plug-in is not installed">Wenn Das Access Gateway Plug-in nicht installiert ist, klicken Sie auf &apos;Download&apos;, um die Software zu installieren und die Verbindung automatisch herzustellen.</String>
+    <String id="waitingmsg">Warten Sie, bis die VPN-Sitzung eingerichtet wird.</String>
+    <String id="If a proxy server is configured">Wenn ein Proxyserver konfiguriert ist, müssen Sie &apos;localhost&apos; im Webbrowser als Proxyausnahme hinzufügen.</String>
+    <String id="For more information contact your help desk or system administrator.">Weitere Informationen erhalten Sie von Ihrem Helpdesk oder Systemadministrator.</String>
+    <Property id="Button_Download" property="src">/vpns/images/Download_de.png</Property>
+    <String id="/vpns/images/Download_Hover.png">/vpns/images/Download_Hover_de.png</String>
+    <String id="/vpns/images/Download.png">/vpns/images/Download_de.png</String>
+    <String id="To install the Access Gateway Plug-in for Windows">So installieren Sie das Access Gateway Plug-in für Windows</String>
+    <String id="Click Download">1.  Klicken Sie auf &lt;B&gt;Download&lt;/B&gt;.</String>
+    <String id="In the File Download dialog box, click Run.">2.  Klicken Sie im Dialogfeld &apos;Dateidownload&apos; auf &lt;B&gt;Ausführen&lt;/B&gt;.</String>
+    <String id="In the Internet Explorer dialog box, click Run to install the Access Gateway Plug-in for Windows.">3.  Klicken Sie im Internet Explorer-Dialogfeld auf &lt;B&gt;Ausführen&lt;/B&gt;, um das Access Gateway Plug-in für Windows zu installieren.</String>
+  </Partition>
+  <Partition id="m_services">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="This is a beta version of Access Gateway Plug-in for Mac OS X.">Dies ist eine Betaversion des Access Gateway Plug-ins für Mac OS X.</String>
+    <String id="If the Plug-in is installed">Wenn das Plug-in installiert ist, klicken Sie auf &quot;Programme -&amp;gt; Citrix Access Gateway&quot;, um sich anzumelden.</String>
+    <String id="If the Access Gateway Plug-in is not installed">Wenn Das Access Gateway Plug-in nicht installiert ist, klicken Sie auf &apos;Download&apos;, um die Software zu installieren und die Verbindung automatisch herzustellen.</String>
+    <String id="If a proxy server is configured">Wenn ein Proxyserver konfiguriert ist, müssen Sie &apos;localhost&apos; im Webbrowser als Proxyausnahme hinzufügen.</String>
+    <String id="For more information contact your help desk or system administrator.">Weitere Informationen erhalten Sie von Ihrem Helpdesk oder Systemadministrator.</String>
+    <Property id="Button_Download" property="src">/vpns/images/Download_de.png</Property>
+    <String id="/vpns/images/Download_Hover.png">/vpns/images/Download_Hover_de.png</String>
+    <String id="/vpns/images/Download.png">/vpns/images/Download_de.png</String>
+    <String id="To install the Access Gateway Plug-in for Mac OS X">So installieren Sie das Access Gateway Plug-in für Mac OS X</String>
+    <String id="Click Download">1.  Klicken Sie auf &lt;B&gt;Download&lt;/B&gt;.</String>
+    <String id="In the File Download dialog box, click Run.">2.  Klicken Sie im Dialogfeld &apos;Dateidownload&apos; auf &lt;B&gt;Ausführen&lt;/B&gt;.</String>
+    <String id="In the Web browser dialog box, click Run to start the installaTion.">3.  Klicken Sie im Webbrowser-Dialogfeld auf &lt;B&gt;Ausführen&lt;/B&gt;, um die Installation zu starten.</String>
+  </Partition>
+  <Partition id="f_services1">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Citrix Access Gateway">Citrix Access Gateway</String>
+    <String id="If the Access Gateway Plug-in for ActiveX does not start automatically">Wenn das Access Gateway Plug-in für ActiveX nicht automatisch gestartet wird, können Sie das &lt;A HREF=&quot;/vpns/app.html&quot; onclick=&quot;ns_loadsessionwindow(); return false;&quot;&gt;Access Gateway-Sitzungsfenster&lt;/A&gt; manuell öffnen.</String>
+    <String id="Please click here to download Secure Access client to this Pocket PC">&lt;A HREF=&quot;/vpns/scripts/ARM/nsvpnc.exe&quot;&gt;Klicken Sie hier&lt;/A&gt;, um den Secure Access Client auf diesen Pocket PC herunterzuladen. Starten Sie dann diesen Client, um sich an der Secure Access-Website anzumelden.</String>
+    <String id="The Access Gateway Plug-in is not supported on your operating system.">Das Access Gateway Plug-in unterstützt das Betriebssystem nicht.</String>
+    <String id="For further help or information, contact your help desk or system administrator.">Weitere Informationen erhalten Sie vom Helpdesk oder Systemadministrator.</String>
+  </Partition>
+  <Partition id="app">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Err3001">Sie sind bereits am Access Gateway angemeldet.</String>
+    <String id="Err3002">Sie sind nicht am Access Gateway angemeldet.</String>
+    <String id="Err3003">Citrix Access Gateway unterstützt Internet Explorer 4 oder neuer.</String>
+    <String id="Err3004">Plug-in konnte nicht geladen werden, wenden Sie sich an den Access Gateway-Administrator.</String>
+    <String id="Err3005">ActiveX konnte nicht aktiviert werden, wenden Sie sich an den Access Gateway-Administrator.</String>
+    <String id="Navigating away from this page ends your session.">Die Sitzung wird beendet, wenn Sie von dieser Seite wegnavigieren.</String>
+    <String id="Home">Home</String>
+    <String id="File Transfer">Dateiübertragung</String>
+    <String id="Configuration">Konfiguration</String>
+    <String id="Help">Hilfe</String>
+    <String id="Logoff">Abmelden</String>
+  </Partition>
+  <Partition id="err2002">
+    <Title>SSL VPN Portal</Title>
+    <String id="errortitle">Fehler 2002: dsclient.exe muss installiert werden.</String>
+    <String id="info">NetScaler hat ermittelt, dass auf dem Computer dsclient.exe nicht installiert ist.. Diese Microsoft-Software ist erforderlich, damit SSL VPN die Verschlüsselung/Entschüsselung bereitstellen kann. &lt;A HREF=&quot;/&quot; onclick=&quot;return ns_doupdate();&quot;&gt;Klicken Sie hier&lt;/A&gt;, um die Software zu installieren. Folgen Sie den Anweisungen, um die Installation abzuschließen. Starten Sie dann den Computer neu und melden Sie sich neu an.</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. Alle Rechte vorbehalten.</String>
+  </Partition>
+  <Partition id="err2004">
+    <Title>SSL VPN Portal</Title>
+    <String id="errortitle">Fehler 2004: Erforderliche Endpunktsicherheitssoftware ist nicht installiert.</String>
+    <String id="info">Der Administrator hat festgelegt, dass Ihr Computer durch Endpunktsicherheitssoftware gesichert werden muss, damit Sie auf das SSL VPN zugreifen können. NetScaler hat ermittelt, dass der Computer diese Sicherheitsanforderung nicht erfüllt. Bei der erforderlichen Endpunktsicherheitssoftware kann es sich um eine persönliche Firewall, Antivirussoftware, Antihackersoftware oder eine firmenspezifische Anwendung handeln.&lt;P&gt;Fehler &lt;I&gt;2004&lt;/I&gt;: Endpunktsicherheitssoftware ist nicht auf diesem Computer installiert. Bitte wenden Sie sich an den Administrator, um die Software zu installieren.</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. Alle Rechte vorbehalten.</String>
+  </Partition>
+  <Partition id="err2005">
+    <Title>SSL VPN Portal</Title>
+    <String id="errortitle">Fehler 2005: Erforderliche Endpunktsicherheitssoftware muss aktualisiert werden.</String>
+    <String id="info">Der Administrator hat festgelegt, dass Ihr Computer durch Endpunktsicherheitssoftware gesichert werden muss, damit Sie auf das SSL VPN zugreifen können. NetScaler hat ermittelt, dass der Computer diese Sicherheitsanforderung nicht erfüllt. Bei der erforderlichen Endpunktsicherheitssoftware kann es sich um eine persönliche Firewall, Antivirussoftware, Antihackersoftware oder eine firmenspezifische Anwendung handeln.&lt;P&gt;Fehler &lt;I&gt;2005&lt;/I&gt;: Die vorgeschriebene Endpunktsicherheitssoftware, die auf diesem Computer installiert ist, hat nicht die erforderliche Version. Bitte wenden Sie sich an den Administrator, um die Software zu aktualisieren.</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. Alle Rechte vorbehalten.</String>
+  </Partition>
+  <Partition id="err2006">
+    <Title>SSL VPN Portal</Title>
+    <String id="errortitle">Fehler 2006: Erforderliche Endpunktsicherheitssoftware ist nicht aktiviert.</String>
+    <String id="info">Der Administrator hat festgelegt, dass Ihr Computer durch Endpunktsicherheitssoftware gesichert werden muss, damit Sie auf das SSL VPN zugreifen können. NetScaler hat ermittelt, dass der Computer diese Sicherheitsanforderung nicht erfüllt. Bei der erforderlichen Endpunktsicherheitssoftware kann es sich um eine persönliche Firewall, Antivirussoftware, Antihackersoftware oder eine firmenspezifische Anwendung handeln.&lt;P&gt;Fehler &lt;I&gt;2006&lt;/I&gt;: Die auf diesem Computer installierte Endpunktsicherheitssoftware ist derzeit nicht aktiviert. Bitte aktivieren Sie die erforderliche Endpunktsicherheitssoftware.</String>
+    <String id="footer">Copyright &amp;copy;2004 NetScaler, Inc. Alle Rechte vorbehalten.</String>
+  </Partition>
+  <Partition id="portal">
+    <Title>Citrix Access Gateway</Title>
+    <String id="ctl00_applications_label">Anwendungen</String>
+    <String id="ctl00_ping_label">Ping</String>
+    <String id="ctl00_tip_label">Tipp</String>
+    <String id="ctl00_help_label">Hilfe</String>
+    <String id="ctl00_webSites_label">Websites</String>
+    <String id="ctl00_fileShares_label">Dateifreigaben</String>
+    <String id="id_Home">Home</String>
+    <String id="id_Email">E-Mail</String>
+    <String id="id_FileTransfer">Dateiübertragung</String>
+    <Style id="id_FileTransfer" property="width">110px</Style>
+    <Property id="id_ChangePassword" property="value">Kennwort ändern</Property>
+    <Property id="id_LogOff" property="value">Abmelden</Property>
+    <String id="id_UserGuide">Dokumentation</String>
+    <Property id="id_UserGuide" property="href">/vpns/help/de/SAC_Windows/Title-Page.html</Property>
+  </Partition>
+  <Partition id="fsping">
+    <String id="ServerLabel">Server:</String>
+    <String id="Failed to resolve IP address for">IP-Adresse konnte nicht aufgelöst werden:</String>
+    <String id="server">Server</String>
+    <String id="is alive">ist aktiv</String>
+    <String id="is not alive">ist nicht aktiv</String>
+    <Property id="PingButton" property="value">Ping</Property>
+  </Partition>
+  <Partition id="bookmark">
+    <String id="none">Keine</String>
+    <String id="id_EnterpriseWebSites">Unternehmenswebsites</String>
+    <String id="id_PersonalWebSites">Persönliche Websites</String>
+    <String id="id_Add">Hinzufügen</String>
+    <String id="id_Remove">Entfernen</String>
+  </Partition>
+  <Partition id="newbm">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Add a Bookmark">Lesezeichen hinzufügen</String>
+    <String id="To add a Web site, type in the full address">Geben Sie die vollständige Adresse an, um eine Website hinzuzufügen, z. B.  http://meine.firma.com/.</String>
+    <String id="To add a file share, type in the server and folder name">Geben Sie den Server- und Ordnernamen an, um eine Dateifreigabe hinzuzufügen, z. B. \\Dateiserver\Ordnername.</String>
+    <String id="The maximum length of each field is 256 characters.">Jedes Feld darf maximal 256 Zeichen enthalten.</String>
+    <String id="ctl10_labelUsername">Name:</String>
+    <String id="ctl10_labelNewPassword">Adresse:</String>
+    <String id="ctl10_labelConfirmNewPassword">Beschreibung:</String>
+    <Property id="Button_Add" property="value">Hinzufügen</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+    <ClassStyle id="INPUT.Apply_Cancel_OK" property="width">13ex</ClassStyle>
+    <String id="You must provide a URL for your bookmark.">Sie müssen eine URL für das Lesezeichen angeben.</String>
+    <String id="The bookmark contains invalid URI characters. Please enter a valid Web address.">Das Lesezeichen enthält Zeichen, die nicht in URIs verwendet werden können. Geben Sie eine gültige Webadresse ein.</String>
+    <String id="The bookmark is using the script tag, which is not allowed. Please enter a valid name.">Das Lesezeichen verwendet das &lt;script&gt;-Tag, dies ist nicht zulässig. Geben Sie einen gültigen Namen ein.</String>
+    <String id="The bookmark is using the script tag, which is not allowed. Please enter a valid description.">Das Lesezeichen verwendet das &lt;script&gt;-Tag, dies ist nicht zulässig. Geben Sie eine gültige Beschreibung ein.</String>
+  </Partition>
+  <Partition id="rmbm">
+    <Title>Citrix Access Gateway</Title>
+    <String id="Remove Bookmarks">Lesezeichen entfernen</String>
+    <String id="To remove a bookmark, select it and click Remove.">Sie löschen ein Lesezeichen, indem Sie es auswählen und auf &apos;Entfernen&apos; klicken.</String>
+    <String id="When a bookmark is removed, it cannot be retrieved.">Wenn ein Lesezeichen entfernt wird, kann es nicht mehr wiederhergestellt werden. Wurde ein Lesezeichen versehentlich gelöscht, müssen Sie es mit &apos;Lesezeichen hinzufügen&apos; neu erstellen.</String>
+    <Property id="Button_Remove" property="value">Entfernen</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+    <String id="none">Keine</String>
+  </Partition>
+  <Partition id="ftlist">
+    <String id="none">Keine</String>
+    <String id="id_EnterpriseFileShares">Unternehmensdateifreigaben</String>
+    <String id="id_PersonalFileShares">Persönliche Dateifreigaben</String>
+    <String id="id_Add">Hinzufügen</String>
+    <String id="id_Remove">Entfernen</String>
+  </Partition>
+  <Partition id="fslogin">
+    <Title>Citrix Secure Access: Gesicherter Remotezugriff auf Dateisystem</Title>
+  </Partition>
+  <Partition id="fsicons">
+    <String id="id_LogOn">Anmelden</String>
+    <Property id="id_LogOnLink" property="title">Server suchen</Property>
+    <String id="id_Up">Nach oben</String>
+    <Property id="id_UpLink" property="title">Übergeordneter Ordner</Property>
+    <String id="id_Refresh">Aktualisieren</String>
+    <Property id="id_RefreshLink" property="title">Ordner aktualisieren</Property>
+    <String id="id_NewFolder">Neuer Ordner</String>
+    <Property id="id_NewFolderLink" property="title">Ordner erstellen</Property>
+    <String id="id_Download">Download</String>
+    <Property id="id_DownloadLink" property="title">Datei herunterladen</Property>
+    <String id="id_Upload">Upload</String>
+    <Property id="id_UploadLink" property="title">Datei in den aktuellen Ordner hochladen</Property>
+    <String id="id_Delete">Löschen</String>
+    <Property id="id_DeleteLink" property="title">Datei oder leeren Ordner löschen</Property>
+    <String id="id_Rename">Umbenennen</String>
+    <Property id="id_RenameLink" property="title">Datei oder Ordner umbenennen</Property>
+    <String id="id_LogOff">Abmelden</String>
+    <Property id="id_LogOffLink" property="title">Abmelden</Property>
+  </Partition>
+  <Partition id="fsaddress">
+    <String id="id_Address">Adresse:</String>
+  </Partition>
+  <Partition id="fsneighbor">
+    <String id="id_NetworkNeighborhood">Netzwerkumgebung</String>
+    <String id="id_Login">Anmelden:</String>
+    <String id="id_Password">Kennwort:</String>
+    <String id="id_Domain">Domäne:</String>
+  </Partition>
+  <Partition id="fsgoto">
+    <String id="loading">Anmelden...</String>
+    <String id="id_FileServer">Dateiserver</String>
+    <String id="id_Address">Adresse:</String>
+    <String id="id_Username">Benutzername:</String>
+    <String id="id_Password">Kennwort:</String>
+    <String id="id_Doamin">Domäne:</String>
+    <Property id="id_LogOnButton" property="value">Anmelden</Property>
+    <Property id="id_CancelButton" property="value">Abbrechen</Property>
+    <String id="showLink">Anmeldeinformationen eingeben</String>
+    <String id="hideLink">Anmeldeinformationen ausblenden</String>
+  </Partition>
+  <Partition id="fsgotoerror">
+    <String id="sentenceterminator">.</String>
+    <String id="Internal Error.">Interner Fehler.</String>
+    <String id="Wins IP is not configured.">Wins-IP ist nicht konfiguriert.</String>
+    <String id="Wins IP is not provided.">Wins-IP wurde nicht angegeben.</String>
+    <String id="Wins IP is neither provided nor configured.">Wins-IP wurde nicht angegeben und ist nicht konfiguriert.</String>
+    <String id="Wins IP is provided in wrong format.">Wins-IP wurde im falschen Format angegeben.</String>
+    <String id="Need to login neighborhood first.">Sie müssen sich erst an der Umgebung anmelden.</String>
+    <String id="Failed to connect.">Fehler beim Verbinden.</String>
+    <String id="Failed to change directory.">Ändern des Verzeichnisses fehlgeschlagen.</String>
+    <String id="Failed to make a directory.">Verzeichnis konnte nicht erstellt werden.</String>
+    <String id="Failed to remove a directory.">Verzeichnis konnte nicht entfernt werden.</String>
+    <String id="Failed to delete the file.">Die Datei konnte nicht gelöscht werden.</String>
+    <String id="Failed to rename the file.">Die Datei konnte nicht umbenannt werden.</String>
+    <String id="Failed to login.">Anmeldung fehlgeschlagen.</String>
+    <String id="Last login session has been expired. Please login again.">Letzte Anmeldesitzung ist abgelaufen. Bitte melden Sie sich neu an.</String>
+    <String id="Logoff is successful.">Abmeldung erfolgreich.</String>
+    <String id="Failed to open the file.">Die Datei konnte nicht geöffnet werden.</String>
+    <String id="Need to login SSL VPN first.">Sie müssen sich erst an SSL VPN anmelden.</String>
+    <String id="Failed to parse URL, invalid URL.">URL konnte nicht geparst werden, ungültige URL.</String>
+    <String id="Incorrect login credential to this server.">Falsche Anmeldeinformationen für diesen Server.</String>
+    <String id="Max length (512 bytes) of file system path is exceeded.">Maximale Länge (512 Bytes) für den Dateisystempfad wurde überschritten.</String>
+    <String id="Failed to make TCP connection to the server.">TCP-Verbindung zum Server konnte nicht hergestellt werden.</String>
+    <String id="Failed to establish NetBios session to the server.">NetBios-Sitzung auf dem Server konnte nicht hergestellt werden.</String>
+    <String id="Failed to negatiate a protocol to the server.">Protokoll für den Server konnte nicht ausgehandelt werden.</String>
+    <String id="Failed to setup a session to the server.">Sitzung auf dem Server konnte nicht eingerichtet werden.</String>
+    <String id="Failed to setup the tree connection to the server.">Strukturverbindung zum Server konnte nicht eingerichtet werden.</String>
+    <String id="This feature is not supported">Dieses Feature wird nicht unterstützt.</String>
+    <String id="Failed to download shared folders list.">Liste der freigegebenen Ordner konnte nicht heruntergeladen werden.</String>
+    <String id="Failed to create a file in the server due to existing file with the same name.">Eine Datei konnte nicht auf dem Server erstellt werden, weil es bereit eine Datei mit diesem Namen gibt.</String>
+    <String id="Failed to create file">Fehler beim Erstellen der Datei</String>
+    <String id="Failed to list folder due to too many files in this directory.">Ordner konnte nicht aufgelistet werden, weil es in diesem Verzeichnis zu viele Dateien gibt.</String>
+    <String id="Failed to list neighborhood servers due to too many servers in this network.">Server in der Umgebung konnten nicht aufgelistet werden, weil es in diesem Netzwerk zu viele Server gibt.</String>
+    <String id="Failed to list share folders due to too many share folders in this server.">Freigegebene Ordner konnten nicht aufgelistet werden, weil es auf diesem Server zu viele freigegebene Ordner gibt.</String>
+    <String id="There is no shared folder in this server">Es gibt keinen freigegebenen Ordner auf diesem Server</String>
+    <String id="Failed to download file">Download der Datei fehlgeschlagen</String>
+    <String id="Failed to get attributes">Abrufen der Attribute fehlgeschlagen</String>
+    <String id="sso failed">SSO fehlgeschlagen</String>
+    <String id="Error: Access is Denied.">Fehler: Zugriff verweigert.</String>
+    <String id="Error: Not a privileged User.">Fehler: Kein privilegierter Benutzer.</String>
+    <String id="Error: File system authorization failed.">Fehler: Dateisystemautorisierung fehlgeschlagen.</String>
+    <String id="Error:Session has expired">Fehler: Sitzung ist abgelaufen</String>
+    <String id="Error: Login exceeds maximum allowed users.">Fehler: Anmeldung überschreitet die Anzahl der maximal zulässigen Benutzer.</String>
+    <String id="Error: Access is Denied. Client SSL Certificate Required.">Fehler: Zugriff verweigert. Client-SSL-Zertifikat erforderlich.</String>
+    <String id="Error: Access is Denied. Client SSL Certificate Invalid.">Fehler: Zugriff verweigert. Client-SSL-Zertifikat ungültig.</String>
+    <String id="Error: Access is Denied. Extraction from Client SSL Certificate Failed.">Fehler: Zugriff verweigert. Extrahieren aus Client-SSL-Zertifikat fehlgeschlagen.</String>
+    <String id="Error: AAA feature not enabled.">Fehler: AAA-Feature nicht aktiviert.</String>
+  </Partition>
+  <Partition id="nscode">
+    <String id="Name">Name</String>
+    <String id="Size">Größe</String>
+    <String id="Type">Typ</String>
+    <String id="Modified">Geändert</String>
+    <String id="file">Datei</String>
+    <String id="folder">Ordner</String>
+    <String id="Loading...">Laden...</String>
+    <String id="There is no up folder">Es gibt keinen übergeordneten Ordner</String>
+    <String id="Please choose a file to be downloaded first.">Wählen Sie erst die Datei, die heruntergeladen werden soll.</String>
+    <String id="The feature to download a folder is not supported.">Der Download von Ordnern wird nicht unterstützt.</String>
+    <String id="Cannot upload a file into root directory.">Datei kann nicht in das Stammverzeichnis hochgeladen werden.</String>
+    <String id="Cannot create a directory in the root directory.">Im Stammverzeichnis kann kein Verzeichnis erstellt werden.</String>
+    <String id="Root share folder cannot be deleted.">Das Stammverzeichnis des freigegebenen Ordners kann nicht gelöscht werden.</String>
+    <String id="Please choose a file to be deleted first.">Wählen Sie erst die Datei, die gelöscht werden soll.</String>
+    <String id="Root share folder cannot be renamed.">Das Stammverzeichnis des freigegebenen Ordners kann nicht umbenannt werden.</String>
+    <String id="Please choose a file to be renamed first.">Wählen Sie erst die Datei, die umbenannt werden soll.</String>
+    <String id="Choose a directory to display usage first.">Wählen Sie erst das Verzeichnis, für das die Verwendung angezeigt werden soll.</String>
+    <String id="Support file system access only">Nur Dateisystemzugriff unterstützen</String>
+    <String id="Neighborhood">Umgebung</String>
+  </Partition>
+  <Partition id="fsmkdir">
+    <String id="No folder name specified. Please enter a folder name.">Kein Ordnername angegeben. Geben Sie einen Ordnernamen an.</String>
+    <String id="Create Directory">Verzeichnis erstellen</String>
+    <String id="Under Directory:">Im Verzeichnis:</String>
+    <String id="New Folder:">Neuer Ordner:</String>
+    <Property id="Button_Create" property="value">Erstellen</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="fsrmdir">
+    <String id="Delete Directory">Verzeichnis löschen</String>
+    <String id="Directory:">Verzeichnis:</String>
+    <String id="Are you sure ?">Fortfahren?</String>
+    <Property id="Button_Delete" property="value">Löschen</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="fsupload">
+    <String id="Upload File">Datei hochladen</String>
+    <String id="No file specified. Please enter a filename">Keine Datei angegeben. Geben Sie einen Dateinamen ein.</String>
+    <String id="Invalid file specified. Please try again.">Ungültige Datei angegeben. Bitte versuchen Sie es noch einmal.</String>
+    <String id="Upload File:">Datei hochladen:</String>
+    <String id="Directory:">Verzeichnis:</String>
+    <Property id="Button_Upload" property="value">Upload</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="fsdelfile">
+    <String id="Delete">Löschen</String>
+    <String id="Directory:">Verzeichnis:</String>
+    <String id="File:">Datei:</String>
+    <String id="Are you sure ?">Fortfahren?</String>
+    <Property id="Button_Delete" property="value">Löschen</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="fsrename">
+    <String id="Rename">Umbenennen</String>
+    <String id="No alternative name is specified. Please enter one.">Es wurde kein alternativer Name angegeben. Bitte geben Sie einen an.</String>
+    <String id="Directory:">Verzeichnis:</String>
+    <String id="From:">Von:</String>
+    <String id="To:">Nach:</String>
+    <Property id="Button_Rename" property="value">Umbenennen</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="fslogout">
+    <String id="Logoff">Abmelden</String>
+    <String id="Are you sure?">Fortfahren?</String>
+    <Property id="Button_Logoff" property="value">Abmelden</Property>
+    <Property id="Button_Cancel" property="value">Abbrechen</Property>
+  </Partition>
+  <Partition id="tips">
+    <String id="id_NextTip">Nächster Tipp</String>
+    <String id="tip_0">Wenn Sie von einem öffentlichen Computer angemeldet sind, z. B. in einem Hotel oder Flughafen, sollten Sie sich abmelden, wenn Sie den Computer verlassen.</String>
+    <String id="tip_1">Der Netzwerkverkehr, der durch den Access Gateway-Tunnel geht, ist verschlüsselt.</String>
+    <String id="tip_2">Sie können auf die Dateifreigaben im internen Netzwerk mit der Dateiübertragungsanwendung zugreifen, die Sie vom Access Interface starten können.</String>
+    <String id="tip_3">Sie können für Websites und Dateifreigaben Lesezeichen erstellen. Sie erstellen ein neues Lesezeichen, indem Sie auf &apos;Hinzufügen&apos; klicken und die Informationen für das Lesezeichen angeben.</String>
+    <String id="tip_4">Informationen über das Access Gateway Plug-in finden Sie in der Dokumentation für das Citrix Access Gateway Plug-in für Windows. Sie öffnen die Dokumentation, indem Sie im Access Interface auf &apos;User Guide&apos; oder im Infobereich auf &apos;Help&apos; im Access Gateway-Symbolmenü klicken.</String>
+    <String id="tip_5">Denken Sie daran, sich abzumelden, wenn Sie die Sitzung beenden möchten.</String>
+    <String id="tip_6">Aus Sicherheitsgründen schließt das Access Gateway eine Anwendung, wenn sie eine bestimmte Zeit lang nicht verwendet wird.</String>
+    <String id="tip_7">Sie entfernen ein Lesezeichen, indem Sie auf &apos;Entfernen&apos; klicken.</String>
+    <String id="tip_8">Es können mehrere Dateiübertragungssitzungen gleichzeitig geöffnet sein. Klicken Sie auf &apos;Dateiübertragung&apos; im Remotesitzungsfenster, um die Dateiübertragungsanwendung zu öffnen.</String>
+    <String id="tip_9">Sie können für die Access Gateway-Sitzung und die Dateiübertragungsanwendung unterschiedliche Anmeldeinformationen verwenden.</String>
+    <String id="tip_10">In der Dateiübertragungsanwendung können Sie auf remote Dateiserver zugreifen, indem Sie im linken Bereich auf das Symbol &apos;Umgebung&apos; klicken.</String>
+    <String id="tip_11">Wenn Sie die Arbeit in der Dateiübertragungsanwendung abgeschlossen haben, empfiehlt Citrix, auf &apos;Abmelden&apos; zu klicken und nicht einfach nur das Access Interface-Fenster zu schließen.</String>
+    <String id="tip_12">Sie können Lesezeichen für Websites im internen Netzwerk, im Internet oder für Dateiserver erstellen. Verwenden Sie für Lesezeichen zu Dateiservern das Format \\Server\Freigabe.</String>
+    <String id="tip_13">Mit dem Ping-Tool im Access Interface können Sie den Zugriff auf Server im internen Netzwerk oder im Internet prüfen.</String>
+    <String id="tip_14">Wenn im Sitzungsfenster ein Fehlercode oder eine Meldung angezeigt wird, finden Sie Hilfe bei der Problemlösung in der Dokumentation des Access Gateway Plug-ins für Windows.</String>
+    <String id="tip_15">Access Gateway unterstützt gebräuchliche Konsolenanwendungen wie Telnet, FTP und SSH.</String>
+    <String id="tip_16">Wenn Sie technische Probleme mit dem Access Gateway haben, können Sie dem Systemadministrator einen clientseitigen Tracingbericht geben, um die Problemursache zu ermitteln. Wenden Sie sich an den Systemadministrator, um Hilfe beim Erstellen des Tracings zu erhalten.</String>
+    <String id="tip_17">Wenn das Access Gateway Plug-in bereits installiert aber nicht gestartet ist, können Sie es über das Startmenü starten, statt es von der Website herunterzuladen.</String>
+    <String id="tip_18">Wenn die Verbindung zu Anwendungen geschlossen wird, wenn Sie sich am Access Gateway anmelden, ist das Access Gateway aus Sicherheitsgründen so konfiguriert.</String>
+    <String id="tip_19">Sie können das Sicherheitsfenster für die Sitzung auf den Infobereich minimieren. Wenn Sie das Sitzungsfenster schließen, wird die Sitzung mit dem Access Gateway beendet.</String>
+    <String id="tip_20">Sie können die Protokollierung des Access Gateway Plug-in einstellen, dass über das Access Gateway abgeschlossene Verbindungen angezeigt werden.</String>
+    <String id="tip_21">Alle Webbrowser in Windows werden unterstützt.</String>
+    <String id="tip_22">Sie stellen eine Verbindung zum anderen Access Gateway mit dem Access Gateway Plug-in her, indem Sie den Domänennamen in folgendem Format angeben:  \\Präfix_Anmeldename.</String>
+  </Partition>
+</Resources>

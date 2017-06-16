@@ -1,0 +1,47 @@
+<ion-view view-title="{{title}}">
+    <ion-content style="background-color: #f1f5f7">
+        <!--{{stateParams}}-->
+        <!--{{matterFinance}}-->
+        <div class="col s12">
+            <div class="card" ng-repeat="item in matterFinance.data|filter:matterFinance.selectedMatter.clientId|filter:matterFinance.selectedMatter.matterId">
+                <div class="card-content">
+                    <span class="card-title" style="color:black;">Fees</span>
+                    <div class="">
+                        <table class="responsive-table" style="margin-top: 20px;">
+                            <thead>
+                            <tr>
+                                <th data-field="leadAssociate" style="font-weight: bold;">Lead Associate</th>
+                                <th data-field="billedToDate" style="font-weight: bold;">Billed to Date</th>
+                                <th data-field="lastBilled" style="font-weight: bold;">Last Billed</th>
+                                <th data-field="wip" style="font-weight: bold;">WIP</th>
+                                <th data-field="billedPlusWIP" style="font-weight: bold;">Billed + WIP</th>
+                                <th data-field="feeLimit" style="font-weight: bold;">Fee Limit</th>
+                                <th data-field="feeDeadline" style="font-weight: bold;">Fee Deadline</th>
+                                <th data-field="osTimeSheets" style="font-weight: bold;">O/S Time Sheets</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>{{item.leadAssociate}}</td>
+                                <td>{{item.billedToDate}}</td>
+                                <td>{{item.lastBilled}}</td>
+                                <td>{{item.wip}}</td>
+                                <td>{{item.billedPlusWIP}}</td>
+                                <!--<td class="red" style="color:#ffffff;">{{item.feeLimit}}</td>-->
+                                <td>{{item.feeLimit}}&nbsp;<i class="mdi-action-stars" style="color: red"></i></td>
+                                <!--<td class="amber" style="color: #ffffff;">{{item.feeDeadline}}</td>-->
+                                <td>{{item.feeDeadline}}&nbsp;<i class="mdi-action-stars" style="color:orange;"></i></td>
+                                <td>{{item.osTimeSheets}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <blockquote>Fees on this matter have now exceeded the warning limit which you set.
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

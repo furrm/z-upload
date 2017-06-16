@@ -1,0 +1,12 @@
+{
+  "name": "mikes-hotel-apartments-app-2",
+  "app_id": "815c77c6",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

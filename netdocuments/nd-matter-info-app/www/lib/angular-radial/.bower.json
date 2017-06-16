@@ -1,0 +1,29 @@
+{
+  "name": "angular-radial",
+  "version": "0.1.4",
+  "devDependencies": {
+    "angular": "*"
+  },
+  "homepage": "https://github.com/brandonaaskov/angular-radial",
+  "authors": [
+    "Brandon Aaskov <baaskov@fullscreen.net>"
+  ],
+  "description": "Part of the Fullscreen Creator Platform, this is a handy directive for easy radials that relies entirely on the Canvas API and nothing else",
+  "keywords": [
+    "angular",
+    "radial",
+    "directive"
+  ],
+  "license": "MPL",
+  "dependencies": {},
+  "_release": "0.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.4",
+    "commit": "67ec980fa7e0eb87e514f0cd04bc61341cb4d823"
+  },
+  "_source": "https://github.com/brandonaaskov/angular-radial.git",
+  "_target": "~0.1.4",
+  "_originalSource": "https://github.com/brandonaaskov/angular-radial.git",
+  "_direct": true
+}

@@ -1,0 +1,35 @@
+<HTML><HEAD><title>Citrix Access Gateway</title>
+<meta http-equiv="Expires" content="Sat, 1 Jan 2000 08:00:00 GMT" />
+<script language="JavaScript">
+function ns_getcookie(name) {
+var cookie=document.cookie;
+if(cookie.length > 0) {
+	begin=cookie.indexOf(name+"=");
+ 	if(begin!=-1) {
+		begin+=name.length+1;
+		end=cookie.indexOf(";", begin);
+	if(end==-1) end=cookie.length;
+	return unescape(cookie.substring(begin, end));
+	}
+}
+return null;
+}
+
+function UnsetCookie(cookieName) {
+document.cookie=cookieName+"=nothing;expires=Thursday, 1 Jan 1970 00:00:00 GMT; path=/";
+}
+
+function OnPageLoad() {
+UnsetCookie("NSC_AAAC");
+if ( ns_getcookie("NSC_HTTPVSERVER") == 1) {
+	UnsetCookie("NSC_HTTPVSERVER");
+	window.location = "http://" + window.location.hostname + "/vpn/logout.html";
+} else {
+	window.location = "https://" + window.location.hostname + "/vpn/logout.html";
+}
+}
+</script>
+</HEAD>
+<body onLoad="OnPageLoad()">
+</body>
+</HTML>

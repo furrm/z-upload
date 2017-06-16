@@ -1,0 +1,634 @@
+/* START:AO COLOUR SCHEME */
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* END:AO COLOUR SCHEME */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+/* START:GOOGLE MATERIAL COLOUR SCHEME */
+/* END:GOOGLE MATERIAL COLOUR SCHEME */
+/** START:HTML **/
+/** END:HTML **/
+/* START:TILES */
+/* END:TILES */
+@font-face {
+  font-family: 'robotoregular';
+  src: url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot');
+  src: url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'), url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'), url('fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto_condensedregular';
+  src: url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.eot');
+  src: url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.woff') format('woff'), url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.ttf') format('truetype'), url('fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('fonts/roboto_light_macroman/Roboto-Light-webfont.eot');
+  src: url('fonts/roboto_light_macroman/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto_light_macroman/Roboto-Light-webfont.woff') format('woff'), url('fonts/roboto_light_macroman/Roboto-Light-webfont.ttf') format('truetype'), url('fonts/roboto_light_macroman/Roboto-Light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("fonts/roboto/Roboto-Thin.woff") format("woff"), url("fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Light.woff2") format("woff2"), url("fonts/roboto/Roboto-Light.woff") format("woff"), url("fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("fonts/roboto/Roboto-Regular.woff") format("woff"), url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("fonts/roboto/Roboto-Medium.woff") format("woff"), url("fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("fonts/roboto/Roboto-Bold.woff") format("woff"), url("fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(fonts/iconfont/MaterialIcons-Regular.woff2) format('woff2'); }
+
+.remove-margin {
+  margin: 0px; }
+
+.remove-shadow {
+  box-shadow: none; }
+
+.remove-background-color {
+  background-color: transparent; }
+
+.fill-parent {
+  height: 100%;
+  width: 100%; }
+
+.fill-y {
+  height: 100%; }
+
+.fill-x {
+  width: 100%; }
+
+.square-corners {
+  border-radius: 0px; }
+
+.remove-padding {
+  padding: 0px; }
+
+.fill-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.white-on-black {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white; }
+
+.tile-shadow-z-1 {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+
+.tileContainer {
+  padding: 2px;
+  background-color: #f7f7f7;
+  overflow: scroll; }
+
+.tile {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  position: relative; }
+
+.one-by-one.tile {
+  background-color: #16A085; }
+  .one-by-one.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .one-by-one.tile > div.content {
+      background-color: #1ABC9C;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .one-by-one.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .one-by-one.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .one-by-one.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.one-by-two.tile {
+  background-color: #27AE60; }
+  .one-by-two.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .one-by-two.tile > div.content {
+      background-color: #2ECC71;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .one-by-two.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .one-by-two.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .one-by-two.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.two-by-one.tile {
+  background-color: #2980B9; }
+  .two-by-one.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .two-by-one.tile > div.content {
+      background-color: #3498DB;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .two-by-one.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .two-by-one.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .two-by-one.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.two-by-two.tile {
+  background-color: #8E44AD; }
+  .two-by-two.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .two-by-two.tile > div.content {
+      background-color: #9B59B6;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .two-by-two.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .two-by-two.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .two-by-two.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.two-by-three.tile {
+  background-color: #2C3E50; }
+  .two-by-three.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .two-by-three.tile > div.content {
+      background-color: #34495E;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .two-by-three.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .two-by-three.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .two-by-three.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.two-by-four.tile {
+  background-color: #2C3E50; }
+  .two-by-four.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .two-by-four.tile > div.content {
+      background-color: #34495E;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .two-by-four.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .two-by-four.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .two-by-four.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.three-by-two.tile {
+  background-color: #F39C12; }
+  .three-by-two.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .three-by-two.tile > div.content {
+      background-color: #F1C40F;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .three-by-two.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .three-by-two.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .three-by-two.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.three-by-three.tile {
+  background-color: #D35400; }
+  .three-by-three.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .three-by-three.tile > div.content {
+      background-color: #E67E22;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .three-by-three.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .three-by-three.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .three-by-three.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.three-by-four.tile {
+  background-color: #C0392B; }
+  .three-by-four.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .three-by-four.tile > div.content {
+      background-color: #E74C3C;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .three-by-four.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .three-by-four.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .three-by-four.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.four-by-two.tile {
+  background-color: #C0392B; }
+  .four-by-two.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .four-by-two.tile > div.content {
+      background-color: #E74C3C;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .four-by-two.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .four-by-two.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .four-by-two.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.four-by-three.tile {
+  background-color: #BDC3C7; }
+  .four-by-three.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .four-by-three.tile > div.content {
+      background-color: #ECF0F1;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .four-by-three.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .four-by-three.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 20px;
+          letter-spacing: 3px; }
+        .four-by-three.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+.four-by-four.tile {
+  background-color: #7F8C8D; }
+  .four-by-four.tile > div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .four-by-four.tile > div.content {
+      background-color: #95A5A6;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;
+      /* Firefox, other Gecko */
+      box-sizing: border-box;
+      /* Opera/IE 8+ */ }
+      .four-by-four.tile > div.content > div > .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 35%;
+        border-left: solid 3px #b23427;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        text-align: left;
+        padding: 10px; }
+        .four-by-four.tile > div.content > div > .caption > span > markup > h1 {
+          margin-top: 0px;
+          margin-bottom: 5px;
+          font-family: robotoregular;
+          font-size: 36px;
+          letter-spacing: 3px; }
+        .four-by-four.tile > div.content > div > .caption > span > markup > p {
+          font-family: robotoregular;
+          font-size: 14px; }
+
+body {
+  background: #f7f7f7;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  word-wrap: normal;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased; }
+
+.mike-test {
+  background: #b23427; }

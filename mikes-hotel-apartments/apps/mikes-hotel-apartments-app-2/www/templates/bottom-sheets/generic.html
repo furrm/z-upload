@@ -1,0 +1,28 @@
+<!--<md-bottom-sheet ng-repeat="item in data|filter:filter" ng-switch on="item.type">-->
+<!--<md-list ng-switch-when="list">-->
+<!--<md-list-item ng-repeat="link in item.links" class="md-3-line">-->
+<!--<img ng-src="{{link.imageUrl}}" class="md-avatar" alt="{{link.title}}"/>-->
+
+<!--<div class="md-list-item-text">-->
+<!--<h3>{{ link.title }}</h3>-->
+<!--</div>-->
+<!--</md-list-item>-->
+<!--</md-list>-->
+
+<!--<div>{{linkInfo}}</div>-->
+<!--</md-bottom-sheet>-->
+
+<md-bottom-sheet>
+
+    <div ng-repeat="item in data|filter:filter" ng-switch on="item.type">
+        <md-subheader>Accommodation</md-subheader>
+        <md-list ng-switch-when="list">
+                <img ng-src="{{link.imageUrl}}" class="md-avatar" alt="{{link.title}}"/>
+                    <p>{{ link.title }}</p>
+            </md-list-item>
+        </md-list>
+    </div>
+
+
+    <!--<div>{{linkInfo}}</div>-->
+</md-bottom-sheet>

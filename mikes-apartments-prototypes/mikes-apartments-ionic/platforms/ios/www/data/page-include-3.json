@@ -1,0 +1,351 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 1,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "4DJiPAkesw6ygsqCgKYIoq",
+                "revision": 2,
+                "createdAt": "2014-06-09T22:00:42.008Z",
+                "updatedAt": "2014-06-09T22:16:14.610Z",
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "page-home",
+                "type": "slider",
+                "content": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "5MvHqCXuuckoeqwyq48UOg"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "2QRzYw7c2sASGOm4AAWGKU"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "includes": {
+        "Entry": [
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Entry",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                        }
+                    },
+                    "id": "2QRzYw7c2sASGOm4AAWGKU",
+                    "revision": 2,
+                    "createdAt": "2014-06-09T22:10:47.000Z",
+                    "updatedAt": "2014-06-09T22:15:18.721Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "slide-accommodation",
+                    "backgroundImage": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5MAQpxQZe8qSGyo2WcIaM4"
+                        }
+                    },
+                    "cards": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "7yG9HVer9SIm4ywSwag04e"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "7nNgcgUBB6IGMWQKYAmAiC"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Entry",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                        }
+                    },
+                    "id": "5MvHqCXuuckoeqwyq48UOg",
+                    "revision": 2,
+                    "createdAt": "2014-06-09T22:00:00.161Z",
+                    "updatedAt": "2014-06-09T22:11:19.616Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "slide-home",
+                    "backgroundImage": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5eP4tVhAKWEwUyGA8MGsyS"
+                        }
+                    },
+                    "cards": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "SvrnZ62kguugmMSC42Sis"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Entry",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "52IbZnFTiEa2MecgEow8oi"
+                        }
+                    },
+                    "id": "SvrnZ62kguugmMSC42Sis",
+                    "revision": 1,
+                    "createdAt": "2014-06-09T21:59:51.794Z",
+                    "updatedAt": "2014-06-09T21:59:51.795Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "home-slide-1-card-1",
+                    "header": "Mike Hotel and Apartments in Maleme , Chania , Crete",
+                    "body": "Mike Hotel and Apartments is located in the coastal village of Maleme , just 17km from Chania . The complex consists of an upper building , Mike's Hotel with the Restaurant and the Hotel Rooms and a lower building , Mike's Studios and Apartments with  the Studios -  Apartments , the Pool Bar and a uniquely shaped 174sqm Swimming Pool , with a children's section"
+                }
+            },
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Entry",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "52IbZnFTiEa2MecgEow8oi"
+                        }
+                    },
+                    "id": "7yG9HVer9SIm4ywSwag04e",
+                    "revision": 1,
+                    "createdAt": "2014-06-09T22:10:42.370Z",
+                    "updatedAt": "2014-06-09T22:10:42.370Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "card-mikes-hotel",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5MAQpxQZe8qSGyo2WcIaM4"
+                        }
+                    },
+                    "header": "Mike's Hotel",
+                    "body": "The upper Hotel building , Mike's Hotel.\nConsist of 14 rooms ( 4 Twin - Double  Rooms , 8 Triple Rooms-Twin2/3   and 2 Family Rooms ) . "
+                }
+            },
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Entry",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "52IbZnFTiEa2MecgEow8oi"
+                        }
+                    },
+                    "id": "7nNgcgUBB6IGMWQKYAmAiC",
+                    "revision": 1,
+                    "createdAt": "2014-06-09T22:15:01.886Z",
+                    "updatedAt": "2014-06-09T22:15:01.886Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "card-mikes-apartments",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "3dlQKgJQ6IcSuYwKsYKCka"
+                        }
+                    },
+                    "header": "Mike's Studios and Apartments",
+                    "body": "The lower building Mike's Studios and Apartments.\nConsists of 12 Studios and 11 Apartments . "
+                }
+            }
+        ],
+        "Asset": [
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Asset",
+                    "id": "5eP4tVhAKWEwUyGA8MGsyS",
+                    "revision": 1,
+                    "createdAt": "2014-06-09T21:38:47.120Z",
+                    "updatedAt": "2014-06-09T21:38:47.120Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "swimming-pool-1",
+                    "description": "A picture from the pool",
+                    "file": {
+                        "fileName": "swimming-pool-1.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 1000,
+                                "height": 749
+                            },
+                            "size": 692408
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/5eP4tVhAKWEwUyGA8MGsyS/aeceb9d2117941da65c66b1d42dc4973/swimming-pool-1.jpg"
+                    }
+                }
+            },
+            {
+                "fields": {
+                    "title": "accommodation-hotel",
+                    "file": {
+                        "fileName": "Mike%20's%20Hotel%20Maleme%20Chania%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 629,
+                                "height": 407
+                            },
+                            "size": 342556
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/5MAQpxQZe8qSGyo2WcIaM4/d216e43e1c7406b1ea1d9177ecc02ad4/Mike_20_s_20Hotel_20Maleme_20Chania_20Crete.jpg"
+                    }
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Asset",
+                    "id": "5MAQpxQZe8qSGyo2WcIaM4",
+                    "revision": 1,
+                    "createdAt": "2014-06-09T22:06:22.662Z",
+                    "updatedAt": "2014-06-09T22:06:22.662Z",
+                    "locale": "en-US"
+                }
+            },
+            {
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "lx12mec53sjz"
+                        }
+                    },
+                    "type": "Asset",
+                    "id": "3dlQKgJQ6IcSuYwKsYKCka",
+                    "revision": 1,
+                    "createdAt": "2014-06-09T22:13:22.637Z",
+                    "updatedAt": "2014-06-09T22:13:22.637Z",
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "mikes-apartments",
+                    "file": {
+                        "fileName": "Mike%20s%20Studios%20Apartments%20Chania%20Maleme%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 1280,
+                                "height": 490
+                            },
+                            "size": 175439
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/3dlQKgJQ6IcSuYwKsYKCka/a0a092ee06505fe067f0421c8c40d580/Mike_20s_20Studios_20Apartments_20Chania_20Maleme_20Crete.jpg"
+                    }
+                }
+            }
+        ]
+    }
+}

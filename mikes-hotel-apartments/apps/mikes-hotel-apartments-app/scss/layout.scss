@@ -1,0 +1,155 @@
+// START: DEFAULT HEADER STYLE ADJUSTMENTS
+
+// The following classes implement the following changes to the default header bar:
+// - make the header overlap content
+// - make the header transparent
+// - remove the bottom border of the header bar
+
+// vars
+$height-image-header:235px;
+
+
+
+.bar {
+
+  //  background-color: transparent;
+  //  background-image: none; // removes the bottom border
+
+}
+
+.pane{
+  background-color: #E5E5E5;
+}
+
+// pull to refresh
+.scroll-refresher .ionic-refresher-content {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.bar-no-border {
+  border: 0px !important;
+  border-bottom-color: transparent !important;
+  background-image: none;
+  border-bottom: none;
+}
+
+//.bar-header {
+//  background-color: transparent;
+//  border: 0px !important;
+//  border-bottom-color: transparent !important;
+//  background-image: none;
+//  border-bottom: none;
+//}
+
+.bar-transparent{
+//  background-color: rgba(000,000,000,0.3);
+  background: -webkit-linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.01)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.01)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.01)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.01)); /* Standard syntax */
+
+  >.title{
+    color:white;
+  }
+}
+
+// bar-header-image is designed to sit within ion-content so the position
+// of the element is relative to the parent and overrides the absolute position
+// defined by the ionic framework
+
+//.pane{
+//  background-color: red;
+//}
+
+.bar-header-image-spacer{
+  position: relative;
+  height: $height-image-header;
+}
+
+.bar-header-image {
+//  z-index: -1;
+//  background-color: red;
+
+
+
+  position: relative;
+//  height: $height-image-header;
+  padding: 0px; // removed the 5px padding set by .bar
+
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+
+  > .image-title {
+
+    position:absolute;
+    top: 150px;
+    left: 16px;
+
+//    font-family:robotoregular;
+    font-family:Roboto;
+    font-size:45px;
+    color: white;
+  }
+}
+
+.bar-subheader-image{
+
+  position: relative;
+//  top:$height-image-header;
+  top:0px;
+
+  height:115px;
+
+
+  > .subheader-title { // based off material design Headline 1
+
+    position: absolute;
+    top:8px;
+    left:16px;
+
+    width:80%;
+
+    overflow:hidden;
+    text-overflow: ellipsis;
+//    white-space: nowrap;
+    font-family:Roboto;
+//    font-family:robotoregular;
+    font-size:24px;
+    line-height:32px;
+    color: white;
+  }
+
+
+}
+
+
+.mikes-toggle-button{
+  color: #ffffff;
+}
+
+.mikes-toggle-button:hover{
+  color: #ffffff;
+}
+
+
+
+// END: DEFAULT HEADER STYLE ADJUSTMENTS
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<!--<md-card class="remove-shadow remove-margin fill-parent square-corners fill-image" style="background-image: url({{imageUrl}})">-->
+<!--<md-card-content ratio="1:1" position="top" class="white-on-black" layout="row" layout-align="center center">-->
+<!--<img src="img/logo-website.png">-->
+<!--</md-card-content>-->
+<!--<md-card-content ratio="4:3" position="bottom" class="md-accent">-->
+<!--<h2 class="md-title" style="color: white;">Welcom to Mikes Hotel and Apartments</h2>-->
+<!--</md-card-content>-->
+<!--<md-card-footer class="remove-padding" layout="row" layout-align="end end">-->
+<!--FOOTER-->
+<!--</md-card-footer>-->
+<!--<div class="fill-x" layout="row" layout-align="start end" style="position: absolute; bottom: 0; z-index: 1000">-->
+<!--<md-button class="md-primary" ng-href="{{googleUrl}}" target="_blank">Default Link</md-button>-->
+<!--<md-button class="md-raised md-primary">Action 1</md-button>-->
+<!--<md-button class="md-raised md-warn">Action 2</md-button>-->
+<!--</div>-->
+<!--</md-card>-->
+
+<md-ink-ripple>
+    <md-card class="remove-shadow remove-margin fill-parent square-corners remove-background-color" ng-controller="BottomSheetExample">
+        <md-card-content class="md-warn md-default-theme" ratio="1:1" position="top" layout="row" layout-align="center center"  ng-click="showHomeBottomSheet($event)">
+            <img src="img/logo-website.png">
+        </md-card-content>
+    </md-card>
+</md-ink-ripple>

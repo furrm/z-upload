@@ -1,0 +1,57 @@
+<ion-view title="" hide-back-button="true">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon button-clear ion-navicon">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button menu-toggle="right" class="button button-icon button-clear ion-navicon">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content padding="false">
+        <ion-refresher
+                pulling-text="Pull to refresh..."
+                on-refresh="doRefresh()">
+        </ion-refresher>
+        <div style="{{pageTopStyle}}" >
+            <div class="backgroundImage" style="width: 100%; height: 100%; background-image: url({{getImageUrl(page.fields.image.fields.file.url)}});"></div>
+            <!--<div class="backgroundImage" style="background-image: url(img/03-chair-pool.jpg); height: 100%"></div>-->
+        </div>
+        <div class="bar page-sub-header">
+            <h1 class="title">{{page.fields.name}}</h1>
+        </div>
+
+
+        <div class="list card" ng-repeat="card in page.fields.content" >
+            <div class="item item-divider">
+                {{card.fields.header}}
+            </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="{{getImageUrl(card.fields.image.fields.file.url)}}">
+                <markup markdown="{{card.fields.body}}">
+                </markup>
+                <p>
+                    <a href="#" class="subdued">1 Like</a>
+                    <a href="#" class="subdued">5 Comments</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-thumbsup"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-chatbox"></i>
+                    Comment
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-share"></i>
+                    Share
+                </a>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

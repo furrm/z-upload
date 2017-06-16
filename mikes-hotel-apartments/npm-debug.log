@@ -1,0 +1,18 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'v', '-g' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose stack Error: Cannot use view command in global mode.
+4 verbose stack     at EventEmitter.view (/usr/local/lib/node_modules/npm/lib/view.js:69:15)
+4 verbose stack     at Object.commandCache.(anonymous function) (/usr/local/lib/node_modules/npm/lib/npm.js:220:11)
+4 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/bin/npm-cli.js:73:28)
+4 verbose stack     at process._tickCallback (node.js:355:11)
+5 verbose cwd /Users/furrm/Projects/mikes-hotel-apartments
+6 error Darwin 13.4.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "v" "-g"
+8 error node v0.12.2
+9 error npm  v2.7.4
+10 error Cannot use view command in global mode.
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]

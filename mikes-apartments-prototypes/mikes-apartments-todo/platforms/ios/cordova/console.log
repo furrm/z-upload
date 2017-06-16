@@ -1,0 +1,384 @@
+2014-07-15 16:54:42.696 HelloCordova[2350:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 16:54:42.726 HelloCordova[2350:70b] Unlimited access to network resources
+2014-07-15 16:54:42.730 HelloCordova[2350:70b] Fix applied for database locations?: YES
+2014-07-15 16:54:42.891 HelloCordova[2350:70b] [CDVTimer][keyboard] 0.124991ms
+2014-07-15 16:54:42.892 HelloCordova[2350:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 16:54:42.892 HelloCordova[2350:70b] [CDVTimer][statusbar] 0.447989ms
+2014-07-15 16:54:42.893 HelloCordova[2350:70b] [CDVTimer][TotalPluginStartup] 1.563013ms
+2014-07-15 16:54:43.114 HelloCordova[2350:70b] Resetting plugins due to page load.
+2014-07-15 16:54:43.527 HelloCordova[2350:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html
+2014-07-15 17:14:26.028 HelloCordova[3169:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 17:14:26.039 HelloCordova[3169:70b] Unlimited access to network resources
+2014-07-15 17:14:26.062 HelloCordova[3169:70b] [CDVTimer][keyboard] 0.097990ms
+2014-07-15 17:14:26.063 HelloCordova[3169:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 17:14:26.063 HelloCordova[3169:70b] [CDVTimer][statusbar] 0.492990ms
+2014-07-15 17:14:26.064 HelloCordova[3169:70b] [CDVTimer][TotalPluginStartup] 1.883984ms
+2014-07-15 17:14:26.194 HelloCordova[3169:70b] Resetting plugins due to page load.
+2014-07-15 17:14:26.432 HelloCordova[3169:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 17:14:42.528 HelloCordova[3169:70b] {"stack":"getFilesystem@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js:610:57\ncreateDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js:405:34\ncreateDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:46:39\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":610,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js"}
+2014-07-15 17:17:39.094 HelloCordova[3169:70b] {"stack":"getFilesystem@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js:610:57\ncreateDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js:405:34\ncreateDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:46:39\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":610,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js"}
+Terminating in response to SpringBoard's termination.
+2014-07-15 17:32:24.366 HelloCordova[3580:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 17:32:24.375 HelloCordova[3580:70b] Unlimited access to network resources
+2014-07-15 17:32:24.398 HelloCordova[3580:70b] [CDVTimer][keyboard] 0.090003ms
+2014-07-15 17:32:24.399 HelloCordova[3580:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 17:32:24.399 HelloCordova[3580:70b] [CDVTimer][statusbar] 0.441015ms
+2014-07-15 17:32:24.399 HelloCordova[3580:70b] [CDVTimer][TotalPluginStartup] 1.505971ms
+2014-07-15 17:32:24.535 HelloCordova[3580:70b] Resetting plugins due to page load.
+2014-07-15 17:32:24.805 HelloCordova[3580:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 17:54:07.784 HelloCordova[3580:70b] {"stack":"getFilesystem@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js:610:57\ncreateDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js:405:34\ncreateDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:46:39\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":610,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ngCordova/ng-cordova.js"}
+Terminating in response to SpringBoard's termination.
+2014-07-15 17:54:37.047 HelloCordova[4023:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 17:54:37.056 HelloCordova[4023:70b] Unlimited access to network resources
+2014-07-15 17:54:37.087 HelloCordova[4023:70b] [CDVTimer][keyboard] 0.095010ms
+2014-07-15 17:54:37.088 HelloCordova[4023:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 17:54:37.089 HelloCordova[4023:70b] [CDVTimer][statusbar] 0.455022ms
+2014-07-15 17:54:37.089 HelloCordova[4023:70b] [CDVTimer][TotalPluginStartup] 1.967013ms
+2014-07-15 17:54:37.168 HelloCordova[4023:70b] Resetting plugins due to page load.
+2014-07-15 17:54:37.487 HelloCordova[4023:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 18:01:22.994 HelloCordova[4854:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 18:01:23.013 HelloCordova[4854:70b] Unlimited access to network resources
+2014-07-15 18:01:23.038 HelloCordova[4854:70b] [CDVTimer][keyboard] 0.093997ms
+2014-07-15 18:01:23.043 HelloCordova[4854:70b] [CDVTimer][file] 4.030049ms
+2014-07-15 18:01:23.044 HelloCordova[4854:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 18:01:23.045 HelloCordova[4854:70b] [CDVTimer][statusbar] 0.774026ms
+2014-07-15 18:01:23.045 HelloCordova[4854:70b] [CDVTimer][TotalPluginStartup] 7.276952ms
+2014-07-15 18:01:23.169 HelloCordova[4854:70b] Resetting plugins due to page load.
+2014-07-15 18:01:23.445 HelloCordova[4854:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 21:37:12.355 HelloCordova[4854:70b] THREAD WARNING: ['File'] took '10.844971' ms. Plugin should use a background thread.
+2014-07-15 21:37:12.387 HelloCordova[4854:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:61:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":61,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+2014-07-15 21:37:12.410 HelloCordova[4854:70b] THREAD WARNING: ['File'] took '13.110107' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-07-15 22:04:24.750 HelloCordova[5213:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 22:04:24.777 HelloCordova[5213:70b] Unlimited access to network resources
+2014-07-15 22:04:24.825 HelloCordova[5213:70b] [CDVTimer][keyboard] 0.097990ms
+2014-07-15 22:04:24.828 HelloCordova[5213:70b] [CDVTimer][file] 2.428949ms
+2014-07-15 22:04:24.828 HelloCordova[5213:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 22:04:24.829 HelloCordova[5213:70b] [CDVTimer][statusbar] 0.401020ms
+2014-07-15 22:04:24.829 HelloCordova[5213:70b] [CDVTimer][TotalPluginStartup] 4.472017ms
+2014-07-15 22:04:24.990 HelloCordova[5213:70b] Resetting plugins due to page load.
+2014-07-15 22:04:25.327 HelloCordova[5213:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 22:21:38.924 HelloCordova[5508:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 22:21:38.934 HelloCordova[5508:70b] Unlimited access to network resources
+2014-07-15 22:21:38.957 HelloCordova[5508:70b] [CDVTimer][keyboard] 0.090957ms
+2014-07-15 22:21:38.960 HelloCordova[5508:70b] [CDVTimer][file] 2.068043ms
+2014-07-15 22:21:38.960 HelloCordova[5508:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 22:21:38.961 HelloCordova[5508:70b] [CDVTimer][statusbar] 0.462949ms
+2014-07-15 22:21:38.961 HelloCordova[5508:70b] [CDVTimer][TotalPluginStartup] 4.144013ms
+2014-07-15 22:21:39.085 HelloCordova[5508:70b] Resetting plugins due to page load.
+2014-07-15 22:21:39.437 HelloCordova[5508:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-15 22:22:54.424 HelloCordova[5756:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 22:22:54.434 HelloCordova[5756:70b] Unlimited access to network resources
+2014-07-15 22:22:54.456 HelloCordova[5756:70b] [CDVTimer][keyboard] 0.092983ms
+2014-07-15 22:22:54.459 HelloCordova[5756:70b] [CDVTimer][file] 2.125978ms
+2014-07-15 22:22:54.459 HelloCordova[5756:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 22:22:54.460 HelloCordova[5756:70b] [CDVTimer][statusbar] 0.657976ms
+2014-07-15 22:22:54.461 HelloCordova[5756:70b] [CDVTimer][TotalPluginStartup] 4.463017ms
+2014-07-15 22:22:54.595 HelloCordova[5756:70b] Resetting plugins due to page load.
+2014-07-15 22:22:54.898 HelloCordova[5756:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 22:26:47.766 HelloCordova[5756:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:62:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":62,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+2014-07-15 22:32:34.008 HelloCordova[5756:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:62:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":62,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+2014-07-15 22:32:37.097 HelloCordova[5756:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:62:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":62,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+2014-07-15 22:32:50.410 HelloCordova[5756:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:62:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":62,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+Terminating in response to SpringBoard's termination.
+2014-07-15 22:44:33.380 HelloCordova[6041:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 22:44:33.390 HelloCordova[6041:70b] Unlimited access to network resources
+2014-07-15 22:44:33.413 HelloCordova[6041:70b] [CDVTimer][keyboard] 0.097990ms
+2014-07-15 22:44:33.415 HelloCordova[6041:70b] [CDVTimer][file] 1.967013ms
+2014-07-15 22:44:33.416 HelloCordova[6041:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-15 22:44:33.416 HelloCordova[6041:70b] [CDVTimer][statusbar] 0.500977ms
+2014-07-15 22:44:33.417 HelloCordova[6041:70b] [CDVTimer][TotalPluginStartup] 4.153967ms
+2014-07-15 22:44:33.551 HelloCordova[6041:70b] Resetting plugins due to page load.
+2014-07-15 22:44:33.782 HelloCordova[6041:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-15 22:45:06.848 HelloCordova[6041:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:62:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":62,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+2014-07-15 23:11:22.468 HelloCordova[6041:70b] ERROR: Wrong type for parameter "path" of DirectoryEntry.getDirectory: Expected String, but got Undefined.
+2014-07-16 06:54:06.259 HelloCordova[8297:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 06:54:06.346 HelloCordova[8297:70b] Unlimited access to network resources
+2014-07-16 06:54:06.600 HelloCordova[8297:70b] [CDVTimer][keyboard] 0.108004ms
+2014-07-16 06:54:06.605 HelloCordova[8297:70b] [CDVTimer][file] 3.619015ms
+2014-07-16 06:54:06.607 HelloCordova[8297:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-16 06:54:06.607 HelloCordova[8297:70b] [CDVTimer][statusbar] 0.548005ms
+2014-07-16 06:54:06.608 HelloCordova[8297:70b] [CDVTimer][TotalPluginStartup] 8.538008ms
+2014-07-16 06:54:06.829 HelloCordova[8297:70b] Resetting plugins due to page load.
+2014-07-16 06:54:07.376 HelloCordova[8297:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-16 06:54:07.772 HelloCordova[8297:70b] THREAD WARNING: ['Device'] took '36.968994' ms. Plugin should use a background thread.
+2014-07-16 06:54:21.474 HelloCordova[8297:70b] {"stack":"createDir@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js:77:55\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:19654:26\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42758:21\n$eval@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21516:28\n$apply@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:21614:28\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:42757:19\nfile:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11808:14\nforEach@[native code]\nforEach@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:9318:18\neventHandler@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:11807:12\ndispatchEvent@[native code]\ntriggerMouseEvent@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2726:20\ntapClick@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2715:20\ntapTouchEnd@file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/lib/ionic/js/ionic.bundle.js:2833:13","line":77,"sourceURL":"file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/js/controllers.js"}
+2014-07-16 17:13:02.842 HelloCordova[2726:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 17:13:02.870 HelloCordova[2726:70b] Unlimited access to network resources
+2014-07-16 17:13:03.193 HelloCordova[2726:70b] [CDVTimer][keyboard] 0.121951ms
+2014-07-16 17:13:03.197 HelloCordova[2726:70b] [CDVTimer][file] 2.891004ms
+2014-07-16 17:13:03.198 HelloCordova[2726:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-16 17:13:03.199 HelloCordova[2726:70b] [CDVTimer][statusbar] 1.224995ms
+2014-07-16 17:13:03.200 HelloCordova[2726:70b] [CDVTimer][TotalPluginStartup] 7.111967ms
+2014-07-16 17:13:03.422 HelloCordova[2726:70b] Resetting plugins due to page load.
+2014-07-16 17:13:03.708 HelloCordova[2726:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-16 17:27:49.285 HelloCordova[3017:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 17:27:49.300 HelloCordova[3017:70b] Unlimited access to network resources
+2014-07-16 17:27:49.355 HelloCordova[3017:70b] [CDVTimer][keyboard] 0.101030ms
+2014-07-16 17:27:49.360 HelloCordova[3017:70b] [CDVTimer][file] 2.295971ms
+2014-07-16 17:27:49.360 HelloCordova[3017:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-16 17:27:49.361 HelloCordova[3017:70b] [CDVTimer][statusbar] 0.846028ms
+2014-07-16 17:27:49.362 HelloCordova[3017:70b] [CDVTimer][TotalPluginStartup] 7.096946ms
+2014-07-16 17:27:49.560 HelloCordova[3017:70b] Resetting plugins due to page load.
+2014-07-16 17:27:49.856 HelloCordova[3017:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-16 17:37:11.813 HelloCordova[3298:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 17:37:11.824 HelloCordova[3298:70b] Unlimited access to network resources
+2014-07-16 17:37:11.850 HelloCordova[3298:70b] [CDVTimer][keyboard] 0.095963ms
+2014-07-16 17:37:11.854 HelloCordova[3298:70b] [CDVTimer][file] 2.758026ms
+2014-07-16 17:37:11.855 HelloCordova[3298:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-16 17:37:11.856 HelloCordova[3298:70b] [CDVTimer][statusbar] 0.840008ms
+2014-07-16 17:37:11.857 HelloCordova[3298:70b] [CDVTimer][TotalPluginStartup] 6.348968ms
+2014-07-16 17:37:12.045 HelloCordova[3298:70b] Resetting plugins due to page load.
+2014-07-16 17:37:12.379 HelloCordova[3298:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 06:14:36.277 HelloCordova[4237:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 06:14:36.287 HelloCordova[4237:70b] Unlimited access to network resources
+2014-07-17 06:14:36.311 HelloCordova[4237:70b] [CDVTimer][keyboard] 0.097036ms
+2014-07-17 06:14:36.314 HelloCordova[4237:70b] [CDVTimer][file] 2.522945ms
+2014-07-17 06:14:36.315 HelloCordova[4237:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-17 06:14:36.316 HelloCordova[4237:70b] [CDVTimer][statusbar] 0.769019ms
+2014-07-17 06:14:36.317 HelloCordova[4237:70b] [CDVTimer][TotalPluginStartup] 6.022990ms
+2014-07-17 06:14:36.448 HelloCordova[4237:70b] Resetting plugins due to page load.
+2014-07-17 06:14:36.809 HelloCordova[4237:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 06:43:50.027 HelloCordova[5045:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 06:43:50.041 HelloCordova[5045:70b] Unlimited access to network resources
+2014-07-17 06:43:50.069 HelloCordova[5045:70b] [CDVTimer][keyboard] 0.097990ms
+2014-07-17 06:43:50.072 HelloCordova[5045:70b] [CDVTimer][file] 2.317965ms
+2014-07-17 06:43:50.073 HelloCordova[5045:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-17 06:43:50.074 HelloCordova[5045:70b] [CDVTimer][statusbar] 0.761032ms
+2014-07-17 06:43:50.075 HelloCordova[5045:70b] [CDVTimer][TotalPluginStartup] 5.776048ms
+2014-07-17 06:43:50.208 HelloCordova[5045:70b] Resetting plugins due to page load.
+2014-07-17 06:43:50.600 HelloCordova[5045:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 06:52:53.377 HelloCordova[5336:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 06:52:53.389 HelloCordova[5336:70b] Unlimited access to network resources
+2014-07-17 06:52:53.415 HelloCordova[5336:70b] [CDVTimer][keyboard] 0.092030ms
+2014-07-17 06:52:53.418 HelloCordova[5336:70b] [CDVTimer][file] 2.209008ms
+2014-07-17 06:52:53.418 HelloCordova[5336:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-17 06:52:53.419 HelloCordova[5336:70b] [CDVTimer][statusbar] 0.631988ms
+2014-07-17 06:52:53.420 HelloCordova[5336:70b] [CDVTimer][TotalPluginStartup] 5.178988ms
+2014-07-17 06:52:53.554 HelloCordova[5336:70b] Resetting plugins due to page load.
+2014-07-17 06:52:53.907 HelloCordova[5336:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 07:01:44.769 HelloCordova[5652:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 07:01:44.780 HelloCordova[5652:70b] Unlimited access to network resources
+2014-07-17 07:01:44.804 HelloCordova[5652:70b] [CDVTimer][keyboard] 0.088990ms
+2014-07-17 07:01:44.811 HelloCordova[5652:70b] [CDVTimer][file] 2.052009ms
+2014-07-17 07:01:44.812 HelloCordova[5652:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-17 07:01:44.812 HelloCordova[5652:70b] [CDVTimer][statusbar] 0.524998ms
+2014-07-17 07:01:44.813 HelloCordova[5652:70b] [CDVTimer][TotalPluginStartup] 8.592963ms
+2014-07-17 07:01:44.979 HelloCordova[5652:70b] Resetting plugins due to page load.
+2014-07-17 07:01:45.403 HelloCordova[5652:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 07:04:42.343 HelloCordova[5936:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 07:04:42.367 HelloCordova[5936:70b] Unlimited access to network resources
+2014-07-17 07:04:42.447 HelloCordova[5936:70b] [CDVTimer][keyboard] 0.090957ms
+2014-07-17 07:04:42.452 HelloCordova[5936:70b] [CDVTimer][file] 2.487957ms
+2014-07-17 07:04:42.454 HelloCordova[5936:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-17 07:04:42.498 HelloCordova[5936:70b] [CDVTimer][statusbar] 43.249011ms
+2014-07-17 07:04:42.533 HelloCordova[5936:70b] [CDVTimer][TotalPluginStartup] 85.831046ms
+2014-07-17 07:04:42.690 HelloCordova[5936:70b] Resetting plugins due to page load.
+2014-07-17 07:04:42.952 HelloCordova[5936:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:04:26.201 HelloCordova[1302:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:04:26.214 HelloCordova[1302:70b] Unlimited access to network resources
+2014-07-17 08:04:26.239 HelloCordova[1302:70b] [CDVTimer][keyboard] 0.169039ms
+2014-07-17 08:04:26.242 HelloCordova[1302:70b] [CDVTimer][file] 2.113998ms
+2014-07-17 08:04:26.252 HelloCordova[1302:70b] [CDVTimer][statusbar] 9.454012ms
+2014-07-17 08:04:26.253 HelloCordova[1302:70b] [CDVTimer][TotalPluginStartup] 13.834000ms
+2014-07-17 08:04:26.371 HelloCordova[1302:70b] Resetting plugins due to page load.
+2014-07-17 08:04:26.572 HelloCordova[1302:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:07:27.096 HelloCordova[1590:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:07:27.106 HelloCordova[1590:70b] Unlimited access to network resources
+2014-07-17 08:07:27.128 HelloCordova[1590:70b] [CDVTimer][keyboard] 0.124991ms
+2014-07-17 08:07:27.130 HelloCordova[1590:70b] [CDVTimer][file] 2.011001ms
+2014-07-17 08:07:27.144 HelloCordova[1590:70b] [CDVTimer][statusbar] 13.543010ms
+2014-07-17 08:07:27.145 HelloCordova[1590:70b] [CDVTimer][TotalPluginStartup] 17.334998ms
+2014-07-17 08:07:27.334 HelloCordova[1590:70b] Resetting plugins due to page load.
+2014-07-17 08:07:27.581 HelloCordova[1590:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:10:25.016 HelloCordova[1873:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:10:25.026 HelloCordova[1873:70b] Unlimited access to network resources
+2014-07-17 08:10:25.049 HelloCordova[1873:70b] [CDVTimer][keyboard] 0.119984ms
+2014-07-17 08:10:25.052 HelloCordova[1873:70b] [CDVTimer][file] 2.036035ms
+2014-07-17 08:10:25.062 HelloCordova[1873:70b] [CDVTimer][statusbar] 9.409964ms
+2014-07-17 08:10:25.062 HelloCordova[1873:70b] [CDVTimer][TotalPluginStartup] 13.131976ms
+2014-07-17 08:10:25.179 HelloCordova[1873:70b] Resetting plugins due to page load.
+2014-07-17 08:10:25.457 HelloCordova[1873:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:11:48.222 HelloCordova[2138:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:11:48.232 HelloCordova[2138:70b] Unlimited access to network resources
+2014-07-17 08:11:48.254 HelloCordova[2138:70b] [CDVTimer][keyboard] 0.111997ms
+2014-07-17 08:11:48.256 HelloCordova[2138:70b] [CDVTimer][file] 2.012968ms
+2014-07-17 08:11:48.277 HelloCordova[2138:70b] [CDVTimer][statusbar] 19.749045ms
+2014-07-17 08:11:48.277 HelloCordova[2138:70b] [CDVTimer][TotalPluginStartup] 23.517966ms
+2014-07-17 08:11:48.394 HelloCordova[2138:70b] Resetting plugins due to page load.
+2014-07-17 08:11:48.637 HelloCordova[2138:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:13:23.428 HelloCordova[2398:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:13:23.438 HelloCordova[2398:70b] Unlimited access to network resources
+2014-07-17 08:13:23.460 HelloCordova[2398:70b] [CDVTimer][keyboard] 0.117004ms
+2014-07-17 08:13:23.462 HelloCordova[2398:70b] [CDVTimer][file] 2.012968ms
+2014-07-17 08:13:23.473 HelloCordova[2398:70b] [CDVTimer][statusbar] 10.514021ms
+2014-07-17 08:13:23.474 HelloCordova[2398:70b] [CDVTimer][TotalPluginStartup] 14.412999ms
+2014-07-17 08:13:23.653 HelloCordova[2398:70b] Resetting plugins due to page load.
+2014-07-17 08:13:23.935 HelloCordova[2398:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:14:26.664 HelloCordova[2657:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:14:26.674 HelloCordova[2657:70b] Unlimited access to network resources
+2014-07-17 08:14:26.696 HelloCordova[2657:70b] [CDVTimer][keyboard] 0.111997ms
+2014-07-17 08:14:26.698 HelloCordova[2657:70b] [CDVTimer][file] 1.985013ms
+2014-07-17 08:14:26.709 HelloCordova[2657:70b] [CDVTimer][statusbar] 10.635018ms
+2014-07-17 08:14:26.710 HelloCordova[2657:70b] [CDVTimer][TotalPluginStartup] 14.306009ms
+2014-07-17 08:14:26.831 HelloCordova[2657:70b] Resetting plugins due to page load.
+2014-07-17 08:14:27.212 HelloCordova[2657:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 08:16:05.386 HelloCordova[2934:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:16:05.396 HelloCordova[2934:70b] Unlimited access to network resources
+2014-07-17 08:16:05.417 HelloCordova[2934:70b] [CDVTimer][keyboard] 0.120997ms
+2014-07-17 08:16:05.420 HelloCordova[2934:70b] [CDVTimer][file] 2.117991ms
+2014-07-17 08:16:05.430 HelloCordova[2934:70b] [CDVTimer][statusbar] 9.408951ms
+2014-07-17 08:16:05.431 HelloCordova[2934:70b] [CDVTimer][TotalPluginStartup] 13.832033ms
+2014-07-17 08:16:05.595 HelloCordova[2934:70b] Resetting plugins due to page load.
+2014-07-17 08:16:05.854 HelloCordova[2934:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:20:31.439 HelloCordova[3230:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:20:31.448 HelloCordova[3230:70b] Unlimited access to network resources
+2014-07-17 08:20:31.473 HelloCordova[3230:70b] [CDVTimer][keyboard] 0.120997ms
+2014-07-17 08:20:31.475 HelloCordova[3230:70b] [CDVTimer][file] 2.173007ms
+2014-07-17 08:20:31.485 HelloCordova[3230:70b] [CDVTimer][statusbar] 9.182990ms
+2014-07-17 08:20:31.486 HelloCordova[3230:70b] [CDVTimer][TotalPluginStartup] 13.160050ms
+2014-07-17 08:20:31.618 HelloCordova[3230:70b] Resetting plugins due to page load.
+2014-07-17 08:20:31.873 HelloCordova[3230:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:21:38.401 HelloCordova[3504:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:21:38.411 HelloCordova[3504:70b] Unlimited access to network resources
+2014-07-17 08:21:38.433 HelloCordova[3504:70b] [CDVTimer][keyboard] 0.118971ms
+2014-07-17 08:21:38.436 HelloCordova[3504:70b] [CDVTimer][file] 2.093017ms
+2014-07-17 08:21:38.446 HelloCordova[3504:70b] [CDVTimer][statusbar] 9.555995ms
+2014-07-17 08:21:38.446 HelloCordova[3504:70b] [CDVTimer][TotalPluginStartup] 13.379991ms
+2014-07-17 08:21:38.587 HelloCordova[3504:70b] Resetting plugins due to page load.
+2014-07-17 08:21:38.853 HelloCordova[3504:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:23:12.523 HelloCordova[3766:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:23:12.533 HelloCordova[3766:70b] Unlimited access to network resources
+2014-07-17 08:23:12.551 HelloCordova[3766:70b] [CDVTimer][keyboard] 0.082970ms
+2014-07-17 08:23:12.553 HelloCordova[3766:70b] [CDVTimer][file] 1.612961ms
+2014-07-17 08:23:12.563 HelloCordova[3766:70b] [CDVTimer][statusbar] 8.925021ms
+2014-07-17 08:23:12.564 HelloCordova[3766:70b] [CDVTimer][TotalPluginStartup] 12.923002ms
+2014-07-17 08:23:12.714 HelloCordova[3766:70b] Resetting plugins due to page load.
+2014-07-17 08:23:12.935 HelloCordova[3766:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 08:45:11.487 HelloCordova[4062:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:45:11.498 HelloCordova[4062:70b] Unlimited access to network resources
+2014-07-17 08:45:11.524 HelloCordova[4062:70b] [CDVTimer][keyboard] 0.115037ms
+2014-07-17 08:45:11.526 HelloCordova[4062:70b] [CDVTimer][file] 2.031028ms
+2014-07-17 08:45:11.540 HelloCordova[4062:70b] [CDVTimer][statusbar] 13.631046ms
+2014-07-17 08:45:11.541 HelloCordova[4062:70b] [CDVTimer][TotalPluginStartup] 17.445028ms
+2014-07-17 08:45:11.718 HelloCordova[4062:70b] Resetting plugins due to page load.
+2014-07-17 08:45:11.975 HelloCordova[4062:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:52:42.450 HelloCordova[4352:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:52:42.460 HelloCordova[4352:70b] Unlimited access to network resources
+2014-07-17 08:52:42.482 HelloCordova[4352:70b] [CDVTimer][keyboard] 0.127971ms
+2014-07-17 08:52:42.485 HelloCordova[4352:70b] [CDVTimer][file] 2.283990ms
+2014-07-17 08:52:42.496 HelloCordova[4352:70b] [CDVTimer][statusbar] 9.875000ms
+2014-07-17 08:52:42.497 HelloCordova[4352:70b] [CDVTimer][TotalPluginStartup] 14.419019ms
+2014-07-17 08:52:42.639 HelloCordova[4352:70b] Resetting plugins due to page load.
+2014-07-17 08:52:42.922 HelloCordova[4352:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:55:00.712 HelloCordova[4619:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:55:00.722 HelloCordova[4619:70b] Unlimited access to network resources
+2014-07-17 08:55:00.746 HelloCordova[4619:70b] [CDVTimer][keyboard] 0.120044ms
+2014-07-17 08:55:00.749 HelloCordova[4619:70b] [CDVTimer][file] 2.056003ms
+2014-07-17 08:55:00.760 HelloCordova[4619:70b] [CDVTimer][statusbar] 10.006011ms
+2014-07-17 08:55:00.760 HelloCordova[4619:70b] [CDVTimer][TotalPluginStartup] 13.790965ms
+2014-07-17 08:55:00.872 HelloCordova[4619:70b] Resetting plugins due to page load.
+2014-07-17 08:55:01.136 HelloCordova[4619:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 08:56:16.869 HelloCordova[4890:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:56:16.878 HelloCordova[4890:70b] Unlimited access to network resources
+2014-07-17 08:56:16.901 HelloCordova[4890:70b] [CDVTimer][keyboard] 0.124991ms
+2014-07-17 08:56:16.904 HelloCordova[4890:70b] [CDVTimer][file] 2.061009ms
+2014-07-17 08:56:16.924 HelloCordova[4890:70b] [CDVTimer][statusbar] 19.656956ms
+2014-07-17 08:56:16.925 HelloCordova[4890:70b] [CDVTimer][TotalPluginStartup] 23.541987ms
+2014-07-17 08:56:17.034 HelloCordova[4890:70b] Resetting plugins due to page load.
+2014-07-17 08:56:17.334 HelloCordova[4890:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 08:56:54.006 HelloCordova[5146:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:56:54.017 HelloCordova[5146:70b] Unlimited access to network resources
+2014-07-17 08:56:54.040 HelloCordova[5146:70b] [CDVTimer][keyboard] 0.117004ms
+2014-07-17 08:56:54.043 HelloCordova[5146:70b] [CDVTimer][file] 2.059996ms
+2014-07-17 08:56:54.053 HelloCordova[5146:70b] [CDVTimer][statusbar] 9.595990ms
+2014-07-17 08:56:54.053 HelloCordova[5146:70b] [CDVTimer][TotalPluginStartup] 13.539970ms
+2014-07-17 08:56:54.248 HelloCordova[5146:70b] Resetting plugins due to page load.
+2014-07-17 08:56:54.482 HelloCordova[5146:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 08:58:19.582 HelloCordova[5409:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 08:58:19.593 HelloCordova[5409:70b] Unlimited access to network resources
+2014-07-17 08:58:19.616 HelloCordova[5409:70b] [CDVTimer][keyboard] 0.114977ms
+2014-07-17 08:58:19.619 HelloCordova[5409:70b] [CDVTimer][file] 2.044022ms
+2014-07-17 08:58:19.629 HelloCordova[5409:70b] [CDVTimer][statusbar] 10.030985ms
+2014-07-17 08:58:19.630 HelloCordova[5409:70b] [CDVTimer][TotalPluginStartup] 13.832033ms
+2014-07-17 08:58:19.740 HelloCordova[5409:70b] Resetting plugins due to page load.
+2014-07-17 08:58:20.039 HelloCordova[5409:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 09:02:51.092 HelloCordova[5709:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 09:02:51.102 HelloCordova[5709:70b] Unlimited access to network resources
+2014-07-17 09:02:51.125 HelloCordova[5709:70b] [CDVTimer][keyboard] 0.120997ms
+2014-07-17 09:02:51.128 HelloCordova[5709:70b] [CDVTimer][file] 2.000988ms
+2014-07-17 09:02:51.145 HelloCordova[5709:70b] [CDVTimer][statusbar] 16.699016ms
+2014-07-17 09:02:51.146 HelloCordova[5709:70b] [CDVTimer][TotalPluginStartup] 20.601988ms
+2014-07-17 09:02:51.276 HelloCordova[5709:70b] Resetting plugins due to page load.
+2014-07-17 09:02:51.545 HelloCordova[5709:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 09:09:04.689 HelloCordova[6021:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 09:09:04.699 HelloCordova[6021:70b] Unlimited access to network resources
+2014-07-17 09:09:04.720 HelloCordova[6021:70b] [CDVTimer][keyboard] 0.124991ms
+2014-07-17 09:09:04.723 HelloCordova[6021:70b] [CDVTimer][file] 2.006054ms
+2014-07-17 09:09:04.743 HelloCordova[6021:70b] [CDVTimer][statusbar] 19.795001ms
+2014-07-17 09:09:04.744 HelloCordova[6021:70b] [CDVTimer][TotalPluginStartup] 23.532987ms
+2014-07-17 09:09:04.885 HelloCordova[6021:70b] Resetting plugins due to page load.
+2014-07-17 09:09:05.160 HelloCordova[6021:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 09:10:12.110 HelloCordova[6284:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 09:10:12.120 HelloCordova[6284:70b] Unlimited access to network resources
+2014-07-17 09:10:12.145 HelloCordova[6284:70b] [CDVTimer][keyboard] 0.119030ms
+2014-07-17 09:10:12.147 HelloCordova[6284:70b] [CDVTimer][file] 2.251983ms
+2014-07-17 09:10:12.166 HelloCordova[6284:70b] [CDVTimer][statusbar] 17.682016ms
+2014-07-17 09:10:12.167 HelloCordova[6284:70b] [CDVTimer][TotalPluginStartup] 22.395968ms
+2014-07-17 09:10:12.307 HelloCordova[6284:70b] Resetting plugins due to page load.
+2014-07-17 09:10:12.548 HelloCordova[6284:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 09:14:24.775 HelloCordova[6563:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 09:14:24.785 HelloCordova[6563:70b] Unlimited access to network resources
+2014-07-17 09:14:24.807 HelloCordova[6563:70b] [CDVTimer][keyboard] 0.112951ms
+2014-07-17 09:14:24.810 HelloCordova[6563:70b] [CDVTimer][file] 2.080023ms
+2014-07-17 09:14:24.820 HelloCordova[6563:70b] [CDVTimer][statusbar] 9.531975ms
+2014-07-17 09:14:24.820 HelloCordova[6563:70b] [CDVTimer][TotalPluginStartup] 13.386011ms
+2014-07-17 09:14:24.930 HelloCordova[6563:70b] Resetting plugins due to page load.
+2014-07-17 09:14:25.215 HelloCordova[6563:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 09:18:43.226 HelloCordova[6858:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 09:18:43.237 HelloCordova[6858:70b] Unlimited access to network resources
+2014-07-17 09:18:43.259 HelloCordova[6858:70b] [CDVTimer][keyboard] 0.118017ms
+2014-07-17 09:18:43.261 HelloCordova[6858:70b] [CDVTimer][file] 2.160013ms
+2014-07-17 09:18:43.282 HelloCordova[6858:70b] [CDVTimer][statusbar] 20.074010ms
+2014-07-17 09:18:43.283 HelloCordova[6858:70b] [CDVTimer][TotalPluginStartup] 24.076998ms
+2014-07-17 09:18:43.412 HelloCordova[6858:70b] Resetting plugins due to page load.
+2014-07-17 09:18:43.699 HelloCordova[6858:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 17:05:33.508 HelloCordova[11005:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 17:05:33.530 HelloCordova[11005:70b] Unlimited access to network resources
+2014-07-17 17:05:33.733 HelloCordova[11005:70b] [CDVTimer][keyboard] 0.129998ms
+2014-07-17 17:05:33.736 HelloCordova[11005:70b] [CDVTimer][file] 2.928972ms
+2014-07-17 17:05:33.781 HelloCordova[11005:70b] [CDVTimer][statusbar] 44.511020ms
+2014-07-17 17:05:33.783 HelloCordova[11005:70b] [CDVTimer][TotalPluginStartup] 50.273001ms
+2014-07-17 17:05:33.908 HelloCordova[11005:70b] Resetting plugins due to page load.
+2014-07-17 17:05:34.257 HelloCordova[11005:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+Terminating in response to SpringBoard's termination.
+2014-07-17 17:21:08.038 HelloCordova[11311:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-17 17:21:08.051 HelloCordova[11311:70b] Unlimited access to network resources
+2014-07-17 17:21:08.168 HelloCordova[11311:70b] [CDVTimer][keyboard] 0.128984ms
+2014-07-17 17:21:08.176 HelloCordova[11311:70b] [CDVTimer][file] 7.268012ms
+2014-07-17 17:21:08.218 HelloCordova[11311:70b] [CDVTimer][statusbar] 40.934980ms
+2014-07-17 17:21:08.219 HelloCordova[11311:70b] [CDVTimer][TotalPluginStartup] 51.128030ms
+2014-07-17 17:21:08.450 HelloCordova[11311:70b] Resetting plugins due to page load.
+2014-07-17 17:21:08.845 HelloCordova[11311:70b] Finished load of: file:///Users/furrm/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/82DEDB9B-44C9-401A-8C5E-D23437CDE59A/HelloCordova.app/www/index.html#/app/home
+2014-07-17 17:21:09.458 HelloCordova[11311:70b] THREAD WARNING: ['Device'] took '12.097168' ms. Plugin should use a background thread.
+2014-07-17 17:21:09.472 HelloCordova[11311:70b] THREAD WARNING: ['File'] took '13.013184' ms. Plugin should use a background thread.

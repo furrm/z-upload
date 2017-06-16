@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,GAAG,EAAC,GAAG",
+"sources": ["../../scss/layout.scss"],
+"names": [],
+"file": "layout.css"
+}

@@ -1,0 +1,3211 @@
+{"sys": {
+        "type": "Array"
+    },
+    "items": [
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "6gnu6WjBegACmuyKE8SiSY",
+                "revision": 3,
+                "createdAt": "2014-07-21T18:00:02.121Z",
+                "updatedAt": "2014-07-25T12:56:32.569Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "page-notice-board"
+                },
+                "name": {
+                    "en-US": "Notice Board"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4zZKOPb1HW4EyO6U4M6wQK"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "51SByVBihqe84soysIg00q"
+                            }
+                        }
+                    ]
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5eP4tVhAKWEwUyGA8MGsyS"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "51SByVBihqe84soysIg00q",
+                "revision": 3,
+                "createdAt": "2014-07-25T12:47:45.971Z",
+                "updatedAt": "2014-07-25T12:56:30.006Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "Greek Night"
+                },
+                "name": {
+                    "en-US": "Greek Night"
+                },
+                "header": {
+                    "en-US": "28th July"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "3p0st0RYHYwqaggw8wwggC"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "##Greek Night at Mike's Restaurant\n\nEnjoy your meal with Greek Dancers\n\n**Dancing starts at 21:00**"
+                }
+            }
+        },
+        {
+            "fields": {
+                "title": {
+                    "en-US": "Greek Dancers"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "kriti1.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 300,
+                                "height": 225
+                            },
+                            "size": 10874
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/3p0st0RYHYwqaggw8wwggC/45efd0606e0902f91f48dc720ef21b36/kriti1.jpg"
+                    }
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "3p0st0RYHYwqaggw8wwggC",
+                "revision": 1,
+                "createdAt": "2014-07-25T12:37:10.203Z",
+                "updatedAt": "2014-07-25T12:37:10.203Z"
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "5hRAmCghSE2qqu0gWY4uOm",
+                "revision": 2,
+                "createdAt": "2014-07-21T17:47:48.811Z",
+                "updatedAt": "2014-07-25T09:19:22.910Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "link-notice-board"
+                },
+                "name": {
+                    "en-US": "Notice Board"
+                },
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "url": {
+                    "en-US": "app.page"
+                },
+                "icon": {
+                    "en-US": "ion-paper-airplane"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6gnu6WjBegACmuyKE8SiSY"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "19wt6EhJhwiqo6ECKYYQAc",
+                "revision": 2,
+                "createdAt": "2014-07-21T22:03:01.000Z",
+                "updatedAt": "2014-07-21T22:24:47.080Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "page-slider-gallery"
+                },
+                "name": {
+                    "en-US": "Gallery"
+                },
+                "type": {
+                    "en-US": "slider"
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "2QvFHi3r9ewKAoYSCys26e"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "13DLYT1Z62Akggg2My8o6k"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "1CAKjxjekY6Gq4iMm08UCK"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "3Hj9o8dcNOMwgwGYaAcMo4"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "3Hj9o8dcNOMwgwGYaAcMo4",
+                "revision": 1,
+                "createdAt": "2014-07-21T22:24:42.671Z",
+                "updatedAt": "2014-07-21T22:24:42.671Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-4"
+                },
+                "name": {
+                    "en-US": "gallery-slide-4"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6xSsCQ3BioCYMsE2gU2Aoi"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "6xSsCQ3BioCYMsE2gU2Aoi",
+                "revision": 1,
+                "createdAt": "2014-07-21T22:24:35.606Z",
+                "updatedAt": "2014-07-21T22:24:35.606Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-4-page"
+                },
+                "name": {
+                    "en-US": "Photo 4"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "6gwewBoaZy2Em0E4WEsQgw"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "50oKh3kr4sCIUcsYgo2KW2",
+                "revision": 2,
+                "createdAt": "2014-07-21T22:02:48.037Z",
+                "updatedAt": "2014-07-21T22:20:29.251Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-2-page"
+                },
+                "name": {
+                    "en-US": "Photo 2"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "tmuzptWZH2MAqEiYcS0sm"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "2QMDJiHDbGQYKwCW2eYaQA",
+                "revision": 2,
+                "createdAt": "2014-07-21T22:00:29.726Z",
+                "updatedAt": "2014-07-21T22:19:46.582Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-1-page"
+                },
+                "name": {
+                    "en-US": "Photo 1"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "1pwpicMPXmmCQsQo8GKUyc"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "1CAKjxjekY6Gq4iMm08UCK",
+                "revision": 1,
+                "createdAt": "2014-07-21T22:19:04.620Z",
+                "updatedAt": "2014-07-21T22:19:04.620Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-3"
+                },
+                "name": {
+                    "en-US": "gallery-slide-3"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "1JZ02vqg2gqEIkiUEG6SKs"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "1JZ02vqg2gqEIkiUEG6SKs",
+                "revision": 1,
+                "createdAt": "2014-07-21T22:18:56.141Z",
+                "updatedAt": "2014-07-21T22:18:56.141Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-3-page"
+                },
+                "name": {
+                    "en-US": "Photo 3"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "2eaLHSygFGgCgcs8IMa0sU"
+                        }
+                    }
+                },
+                "type": {
+                    "en-US": "static"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "6WLc9slIycmOKQsyaae84I",
+                "revision": 4,
+                "createdAt": "2014-07-21T14:07:24.091Z",
+                "updatedAt": "2014-07-21T22:12:40.855Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "link-gallery"
+                },
+                "name": {
+                    "en-US": "Gallery"
+                },
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "url": {
+                    "en-US": "app.slider"
+                },
+                "icon": {
+                    "en-US": "ion-ios7-camera"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "19wt6EhJhwiqo6ECKYYQAc"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "2QvFHi3r9ewKAoYSCys26e",
+                "revision": 1,
+                "createdAt": "2014-07-21T22:03:40.251Z",
+                "updatedAt": "2014-07-21T22:03:40.251Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide1"
+                },
+                "name": {
+                    "en-US": "gallery-slide1"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "2QMDJiHDbGQYKwCW2eYaQA"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "13DLYT1Z62Akggg2My8o6k",
+                "revision": 1,
+                "createdAt": "2014-07-21T22:02:54.260Z",
+                "updatedAt": "2014-07-21T22:02:54.260Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "gallery-slide-2"
+                },
+                "name": {
+                    "en-US": "gallery-slide-2"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "50oKh3kr4sCIUcsYgo2KW2"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "afternoon-Pool.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 132411
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/1pwpicMPXmmCQsQo8GKUyc/d4fc0226d96ce55afe08101850e24a84/afternoon-Pool.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "afternoon-Pool"
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "1pwpicMPXmmCQsQo8GKUyc",
+                "revision": 1,
+                "createdAt": "2014-07-21T21:41:53.655Z",
+                "updatedAt": "2014-07-21T21:41:53.655Z"
+            }
+        },
+        {
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "Mikes-Pool.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 126893
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/tmuzptWZH2MAqEiYcS0sm/82f3321420dbb4b125c7895862b0dbe2/Mikes-Pool.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "Mikes-Pool"
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "tmuzptWZH2MAqEiYcS0sm",
+                "revision": 1,
+                "createdAt": "2014-07-21T21:41:48.857Z",
+                "updatedAt": "2014-07-21T21:41:48.857Z"
+            }
+        },
+        {
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "Mikes-Pool-nigtht.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 106900
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/6gwewBoaZy2Em0E4WEsQgw/8024f577e5e7e76733012df57c05ff33/Mikes-Pool-nigtht.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "Mikes-Pool-nigtht"
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "6gwewBoaZy2Em0E4WEsQgw",
+                "revision": 1,
+                "createdAt": "2014-07-21T21:41:44.451Z",
+                "updatedAt": "2014-07-21T21:41:44.451Z"
+            }
+        },
+        {
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "IMGP0429.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 183124
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/2eaLHSygFGgCgcs8IMa0sU/71216355f186b704fecd1492666d1374/IMGP0429.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "IMGP0429"
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "2eaLHSygFGgCgcs8IMa0sU",
+                "revision": 1,
+                "createdAt": "2014-07-21T21:41:41.722Z",
+                "updatedAt": "2014-07-21T21:41:41.722Z"
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "5cwoES2RQksAUusoiUiE2S"
+                    }
+                },
+                "id": "5rzOrLJdHqYEqA2mMgEQY2",
+                "revision": 8,
+                "createdAt": "2014-07-18T15:38:37.312Z",
+                "updatedAt": "2014-07-21T18:02:55.226Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "Mike's Hotel and Apartments App"
+                },
+                "name": {
+                    "en-US": "Mike's Hotel and Apartments"
+                },
+                "content": {
+                    "en-US": []
+                },
+                "leftMenu": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "1YRfqigjkcsuwUYE2uY48G"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "6dlp8YSpLUEKAU62AwiOG2"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5BvMSXKiOsSCwySeQccSi0"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "6WLc9slIycmOKQsyaae84I"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "2SR7woNZYcWImeaME2W2aU"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5hRAmCghSE2qqu0gWY4uOm"
+                            }
+                        }
+                    ]
+                },
+                "rightMenu": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "vfAdWOR9mg0KW4YIWEWe8"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "6jsNv4ZxU4sae60OuCEuSs"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "4zZKOPb1HW4EyO6U4M6wQK",
+                "revision": 1,
+                "createdAt": "2014-07-21T17:52:46.162Z",
+                "updatedAt": "2014-07-21T17:52:46.162Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "notice-board-card"
+                },
+                "name": {
+                    "en-US": "notice-board-card"
+                },
+                "header": {
+                    "en-US": "Free Drinks!!!"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5gJOJz8S3u08suQEUoWGus"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "Yes, it's true...\n\n**FREE DRINKS ON MANOS!!!**\n\n> Tonight from 19:00 until you can no longer stand up =)"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "3l6fUPLGJyiOUmwyM8EeCa",
+                "revision": 2,
+                "createdAt": "2014-07-21T14:26:51.733Z",
+                "updatedAt": "2014-07-21T15:33:37.208Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "page-guest-book"
+                },
+                "name": {
+                    "en-US": "Guest Book"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "4eBjU9D5C0Yamwa2Kkooce"
+                        }
+                    }
+                },
+                "externalImage": {
+                    "en-US": null
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "6FITjwzJ72q8ikmwW4QAq4"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "5HjcNeiLNm60CGSc6K4kwM",
+                "revision": 2,
+                "createdAt": "2014-07-21T15:26:50.661Z",
+                "updatedAt": "2014-07-21T15:33:03.810Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "page-location"
+                },
+                "name": {
+                    "en-US": "Location"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "4tzWHfMxPO2SeaMEQYKgmA"
+                        }
+                    }
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "289XB0F7bqO4uQ8mQISAec"
+                            }
+                        }
+                    ]
+                },
+                "type": {
+                    "en-US": "static"
+                }
+            }
+        },
+        {
+            "fields": {
+                "title": {
+                    "en-US": "Lake"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "01-Lake.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 430,
+                                "height": 430
+                            },
+                            "size": 183879
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/4eBjU9D5C0Yamwa2Kkooce/4604bfa256d9364840f224506ca87061/01-Lake.jpg"
+                    }
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "4eBjU9D5C0Yamwa2Kkooce",
+                "revision": 1,
+                "createdAt": "2014-07-21T15:32:24.126Z",
+                "updatedAt": "2014-07-21T15:32:24.126Z"
+            }
+        },
+        {
+            "fields": {
+                "title": {
+                    "en-US": "Chania"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "02-Chania.JPG",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 435,
+                                "height": 435
+                            },
+                            "size": 178334
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/4tzWHfMxPO2SeaMEQYKgmA/dc074d64a8b761ca577a76939d15b55e/02-Chania.JPG"
+                    }
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "4tzWHfMxPO2SeaMEQYKgmA",
+                "revision": 1,
+                "createdAt": "2014-07-21T15:30:35.187Z",
+                "updatedAt": "2014-07-21T15:30:35.187Z"
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "5BvMSXKiOsSCwySeQccSi0",
+                "revision": 2,
+                "createdAt": "2014-07-21T14:00:16.087Z",
+                "updatedAt": "2014-07-21T15:27:00.770Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "location-link"
+                },
+                "name": {
+                    "en-US": "Location"
+                },
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "icon": {
+                    "en-US": "ion-ios7-location"
+                },
+                "url": {
+                    "en-US": "app.page"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "5HjcNeiLNm60CGSc6K4kwM"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "289XB0F7bqO4uQ8mQISAec",
+                "revision": 1,
+                "createdAt": "2014-07-21T15:22:54.542Z",
+                "updatedAt": "2014-07-21T15:22:54.542Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "card-location"
+                },
+                "name": {
+                    "en-US": "Card for location"
+                },
+                "header": {
+                    "en-US": "Distances"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5YpSlx0WpqSyWO8oe46gAO"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "Platanias coastal village: 4km\nChania centre: 17km\nChania centre bus station: 17km\nChania airport ( CHQ ) : 37km\nChania (Souda) Port: 29km\nRethymno town and port: 50km\nHeraklion centre: 130km\nHeraklion port: 130km\nHeraklion airport ( HER ) : 130km"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "5YpSlx0WpqSyWO8oe46gAO",
+                "revision": 1,
+                "createdAt": "2014-07-21T15:21:06.355Z",
+                "updatedAt": "2014-07-21T15:21:06.355Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "page-location-image"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "Screen Shot 2014-07-21 at 16.17.55.png",
+                        "contentType": "image/png",
+                        "details": {
+                            "image": {
+                                "width": 799,
+                                "height": 800
+                            },
+                            "size": 211799
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/5YpSlx0WpqSyWO8oe46gAO/ac95f8b6c24990bd8438fc53690755fd/Screen_Shot_2014-07-21_at_16.17.55.png"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "2SR7woNZYcWImeaME2W2aU",
+                "revision": 3,
+                "createdAt": "2014-07-21T14:12:01.426Z",
+                "updatedAt": "2014-07-21T14:30:19.631Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "link-guest-book"
+                },
+                "name": {
+                    "en-US": "Guest Book"
+                },
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "url": {
+                    "en-US": "app.page"
+                },
+                "icon": {
+                    "en-US": "ion-ios7-bookmarks"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "3l6fUPLGJyiOUmwyM8EeCa"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "6FITjwzJ72q8ikmwW4QAq4",
+                "revision": 1,
+                "createdAt": "2014-07-21T14:26:36.319Z",
+                "updatedAt": "2014-07-21T14:26:36.319Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "card-guest-book"
+                },
+                "name": {
+                    "en-US": "card-guest-book"
+                },
+                "body": {
+                    "en-US": "We'd love to hear your feedback or comments in relation to your stay at Mike Hotel & Apartments."
+                },
+                "header": {
+                    "en-US": "Feedback and Comments"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "1NEAksa3u44yM4w0wo4s4M"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "64nkVjSWKQ2qKIme6Kaqym",
+                "revision": 1,
+                "createdAt": "2014-07-21T14:22:13.108Z",
+                "updatedAt": "2014-07-21T14:22:13.108Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "image-flowers"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "Hotel-Bar.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 600,
+                                "height": 600
+                            },
+                            "size": 272772
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/64nkVjSWKQ2qKIme6Kaqym/05be7da4c8a2e9758e1285c82fc74b7f/Hotel-Bar.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "1NEAksa3u44yM4w0wo4s4M",
+                "revision": 2,
+                "createdAt": "2014-07-21T14:18:54.437Z",
+                "updatedAt": "2014-07-21T14:19:14.264Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "MIke%20Hotel%20Apartments%20Reviews%20Maleme%20Chania%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 340,
+                                "height": 270
+                            },
+                            "size": 50797
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/1NEAksa3u44yM4w0wo4s4M/e652ba7f07832a169dfea0cd040e1f4d/MIke_20Hotel_20Apartments_20Reviews_20Maleme_20Chania_20Crete.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "image-guest-book"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "6jsNv4ZxU4sae60OuCEuSs",
+                "revision": 1,
+                "createdAt": "2014-07-21T13:54:40.656Z",
+                "updatedAt": "2014-07-21T13:54:40.656Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "twitter"
+                },
+                "linkType": {
+                    "en-US": "external"
+                },
+                "name": {
+                    "en-US": "Twitter"
+                },
+                "url": {
+                    "en-US": "https://twitter.com/mikehotelapartm"
+                },
+                "icon": {
+                    "en-US": "ion-social-twitter"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "vfAdWOR9mg0KW4YIWEWe8",
+                "revision": 5,
+                "createdAt": "2014-07-21T12:27:19.335Z",
+                "updatedAt": "2014-07-21T13:53:01.085Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facebook"
+                },
+                "name": {
+                    "en-US": "Facebook"
+                },
+                "linkType": {
+                    "en-US": "external"
+                },
+                "url": {
+                    "en-US": "fb://pages/Mike-Hotel-Apartments/225500017492205"
+                },
+                "icon": {
+                    "en-US": "ion-social-facebook"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "6dlp8YSpLUEKAU62AwiOG2",
+                "revision": 6,
+                "createdAt": "2014-07-19T11:05:49.881Z",
+                "updatedAt": "2014-07-21T13:51:34.973Z"
+            },
+            "fields": {
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "url": {
+                    "en-US": "app.webcam"
+                },
+                "title": {
+                    "en-US": "Internal Web Cam Link"
+                },
+                "name": {
+                    "en-US": "Web Cam"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "3KOSu830UgcgG24EMSCA4e"
+                        }
+                    }
+                },
+                "icon": {
+                    "en-US": "ion-ios7-videocam"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "1YRfqigjkcsuwUYE2uY48G",
+                "revision": 7,
+                "createdAt": "2014-07-19T11:05:16.618Z",
+                "updatedAt": "2014-07-21T13:50:52.137Z"
+            },
+            "fields": {
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "url": {
+                    "en-US": "app.home"
+                },
+                "title": {
+                    "en-US": "Internal Home Page Link"
+                },
+                "name": {
+                    "en-US": "Home"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "4bNG4YLT5C0wAqwcu2sQGW"
+                        }
+                    }
+                },
+                "icon": {
+                    "en-US": "ion-ios7-home"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "ioj5OetVgA6WmomCekQys",
+                "revision": 4,
+                "createdAt": "2014-07-21T11:24:19.891Z",
+                "updatedAt": "2014-07-21T12:25:28.987Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-page-card-1"
+                },
+                "name": {
+                    "en-US": "facilities-page-card-1"
+                },
+                "header": {
+                    "en-US": null
+                },
+                "body": {
+                    "en-US": "Reception (open 09h00-24h00)\n\nReception can assist with Car Rental , Bike Rental , Bicycle Rental , Excursions , Recommendations , Fax and \n\nPhotocopier Services , Postage , Foreign Exchange, Doctor on Call, Iron and Ironing Board etc.\n\nWi-Fi is Free and is availlable at the Pool Bar and Lobby of the lower building\n\nInternet Corner  ( extra charge ) \n\nRestaurant / tavern\n\nSmall Children's Playground\n\nHousekeeping is daily , except Sundays\n\nLinen ( Sheets and Towels - changed upon arrival and twice a week thereafter)\n\nLate check-out facility ( if is possible ) \n\nPublic washrooms and change rooms\n\nBaby Cots are available\n\nCheck-in is at 13h00 and check-out at 12h00\n\nPool Bar\n\nFree WiFi in Maleme Chania Free Internet Wi-Fi zone at the Pool Bar and the Reception of the Studios and Apartments and also at the Bar and the Restaurant at the Hotel ."
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "293IG94CVuG8iYoI2ic0WU"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "6zdJJbRJSMMMKC2omkoeg6",
+                "revision": 4,
+                "createdAt": "2014-07-21T12:00:47.806Z",
+                "updatedAt": "2014-07-21T12:22:24.854Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-page"
+                },
+                "name": {
+                    "en-US": "Facilities"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "5gJOJz8S3u08suQEUoWGus"
+                        }
+                    }
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "ioj5OetVgA6WmomCekQys"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5LpwcoALzGW2G8KmyoMO8k"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "35jLPa5mB2aGUI464uMKGE"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4gDf4utaSQiM8G42Es0YEy"
+                            }
+                        }
+                    ]
+                },
+                "type": {
+                    "en-US": "static"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "5gJOJz8S3u08suQEUoWGus",
+                "revision": 2,
+                "createdAt": "2014-07-21T12:19:45.199Z",
+                "updatedAt": "2014-07-21T12:21:16.058Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "1075740_568951256480411_1742869226_n.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 575,
+                                "height": 575
+                            },
+                            "size": 164575
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/5gJOJz8S3u08suQEUoWGus/f774df5ed9a27922b06855dd9d52cfc0/1075740_568951256480411_1742869226_n.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "facilities-page-image"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "2yrpSbiEKw8m8AqGqGmCmi",
+                "revision": 1,
+                "createdAt": "2014-07-21T12:09:25.809Z",
+                "updatedAt": "2014-07-21T12:09:25.809Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-slide"
+                },
+                "name": {
+                    "en-US": "facilities-slide"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6zdJJbRJSMMMKC2omkoeg6"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "4bNG4YLT5C0wAqwcu2sQGW",
+                "revision": 3,
+                "createdAt": "2014-07-20T17:14:53.281Z",
+                "updatedAt": "2014-07-21T12:08:49.163Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "home-page"
+                },
+                "name": {
+                    "en-US": "Home Page"
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "6NwlztCevmA4IAI2A4USAA"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4Hr7Op34NOEKImsIQWmGSe"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "2yrpSbiEKw8m8AqGqGmCmi"
+                            }
+                        }
+                    ]
+                },
+                "type": {
+                    "en-US": "slider"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "4gDf4utaSQiM8G42Es0YEy",
+                "revision": 1,
+                "createdAt": "2014-07-21T12:07:52.606Z",
+                "updatedAt": "2014-07-21T12:07:52.606Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-page-card-4"
+                },
+                "name": {
+                    "en-US": "facilities-page-card-4"
+                },
+                "header": {
+                    "en-US": "Swimming Pool and Children's Pool"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "2PoUDObM0oWqWQuQUEqoSU"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "The 174.40 sqm Swimming Pool ( maximum depth 3 meters ) is located in the lower building ( at the Studios and the Apartments ) , in front of the blissful Pool Bar and just Steps from the Beach. Surrounded by Sitting Areas , Sunbeds and Umbrellas ( complimentary for guest use ) , Palm Trees and well-kept Gardens , this is the perfect place to Relax , Swim , take in the sun while enjoying light music and a refreshment or snack from the Pool Bar . Near to this area, there are also Children's Toys in a small Play Area for the little ones to enjoy . The swimming pool also has a Children's Section (26.40 sqm) with maximum depth 0.60cm."
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "2PoUDObM0oWqWQuQUEqoSU",
+                "revision": 1,
+                "createdAt": "2014-07-21T12:07:03.891Z",
+                "updatedAt": "2014-07-21T12:07:03.891Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "MalemeCretePoolMikeHotel.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 385,
+                                "height": 231
+                            },
+                            "size": 99691
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/2PoUDObM0oWqWQuQUEqoSU/3ce58ea796baf473bb0c2c395b6a0eeb/MalemeCretePoolMikeHotel.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "facilities-page-card-4-image"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "35jLPa5mB2aGUI464uMKGE",
+                "revision": 1,
+                "createdAt": "2014-07-21T12:00:28.266Z",
+                "updatedAt": "2014-07-21T12:00:28.266Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-page-card-3"
+                },
+                "name": {
+                    "en-US": "facilities-page-card-3"
+                },
+                "header": {
+                    "en-US": "Mike's Pool Bar"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "2Aq65oCa8weaOSko8WiUsq"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "The Pool Bar at Mike Hotel & Apartments is located in the lower building and is set amongst Palm Trees and beautiful garden areas where sitting areas , sunbeds and umbrellas are provided for guests . Relaxing music blends well with the Splashing Pool Sounds and makes for a most enjoyable place to enjoy a Snack ,  Refreshment or a Coctail .\n\nThe Pool Bar is open daily from 09h30 till late and serves Pizzas , Toasted Sandwiches , Salads , Ice-creams , Coffees , Soft Drinks , Juices , Milkshakes , Wines, Beers and a Wide Variety of other Alcoholic Drinks and Cocktails .\n\nAt the Pool Bar and Nearby Lobby you will also find  Large Screens Satellite TV 's and  Free Wi-Fi internet Access ."
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "5LpwcoALzGW2G8KmyoMO8k",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:31:27.842Z",
+                "updatedAt": "2014-07-21T11:31:27.842Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-page-card-2"
+                },
+                "name": {
+                    "en-US": "facilities-page-card-2"
+                },
+                "header": {
+                    "en-US": "Mike's Restaurant in Maleme"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "48tCon4PzyGiqWCo8M2Q84"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "Mike Hotel and Apartments provides  Buffet Breakfast , Lunch and Dinner at the Restaurant and located in the upper Hotel Building . This restaurant is open to all guests and has ample indoor and outdoor terrace seating which enjoys wonderful Sea Views.\n\nBuffet Breakfast includes: breads , cookies , home-made marmalades , jams , honey , Greek yoghurt , milk , cereals , boiled eggs , ham , cheese , coffee , tea , hot chocolate ,  apple and orange juice and other seasonal goodies.\n\nWe also provide the optional breakfast from our a la carte menu such as a fine selection of eggs and bacon, continental breakfast, Greek yoghurt etc.\n\nFor Lunch and Dinner the restaurant offers traditional Cretan and Greek dishes (a la carte) where many of the Ingredients are Organically Home Grown at the 150 meter stretch of cultivated land which separates the Hotel building from the lower Studios Apartments building .To mention a few of these - Tomatoes , Cucumber , Zucchini , Peppers , Aubergines / eggplant , Potatoes , Watermelon , Parsley , Basil etc. Extra Virgin Organic Olive Oil , Tsikoudia - Raki and the House Wine are all from the owners farms .\n\nThe a la carte menu at the Restaurant includes Traditional Cretan Dishes ( Casserole and Oven) , Meat and Poultry dishes , Spaghetties  , Home-made Pizza 's , Omelets ,  Children's Dishes , Salads and Desserts .\n\n***Special Dishes of the Day Vary  , Please do ask while Staying With Us .***"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "48tCon4PzyGiqWCo8M2Q84",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:30:38.471Z",
+                "updatedAt": "2014-07-21T11:30:38.471Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "Mike-Restaurant-(-Marc-)Terace-Low.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 600,
+                                "height": 450
+                            },
+                            "size": 235029
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/48tCon4PzyGiqWCo8M2Q84/4a59e4dfe3a2bcec19d2e1311bf0473c/Mike-Restaurant-_-Marc-_Terace-Low.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "facilities-page-card-2-image"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "2Aq65oCa8weaOSko8WiUsq",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:21:51.965Z",
+                "updatedAt": "2014-07-21T11:21:51.965Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "facilities-page-image"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "PoolBarChaniaCreteMikeMaleme.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 600,
+                                "height": 399
+                            },
+                            "size": 177362
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/2Aq65oCa8weaOSko8WiUsq/04fb52d8ac937327bb219728a4842c69/PoolBarChaniaCreteMikeMaleme.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "5vQ0Pl7glO4kkYC8E6yucw",
+                "revision": 2,
+                "createdAt": "2014-07-21T10:51:29.835Z",
+                "updatedAt": "2014-07-21T11:13:12.008Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page-card-1"
+                },
+                "name": {
+                    "en-US": "accommodation-page-card-1"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "27TaCd64yU60y2o2GIYM0w"
+                        }
+                    }
+                },
+                "header": {
+                    "en-US": "The upper Hotel building , Mike's Hotel"
+                },
+                "body": {
+                    "en-US": "Consists of 14 units ( 4 Twin - Double  Rooms , 8 Triple Rooms-Twin2/3   and 2 Family Rooms ) ."
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "2zeEg81zxCiWk444CcY4im",
+                "revision": 2,
+                "createdAt": "2014-07-21T10:55:14.341Z",
+                "updatedAt": "2014-07-21T11:13:11.656Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page-card-2"
+                },
+                "name": {
+                    "en-US": "accommodation-page-card-2"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "6AjcSXfWjCauo6AwQYqA84"
+                        }
+                    }
+                },
+                "header": {
+                    "en-US": "Twin - Double Sea View Hotel Room"
+                },
+                "body": {
+                    "en-US": "(up to 2 people )\n\nEach Double - Twin Sea View Hotel Room is an open plan room with twin beds joined together, bathroom with bathtub (with shower curtain) and a furnished balcony with Views to the Sea. All Rooms have  Individual Controlled Air Condition , TV , DVD Player , Mini - Fridge , Kettle , Hair Dryer , Telephone and Safety Deposit Box ( extra charge ) ."
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "4Jk1kRHLOMWQcqOequ2EkK",
+                "revision": 4,
+                "createdAt": "2014-07-20T21:03:51.239Z",
+                "updatedAt": "2014-07-21T11:12:56.516Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page"
+                },
+                "name": {
+                    "en-US": "Accommodation"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "1b7VylvQKGGUUA0G2YOOOg"
+                        }
+                    }
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5vQ0Pl7glO4kkYC8E6yucw"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "2zeEg81zxCiWk444CcY4im"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "7oJdy6Lm6c4A04qkGM28iE"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4oRVFOzAPYoq2agKQec6ei"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4YTlpNPVj2EkI2eiKAoiSg"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "4YTlpNPVj2EkI2eiKAoiSg",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:12:41.134Z",
+                "updatedAt": "2014-07-21T11:12:41.134Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page-card-5"
+                },
+                "name": {
+                    "en-US": "accommodation-page-card-5"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "1TdAMsbAaIwueeMAYM2Sqs"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "(up to 4 people)\n\nEach Aartment has an open plan sitting area with 2 Single beds ,  kitchenette and a dining area. From there a closing door leads to a separate bedroom with twin beds joined togethe r. Bathrooms are either with shower or with bathtub (with shower curtain). Some Apartments have one furnished balcony while others have two . All Apartmants have Individual Controlled Air Conditioning , kichenette ( 2 eye stove head , extractor fan , Kettle , Toaster , Mini - Fridge , Crockery and Cutlery ) , TV , DVD Player , Hair Dryer , Telephone , and Safety Depsoit Box ( extra charge ) . \n\nAll Apartments have either a Sea View, Side Sea View or a Garden View."
+                },
+                "header": {
+                    "en-US": "Apartment"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "1TdAMsbAaIwueeMAYM2Sqs",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:11:59.117Z",
+                "updatedAt": "2014-07-21T11:11:59.117Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page-card-5-image"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "Chania%20Crete%20Maleme%20Mike.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 600,
+                                "height": 450
+                            },
+                            "size": 185144
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/1TdAMsbAaIwueeMAYM2Sqs/c379587a400f1db156348e1f0e06a5f6/Chania_20Crete_20Maleme_20Mike.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "4oRVFOzAPYoq2agKQec6ei",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:09:48.518Z",
+                "updatedAt": "2014-07-21T11:09:48.518Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page-card-4"
+                },
+                "name": {
+                    "en-US": "accommodation-page-card-4"
+                },
+                "header": {
+                    "en-US": "Studio"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "2N7h2WC2Ws2YOIokqUWWAG"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "(up to 3 people)\n\nEach Studio is an open plan room with twin beds joined together and an additional sofa bed/extra bed (to accommodate a 3rd person) , bathroom with a shower or with bathtub (with shower curtain) , kitchenette as well as either a furnished balcony or terrace . All Studios have Individually Controlled Air Conditioning , Kitchenette (2 eye stove head , extractor fan , Kettle, Toaster, Mini-fridge, Crockery and Cutlery) , TV , DVD Player, Telephone, Hair Dryer  and  Safe Deposit Box (extra charge ) .\n\nAll Studios have either a Sea View, Side Sea View or a Garden View."
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "2N7h2WC2Ws2YOIokqUWWAG",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:09:11.966Z",
+                "updatedAt": "2014-07-21T11:09:11.966Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "Chania%20Maleme%20Hotel.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 503,
+                                "height": 480
+                            },
+                            "size": 29456
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/2N7h2WC2Ws2YOIokqUWWAG/fa210722b0fb7baef8050b66dbfe0987/Chania_20Maleme_20Hotel.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "accommodation-page-card-4-image"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "7oJdy6Lm6c4A04qkGM28iE",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:05:52.795Z",
+                "updatedAt": "2014-07-21T11:05:52.795Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-page-card-3"
+                },
+                "name": {
+                    "en-US": "accommodation-page-card-3"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "3ucfJ02KLCA20Ma2Me0qmO"
+                        }
+                    }
+                },
+                "body": {
+                    "en-US": "Consists of 23 units (12 Studios and 11 Apartments) ."
+                },
+                "header": {
+                    "en-US": "The lower building Mike's Studios and Apartments"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "3ucfJ02KLCA20Ma2Me0qmO",
+                "revision": 1,
+                "createdAt": "2014-07-21T11:04:52.594Z",
+                "updatedAt": "2014-07-21T11:04:52.594Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "MikesStudiosApartments.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 459,
+                                "height": 306
+                            },
+                            "size": 140669
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/3ucfJ02KLCA20Ma2Me0qmO/d5de043dc754611a2f76010bc92a90fd/MikesStudiosApartments.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "MikesStudiosApartments"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "6AjcSXfWjCauo6AwQYqA84",
+                "revision": 3,
+                "createdAt": "2014-07-21T10:54:08.313Z",
+                "updatedAt": "2014-07-21T11:01:41.794Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "Chania%20Hotel%20Mike%20Maleme%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 600,
+                                "height": 450
+                            },
+                            "size": 170061
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/6AjcSXfWjCauo6AwQYqA84/48bfbf8bbc749cce658af1090017d1d4/Chania_20Hotel_20Mike_20Maleme_20Crete.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "accommodation-page-card-2-image"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "2B2qzpguUwIOUEcagAmaus",
+                "revision": 7,
+                "createdAt": "2014-07-20T17:14:52.514Z",
+                "updatedAt": "2014-07-21T10:26:26.424Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "welcome-page-card-1"
+                },
+                "name": {
+                    "en-US": "welcome page card 1"
+                },
+                "body": {
+                    "en-US": "Mike Hotel and Apartments is located in the coastal village of Maleme , just 17km from Chania . The complex consists of an upper building , Mike's Hotel with the Restaurant and the Hotel Rooms and a lower building , Mike's Studios and Apartments with  the Studios -  Apartments , the Pool Bar and a uniquely shaped 174sqm Swimming Pool , with a children's section.\n\nThe Hotel Rooms have been refurbished in 2011 with dark wood furniture with clean lines adding to their classic style and offer a variety of room categories.\n\nThe Studios and Apartments in the lower building , with 2 elevators , with modern design , have a fresh and airy feel to them and are best suited to those who wish to be near the Swimming Pool and Sea . All these units have a kitchenette and views either to the sea or the well-kept gardens.\n\nSeparating these two complexes is a stretch of 150m of cultivated land . The owners  Organically Grow their own produce and use this in their restaurant.\n\nSurrounded by palm trees and well-kept gardens, the Pool Bar and Swimming Pool area , just steps from Maleme's pebble Beach with lifeguard , are the ideal place at which you can relax , sunbathe and enjoy a refreshment.\n\nNear  you will also find Beach Volley , Mini soccer , Tennis Court ,  Supermarket , Mini market , Car Rental , ATM , pharmacy , Doctor's Office , Bakery, Foreign Press Store , Restaurants , Bars and Cafes.\n\nMike Hotel and Apartments Chania is an ideal base from which to explore west Crete, its famed Beaches and archaeological historical sites from a short drive to Chania Hotel center and its old Venetian town makes for a wonderful visit . This is just the place to be if you are looking to relax , rejuvenate and enjoy sun-blessed Crete!    \n\n Tui 2011 ,  2012 and 2013 Awards"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "4vnsfpPDgAOWqS8mGaaCYq"
+                        }
+                    }
+                },
+                "header": {
+                    "en-US": "Welcome"
+                }
+            }
+        },
+        {
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "IMGP0508.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 108852
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/4vnsfpPDgAOWqS8mGaaCYq/d5ac53c3904b8a60b05b9f35de4da890/IMGP0508.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "welcome-pool-and-arch"
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "4vnsfpPDgAOWqS8mGaaCYq",
+                "revision": 2,
+                "createdAt": "2014-06-09T22:15:51.648Z",
+                "updatedAt": "2014-07-21T10:25:45.871Z"
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "293IG94CVuG8iYoI2ic0WU",
+                "revision": 1,
+                "createdAt": "2014-07-21T10:24:55.211Z",
+                "updatedAt": "2014-07-21T10:24:55.211Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "welcome-mike-pool"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "04-facebook-pool.JPG",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 960,
+                                "height": 720
+                            },
+                            "size": 270782
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/293IG94CVuG8iYoI2ic0WU/0bc321cdab6dec15d90109daa4eff403/04-facebook-pool.JPG"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "52IbZnFTiEa2MecgEow8oi"
+                    }
+                },
+                "id": "5coC0pYvqMi2kEIaS4eWuO",
+                "revision": 2,
+                "createdAt": "2014-07-21T09:52:23.614Z",
+                "updatedAt": "2014-07-21T10:16:20.499Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "web-cam-card-1"
+                },
+                "name": {
+                    "en-US": "Web Cam Card 1"
+                },
+                "body": {
+                    "en-US": "Pull the page to refresh the live view from the Pool of Mike Hotel & Apartments in Crete. "
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "3KOSu830UgcgG24EMSCA4e",
+                "revision": 4,
+                "createdAt": "2014-07-19T21:30:53.033Z",
+                "updatedAt": "2014-07-21T09:52:29.782Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "web-cam-page"
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "externalImage": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6qAn2jkt56cAIuSWsk8uIK"
+                        }
+                    }
+                },
+                "name": {
+                    "en-US": "Web Cam"
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5coC0pYvqMi2kEIaS4eWuO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "1b7VylvQKGGUUA0G2YOOOg",
+                "revision": 1,
+                "createdAt": "2014-07-21T07:09:47.074Z",
+                "updatedAt": "2014-07-21T07:09:47.074Z"
+            },
+            "fields": {
+                "file": {
+                    "en-US": {
+                        "fileName": "Apartment.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 132091
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/1b7VylvQKGGUUA0G2YOOOg/84666d0dd6f8a5a48caf9c80a09ac163/Apartment.jpg"
+                    }
+                },
+                "title": {
+                    "en-US": "Apartment"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "4Hr7Op34NOEKImsIQWmGSe",
+                "revision": 1,
+                "createdAt": "2014-07-20T21:04:21.066Z",
+                "updatedAt": "2014-07-20T21:04:21.066Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-slide"
+                },
+                "name": {
+                    "en-US": "Accommodation"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "4Jk1kRHLOMWQcqOequ2EkK"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "27TaCd64yU60y2o2GIYM0w",
+                "revision": 1,
+                "createdAt": "2014-07-20T21:03:43.928Z",
+                "updatedAt": "2014-07-20T21:03:43.928Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "mike-hotel-image-outside"
+                },
+                "description": {
+                    "en-US": "Outside Mike Hotel "
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "MikesHotelOut.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 629,
+                                "height": 407
+                            },
+                            "size": 342556
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/27TaCd64yU60y2o2GIYM0w/3d4c987f241004dcba10341c2e9be19d/MikesHotelOut.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Rkkf7Ild2mUaooya86a0w"
+                    }
+                },
+                "id": "YjKaG3abyS68QKkwkcqMu",
+                "revision": 3,
+                "createdAt": "2014-07-20T17:14:30.250Z",
+                "updatedAt": "2014-07-20T20:46:32.201Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "welcome-page"
+                },
+                "name": {
+                    "en-US": "Mike Hotel & Apartments"
+                },
+                "content": {
+                    "en-US": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "2B2qzpguUwIOUEcagAmaus"
+                            }
+                        }
+                    ]
+                },
+                "type": {
+                    "en-US": "static"
+                },
+                "image": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "3bhw1ecDnGOqEOysAaaogw"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "6tsjfKMI5Gkg0A2e0q4QkW"
+                    }
+                },
+                "id": "6NwlztCevmA4IAI2A4USAA",
+                "revision": 1,
+                "createdAt": "2014-07-20T17:14:52.934Z",
+                "updatedAt": "2014-07-20T17:14:52.934Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "welcome-slide"
+                },
+                "name": {
+                    "en-US": "welcome slide"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "YjKaG3abyS68QKkwkcqMu"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "3bhw1ecDnGOqEOysAaaogw",
+                "revision": 2,
+                "createdAt": "2014-07-20T17:09:01.937Z",
+                "updatedAt": "2014-07-20T17:09:35.127Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "pool-chair"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "03-chair-pool.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 720,
+                                "height": 720
+                            },
+                            "size": 153857
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/3bhw1ecDnGOqEOysAaaogw/5c74cc33b026e9dcf169c911e20f15da/03-chair-pool.jpg"
+                    }
+                },
+                "description": {
+                    "en-US": "Used on welcome page"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "6qAn2jkt56cAIuSWsk8uIK",
+                "revision": 4,
+                "createdAt": "2014-07-19T11:11:52.780Z",
+                "updatedAt": "2014-07-19T23:15:44.703Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "External Web Cam Link"
+                },
+                "name": {
+                    "en-US": "Web Cam"
+                },
+                "linkType": {
+                    "en-US": "external"
+                },
+                "url": {
+                    "en-US": "http://mikesmaleme.dyndns.org:9988/onvif/media_service/snapshot"
+                },
+                "page": {
+                    "en-US": null
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "1iEQn2eD5y8UQioA2YA4qS"
+                    }
+                },
+                "id": "4MPgYZNKsgIE8EO6i8aqEo",
+                "revision": 2,
+                "createdAt": "2014-07-19T23:11:41.218Z",
+                "updatedAt": "2014-07-19T23:15:43.637Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "Internal Web Cam Page Link"
+                },
+                "name": {
+                    "en-US": "Web Cam"
+                },
+                "linkType": {
+                    "en-US": "internal"
+                },
+                "url": {
+                    "en-US": "app.webcam"
+                },
+                "page": {
+                    "en-US": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "3KOSu830UgcgG24EMSCA4e"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "3dlQKgJQ6IcSuYwKsYKCka",
+                "revision": 1,
+                "createdAt": "2014-06-09T22:13:22.637Z",
+                "updatedAt": "2014-06-09T22:13:22.637Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "mikes-apartments"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "Mike%20s%20Studios%20Apartments%20Chania%20Maleme%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 1280,
+                                "height": 490
+                            },
+                            "size": 175439
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/3dlQKgJQ6IcSuYwKsYKCka/a0a092ee06505fe067f0421c8c40d580/Mike_20s_20Studios_20Apartments_20Chania_20Maleme_20Crete.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-hotel"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "Mike%20's%20Hotel%20Maleme%20Chania%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 629,
+                                "height": 407
+                            },
+                            "size": 342556
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/5MAQpxQZe8qSGyo2WcIaM4/d216e43e1c7406b1ea1d9177ecc02ad4/Mike_20_s_20Hotel_20Maleme_20Chania_20Crete.jpg"
+                    }
+                }
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "5MAQpxQZe8qSGyo2WcIaM4",
+                "revision": 1,
+                "createdAt": "2014-06-09T22:06:22.662Z",
+                "updatedAt": "2014-06-09T22:06:22.662Z"
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "6LhlfHhvnG4EoE6yow6aOK",
+                "revision": 1,
+                "createdAt": "2014-06-09T22:04:27.833Z",
+                "updatedAt": "2014-06-09T22:04:27.833Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "accommodation-1"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "Maleme%20Apartments%20Mike%20Crete.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 800,
+                                "height": 600
+                            },
+                            "size": 130952
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/6LhlfHhvnG4EoE6yow6aOK/f3c82a656818db3316779305fe66f1f4/Maleme_20Apartments_20Mike_20Crete.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "lx12mec53sjz"
+                    }
+                },
+                "type": "Asset",
+                "id": "5eP4tVhAKWEwUyGA8MGsyS",
+                "revision": 1,
+                "createdAt": "2014-06-09T21:38:47.120Z",
+                "updatedAt": "2014-06-09T21:38:47.120Z"
+            },
+            "fields": {
+                "title": {
+                    "en-US": "swimming-pool-1"
+                },
+                "description": {
+                    "en-US": "A picture from the pool"
+                },
+                "file": {
+                    "en-US": {
+                        "fileName": "swimming-pool-1.jpg",
+                        "contentType": "image/jpeg",
+                        "details": {
+                            "image": {
+                                "width": 1000,
+                                "height": 749
+                            },
+                            "size": 692408
+                        },
+                        "url": "//images.contentful.com/lx12mec53sjz/5eP4tVhAKWEwUyGA8MGsyS/aeceb9d2117941da65c66b1d42dc4973/swimming-pool-1.jpg"
+                    }
+                }
+            }
+        }
+    ],
+    "nextSyncUrl": "https://cdn.contentful.com/spaces/lx12mec53sjz/sync?sync_token=w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYyw5tGwp7CrinDmcOIaB4ywpvDnCXCrsOra8KNwqPDucK9w4PCvzvCgEnDnW3Cv8Oyw6hORTNAw6pyKlkPYsKfFTLDjRkdw5APwoHDuMKYdMOZw6FYw7_Cj8O4woIYwrXCiA8"
+}

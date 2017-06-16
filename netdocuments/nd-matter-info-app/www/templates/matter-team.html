@@ -1,0 +1,24 @@
+<ion-view view-title="Matter Team">
+    <ion-content style="background-color: #f1f5f7">
+        <!--<ul class="collection">-->
+            <!--<li class="collection-item avatar" ng-repeat="member in teamData"  ng-click="selectMember(member);">-->
+                <!--<img src="img/{{member.photo}}" alt="" class="circle">-->
+                <!--<span class="title"> {{member.firstName}}-->
+                <!--{{member.lastName}}</span>-->
+                <!--<p>Matter Manager</p>-->
+                <!--<a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+        <ion-list class="list">
+            <!--<ion-item class="item item-avatar" ng-repeat="member in teamData.members" href="#/app/playlists/{{playlist.id}}">-->
+            <ion-item class="item item-avatar item-icon-right"" ng-repeat="member in teamData" href="#/app/matter-team/member" ng-click="selectMember(member);">
+                <img src="img/{{member.photo}}" class="circle" style="height: 50px; width: 50px;">
+                {{member.firstName}}
+                {{member.lastName}}
+                <p>{{member.role}}</p>
+                <i class="icon mdi-hardware-keyboard-arrow-right"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

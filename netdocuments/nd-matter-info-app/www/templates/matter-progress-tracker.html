@@ -1,0 +1,19 @@
+<ion-view view-title="{{title}}">
+    <ion-content style="background-color: #f1f5f7">
+        <!--{{stateParams}}-->
+        <!--{{matterFinance}}-->
+
+        <div class="col s12">
+            <div class="card" ng-repeat="item in matterFinance.data|filter:matterFinance.selectedMatter.clientId|filter:matterFinance.selectedMatter.matterId">
+                <div class="card-content">
+                    <span class="card-title" style="color:black;;">Matter Inception Status</span>
+                    <div class="center-align">
+                        <radial percent-complete="item.projectVar_inception" radius="80" line-width="30" bg-color="e0f1cb" color="9ad154"></radial>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>

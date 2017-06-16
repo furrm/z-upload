@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>NetScaler SSL VPN</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/javascript" src="login.js"></script>
+<script language='javascript'>
+function ns_processLocations (){
+	var locations = new Array();
+	locations["SJC"] = ["San Jose","https://sslvpndev60.netscaler.com/"];
+	locations["BLR"] = ["Bangalore", "https://sslvpn.netscaler.co.in/"];
+	var local = "BLR";
+	//display location on page
+	document.getElementById('location').innerHTML = locations[local][0];
+
+	//populate form fields
+   var i = 0;
+   for (loc in locations){
+     document.forms["vpnForm"].location.options[i].text  = locations[loc][0];
+     document.forms["vpnForm"].location.options[i].value = locations[loc][1];
+     if (loc == local){
+	     document.forms["vpnForm"].location.options[i].selected = true;
+     }
+     i++;
+   }
+}
+function setAction(){
+	var server = document.forms["vpnForm"].location.value;
+	document.forms["vpnForm"].action = server + "cgi/login"; 
+}
+
+</script>
+<style type="text/css">
+  #location{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 24px;    
+    padding-left: 200px;    
+  }
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript:ns_processLocations();document.vpnForm.login.focus();">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td>&nbsp;</td>
+          <td align="left" valign="bottom"><img src="images/netscaler_logo.gif" width="349" height="88"></td>
+        </tr>
+        <tr> 
+          <td width="296" height="53" align="left" valign="bottom"><img src="images/login_up.gif" width="296" height="53"></td>
+	  <td><div id="location">x</div><script language='javascript'>ns_disperrmsg();</script></td>
+        </tr>
+        <tr> 
+          <td width="296" height="96" align="left" valign="top"><img src="images/login_middle.gif" width="296" height="96"></td>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" height="96">
+              <tr> 
+                <td width="200" height="96" bgcolor="#CE0000">&nbsp;</td>
+                <td width="218" height="96" align="center" valign="middle" nowrap background="images/login_bg.gif">
+                <table border="0" cellspacing="3" cellpadding="0" align="center" width="205">
+<FORM method="post" action="/cgi/login" name="vpnForm" autocomplete="off">
+                    <tr> 
+                      <td align="right"><font size="1" color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif">Location:</font></td>
+                      <td valign="middle" colspan="2"> <select name="location">
+							<option value="https://x/">x</option>
+							<option value="https://y/" selected>y</option>
+							</select> </td>
+                    </tr>
+                    <tr> 
+                      <td align="right" nowrap> 
+                        <font size="1" color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif">User name:</font></td>
+                      <td valign="middle" colspan="2"> <input type="text" name="login" size="13" maxlength="32"> </td>
+                    </tr>
+                    <tr> 
+                      <td align="right" valign="middle"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF">Password:</font></td>
+                      <td valign="top" nowrap><input type="Password" name="passwd" size="13" maxlength="32"> </td>
+                      <td><input type="image" src="images/login_go.gif" name="button" value="login" width="23" height="23" border="0" onclick="setAction();ns_check();"></td>
+                    </tr>
+                    </FORM>
+                  </table></td>
+                <td height="96" bgcolor="#CE0000">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td width="296" height="59" align="left" valign="top"><img src="images/login_bottom.gif" width="296" height="59"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td height="59" align="left" valign="top">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="left" valign="bottom"> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0" height="17">
+        <tr> 
+          <td bgcolor="#000000" height="17"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" font size ="1">Copyright 
+            2003,2004. NetScaler inc All Rights Reserved</font></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.CTXMSAM_NavUI_Buttons {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial
+}
+.CTXMSAM_NavUI_ContentPaneHeader {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial; HEIGHT: 8px; BACKGROUND-COLOR: #a9a9a9
+}
+.CTXMSAM_NavUI_ContentPane {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial
+}
+.CTXMSAM_NavUI_UnselectedTab {
+	FONT-SIZE: 12pt; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffd149
+}
+.CTXMSAM_NavUI_SelectedTab {
+	FONT-SIZE: 12pt; FONT-FAMILY: Arial; BACKGROUND-COLOR: #f1ae24
+}
+.CTXMSAM_NavUI_HorizontalDivider {
+	WIDTH: 100%; HEIGHT: 1px; BACKGROUND-COLOR: #ffffff
+}
+.CTXMSAM_NavUI_VerticalDivider {
+	WIDTH: 1px; HEIGHT: 1px; BACKGROUND-COLOR: #ffffff
+}
+.CTXMSAM_RedDivider {
+	HEIGHT: 8px; BACKGROUND-COLOR: red
+}
+.CTXMSAM_GrayDivider {
+	HEIGHT: 8px; BACKGROUND-COLOR: #dfdfdf
+}
+.CTXMSAM_YellowDivider {
+	HEIGHT: 4px; BACKGROUND-COLOR: #ffd149
+}
+.CTXMSAM_WhiteDivider {
+	HEIGHT: 8px
+}
+.CTXMSAM_ThinWhiteDivider {
+	HEIGHT: 4px
+}
+.CTXMSAM_ContentTitleHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: Arial; HEIGHT: 8px; BACKGROUND-COLOR: #a9a9a9
+}
+.CTXMSAM_ContentArea {
+	BORDER-RIGHT: black 1pt solid; BORDER-TOP: black 1pt solid; BORDER-LEFT: black 1pt solid; BORDER-BOTTOM: black 1pt solid
+}
+.CTXMSAM_ContentFont {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial
+}
+.CTXMSAM_ErrorFont {
+	FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: Arial
+}
+DIV.PopupBlockerMessage {
+	BORDER-RIGHT: #dfdfdf 2pt solid; PADDING-RIGHT: 5pt; BORDER-TOP: #dfdfdf 2pt solid; PADDING-LEFT: 5pt; FONT-SIZE: 9pt; BACKGROUND: #ffd149; PADDING-BOTTOM: 5pt; MARGIN: 0px; BORDER-LEFT: #dfdfdf 2pt solid; PADDING-TOP: 5pt; BORDER-BOTTOM: #dfdfdf 2pt solid; FONT-FAMILY: Arial
+}

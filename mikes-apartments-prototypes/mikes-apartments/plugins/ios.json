@@ -1,0 +1,23 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": []
+                }
+            },
+            "framework": {
+                "parents": {
+                    "AssetsLibrary.framework": [],
+                    "MobileCoreServices.framework": []
+                }
+            }
+        }
+    },
+    "installed_plugins": {},
+    "dependent_plugins": {}
+}

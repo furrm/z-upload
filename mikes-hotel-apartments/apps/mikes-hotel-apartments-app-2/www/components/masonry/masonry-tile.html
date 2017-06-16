@@ -1,0 +1,20 @@
+<div class="tile md-whiteframe-z1" ng-style="tileStyle" ng-switch on="tileTemplate">
+    <div ng-switch-when="home" class="content">
+        <div ng-include="'components/masonry/tile-home-content.html'" class="fill-parent">
+        </div>
+    </div>
+    <div ng-switch-when="image" class="content">
+        <div ng-include="'components/masonry/tile-image-content.html'" class="fill-parent">
+        </div>
+    </div>
+    <div ng-switch-when="video" class="content">
+        <div ng-include="'components/masonry/tile-video-content.html'" class="fill-parent"></div>
+    </div>
+    <div ng-switch-when="card" class="content ">
+        <!--<div ng-include="'components/masonry/tile-card-reveal-content.html'" class="fill-parent"></div>-->
+        <div ng-include="'components/masonry/tile-card-reveal-content.html'" class="fill-parent"></div>
+    </div>
+    <div ng-switch-default class="content">
+        {{ item.title }}
+    </div>
+</div>

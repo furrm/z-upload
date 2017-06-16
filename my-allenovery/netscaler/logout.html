@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+
+
+
+<HTML>
+
+	<HEAD>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Citrix Access Gateway</title>
+		<link rel="SHORTCUT ICON" href="/vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
+		<link href="/vpn/images/styles.css" type=text/css rel=STYLESHEET>
+		<LINK href="/vpn/images/caxtonstyle.css" type=text/css rel=STYLESHEET>
+        <script type="text/javascript" src="/vpn/resources.js"></script>
+        <script type="text/javascript" language="javascript">
+        var Resources = new ResourceManager("/vpn/resources/{lang}", "logout");
+        </script>
+        <style type="text/css">
+        body
+        {
+        visibility: hidden;
+        }
+        </style>
+	<script language="javascript" type="text/javascript" src="/vpn/nsshare.js"></script>
+
+	<script language="JavaScript">
+	
+	function GoToLogonPage()
+	{
+	 	window.location = "https://" + window.location.hostname + "/vpn/index.html";
+	}
+
+	function OnPageLoad()
+	{
+	    try
+	    {		
+			document.execCommand("ClearAuthenticationCache","false");			
+	    }
+	    catch(e)
+	    {
+	    }	
+	}
+
+	</script>
+	</HEAD>
+
+	<body MS_POSITIONING="GridLayout" onLoad="OnPageLoad()">
+
+		<div id="popupBlockerMessage" class="NUI_PopupBlockerMessage" style="DISPLAY:none;HEIGHT:auto;"></div>
+
+		<form name="pageForm" method="post" action="/" id="pageForm">
+
+<!-- Header -->
+<script language="javascript" type="text/javascript">
+try
+{
+	CreateMainTable();
+	AddHeaderAndBar();
+}catch(e)
+{	
+location.reload(false);
+}	
+</script>
+
+<!-- Main row -->
+<tr>
+	<td>
+	<table class="CTXMSAM_ContentFont full_width" cellpadding="0" cellspacing="0" align="center" border="0">
+		<tr>
+		<td>
+<!-- wrapper begin -->
+<table class="mainPane CTXMSAM_ContentFont" width="100%" cellpadding="20px" cellspacing="0">
+    <tr>
+        <td>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              
+                <tr>
+                    <td>
+                        <div id="commonBoxTop">
+                            <!-- -->
+                        </div>
+                    </td>    
+                </tr>
+                <tr>
+                    <td id="commonBox" class="CTXMSAM_ContentFont">
+                        <table class="CTXMSAM_ContentFont" width="100%" cellpadding="20px" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <!-- content begin -->
+                                    <p id="ctl10_cdaHeaderText" style="MARGIN: 0px auto" class="messageTitle"></p>
+                                    <br />
+                                    <p>
+                                        <span id="Logoff is successful."></span>  <!-- <BR><BR>
+                                        <A href="javascript:GoToLogonPage();">Click here to return to the logon screen.</A>
+                             -->       </p>
+                                    <p></p>
+                                    <!-- content end -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>    
+                </tr>
+                <tr>
+                    <td>
+                        <div id="commonBoxFoot">
+                            <!-- -->
+                        </div>
+                    </td>    
+                </tr>
+            </table>
+        </td>    
+    </tr>
+</table>
+<!-- wrapper end -->
+			</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<!-- Footer -->
+<tr class="full_width_height">
+	<td valign="bottom">
+		<table class="full_width" cellspacing="0" cellpadding="0">
+		<tr>
+		<td class="watermark">&nbsp;
+		</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+	</form>
+    <script type="text/javascript" language="javascript">
+    Resources.Load();
+    </script>
+	</body>
+
+
+</HTML>
+
+

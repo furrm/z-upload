@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://localhost:63342/ao-webrtc/ao-webrtc-client/index.html#/main -->
+<html ng-app="app" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}</style>
+    <title>client</title>
+
+<meta name="chromesniffer" id="chromesniffer_meta" content="{&quot;Angular&quot;:&quot;1.2.0-rc.2&quot;}"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script></head>
+<body ng-controller="AppCtrl" class="ng-scope ng-binding">
+AppCtrl
+You are connected...
+<div class="ng-binding">
+    <h1>Socket Object</h1>
+    
+</div>
+
+
+
+<a href="./client_files/client.html">Home</a>
+<a href="http://localhost:63342/ao-webrtc/ao-webrtc-client/index.html#/room">Get a room</a>
+<!-- ngView: undefined --><ng-view class="ng-scope"><div class="ng-scope">
+    <h1>Main Page</h1>
+    <input type="text" placeholder="Room Name" ng-model="roomName" class="ng-pristine ng-valid">
+    <button ng-click="createRoom(roomName)">Create</button>
+</div></ng-view>
+
+
+
+<!--Javascript Imports-->
+<!--AngularJS-->
+<script src="./client_files/angular.js"></script>
+<script src="./client_files/angular-route.js"></script>
+<!--3rd Party-->
+<script src="./client_files/socket.io.js"></script>
+<!--Custom-->
+<script src="./client_files/app.js"></script>
+<script src="./client_files/adapter-service.js"></script>
+<script src="./client_files/room-controller.js"></script>
+
+
+
+</body></html>

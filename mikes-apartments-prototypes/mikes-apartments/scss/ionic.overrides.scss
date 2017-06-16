@@ -1,0 +1,39 @@
+$transparent: rgba(0,0,0,0.0);
+$semi-transparent: rgba(0,0,0,0.2);
+
+// ionic overrides
+.pane{
+
+  // used by ion-side-menu-content
+//  background-color: $transparent;
+  background-color: #000000;
+
+  // when used with ion-side-menu, setting the background-color to
+  // transparent will reveal the menu
+}
+
+.blue{
+   background-color: blue;
+}
+
+.bar{
+//  position: absolute;
+//  z-index: 200;
+  background-color: $transparent;
+
+  // start: remove the bottom border
+  background-image: none;
+  background-position: bottom;
+  background-size: 100% 0px; // increase by 1px
+  background-repeat: no-repeat;
+  // end: remove the bottom border
+}
+
+.has-header{
+//  top:0px;
+}
+
+.view{
+  background-color: pink;
+
+}

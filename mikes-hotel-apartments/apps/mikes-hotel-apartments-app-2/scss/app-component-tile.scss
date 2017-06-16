@@ -1,0 +1,261 @@
+//@import "app-variables";
+//@import "app-fonts";
+
+@mixin paper-shadow-top-z-1(){
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+@mixin paper-shadow-bottom-z-1(){
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+@mixin paper-shadow-top-z-2(){
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@mixin paper-shadow-bottom-z-2() {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tile-shadow-z-1{
+  @include paper-shadow-top-z-1();
+  @include paper-shadow-bottom-z-1();
+}
+
+@mixin tileCaption($size) {
+  // START: CAPTION
+  > div {
+    > .caption {
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      height: 35%;
+
+      border-left: solid 3px $Red;
+
+      //            background: rgba(0,0,0,0.7);
+      //                    background: rgba(0, 0, 0, 0.5);
+      //                    background-color: rgba(92,111,123,0.7);
+
+      //          START: BACKGROUND COLOUR AND FONT COLOUR COMBINATIONS
+
+      //          white on black
+//      background-color: rgba(0, 0, 0, 0.5);
+//      color: white;
+
+      //          black on white
+                          background-color: rgba(255,255,255,0.7);
+                          color: black;
+
+      //          END: BACKGROUND COLOUR AND FONT COLOUR COMBINATIONS
+
+      text-align: left;
+      padding: 10px;
+
+      > span {
+        > markup {
+          @if $size == large {
+            > h1 {
+
+              margin-top: 0px;
+              margin-bottom: 5px;
+
+              font-family: robotoregular;
+
+              font-size: 36px;
+
+              letter-spacing: 3px;
+
+            }
+          } @else if $size == small {
+            > h1 {
+
+              margin-top: 0px;
+              margin-bottom: 5px;
+
+              font-family: robotoregular;
+
+              font-size: 20px;
+
+              letter-spacing: 3px;
+
+            }
+          }
+
+          >p{
+            font-family: robotoregular;
+            font-size: 14px;
+          }
+
+        }
+      }
+    }
+  }
+  // END: CAPTION
+}
+
+@mixin tileContent($tileColour, $tileCaptionSize) {
+  > div {
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    &.content {
+
+//      padding: 10px;
+      background-color: $tileColour;
+
+      //START:BACKGROUND IMAGE
+      background-repeat: no-repeat;
+
+      // background-position could be used to position the background image from contentful
+      background-position: center;
+
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      //END:BACKGROUND IMAGE
+
+      // use the border-box box-sizing property to draw
+      // the border inside of the tile element
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box; /* Firefox, other Gecko */
+      box-sizing: border-box; /* Opera/IE 8+ */
+
+      @include tileCaption($tileCaptionSize);
+
+    }
+  }
+}
+
+.tileContainer {
+  padding: $tileContainerPadding;
+  background-color: $tileContainerBackground;
+  overflow: scroll;
+//  max-width: 1000px;
+}
+
+.tile {
+  //  width: $tileWidth;
+  //  height: $tileHeight;
+  margin: 0px;
+  //  padding: 5px;
+  display: inline-block;
+  float: left;
+
+//  border: $tilePadding solid $tileContainerBackground; // gives the illusion that padding is being used.
+
+//  border:$tilePadding solid red;
+
+  box-sizing: border-box; // ensures that the border is drawn inside the box.
+  position: relative;
+//  color: white;
+
+
+}
+
+// Note:  To get rid of the colour border, comment out the background-color element
+
+.one-by-one.tile {
+  //  width: $tileWidth;
+  //  height: $tileHeight;
+  background-color: $green-sea;
+
+  @include tileContent($turquoise, small);
+}
+
+.one-by-two.tile {
+  //  width: $tileWidth;
+  //  height: $tileHeight * 2;
+  background-color: $nephritis;
+
+  @include tileContent($emerald, small);
+}
+
+.two-by-one.tile {
+  //  width: $tileWidth * 2;
+  //  height: $tileHeight;
+  background-color: $belize-hole;
+
+  @include tileContent($peter-river, small);
+}
+
+.two-by-two.tile {
+  //  width: $tileWidth * 2;
+  //  height: $tileHeight * 2;
+  background-color: $wisteria;
+
+  @include tileContent($amethyst, small);
+
+}
+
+.two-by-three.tile {
+  //  width: $tileWidth * 2;
+  //  height: $tileHeight * 3;
+  background-color: $midnight-blue;
+
+  @include tileContent($wet-asphalt, small);
+}
+
+.two-by-four.tile {
+  //  width: $tileWidth * 2;
+  //  height: $tileHeight * 4;
+  background-color: $midnight-blue;
+
+  @include tileContent($wet-asphalt, small);
+}
+
+.three-by-two.tile {
+  //  width: $tileWidth * 3;
+  //  height: $tileHeight * 2;
+  background-color: $orange;
+
+  @include tileContent($sun-flower, small);;
+}
+
+.three-by-three.tile {
+  //  width: $tileWidth * 3;
+  //  height: $tileHeight * 3;
+  background-color: $pumpkin;
+
+  @include tileContent($carrot, small);
+}
+
+.three-by-four.tile {
+  //  width: $tileWidth * 3;
+  //  height: $tileHeight * 4;
+  background-color: $pomegranate;
+
+  @include tileContent($alizarin, small);
+}
+
+.four-by-two.tile {
+  //  width: $tileWidth * 4;
+  //  height: $tileHeight * 2;
+  background-color: $pomegranate;
+
+  @include tileContent($alizarin, small);
+}
+
+.four-by-three.tile {
+  //  width: $tileWidth * 4;
+  //  height: $tileHeight * 3;
+  background-color: $silver;
+
+  @include tileContent($clouds, small);
+}
+
+.four-by-four.tile {
+  //  width: $tileWidth * 4;
+  //  height: $tileHeight * 4;
+  background-color: $asbestos;
+
+  @include tileContent($concrete, large);
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+
+  </head>
+  <body ng-controller="AppCtrl" animation="slide-left-right-ios7">
+
+    <div ng-controller="MainCtrl">
+        <ion-nav-view></ion-nav-view>
+    </div>
+
+    <script id="side-menu.html" type="text/ng-template">
+        <ion-side-menus>
+
+            <!-- start side-menu content -->
+            <ion-side-menu-content drag-content="false">
+
+                <ion-nav-view name="menuContent"></ion-nav-view>
+
+            </ion-side-menu-content>
+            <!-- end side-menu content -->
+
+
+            <ion-side-menu side="left">
+                <ion-header-bar class="bar-assertive">
+                    <h1 class="title">Left Menu</h1>
+                </ion-header-bar>
+                <ion-content>
+                    <ul class="list">
+                        <a href="#/event/check-in" class="item" menu-toggle="left">Check-in</a>
+                        <a href="#/event/attendees" class="item" menu-toggle="left">Attendees</a>
+                    </ul>
+                </ion-content>
+            </ion-side-menu>
+
+            <ion-side-menu side="right">
+                <ion-header-bar class="bar-assertive">
+                    <h1 class="title">Right Menu</h1>
+                </ion-header-bar>
+                <ion-content>
+                    <ul class="list">
+                        <a href="#/event/check-in" class="item" menu-toggle="left">Check-in</a>
+                        <a href="#/event/attendees" class="item" menu-toggle="left">Attendees</a>
+                    </ul>
+                </ion-content>
+            </ion-side-menu>
+
+        </ion-side-menus>
+    </script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/angular/angular-resource.js"/>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!--libs-->
+    <script src="lib/angular-contentful/angular-contentful.js"></script>
+
+
+    <!-- your app's js -->
+    <script src="js/app/app.js"></script>
+    <script src="js/app/controllers.js"></script>
+    <script src="js/app/services.js"></script>
+  </body>
+</html>

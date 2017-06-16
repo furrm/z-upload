@@ -1,0 +1,26 @@
+<ion-view view-title="Matter Information">
+  <ion-content style="background-color: #f1f5f7">
+        <h1>{{title}}</h1>
+      {{routeParams}}
+      <div class="row">
+        <div class="col s6">
+            <div class="card">
+                {{routeParams.clientId}}.
+                {{routeParams.matterId}}
+                <radial percent-complete="35"
+                        radius="100"></radial>
+
+                <radial percent-complete="30"
+                        font-family="'Comic Sans', 'Marker Felt', sans_serif"
+                        radius="180"
+                        line-width="75"
+                        line-cap="round"
+                        bg-color="e0f1cb"
+                        color="9ad154"></radial>
+
+            </div>
+
+        </div>
+      </div>
+  </ion-content>
+</ion-view>

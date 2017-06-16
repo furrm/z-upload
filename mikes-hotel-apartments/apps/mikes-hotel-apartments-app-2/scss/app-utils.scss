@@ -1,0 +1,57 @@
+//app-utils
+
+.remove-margin{
+  margin:0px;
+}
+
+.remove-shadow{
+  box-shadow: none;
+}
+
+.remove-background-color{
+  background-color: transparent;
+}
+
+.fill-parent{
+  height: 100%;
+  width: 100%;
+//  display: block;
+}
+
+.fill-y{
+  height: 100%;
+}
+
+.fill-x{
+  width: 100%;
+
+}
+
+.square-corners{
+  border-radius: 0px;
+}
+
+.remove-padding{
+  padding: 0px;
+}
+
+.fill-image{
+  //START:BACKGROUND IMAGE
+  background-repeat: no-repeat;
+
+  // background-position could be used to position the background image from contentful
+  background-position: center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  //END:BACKGROUND IMAGE
+}
+
+.white-on-black{
+  background-color: rgba(0,0,0,0.2);
+  color:white;
+
+}

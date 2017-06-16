@@ -1,0 +1,94 @@
+<ion-view title="Welcome" class="home-view" ng-controller="HomeCtrl">
+    <ion-content>
+        <ion-slide-box on-slide-changed="slideChanged(index)" show-pager="false">
+            <!--<ion-slide style="background-image: url(css/IMGP0508.jpg);">-->
+            <ion-slide>
+                <div class="backgroundImage" style="background-image: url(css/apartment.jpg);"></div>
+                <!--<div class="blur" style="background-image: url(css/apartment.jpg);"></div>-->
+                <ion-header-bar class="bar-mike">
+                    <button class="button button-icon button-clear ion-navicon" ng-click="toggleLeft()">
+                    </button>
+                    <button class="button button-icon button-clear ion-navicon" ng-click="toggleRight()">
+                    </button>
+                </ion-header-bar>
+                <ion-content>
+
+                    <div class="content-push"></div>
+
+                    <div class="content-wrapper">
+                        <div class="content-header">
+                            <!--<img src="img/logo.png">-->
+                            <h1>{{name}}</h1>
+
+                        </div>
+                        <div class="content">
+
+                            <div class="card mike-card-dark">
+                                Mike Hotel and Apartments is located in the coastal village of Maleme , just 17km from Chania . The complex consists of an upper building
+                                ,
+                                Mike's
+                                Hotel with the Restaurant and the Hotel Rooms and a lower building , Mike's Studios and Apartments with the Studios - Apartments , the
+                                Pool
+                                Bar
+                                and a uniquely shaped 174sqm Swimming Pool , with a children's section.
+                            </div>
+                            <div class="card mike-card-light">
+                                Mike Hotel and Apartments is located in the coastal village of Maleme , just 17km from Chania . The complex consists of an upper building
+                                ,
+                                Mike's
+                                Hotel with the Restaurant and the Hotel Rooms and a lower building , Mike's Studios and Apartments with the Studios - Apartments , the
+                                Pool
+                                Bar
+                                and a uniquely shaped 174sqm Swimming Pool , with a children's section.
+                            </div>
+
+                           <div class="card mike-card-lead-in">
+                                <ul class="text-block">
+                                    <li><h1>HELLO <strong>WORLD</strong> HOW</h1></li>
+                                    <li><h1>ARE YOU</h1></li>
+                                </ul>
+                           </div>
+
+                            <p>
+                                Mike Hotel and Apartments is located in the coastal village of Maleme , just 17km from Chania . The complex consists of an upper building
+                                ,
+                                Mike's
+                                Hotel with the Restaurant and the Hotel Rooms and a lower building , Mike's Studios and Apartments with the Studios - Apartments , the
+                                Pool
+                                Bar
+                                and a uniquely shaped 174sqm Swimming Pool , with a children's section.
+                            </p></div>
+                    </div>
+                </ion-content>
+            </ion-slide>
+            <ion-slide>
+                <div class="backgroundImage" style="background-image: url(css/Mikes-Pool.jpg);"></div>
+                <div class="blur" style="background-image: url(css/Mikes-Pool.jpg);"></div>
+                <ion-header-bar class="bar-mike">
+                    <button class="button button-icon button-clear ion-navicon" ng-click="toggleLeft()">
+                    </button>
+                    <button class="button button-icon button-clear ion-navicon" ng-click="toggleRight()">
+                    </button>
+                </ion-header-bar>
+                <ion-content>
+                    <h2>ACCOMMODATION</h2>
+
+                    <div class="test">
+                        Here's some text...
+                    </div>
+                </ion-content>
+            </ion-slide>
+            <ion-slide>
+                <ion-header-bar class="bar-mike">
+                    <button class="button button-icon button-clear ion-navicon" ng-click="toggleLeft()">
+                    </button>
+                    <button class="button button-icon button-clear ion-navicon" ng-click="toggleRight()">
+                    </button>
+                </ion-header-bar>
+                <ion-content>
+                    <h2>FACILITIES</h2>
+                </ion-content>
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-view>

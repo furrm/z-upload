@@ -1,0 +1,40 @@
+<ion-view title="" hide-back-button="true">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon button-clear ion-navicon">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button menu-toggle="right" class="button button-icon button-clear ion-navicon">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content padding="false">
+        <div style="{{pageTopStyle}}" >
+            <div class="backgroundImage" style="width: 100%; height: 100%; background-image: url(img/03-chair-pool.jpg);"></div>
+            <!--<div class="backgroundImage" style="background-image: url(img/03-chair-pool.jpg); height: 100%"></div>-->
+        </div>
+        <div class="bar page-sub-header">
+            <h1 class="title">Mikes Hotel and Apartments</h1>
+        </div>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <p>{{appname}}</p>
+                <p>{{name}}</p>
+                <p>{{platformReady}}</p>
+                <p>{{haveData}}</p>
+                <button ng-click="doBroadcast()">Do Broadcast</button>
+                <p>Mike Hotel and Apartments is located in the coastal village of <strong>Maleme</strong> , just 17km from <strong>Chania</strong> . The complex consists of an upper building , Mike's Hotel with the Restaurant and the Hotel Rooms and a lower building , Mike's Studios and Apartments with &nbsp;the Studios - &nbsp;Apartments , the Pool Bar and a uniquely shaped 174sqm Swimming Pool , with a children's section &nbsp;.</p>
+                <p>The Hotel Rooms have been refurbished in 2011 with dark wood furniture with clean lines adding to their classic style and offer a variety of room categories.</p>
+                <p>The Studios and Apartments in the lower building , with 2 elevators , with modern design , have a fresh and airy feel to them and are best suited to those who wish to be near the Swimming Pool and Sea . All these units have a kitchenette and views either to the sea or the well-kept gardens .</p>
+                <p>Separating these two complexes is a stretch of 150m of cultivated land . The owners &nbsp;Organically Grow their own produce and use this in their restaurant .<br>Surrounded by palm trees and well-kept gardens, the Pool Bar and Swimming Pool area , just steps from Maleme's pebble Beach with lifeguard , are the ideal place at which you can relax , sunbathe and enjoy a refreshment .</p>
+                <p>Near &nbsp;you will also find Beach Volley , Mini soccer , Tennis Court , &nbsp;Supermarket , Mini market , Car Rental , ATM , pharmacy , Doctor's Office , Bakery, Foreign Press Store , Restaurants , Bars and Cafes.</p>
+                <p>Mike <strong>Hotel and Apartments Chania</strong> is an ideal base from which to explore west Crete, its famed Beaches and archaeological historical sites from a short drive to&nbsp;<strong><a href="/en/location.aspx" title="Location">Chania Hotel</a></strong> center and its old Venetian town makes for a wonderful visit . This is just the place to be if you are looking to relax , rejuvenate and enjoy sun-blessed&nbsp;Crete &nbsp;! &nbsp; &nbsp;</p>
+                <p>&nbsp;<span>Tui 2011 ,&nbsp;</span> 2012 and 2013&nbsp;<span>Awards</span>&nbsp;</p>
+            </div>
+        </div>
+
+
+        <a ui-sref="app.nextpage" class="button">Next Page</a>
+    </ion-content>
+
+</ion-view>

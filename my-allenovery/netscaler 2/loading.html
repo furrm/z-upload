@@ -1,0 +1,169 @@
+<HTML><HEAD><TITLE>Citrix Access Gateway</TITLE>
+<link rel="SHORTCUT ICON" href="/vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=noindex,nofollow,noarchive name=robots>
+<script type="text/javascript">
+  if (navigator.userAgent.indexOf("Mac OS") >  -1)
+    document.cookie="NSC_AAAC=nothing;expires=Thursday, 1 Jan 1970 00:00:00 GMT; path=/";
+</script>
+<LINK href="/vpn/images/caxtonstyle.css" type=text/css rel=STYLESHEET>
+<script language="javascript" type="text/javascript" src="/vpn/nsshare.js"></script>
+<script type="text/javascript" src="/vpn/resources.js"></script>
+<script type="text/javascript" language="javascript">
+var Resources = new ResourceManager("resources/{lang}", "loading");
+</script>
+<script language="JavaScript">
+function setChoicesCookies()
+{
+     var npagee;
+   
+    if ( navigator.platform=="Win64" )
+        npagee = navigator.mimeTypes["application/citrix-npagee64"];
+    else
+        npagee = navigator.mimeTypes["application/citrix-npagee"]; 
+    
+    
+    if(npagee) {
+        var d = document.getElementById("scriptArea");
+        if ( navigator.platform=="Win64" )
+            d.innerHTML = '<object id="npobj" type="application/citrix-npagee64" height="1" width="1"></OBJECT>' ;
+        else
+            d.innerHTML = '<object id="npobj" type="application/citrix-npagee" height="1" width="1"></OBJECT>' ;
+
+        var npobj = document.getElementById("npobj");
+
+        var choicescookies = npobj.GetCookies();
+        var cookieArray = choicescookies.split(";");
+        for(i=0; i<cookieArray.length; i++) {
+        	document.cookie = cookieArray[i] + ";path=/; secure";
+        }
+        redirectToChoices();
+    } else {
+        navigator.plugins.refresh(false);
+        setTimeout("setChoicesCookies()", 1000);
+    }
+}
+
+function setChoicesCookiesMac()
+{
+          
+       try{
+          var npagee;
+          npagee = navigator.mimeTypes["application/citrix-agmacplugin"];
+          if(npagee) {
+             var d = document.getElementById("scriptArea");
+             d.innerHTML = '<OBJECT id="npobj" type="application/citrix-agmacplugin" height="1" width="1"></OBJECT>' ;
+             var npobj = document.getElementById("npobj");
+             var choicescookies = npobj.nsCookies;
+             if((choicescookies == undefined) || (!choicescookies) )
+             {
+               navigator.plugins.refresh(false);
+               setTimeout("setChoicesCookiesMac()", 1000);
+
+             }
+            else{
+              var cookieArray = choicescookies.split(";");
+              for(i=0; i<cookieArray.length; i++) {
+         	document.cookie = cookieArray[i] + ";path=/; secure";
+              }
+             document.location.replace(npobj.redirectUrl);
+           } 
+        }
+       }    
+       catch(err)
+       {
+        navigator.plugins.refresh(false);
+        setTimeout("setChoicesCookiesMac()", 1000);
+
+       }
+
+}
+
+function getVPN_ERRCOOKIEValue(npobj){	var choicesCookies = npobj.GetCookies();	var cookieArray = choicesCookies.split(";");	for(i=0;i<cookieArray.length;i++){		var name = cookieArray[i].substr(0,cookieArray[i].indexOf("="));		var value=cookieArray[i].substr(cookieArray[i].indexOf("=")+1);		name=name.replace(/^\s+|\s+$/g,"");		if(name == "NSC_VPNERR")		{			return unescape(value);		}	}	return "NoCookie";}function redirectToChoices(){	var npobj = document.getElementById("npobj");	var vpn_err_cookie_values = getVPN_ERRCOOKIEValue(npobj);	if(vpn_err_cookie_values == "NoCookie")		document.location.replace("/cgi/setclient?cvpn");	else	{		var cookies = vpn_err_cookie_values.split(",");		if(cookies[0] != "1")			document.location.replace("/vpns/choices.html");		else		{			if(cookies[1] == "wicps")				document.location.replace("/cgi/setclient?wica");			else if(cookies[1] == "agent")				document.location.replace("/cgi/setclient?agnt");			else if(cookies[1] == "cvpn")				document.location.replace("/cgi/setclient?cvpn");			else if(cookies[1] == "java")				document.location.replace("/cgi/setclient?java");			else if(cookies[1] == "plgn")				document.location.replace("/cgi/setclient?plugin");		}	}}
+function setCookies()
+{
+    if (navigator.userAgent.indexOf("Windows NT") == -1) {  //not a windows machine
+            if (navigator.userAgent.indexOf("Mac OS") >  -1) {  //for Mac
+                        setChoicesCookiesMac();
+                }
+            return;
+    }
+	
+	if(navigator.userAgent.indexOf("Firefox") > -1) { //FireFox 
+		if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){ //test for Firefox/x.x or Firefox x.x (ignoring remaining digits);
+ 			var ffversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+ 			if (ffversion >= 3) //nsepa Plugin is only supported for FF3 or later
+				setChoicesCookies();
+			else
+				redirectToChoices();
+		}
+		else {
+			redirectToChoices();
+		}
+		
+		}
+	else if(navigator.userAgent.indexOf("Gecko/2") > -1 || //Other Firefox browsers
+		navigator.userAgent.indexOf("AppleWebKit") > -1 ) { //Safari or Chrome browsers
+		setChoicesCookies();
+		}
+	else { //other browsers
+		redirectToChoices();
+		}
+}
+				
+</script>
+</HEAD>
+<BODY onload="setCookies()">
+<BR><BR><BR>
+
+<NOSCRIPT>
+<BR><BR>
+<table style="WIDTH: 100%">
+<tr>
+ 	<td align="center">
+		<table class="CTXMSAM_LogonFont">
+			<tr id="errorMessageRow">
+				<td class="glowBoxLeft">&nbsp;</td>                            
+				<td class="loginTableMidWidth">
+					<div id="feedbackArea">
+					<div id="feedbackStyle" class="feedbackStyleError">
+					<span id="errorMessageLabel" class="messageStyle">
+					JavaScript is either disabled in or not supported by the Web browser.  
+					To continue logon, use a Web browser that supports JavaScript or enable JavaScript in your current browser.
+					</span>
+					</div>
+					</div>
+				</td>                           
+				<td class="glowBoxRight">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<table style="display:none">
+<tr><td>
+<div>
+</NOSCRIPT>
+
+<script language="javascript" type="text/javascript">
+	if( suitable_browser_to_use_png == true) document.writeln('<div id="loadingMainPanePNG">')
+	else document.writeln('<div id="loadingMainPane">')
+</script>
+
+        <h3><span id="One Moment Please"></span></h3>
+        <p><span id="Loading..."></span></p><BR>
+        <img src="/vpn/images/ProgressLoaderCircle.gif" alt=""/>
+    </div>
+    
+<NOSCRIPT>
+</td></tr>
+</table>
+</NOSCRIPT>  
+ 
+<DIV id=scriptArea></DIV>
+<script type="text/javascript" language="javascript">
+Resources.Load();
+</script>
+</BODY>
+</HTML>

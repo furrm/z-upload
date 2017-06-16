@@ -1,0 +1,26 @@
+<ion-view>
+
+    <!--<ion-nav-buttons side="left">-->
+    <!--<button menu-toggle="left" class="button button-icon icon ion-navicon mikes-toggle-button"></button>-->
+    <!--</ion-nav-buttons>-->
+    <!--<div class="bar bar-header bar-header-image" style="background-image:url('img/pool-chair.jpg');">-->
+
+    <!--</div>-->
+
+    <ion-content class="no-header" on-scroll="isScrolling()" has-bouncing="false">
+
+        <!--<ion-refresher style="color: white;" refreshing-text="Doing a refresh"-->
+        <!--pulling-text="Pull to refresh..."-->
+        <!--on-refresh="doRefresh()">-->
+        <!--</ion-refresher>-->
+        <!--<div style="background-color: red; height: 60px;"></div>-->
+
+        <mha-header photo="{{pageData.headerImage}}"></mha-header>
+        <!--<background url="http://localhost:8100/img/pool-chair.jpg" style="height: 500px"></background>-->
+        <mha-sub-header text="{{pageData.title}}"></mha-sub-header>
+        <ion-nav-view name="accommodationContent">
+
+        </ion-nav-view>
+
+    </ion-content>
+</ion-view>

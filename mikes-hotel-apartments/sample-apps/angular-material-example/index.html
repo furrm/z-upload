@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">-->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
+    <meta name="viewport" content="initial-scale=1" />
+</head>
+<body ng-controller="AppCtrl">
+
+<h1 class="md-display-3">{{name}}</h1>
+
+<section layout="row" layout-sm="column" layout-align="center center">
+    <md-button>test</md-button>
+    <md-button class="md-raised">Button</md-button>
+    <md-button class="md-raised md-primary">Primary</md-button>
+    <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
+    <md-button class="md-raised md-warn">Warn</md-button>
+    <div class="label">Raised</div>
+</section>
+
+<div layout="row">
+    <div>I'm left.</div>
+    <div>I'm right.</div>
+</div>
+<div layout="column">
+    <div>I'm above.</div>
+    <div>I'm below.</div>
+</div>
+
+
+
+</body>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-material/angular-material.js"></script>
+
+<script src="app.js"></script>
+
+</html>
