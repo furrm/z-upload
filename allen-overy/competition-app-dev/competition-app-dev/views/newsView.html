@@ -1,0 +1,61 @@
+
+    <div data-role="splitview" data-model="app.News" data-show="app.News.show">
+
+    <div data-role="pane" id="left-pane" data-layout="side-default" data-transition="slide"  >
+        <div data-role="view" data-title="News" id="side-root" data-model="app.News"  >
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <a id="back-button1" class="nav-button" data-align="left" data-role="backbutton" data-target="_top">Back</a>
+
+                    <a id="refresh-button1" data-icon="refresh" data-align="right" data-click="app.News.refresh" data-role="button"></a>
+                </div>
+            </div>
+
+            <script type="text/x-kendo-template" id="newsTemplate">
+
+                <!--<div data-role="touch" data-bind="events: { tap: newsSelected }" class="cf" >-->
+
+                    <div class="contact-content">
+
+                        <h3>
+                            <a href="#= url #" class="menuBtn" data-target="right-pane" >#= title #</a>
+                        </h3>
+
+                        <h4>#= publishedDate #</h4>
+                    </div>
+                <!--</div>-->
+
+            </script>
+
+            <ul data-role="listview" data-style="inset"  data-template="newsTemplate" data-bind="source: news" data-pull-to-refresh="true">
+            </ul>
+
+        </div>
+    </div>
+
+    <div data-role="pane" id="right-pane">
+        <!-- Right pane stuff in here -->
+
+        <div data-role="view" data-title="article" id="view-detail">
+                <!--<strong >Selected News:  </strong>-->
+        </div>
+
+    </div>
+</div>
+
+
+    <!--<script id="newsTemplate1" type="text/x-kendo-template">-->
+        <!--<a href="\#orders?ProductID=#: ProductID #" data-target="main-pane">-->
+            <!--<span class="date">$#: title#</span>-->
+            <!--<h3>#: publishedDate #</h3>-->
+
+        <!--</a>-->
+    <!--</script>-->
+
+
+
+
+
+
+

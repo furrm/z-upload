@@ -1,0 +1,260 @@
+$mapContainerCardBackGroundColour: rgba(255, 255, 255, 0.9);
+$regionSelectorBackground:rgba(154, 215, 219, 0.9);
+
+// contains the question, map and the region selector
+.map-container {
+  height: 494px;
+
+  position: relative;
+  display: block;
+
+  > .card.macRegionSelector {
+
+    width: 18%;
+    background-color: $mapContainerCardBackGroundColour ;
+
+    position: absolute;
+
+    z-index: 500;
+
+    top: 8px;
+    right: 0px;
+
+    display: block;
+
+    > div {
+      > .item {
+
+        background-color: transparent;
+
+        > .item-content {
+
+          background-color: transparent;
+          padding: 10px;
+
+        }
+
+      }
+      > .item-radio{
+//        background-color: pink;
+        > .radio-icon{
+          padding-top: 7px;
+          padding-bottom: 0px;
+          font-size: 20px;
+          color: $Red;
+        }
+      }
+    }
+
+    > .reset-item{
+      padding: 0px;
+
+      > .item-content {
+
+        background-color: transparent;
+        padding: 10px;
+
+      }
+
+      > .icon{
+
+        padding-top: 10px;
+//        padding-bottom: 0px;
+        padding-left: 14px;
+        padding-right: 14px;
+//        width: 16px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 3;
+
+        font-size: 20px;
+        color: $Apple;
+      }
+    }
+
+  }
+  > .card.macQuestion {
+
+    width: 76%;
+    background-color: $mapContainerCardBackGroundColour;
+
+    padding: 0px;
+
+    position: absolute;
+    top: 8px;
+    left: 0px;
+
+    z-index: 20;
+
+    > .item{
+      padding: 0px ;
+      background-color: transparent;
+
+      > .item-content {
+
+        background-color: transparent;
+        padding: 10px;
+
+      }
+
+      > .icon{
+
+        padding-top: 10px;
+        //        padding-bottom: 0px;
+        padding-left: 14px;
+        padding-right: 14px;
+        //        width: 16px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 3;
+
+        font-size: 20px;
+        color: $MidnightBlue;
+      }
+    }
+  }
+}
+
+.map {
+  //  background-color: green;
+  margin: auto 0;
+//  width: 100%;
+  overflow: hidden;
+
+  position: absolute;
+  display: block;
+
+  z-index: 10;
+
+}
+
+.easing img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+
+}
+
+//#macRegionSelector {
+//
+//  width: 20%;
+//
+//  position: absolute;
+//
+//  z-index: 500;
+//
+//  top: 10px;
+//  right: 10px;
+//
+//  display: block;
+//
+//  > div {
+//    > .item {
+//
+//      //      background-color: transparent;
+//      background-color: rgba(255, 255, 255, 0.9);
+//
+//      > .item-content {
+//
+//        background-color: transparent;
+//        padding: 10px;
+//
+//      }
+//    }
+//  }
+//
+//}#macRegionSelector {
+//
+//  width: 20%;
+//
+//  position: absolute;
+//
+//  z-index: 500;
+//
+//  top: 10px;
+//  right: 10px;
+//
+//  display: block;
+//
+//  > div {
+//    > .item {
+//
+//      //      background-color: transparent;
+//      background-color: rgba(255, 255, 255, 0.9);
+//
+//      > .item-content {
+//
+//        background-color: transparent;
+//        padding: 10px;
+//
+//      }
+//    }
+//  }
+//
+//}#macRegionSelector {
+//
+//  width: 20%;
+//
+//  position: absolute;
+//
+//  z-index: 500;
+//
+//  top: 10px;
+//  right: 10px;
+//
+//  display: block;
+//
+//  > div {
+//    > .item {
+//
+//      //      background-color: transparent;
+//      background-color: rgba(255, 255, 255, 0.9);
+//
+//      > .item-content {
+//
+//        background-color: transparent;
+//        padding: 10px;
+//
+//      }
+//    }
+//  }
+//
+//}
+
+//.pan img{
+//  -webkit-transition: all 1s ease;
+//  -moz-transition: all 1s ease;
+//  -o-transition: all 1s ease;
+//  -ms-transition: all 1s ease;
+//  transition: all 1s ease;
+//}
+//
+.zoom img:hover {
+  //  height: 150%;
+  //  width: 150%;
+
+  //  -webkit-transform: scale(1.2);
+  //  -ms-transform: matrix(2, 0, 0, 2, 400, 400); /* IE 9 */
+  //  -webkit-transform:matrix(2, 0, 0, 2, 400, 400); /* Chrome, Safari, Opera */
+  //  transform: matrix(2, 0, 0, 2, 400, 400);
+  //  transform: matrix(0.866,0.5,-0.5,0.866,0,0);
+
+  // given matrix(a, b, c, d, e, f)
+  // scale(2.1,2.1) = matrix(2.1, b, c, 2.1, e, f)
+  // translate(25px, 25px) = matrix(1, b, c, 1, 52.5, 52.5)
+
+  //  -webkit-transform:matrix(2, 0, 0, 2, 400, 400);
+}
+
+//
+//.pan img:hover{
+//  -webkit-transform: translate(50px,100px);
+//
+//}
+

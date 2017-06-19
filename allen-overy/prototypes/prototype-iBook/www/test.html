@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/animate/animate.css"/>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="components/masonry/components.masonry.js"></script>
+    <script src="lib/ngAnimate-animate.css/animate.js"></script>
+
+    <style type="text/css">
+        .element {
+            background:#eee;
+            height:200px;
+            border:1px solid black;
+        }
+        body {
+            background:#ddd;
+        }
+        section {
+            margin:1em;
+            padding:1em;
+            border:1px solid #ddd;
+        }
+    </style>
+
+</head>
+<body ng-app="starter">
+<div>
+    <div ng-controller="AppCtrl">
+        <div>{{name}}</div>
+        <input type="checkbox" ng-model="showDiv" id="showDiv" />
+        <label for="showDiv">Toggle DIV</label>
+        <div  ng-if="showDiv" class="animate-if">He ben voilà, ça fonctionne !</div>
+    </div>
+</div>
+
+<section>
+    <h2>.dn-fade-up</h2>
+    <button ng-click="dn_fade_up=!dn_fade_up">Toggle Class</button>
+    <div class="element" ng-class="{'dn-fade-up':dn_fade_up}">
+        ...
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,262 @@
+<ion-slide-box style="height: 100%;">
+<ion-slide>
+    <ion-content class="white-background">
+
+        <div class="card splash-screen no-shadow">
+            <div class="item splash-logo-container">
+
+                <img src="img/ao-logo.png"/>
+
+            </div>
+            <div class="item splash-image-container">
+
+                <img src="img/splash.png"/>
+
+            </div>
+
+            <div class="item splash-text-container">
+                <span>Global Trends in Private M&A</span>
+            </div>
+        </div>
+    </ion-content>
+</ion-slide>
+<ion-slide ng-controller="SlideTwoCtrl">
+    <div class="bar bar-header bar-light">
+        <div><img class="title-image" src="img/allen-overy-logo.png" /></div>
+    </div>
+    <ion-content class="has-header white-background">
+
+        <div class="card with-text-only no-shadow">
+            <markup class="markup" markdown="{{pageData}}"></markup>
+        </div>
+
+    </ion-content>
+</ion-slide>
+<ion-slide ng-controller="materialAdverseChangePart1Ctrl">
+    <ion-view title="TEST" hide-back-button="true">
+        <div class="bar bar-header bar-light">
+            <div><img class="title-image" src="img/allen-overy-logo.png" /></div>
+        </div>
+        <ion-content class="has-header">
+            <div class="card with-text-only no-shadow">
+                <markup class="markup" markdown="{{pageData}}"></markup>
+            </div>
+            <div class="card no-shadow">
+                <div class="map-container">
+                    <item-question></item-question>
+                    <div class="macRegionSelector card">
+                        <div ng-repeat="item in menuItems" ng-click="mac1RegionSelected(item)">
+                            <label class="item item-radio">
+                                <input type="radio" name="group">
+                                <i class="radio-icon ion-ios7-help-outline"></i>
+                                <div class="item-content">
+                                    {{item.name}}
+                                </div>
+
+                            </label>
+                        </div>
+                        <item-reset></item-reset>
+                    </div>
+                    <div class="map easing">
+                        <img src="img/world-map-2.png" alt="world map"
+                             style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>
+                    </div>
+                </div>
+            </div>
+            <div class="answers card no-shadow">
+                <div class="row answer" ng-repeat="item in answers|filter:filter">
+                    <div class="col col-10">
+                        <img src="img/icons/{{item.image}}" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col" style="padding-top: 9px;">
+                        <div
+                                ng-bind-template="{{item.metrics.macProvisionDeals.dealsPercent2013}} of deals in {{item.name}} contained a material adverse change provision, {{item.metrics.macProvisionDeals.dealUpOrDown}} from {{item.metrics.macProvisionDeals.dealsPercent2012}} in 2012."></div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
+</ion-slide>
+<ion-slide ng-controller="materialAdverseChangePart2Ctrl">
+    <div class="bar bar-header bar-light">
+        <div><img class="title-image" src="img/allen-overy-logo.png" /></div>
+    </div>
+    <ion-view hide-back-button="true">
+        <ion-content class="has-header">
+            <div class="card with-text-only no-shadow">
+                <markup class="markup" markdown="{{pageData}}"></markup>
+            </div>
+            <div class="card no-shadow">
+                <div class="map-container">
+                    <item-question></item-question>
+                    <div class="macRegionSelector card">
+                        <div ng-repeat="item in menuItems" ng-click="mac1RegionSelected(item)">
+                            <label class="item item-radio">
+                                <input type="radio" name="group">
+
+                                <div class="item-content">
+                                    {{item.name}}
+                                </div>
+                                <i class="radio-icon ion-ios7-help-outline"></i>
+                            </label>
+                        </div>
+                        <item-reset></item-reset>
+                    </div>
+                    <div class="map easing">
+                        <img src="img/world-map-2.png" alt="world map"
+                             style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>
+                    </div>
+                </div>
+            </div>
+            <div class="answers card no-shadow">
+                <div class="row answer" ng-repeat="item in answers|filter:filter">
+                    <div class="col col-10">
+                        <img src="img/icons/{{item.image}}" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col" style="padding-top: 9px;">
+                        <div
+                                ng-bind-template="{{item.metrics.macProvisionGeneric.deals}} of deals had generic MACs, {{item.metrics.macProvisionGeneric.financialEffect}} had MACs tied to financial effect, and {{item.metrics.macProvisionGeneric.specificEvents}} had MACs tied to specific events."></div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
+</ion-slide>
+<ion-slide ng-controller="repetitionOfWarrantiesPart1Ctrl">
+    <div class="bar bar-header bar-light">
+        <div><img class="title-image" src="img/allen-overy-logo.png" /></div>
+    </div>
+    <ion-view title="TEST" hide-back-button="true">
+        <ion-content class="has-header">
+            <div class="card with-text-only no-shadow">
+                <markup class="markup" markdown="{{pageData}}"></markup>
+            </div>
+            <div class="card no-shadow">
+                <div class="map-container">
+                    <item-question></item-question>
+                    <div class="macRegionSelector card">
+                        <div ng-repeat="item in menuItems" ng-click="mac1RegionSelected(item)">
+                            <label class="item item-radio">
+                                <input type="radio" name="group">
+
+                                <div class="item-content">
+                                    {{item.name}}
+                                </div>
+                                <i class="radio-icon ion-ios7-help-outline"></i>
+                            </label>
+                        </div>
+                        <item-reset></item-reset>
+                    </div>
+                    <div class="map easing">
+                        <img src="img/repitition-of-warranties.png" alt="world map"
+                             style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>
+                    </div>
+                </div>
+            </div>
+            <div class="answers card no-shadow">
+                <div class="row answer" ng-repeat="item in answers|filter:filter">
+                    <div class="col col-10">
+                        <img src="img/icons/{{item.image}}" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col" style="padding-top: 9px;">
+                        <div
+                                ng-bind-template="{{item.RepetitionOfWarranties.text1}}"></div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
+</ion-slide>
+<ion-slide ng-controller="repetitionOfWarrantiesPart2Ctrl">
+    <div class="bar bar-header bar-light">
+        <div><img class="title-image" src="img/allen-overy-logo.png" /></div>
+    </div>
+    <ion-view title="TEST" hide-back-button="true">
+        <ion-content class="has-header">
+            <div class="card with-text-only no-shadow">
+                <markup class="markup" markdown="{{pageData}}"></markup>
+            </div>
+            <div class="card no-shadow">
+                <div class="map-container">
+                    <item-question></item-question>
+                    <div class="macRegionSelector card">
+                        <div ng-repeat="item in menuItems" ng-click="mac1RegionSelected(item)">
+                            <label class="item item-radio">
+                                <input type="radio" name="group">
+
+                                <div class="item-content">
+                                    {{item.name}}
+                                </div>
+                                <i class="radio-icon ion-ios7-help-outline"></i>
+                            </label>
+                        </div>
+                        <item-reset></item-reset>
+                    </div>
+                    <div class="map easing">
+                        <img src="img/repitition-of-warranties.png" alt="world map"
+                             style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>
+                    </div>
+                </div>
+            </div>
+            <div class="answers card no-shadow">
+                <div class="row answer" ng-repeat="item in answers|filter:filter">
+                    <div class="col col-10">
+                        <img src="img/icons/{{item.image}}" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col" style="padding-top: 9px;">
+                        <div
+                                ng-bind-template="{{item.RepetitionOfWarranties.text2}}"></div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
+</ion-slide>
+<ion-slide ng-controller="priceAdjustmentPart1Ctrl">
+    <div class="bar bar-header bar-light">
+        <div><img class="title-image" src="img/allen-overy-logo.png" /></div>
+    </div>
+    <ion-view  hide-back-button="true">
+        <ion-content class="has-header">
+            <div class="card with-text-only no-shadow no-padding">
+                <markup class="markup" markdown="{{pageData}}"></markup>
+            </div>
+            <div class="card no-shadow">
+                <div class="map-container">
+                    <item-question></item-question>
+                    <div class="macRegionSelector card">
+                        <div ng-repeat="item in menuItems" ng-click="mac1RegionSelected(item)">
+                            <label class="item item-radio">
+                                <input type="radio" name="group">
+
+                                <div class="item-content">
+                                    {{item.name}}
+                                </div>
+                                <i class="radio-icon ion-ios7-help-outline"></i>
+                            </label>
+                        </div>
+                        <item-reset></item-reset>
+                    </div>
+                    <div class="map easing">
+                        <img src="img/price-adjustment.png" alt="world map"
+                             style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>
+                    </div>
+                </div>
+            </div>
+            <div class="answers card no-shadow">
+                <div class="row answer" ng-repeat="item in answers|filter:filter">
+                    <div class="col col-10">
+                        <img src="img/icons/{{item.image}}" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col" style="padding-top: 9px;">
+                        <div
+                                ng-bind-template="{{item.PriceAdjustment.text1}}"></div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
+</ion-slide>
+
+
+</ion-slide-box>

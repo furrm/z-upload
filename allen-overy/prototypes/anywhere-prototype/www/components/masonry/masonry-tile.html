@@ -1,0 +1,13 @@
+<div class="tile" ng-style="tileSize" ng-switch on="tileTemplate">
+    <div ng-switch-when="image" class="content" style="background-image: url({{imageUrl}})">
+        <div ng-include="'components/masonry/tile-image-template.html'">
+
+        </div>
+    </div>
+    <div ng-switch-when="video" class="content" style="background-image: url({{imageUrl}})">
+        <div ng-include="'components/masonr y/tile-video-template.html'"></div>
+    </div>
+    <div ng-switch-default class="content">
+        {{ item.title }}
+    </div>
+</div>

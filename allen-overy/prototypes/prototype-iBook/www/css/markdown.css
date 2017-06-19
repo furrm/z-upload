@@ -1,0 +1,23 @@
+/* START:AO COLOUR SCHEME */
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* END:AO COLOUR SCHEME */
+/* START:FLAT COLOUR SCHEME */
+/* END:FLAT COLOUR SCHEME */
+/* START:GOOGLE MATERIAL COLOUR SCHEME */
+/* END:GOOGLE MATERIAL COLOUR SCHEME */
+.paper-shadow-top-z-1 {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16); }
+
+.paper-shadow-bottom-z-1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+
+/** START:HTML **/
+/** END:HTML **/
+/* START:TILES */
+/* END:TILES */
+
+/*# sourceMappingURL=markdown.css.map */

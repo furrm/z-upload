@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off Canvas</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/default.css"/>-->
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap-3.0.0/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <!--<script src="js/modernizr.custom.js"></script>   -->
+</head>
+<body id="TheBody" ng-controller="AppCtrl" class="cbp-spmenu-push">
+  <!--off-canvas-menu-->
+  <!--<k-off-canvas-menu></k-off-canvas-menu>-->
+      <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+          <h3>Menu</h3>
+          <a href="#">Mike</a>
+          <a href="#">Celery seakale</a>
+          <a href="#">Dulse daikon</a>
+          <a href="#">Zucchini garlic</a>
+          <a href="#">Catsear azuki bean</a>
+          <a href="#">Dandelion bunya</a>
+          <a href="#">Rutabaga</a>
+      </nav>
+<div>
+    <div class="main">
+        <!--<button id="showLeftPush" class="">Show/Hide Left Push Menu</button>-->
+        <button id="showLeftPushTest" class="btn btn-default" ng-click="toggleMenu()">Toggle Menu</button>
+        <div>{{name}}</div>
+        <div>Menu State: {{menuState}}</div>
+    </div>
+</div>
+<script src="libs/angular-1.0.7/angular.js"></script>
+<!-- Custom JS -->
+<script type="text/javascript" src="js/app-main.js"></script>
+<script type="text/javascript" src="js/app-finance-controllers.js"></script>
+<script type="text/javascript" src="js/app-components.js"></script>
+</body>
+</html>

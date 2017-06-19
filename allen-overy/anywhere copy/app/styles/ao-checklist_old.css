@@ -1,0 +1,353 @@
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* start:background */
+.aobackground-Red {
+  background-color: #b23427;
+}
+.aobackground-White {
+  background-color: #ffffff;
+}
+.aobackground-Monochrome-Black {
+  background-color: #000000;
+}
+.aobackground-Monochrome-Black75 {
+  background-color: #4b6366;
+}
+.aobackground-Monochrome-Black50 {
+  background-color: #939598;
+}
+.aobackground-Monochrome-Black25 {
+  background-color: #c7c8ca;
+}
+.aobackground-SpotHighlights-Mustard {
+  background-color: #ead766;
+}
+.aobackground-SpotHighlights-Azure {
+  background-color: #569bbe;
+}
+.aobackground-SpotHighlights-Lavender {
+  background-color: #adb0d8;
+}
+.aobackground-SpotHighlights-Iris {
+  background-color: #7da6d8;
+}
+.aobackground-SpotHighlights-Aqua {
+  background-color: #9ad7db;
+}
+.aobackground-SpotHighlights-Fuchsia {
+  background-color: #eeb6d4;
+}
+.aobackground-SpotHighlights-Apple {
+  background-color: #c2cd23;
+}
+.aobackground-SpotHighlights-Forest {
+  background-color: #679146;
+}
+.aobackground-StrongNeutrals-Chestnut {
+  background-color: #a19589;
+}
+.aobackground-StrongNeutrals-Gold {
+  background-color: #b3aa7e;
+}
+.aobackground-StrongNeutrals-Autumn {
+  background-color: #9e6614;
+}
+.aobackground-StrongNeutrals-OceanBlue {
+  background-color: #006595;
+}
+.aobackground-StrongNeutrals-Fern {
+  background-color: #8b9b93;
+}
+.aobackground-StrongNeutrals-MidnightBlue {
+  background-color: #5c6f7b;
+}
+.aobackground-LightNeutrals-Walnut {
+  background-color: #cac2b8;
+}
+.aobackground-LightNeutrals-Stone {
+  background-color: #e8e1d5;
+}
+.aobackground-LightNeutrals-Almond {
+  background-color: #e7e5d3;
+}
+.aobackground-LightNeutrals-Titanium {
+  background-color: #d8e3e9;
+}
+.aobackground-LightNeutrals-LightOlive {
+  background-color: #d9e2da;
+}
+.aobackground-LightNeutrals-Silver {
+  background-color: #eaeff1;
+}
+/* end:background */
+/* start:aoColour */
+.aocolour-Red {
+  color: #b23427;
+}
+.aocolour-White {
+  color: #ffffff;
+}
+.aocolour-Monochrome-Black {
+  color: #000000;
+}
+.aocolour-Monochrome-Black75 {
+  color: #4b6366;
+}
+.aocolour-Monochrome-Black50 {
+  color: #939598;
+}
+.aocolour-Monochrome-Black25 {
+  color: #c7c8ca;
+}
+.aocolour-SpotHighlights-Mustard {
+  color: #ead766;
+}
+.aocolour-SpotHighlights-Azure {
+  color: #569bbe;
+}
+.aocolour-SpotHighlights-Lavender {
+  color: #adb0d8;
+}
+.aocolour-SpotHighlights-Iris {
+  color: #7da6d8;
+}
+.aocolour-SpotHighlights-Aqua {
+  color: #9ad7db;
+}
+.aocolour-SpotHighlights-Fuchsia {
+  color: #eeb6d4;
+}
+.aocolour-SpotHighlights-Apple {
+  color: #c2cd23;
+}
+.aocolour-SpotHighlights-Forest {
+  color: #679146;
+}
+.aocolour-StrongNeutrals-Chestnut {
+  color: #a19589;
+}
+.aocolour-StrongNeutrals-Gold {
+  color: #b3aa7e;
+}
+.aocolour-StrongNeutrals-Autumn {
+  color: #9e6614;
+}
+.aocolour-StrongNeutrals-OceanBlue {
+  color: #006595;
+}
+.aocolour-StrongNeutrals-Fern {
+  color: #8b9b93;
+}
+.aocolour-StrongNeutrals-MidnightBlue {
+  color: #ffffff;
+}
+.aocolour-LightNeutrals-Walnut {
+  color: #cac2b8;
+}
+.aocolour-LightNeutrals-Stone {
+  color: #e8e1d5;
+}
+.aocolour-LightNeutrals-Almond {
+  color: #e7e5d3;
+}
+.aocolour-LightNeutrals-Titanium {
+  color: #d8e3e9;
+}
+.aocolour-LightNeutrals-LightOlive {
+  color: #d9e2da;
+}
+.aocolour-LightNeutrals-Silver {
+  color: #eaeff1;
+}
+/* end:aoColour */
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 188px 188px 0 0;
+  border-color: #007bff transparent transparent transparent;
+}
+
+/*header {*/
+  /*text-align: right;*/
+  /*color: #b23427;*/
+  /*background-color: #ffffff;*/
+  /*font-size: 20px;*/
+  /*height: 40px;*/
+  /*border-bottom: 1px solid #c7c8ca;*/
+/*}*/
+/*header > i:last-child {*/
+  /*margin-top: 11px;*/
+  /*margin-right: 20px;*/
+/*}*/
+/*.navHeader {*/
+  /*text-align: left;*/
+  /*color: #b23427;*/
+  /*background-color: #ffffff;*/
+  /*font-size: 20px;*/
+  /*height: 40px;*/
+  /*border-bottom: 1px solid #c7c8ca;*/
+/*}*/
+/*.navHeader > a > i {*/
+  /*color: #b23427;*/
+  /*margin-top: 11px;*/
+  /*margin-left: 20px;*/
+/*}*/
+
+footer {
+  height: 100px;
+}
+footer > .footerWrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+footer > .footerWrapper > div {
+  height: 100%;
+  border: 0px solid #0000ff;
+  width: 50%;
+  float: left;
+}
+.footerPager > span {
+  display: block;
+  margin-top: 9px;
+  margin-left: 60px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #c7c8ca;
+  letter-spacing: 0px;
+}
+#guideNav > li {
+  border-left: 15px solid #eaeff1;
+}
+#guideNav > li > .km-listview-link::after {
+  color: #ffffff;
+}
+#drLogoContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+#drLogoContainer > img {
+  width: 50%;
+}
+#drImageContainer {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 60%;
+}
+#drHeading > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.introPage > .km-content {
+  color: #4b6366;
+  background-color: #eaeff1;
+}
+.introPage > .km-content > .km-scroll-container > h1 {
+  padding-left: 50px;
+  color: #569bbe;
+  letter-spacing: 5px;
+}
+.introPage > .km-content > .km-scroll-container > .km-listview-wrapper {
+  padding-left: 50px;
+}
+.introPage > .km-content > .km-scroll-container > p {
+  padding-left: 50px;
+}
+.introPage > .km-content > .km-scroll-container > ol {
+  padding-left: 100px;
+}
+.introPage2 > .km-content {
+  color: #4b6366;
+  background-color: #d8e3e9;
+}
+.introPage2 > .km-content > .km-scroll-container > h1 {
+  padding-left: 50px;
+  color: #006595;
+  letter-spacing: 5px;
+}
+.introPage2 > .km-content > .km-scroll-container > .km-listview-wrapper {
+  padding-left: 50px;
+}
+.introPage2 > .km-content > .km-scroll-container > p {
+  padding-left: 50px;
+}
+#checklistIntroductionListView li {
+  background-color: transparent;
+}
+.questionHeader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.questionHeader > .badge {
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 40px 40px 0 0;
+  border-color: #007bff transparent transparent transparent;
+}
+.questionHeader > .badge > .number {
+  margin-left: 3px;
+  color: #ffffff;
+  font-size: 12px;
+  z-index: 1000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#checklistQuestions > li {
+  border-left: 15px solid #d8e3e9;
+}
+#checklistQuestions > li > .km-listview-link::after {
+  color: #ffffff;
+}
+#checklistQuestions > li > .km-state-active {
+  background-color: #b23427;
+}
+.questionIndicator {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.skippedQuestion {
+  background-color: #9ad7db;
+}
+.question > .km-content {
+  color: #4b6366;
+  background-color: #ffffff;
+}
+.question > .km-content > .km-scroll-container > h1 {
+  padding-left: 50px;
+  color: #006595;
+  letter-spacing: 5px;
+}
+.question > .km-content > .km-scroll-container > p {
+  padding-left: 50px;
+}
+.question > .km-content > .km-scroll-container > .km-listview-wrapper {
+  padding-left: 50px;
+}
+.inactive {
+  color: #c7c8ca;
+}
+.checked {
+  color: #327008;
+}
+.questionChecked {
+  color: #327008;
+}
+.footerControls {
+  text-align: right;
+}
+.footerControls > i {
+  margin-right: 15px;
+}
+.footerControls > i:last-child {
+  margin-right: 50px;
+}

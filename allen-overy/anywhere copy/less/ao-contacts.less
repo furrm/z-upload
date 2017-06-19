@@ -1,0 +1,242 @@
+@import "ao-branding";
+
+
+
+//// CONTACTS GROUPING
+//// target the kendo ui list-view when grouping enabled
+//#contactsListView .km-group-container {
+//  background-color: blue;
+//  width: 100%;
+//}
+//
+//// target the kendo ui list-view
+//#contactsListView .km-list {
+//  background-color: red;
+//}
+//
+//// target the kendo ui list-view item
+//// note: this element should only be used as a container
+//// note: see contactCardDetails for the contact card styles
+//#contactsListView li {
+//  width: 50%;
+//  border: 10px solid transparent;
+//  float: left;
+//
+//}
+//
+//a:link {
+//  // generic link
+//  color: #000000;
+//  text-decoration: none;
+//}
+//
+//a:visited {
+//  // visited link
+//  color: #000000;
+//  text-decoration: none;
+//}
+//
+///* visited link */
+//
+//a:hover {
+//  // mouse over link
+//  color: #000000;
+//  text-decoration: none;
+//}
+//
+//a:active {
+//  // selected link
+//  color: #000000;
+//  text-decoration: none;
+//
+//}
+//
+////#contacts-listview4{
+////  >li{
+////    border-left: 15px solid @Silver;
+////  }
+////}
+////
+////#contactDetailsListView {
+//////  background-color: red;
+////  > li {
+//////    background-color: green;
+////    height: 500px;
+////  }
+////}
+//
+//.contactCard {
+//  display: block;
+////  border: 1px solid #808080;
+//  height: 100%;
+//}
+//
+//.contactCardPhoto {
+//  float: left;
+//  margin-left: 10px;
+//  width: 200px;
+//  border-bottom: 10px solid @Azure;
+//  > img {
+//    width: 100%;
+//  }
+//}
+//
+//.contactDetailsInfo{
+//  width: 60%;
+//  float: left;
+//  margin-left: 20px;
+//
+////  background-color: pink;
+//
+//  >h1{
+//    color: @Red;
+//    font-size: 30px;
+//    font-style: italic;
+//    margin-top: 0px;
+//    margin-bottom: 0px;
+//  }
+//  >h2{
+//    font-size: 20px;
+//    color: @MidnightBlue;
+//  }
+//  >h3{
+//    margin-top: 10px;
+//    font-size: 15px;
+//    color: @Black;
+//  }
+//
+//  > .footer{
+//    width: 100%;
+//
+//    >.controlContainer{
+//      margin-top: 38px;
+//      width: 50%;
+//      float: left;
+//      background-colour: red;
+//      display: inline-block;
+//      text-align: center;
+//      > a {
+//
+//        >i {
+//          border-radius: 50%;
+//          padding-top:25px;
+//          background-color: @Gold;
+//          color: @White;
+//          width: 80px;
+//          height: 80px;
+//        }
+//
+//      }
+//    }
+//
+//  }
+//
+//}
+//
+//
+//.contactCardDetails {
+//
+//  > h1{ // name
+//    font-size: 14px;
+//    margin-top:10px;
+//    margin-left:10px;
+//    margin-bottom:5px;
+//    margin-right:0px;
+//    color: @Azure;;
+//  }
+//  > h2{ // job title
+//    margin-top:0px;
+//    margin-left:10px;
+//    margin-bottom:5px;
+//    margin-right:0px;
+//    font-size: 12px;
+//  }
+//
+//  font-size: 11px;
+//
+//  > .footer{
+//    margin-bottom: 30px;
+//    text-align: center;
+//    width: 100%;
+////    background-color: rgba(244, 244, 244, 0.95);
+//    position: absolute;
+//    bottom: 0px;
+//    > .icon{
+//      margin-right: 100px;
+//    }
+//  }
+//}
+//
+//
+//
+
+@photo-width-height:140px;
+
+.contact-card-details{
+  margin-top: 20px;
+
+}
+
+.contact-info{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid @Black50;
+  > .contact-label{
+    text-align: right;
+    color: @Black50;
+  }
+}
+//.contact-label{
+//
+//}
+
+
+
+.contact-photo{
+  height: @photo-width-height;
+  width: @photo-width-height;
+
+}
+
+
+
+.contact-name {
+  color: @Red;
+  margin-top: 0px;
+
+  font-size: 35px;
+}
+
+.job-role{
+  color: @Black50;
+  margin-top: 5px;
+  font-size: 25px;
+
+}
+
+.office-name{
+  color: @Azure;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.backgroundImage {
+  position: absolute;
+  width: @photo-width-height;
+  height: @photo-width-height;
+
+//  background-image: url(http://images.contentful.com/zpp0viuq4x1e/34P68UbdAki0IwcEAqqg0m/884366a823c03f54ed22939e73a83f1c/Fishman.jpg?w=200);
+  background-repeat: no-repeat;
+  background-position: center;
+//  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  overflow:hidden;
+
+
+
+}

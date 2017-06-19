@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="cordova.js"></script>
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.mobile.min.js"></script>
+    <!--<script src="scripts/lib/everlive.all.min.js"></script>-->
+    <script src="scripts/lib/lo-dash/lodash.js"></script>
+    <script src="scripts/lib/marked/marked.min.js"></script>
+    <script src="scripts/lib/toastr/toastr.js"></script>
+
+    <script src="scripts/app/app.js" type="text/javascript"></script>
+   <script src="scripts/app/contentful.js" type="text/javascript"></script>
+   <script src="scripts/app/mapper.js" type="text/javascript"></script>
+
+
+    <!--start:views-->
+    <script src="scripts/app/tiles.js" type="text/javascript"></script>
+    <script src="scripts/app/cache.js" type="text/javascript"></script>
+    <script src="scripts/app/vm-contacts-harness.js" type="text/javascript"></script>
+    <script src="scripts/app/vm-contacts5.js" type="text/javascript"></script>
+    <script src="scripts/app/vm-guide.js" type="text/javascript"></script>
+    <script src="scripts/app/vm-seed.js" type="text/javascript"></script>
+    <script src="scripts/app/vm-tc.js" type="text/javascript"></script>
+
+
+    <!--<link href="styles/bootstrap.css" rel="stylesheet"/>-->
+    <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet"/>
+    <link href="styles/font-awesome/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/toastr.css">
+    <link href="styles/ao-branding.css" rel="stylesheet"/>
+    <link href="styles/ao-main.css" rel="stylesheet"/>
+    <link href="styles/ao-checklist.css" rel="stylesheet"/>
+    <link href="styles/ao-contacts.css" rel="stylesheet"/>
+    <link href="styles/ao-tnc.css" rel="stylesheet"/>
+
+
+    <!--<link href="styles/main.css" rel="stylesheet"/>-->
+</head>
+<body>
+
+<section data-role="layout" data-id="default">
+    <!--View content will render here-->
+</section>
+
+
+<div data-role="view" id="welcome" data-layout="default" class="welcome-scrn form-view"
+     data-model="app.Tiles" data-init="app.Tiles.init">
+    <header data-role="header">Header</header>
+    <h1>Hello!!</h1>
+    <a data-role="button" href="#views/vw-seed.html">Navigate to See View</a>
+    <a data-role="button" href="views/vw-guide.html" data-target="_top">Checklist</a>
+    <a data-role="button" href="#views/vw-contacts.html">Contacts</a>
+    <a data-role="button" href="#views/vw-contacts2.html">Contacts 2</a>
+    <!--<a data-role="button" data-click="onClick" data-id="5" data-type="135" data-user="1">Press Here</a>-->
+    <a id="tncButton" data-role="button" data-click="app.Tiles.selectTile" data-pageid="4fBDrePGwMWUgkoAcSQ820">Terns & Conditions</a>
+    <!--<a data-role="button" href="#views/vw-tandc.html">Terns & Conditions</a>-->
+</div>
+
+<script>
+
+</script>
+
+<!--<script type="text/javascript">-->
+    <!--$( document ).ready(function() {-->
+
+       <!--console.log('READY!!!');-->
+
+<!--//        $( "#testClick" ).mousedown(function() {-->
+<!--//            alert( "Handler for .click() called." );-->
+<!--//        });-->
+
+        <!--$('#testClick').on('mousedown', function(){-->
+            <!--//desired jQuery for example:-->
+            <!--alert( "Handler for .click() called." );-->
+        <!--});-->
+    <!--});-->
+<!--</script>-->
+
+</body>
+</html>

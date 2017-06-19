@@ -1,0 +1,93 @@
+<div id="contactsSplitView" data-role="splitview" data-style="horizontal"
+     data-model="app.Contacts"
+     data-init="app.Contacts.init"
+     data-show="app.Contacts.show">
+
+    <!--start: left pane contacts list-->
+    <div id="contactsPane03" data-role="pane">
+        <div data-role="view" id="contactsView" data-layout="default" data-model="app.Contacts">
+            <div data-role="header">
+                <div data-role="navbar">
+                    <a id="back-button1" class="nav-button" data-align="left" data-role="backbutton" data-target="_top">Back</a>
+                </div>
+            </div>
+
+            <!--<ul id="contactsListViewer" data-role="listview" data-bind="source: contacts" data-template="contactsTemplate" data-pull-to-refresh="true" data-pull-parameters="pullParam()"></ul>-->
+            <ul id="contactsListViewer" data-bind="source: contacts"></ul>
+            <!--<ul id="contactsListViewer"></ul>-->
+
+        </div>
+    </div>
+    <!--end: left pane contacts list-->
+
+    <!--start: right pane contacts list-->
+    <div id="selectedContactPane03" data-role="pane">
+        <!--start: default view-->
+        <div id="homeView" data-role="view" data-layout="default" id="selectedContactIntro" data-model="app.Contacts">
+
+            <ul data-role="listview" data-bind="source: contactDetails" data-template="contactDetailsTemplate"></ul>
+
+        </div>
+        <!--end: default view-->
+
+        <!--start: selected view template-->
+        <!--<div data-role="view" id="selectedContactView" data-layout="default" data-model="app.Contacts">-->
+
+            <!--<ul data-role="listview" data-bind="source: contactDetails" data-template="contactDetailsTemplate"></ul>-->
+
+
+        <!--</div>-->
+        <!--end: selected view template-->
+
+    </div>
+    <!--end: right pane contacts list-->
+
+</div>
+
+<!--start: left pane template-->
+<script id="contactsTemplate" type="text/x-kendo-template">
+
+
+    <a data-bind="click:selectContact">#: fields.lastName #, #: fields.firstName #</a>
+
+
+
+</script>
+<!--end: left pane template-->
+
+<!--start: right pane template-->
+<script id="contactDetailsTemplate" type="text/x-kendo-template">
+
+
+    <div class="container contact-card-details">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="contact-photo">
+                    <div class="backgroundImage img-circle" style="background-image: url(http:#=fields.image.fields.file.url#?w=200);"></div>
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <h1 class="contact-name">#: fields.lastName #, #: fields.firstName #</h1>
+                <h2 class="job-role">#: fields.practice #</h2>
+                <h3 class="office-name">#: fields.office.fields.name #</h3>
+            </div>
+
+        </div>
+        <div class="row contact-info">
+            <div class="col-sm-2 contact-label">email</div>
+            <div class="col-sm-10"><a href="mailto:#=fields.email#" class="icon">#=fields.email#</a></div>
+        </div>
+        <div class="row contact-info">
+            <div class="col-sm-2 contact-label">telephone</div>
+            <div class="col-sm-10"><a href="tel:#=fields.telephone#" class="icon"></a>#=fields.telephone#</div>
+        </div>
+        <div class="row contact-info">
+            <div class="col-sm-2 contact-label">mobile</div>
+            <div class="col-sm-10"><a href="tel:#=fields.mobile#" class="icon">#=fields.mobile#</a></div>
+        </div>
+    </div>
+
+
+
+</script>
+<!--end: right pane template-->

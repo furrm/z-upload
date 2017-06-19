@@ -1,0 +1,20 @@
+<ion-view view-title="New Notification">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+  <ion-content>
+
+
+      <div class="photo-container">
+          <div class="circle-border photo-wifi"></div>
+          <!--<div class="name-container">Alert</div>-->
+          <div class="message-container">If you require internet access, request a WiFi password by clicking the button below.</div>
+      </div>
+
+   </ion-content>
+    <div class="bar bar-footer bar-balanced">
+        <!--<i class="icon ion-android-call call-button"></i>-->
+        <a ng-click="wifiToggle()" ng-if="wifiOn == true"><i class="icon ion-share off-button-icon"></i></a>
+        <a ng-click="wifiToggle()" ng-if="wifiOn == false"><i class="icon ion-share on-button-icon"></i></a>
+    </div>
+</ion-view>

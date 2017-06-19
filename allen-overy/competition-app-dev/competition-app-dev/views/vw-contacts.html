@@ -1,0 +1,90 @@
+<div id="contactsSplitView" data-role="splitview" data-style="horizontal" data-model="app.Contacts" data-init="app.Contacts.init">
+
+    <!--start: left pane contacts list-->
+    <div data-role="pane" id="contactsPane">
+        <div data-role="view" id="contactsView" data-layout="default" data-model="app.Contacts">
+
+            <!--<header data-role="header" class="navHeader">-->
+            <!--<a href="#welcome" data-target="_top"><i class="fa fa-chevron-left"></i></a>-->
+            <!--</header>-->
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <a id="back-button1" class="nav-button" data-align="left" data-role="backbutton" data-target="_top">Back</a>
+                    <a id="refresh-button1" data-icon="refresh" data-align="right" data-click="app.Contacts.reload" data-role="button"></a>
+                </div>
+            </div>
+
+            <div id="contactsScroller" data-role="scroller" data-pull-to-refresh="true" data-pull="app.Contacts.reload">
+            <ul id="contacts-listview4" data-role="listview" data-bind="source: contacts4" data-template="contactsTemplate"></ul>
+            </div>
+        </div>
+
+        <script type="text/x-kendo-template" id="contactsTemplate">
+            <a data-bind="click:selectContact">#: lastName #, #: firstName #</a>
+        </script>
+
+    </div>
+    <!--end: left pane contacts list-->
+
+    <!--start: right pane contacts list-->
+    <div data-role="pane" id="selectedContactPane">
+        <div data-role="view" data-layout="default" id="selectedContactIntro">
+            <header data-role="header"><i class="fa fa-refresh"></i></header>
+            <div id="drLogoContainer">
+                <img src="styles/images/ao-logo.png">
+            </div>
+            <div id="drImageContainer">
+                <img src="styles/images/emergencyContacs.png">
+            </div>
+            <div id="drHeading">
+                <h1>Emergency Contacts</h1>
+            </div>
+        </div>
+
+        <div data-role="view" id="selectedContactView" data-layout="default" data-model="app.Contacts">
+            <header data-role="header"> </i></header>
+
+            <h1 data-bind="text:currentContact.data.firstName">Emergency Contact</h1>
+
+            <div id="contactDetailsListView" data-role="listview" data-bind="source: contacts5" data-template="currentContactTemplate"></div>
+
+        </div>
+        <script type="text/x-kendo-template" id="currentContactTemplate">
+            <div class="contactCard">
+                <div class="contactCardPhoto">
+                    <img src="http:#: image.url #?w=200" alt="A Photo">
+                </div>
+                <div class="contactDetailsInfo">
+                    <h1>#: firstName #&nbsp;#: lastName #</h1>
+
+                    <h2>#: practice #</h2>
+                    <h3>#: office.title #</h3>
+
+                    <div class="footer">
+                        <div class="controlContainer">
+                            <a class="icon" href="mailto: #: email #?Subject=Competition App">
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="controlContainer">
+
+                            <a class="icon" href="tel:#: telephone #">
+                                <i class="fa fa-phone fa-2x"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </script>
+    </div>
+    <!--end: left right contacts list-->
+
+
+</div>
+
+
+<!--data-bind="source: contacts.data.items"-->

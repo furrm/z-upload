@@ -1,0 +1,15 @@
+<!--<div class="card list">-->
+
+    <!--<div region ng-repeat="item in menuItems" ng-click="selectMaterialAdverseChange(item)">-->
+    <div region ng-repeat="item in menuItems" ng-click="regionSelected(item)">
+        <label class="item item-radio">
+            <!--<img src="img/icons/australia.png" class="">-->
+            <input type="radio" name="group">
+            <div class="item-content">
+                {{item.name}}
+            </div>
+            <i class="radio-icon ion-checkmark"></i>
+        </label>
+    </div>
+
+<!--</div>-->

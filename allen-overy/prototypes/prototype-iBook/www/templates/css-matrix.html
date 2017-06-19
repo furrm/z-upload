@@ -1,0 +1,32 @@
+<!--<ion-view title="TEST" hide-back-button="true">-->
+<ion-view>
+    <!--<ion-content  class="has-header titanium-background">-->
+    <ion-content  class="titanium-background">
+                <!--<div class="card">-->
+                    <!--<div id="map" class="map-container easing">-->
+                        <!--<img matrix-element src="img/repitition-of-warranties.png" alt="world map" style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>-->
+                    <!--</div>-->
+                <!--</div>-->
+        <div class="card">
+            <div class="map-container">
+                <div class="macQuestion card">{{question}}</div>
+                <div class="macRegionSelector card">
+                    <div ng-repeat="item in menuItems" ng-click="mac1RegionSelected(item)">
+                        <label class="item item-radio">
+                            <input type="radio" name="group">
+                            <div class="item-content">
+                                {{item.name}}
+                            </div>
+                            <i class="radio-icon ion-checkmark"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="map easing">
+                    <img matrix-element src="img/price-adjustment.png" alt="world map"
+                         style="height: 100%;width: 100%;-webkit-transform:{{matrixString}};"/>
+                </div>
+            </div>
+        </div>
+                <css-matrix-creator></css-matrix-creator>
+    </ion-content>
+</ion-view>

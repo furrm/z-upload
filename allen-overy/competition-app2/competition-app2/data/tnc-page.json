@@ -1,0 +1,178 @@
+{ "sys": {
+    "type": "Array"
+}, "total": 1, "skip": 0, "limit": 100, "items": [
+    {
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "zpp0viuq4x1e"
+                }
+            },
+            "type": "Entry",
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "65JCQA8utOisQ80meg0Imu"
+                }
+            },
+            "id": "4fBDrePGwMWUgkoAcSQ820",
+            "revision": 5,
+            "createdAt": "2014-05-07T09:42:49.508Z",
+            "updatedAt": "2014-05-12T16:17:36.755Z",
+            "locale": "en-US"
+        },
+        "fields": {
+            "name": "Page Terms & Conditions",
+            "content": [
+                {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Entry",
+                        "id": "47vbXGjZKgwg6OwWQ80soU"
+                    }
+                }
+            ]
+        }
+    }
+], "includes": {
+    "Entry": [
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "zpp0viuq4x1e"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "4sXD3yB2A8UgwG6Q8meY0K"
+                    }
+                },
+                "id": "47vbXGjZKgwg6OwWQ80soU",
+                "revision": 3,
+                "createdAt": "2014-05-08T15:59:36.673Z",
+                "updatedAt": "2014-05-12T11:01:19.939Z",
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "A New Terms & Conditions",
+                "sections": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6JoFPpUNWwaw8OIGgYQS0u"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "brleCj93PMCM4sGUyoYKu"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "70089PbPi0e8yUo6skemAy"
+                        }
+                    }
+                ],
+                "forceRead": true
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "zpp0viuq4x1e"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Oe4dE3b5eKmqy6IaC0y2Q"
+                    }
+                },
+                "id": "brleCj93PMCM4sGUyoYKu",
+                "revision": 2,
+                "createdAt": "2014-05-07T09:40:00.126Z",
+                "updatedAt": "2014-05-07T09:41:39.952Z",
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Restricted Site Access - Legal Notices and Privacy Statement",
+                "bodyText": "# Restricted Site Access\n1. Access to this website is restricted to organisations authorised by Allen & Overy LLP, \"Authorised Entity\". You may only access this website if you have been authorised by such an organisation the course of your employment. If you have been given access to this website or to any document, electronic communication or file by mistake, please leave the website and contact Allen & Overy LLP by email at onlineservices@allenovery.com as soon as possible.\n2. You are responsible for your password or passwords, as the case may be and agree to follow any reasonable instructions we may give you in respect of security. You will ensure the confidentiality of your password and prevent any unauthorised person accessing the website through the use of your password or passwords, as the case may be.\n3. You must not allow any person outside your employing organisation to access this website. If you know or suspect that an unauthorised person knows your password or passwords you will promptly notify us by email at onlineservices@allenovery.com. In that event, we will cancel your existing password(s) and allocate you a new password(s). You will comply with all applicable laws and regulatory requirements relating to your use of the website. You will also comply with all reasonable instructions we give you relating to the website.\n4. We reserve the right to remove access to this website to you and your employing organisation at any time.\n5. The contacts and other documents and files hosted on this website are confidential and may be privileged. You must not distribute the documents, electronic communications and files hosted in these areas except to persons authorised to read them. If you believe that you may have been granted access to a document or file by mistake you must not download it, copy it, use it for any purpose or disclose its contents to any other person. Please report any such access to onlineservices@allenovery.com.\n6. Access to our website is subject to a number of external and internal factors. We cannot guarantee the availability of the website and downtime may occur during which time for technical, operational or security reasons the website cannot be accessed and we may have to suspend services. Links to and from our website may not operate at such times. If you encounter difficulties you may during contact us by email at onlineservices@allenovery.com."
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "zpp0viuq4x1e"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Oe4dE3b5eKmqy6IaC0y2Q"
+                    }
+                },
+                "id": "6JoFPpUNWwaw8OIGgYQS0u",
+                "revision": 5,
+                "createdAt": "2014-05-07T09:36:54.114Z",
+                "updatedAt": "2014-05-12T09:10:21.524Z",
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "General - Legal Notices and Privacy Statement",
+                "bodyText": "# Legal Notices and Privacy Statement\n**Your use of this website and the documents and electronic communications available through it is subject to the following Legal Notices and Privacy Statement, as amended by us from time to time.**\n## General\n1. This website is provided by Allen & Overy LLP of One Bishops Square, London, E1 6AD, United Kingdom. Allen & Overy LLP is a limited liability partnership registered in England and Wales with registered number OC306763 and registered office at One Bishops Square, London, E1 6AD, United Kingdom. Allen & Overy LLP is authorised and regulated by the Solicitors Regulation Authority (SRA) of England and Wales, whose regulations can be found on their website at www.sra.org.uk. Allen & Overy LLP's lawyers based in the United Kingdom who are admitted as solicitors in England and Wales are regulated by the SRA. Certain lawyers based in the United Kingdom are not admitted as solicitors in England and Wales and are subject to regulation by the Bar Council of England and Wales or by the relevant regulatory body in their place of admission. Allen & Overy LLP is registered for VAT purposes with VAT registration number GB 877 0850 89.\n2. References on this website and in these terms and conditions and privacy statement to:\n\"a partner, associate or other employee of Allen & Overy\" shall mean a member, consultant or employee of Allen &\nOveryLLP and/or an affiliated undertaking;\n\"Allen & Overy\" shall mean Allen & Overy LLP and/or its affiliated undertakings; and\n\"you\" shall mean a user of this website.\n3. Nothing in this website or the documents or electronic communications available through it constitutes legal or other professional advice. You should not rely on any information contained in this website as if it were legal or other professional advice. The documents electronic communications provided on or through this website are for general guidance only and do not contain definitive advice.\n4. By accessing this website or the documents or electronic communications available through it, you agree that you will access its contents solely in connection with your use in the course of your employment by an Authorised Entity . You may print out a single hard copy of any part of the content of this website (other than any restricted information) for your use in accordance with these terms and conditions. An Authorised Entity is your employer and the organisation authorised by Allen & Overy LLP to give you the link permitting you access to this site."
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "zpp0viuq4x1e"
+                    }
+                },
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "Oe4dE3b5eKmqy6IaC0y2Q"
+                    }
+                },
+                "id": "70089PbPi0e8yUo6skemAy",
+                "revision": 1,
+                "createdAt": "2014-05-12T11:01:02.777Z",
+                "updatedAt": "2014-05-12T11:01:02.777Z",
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Mike's T& C Section",
+                "bodyText": "#Header 1\nSome text with [a link to allenovery.com](http://www.allenovery.com)! Does it work??\n##Header 2\nHere's an ordered list:\n1. Item 1\n2. Item 2"
+            }
+        }
+    ]
+} }

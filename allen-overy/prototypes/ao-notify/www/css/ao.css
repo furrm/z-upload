@@ -1,0 +1,220 @@
+/* START:AO COLOUR SCHEME */
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* END:AO COLOUR SCHEME */
+@font-face {
+  font-family: 'robotoregular';
+  src: url("fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot");
+  src: url("fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff") format("woff"), url("fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf") format("truetype"), url("fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'roboto_condensedregular';
+  src: url("fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.eot");
+  src: url("fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.woff") format("woff"), url("fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.ttf") format("truetype"), url("fonts/roboto_condensed_macroman/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'robotolight';
+  src: url("fonts/roboto_light_macroman/Roboto-Light-webfont.eot");
+  src: url("fonts/roboto_light_macroman/Roboto-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/roboto_light_macroman/Roboto-Light-webfont.woff") format("woff"), url("fonts/roboto_light_macroman/Roboto-Light-webfont.ttf") format("truetype"), url("fonts/roboto_light_macroman/Roboto-Light-webfont.svg#robotolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background-color: #b23427; }
+
+.pane {
+  background-color: #b23427; }
+
+.button:hover {
+  color: #b23427;
+  text-decoration: none; }
+
+.button-icon {
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+  padding: 0 6px;
+  min-width: initial;
+  border-color: transparent;
+  background: none;
+  color: #b23427; }
+
+.button-icon.button.active, .button-icon.button.activated {
+  border-color: transparent;
+  background: none;
+  box-shadow: none;
+  opacity: 0.3;
+  color: #b23427; }
+
+.button-icon .icon:before, .button-icon.icon:before {
+  font-size: 32px; }
+
+.photo-container {
+  margin-top: 10px;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+  /* or inline-block - base on your need*/ }
+
+.circle-border {
+  position: relative;
+  margin: 0 auto;
+  /* it is good to be */
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border: 10px solid white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.photo-woman {
+  background: url("../img/redHairWoman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.photo-vashib {
+  background: url("../img/vashidab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.photo-workstation {
+  background: url("../img/workstation4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.photo-wifi {
+  background: url("../img/wifi2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.name-container {
+  padding: 15px;
+  font-family: robotoregular;
+  font-size: 25px;
+  font-weight: bold;
+  color: white; }
+
+.message-container {
+  padding: 15px;
+  font-family: robotoregular;
+  font-size: 20px;
+  color: white; }
+
+.call-button-icon {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 60%;
+  width: 80px;
+  height: 80px;
+  background-color: #c2cd23;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.call-button-icon-two {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 30%;
+  width: 80px;
+  height: 80px;
+  background-color: #c2cd23;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.off-button-icon {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 60%;
+  width: 80px;
+  height: 80px;
+  background-color: #dd6e62;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.on-button-icon {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 60%;
+  width: 80px;
+  height: 80px;
+  background-color: #c2cd23;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.call-button {
+  position: absolute;
+  color: white;
+  bottom: 60px;
+  margin-left: 60%;
+  width: 80px;
+  height: 80px;
+  border-radius: 150px;
+  background-color: #c2cd23;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.bar {
+  border: none; }
+
+.bar-footer {
+  height: 100px;
+  border: none; }
+
+.bar.bar-header {
+  background-color: #b23427;
+  color: #b23427;
+  background-image: none; }
+
+.bar.bar-balanced {
+  background-color: #88281e; }
+
+.bar.bar-balanced.bar-footer {
+  background-image: none; }
+
+/*# sourceMappingURL=ao.css.map */

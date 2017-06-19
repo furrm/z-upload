@@ -1,0 +1,19 @@
+@import "variables";
+
+@mixin markdown(){
+  .markup{
+    >h1{
+      font-family: robotoregular;
+      color: $Red;
+    }
+    >h2{
+      font-family: robotolight;
+      color: $Red;
+    }
+    >ul{
+      display: block;
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+  }
+}

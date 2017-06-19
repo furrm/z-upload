@@ -1,0 +1,31 @@
+@import "variables";
+
+
+// START: SLIDER
+
+.slide-box{
+  height: 100%;
+  width: 100%;
+
+}
+
+.slide{
+  height: 100%;
+  width: 100%;
+
+}
+
+.slider-pager{
+  height: 2px;
+}
+
+// END: SLIDER
+
+.pane{
+  background-color:$bodyBackground;
+}
+
+
+.bar-dark{
+  background-color: $Black75;
+}

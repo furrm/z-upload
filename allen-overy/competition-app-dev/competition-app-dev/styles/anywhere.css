@@ -1,0 +1,165 @@
+
+
+/* Tiles */
+
+#anywhereApp .tile-view  .km-content,
+#anywhereApp .tiles-view .km-list > li {
+    padding: .75em 0;
+    border-width: 0 0 1px;
+    border-color: #eaeced;
+    color: transparent;
+   background-color: transparent;  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+}
+
+#anywhereApp .tiles-view .contacts-view .km-list > li:first-child {
+    padding-top: 0;
+}
+ 
+ 
+ 
+#anywhereApp .tile-content .time-span {
+    font-weight: 600;
+}
+
+ 
+#anywhereApp .tile-content .contact-content {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    color: #ffffff;
+    font-size: .7rem;
+    text-transform: uppercase;
+
+
+}
+
+#anywhereApp .tile-content .picture {
+    margin: 1em 0 0;
+    width: 100%;
+    height: 300px;
+}
+
+
+#anywhereApp .tile-view .picture {
+    margin: 1em 0 0;
+
+}
+
+#anywhereApp .tile-title {
+    
+			font-size: 1em;
+			color: #000;
+			text-align: left;
+			padding: 0.6em 0 0.6em 0;
+
+}
+ 
+#anywhereApp .tile-view .km-footer {
+    padding: 0 1em 1em;
+    background: #cccccc none;
+
+}
+
+#anywhereApp .contacts-view {
+    padding: .75em 0;
+    border-width: 0 0 1px;
+    border-color: #eaeced;
+    color: #000000;
+   background-color: transparent;  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+}
+
+
+
+#anywhereApp .contact-content {
+    
+	font-size: 1em;
+	background-color: transparant;
+    color: #000000;
+	text-align: left;
+	/*padding: 0.6em 0 0.6em 0;*/
+}
+
+#anywhereApp .contact-picture {
+
+    float:left;
+    width:110px;
+    height: 150px;
+    background:#9c9;
+}
+
+#anywhereApp .contact-content .picture {
+
+    width:  110px;
+    height: 150px;
+}
+
+
+
+#anywhereApp.km-black-translucent-status-bar .km-navbar .km-leftitem,
+#anywhereApp.km-black-translucent-status-bar .km-navbar .km-rightitem {
+    margin-top: .4em;
+}
+
+
+/* Contact view */
+
+
+
+/* Retina Images */
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 144dpi) {
+
+    #anywhereApp .app-logo {
+        background-image: url(images/allen-overy-logo.png);
+        background-size: 247px 32px;
+    }
+
+    #login-form .username:before {
+        background-image: url(images/icon-username@2x.png);
+        background-size: 12px 13px;
+    }
+
+    #login-form .password:before {
+        background-image: url(images/icon-password@2x.png);
+        background-size: 10px 12px;
+    }
+
+    #anywhereApp .btn-login-fb {
+        background-image: url(images/icon-facebook@2x.png);
+        background-size: 11px 18px;
+    }
+
+    #anywhereApp .btn-login-google {
+        background-image: url(images/icon-google@2x.png);
+        background-size: 20px 20px;
+    }
+
+    #anywhereApp .btn-login-liveid {
+        background-image: url(images/icon-liveid@2x.png);
+        background-size: 22px 20px;
+    }
+
+    #anywhereApp .btn-login-adsf {
+        background-image: url(images/icon-adsf@2x.png);
+        background-size: 21px 20px;
+    }
+
+    #anywhereApp .km-header .nav-button-back {
+        background-image: url(images/icon-arrow_left@2x.png);
+        background-size: 9px 20px;
+    }
+
+    #anywhereApp .km-header .nav-button-add {
+        background-image: url(images/icon-add@2x.png);
+        background-size: 23px 23px;
+    }
+}
+

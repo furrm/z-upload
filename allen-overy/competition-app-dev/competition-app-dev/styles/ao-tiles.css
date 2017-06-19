@@ -1,0 +1,352 @@
+/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* start:background */
+.aobackground-Red {
+  background-color: #b23427;
+}
+.aobackground-White {
+  background-color: #ffffff;
+}
+.aobackground-Monochrome-Black {
+  background-color: #000000;
+}
+.aobackground-Monochrome-Black75 {
+  background-color: #569bbe;
+}
+.aobackground-Monochrome-Black50 {
+  background-color: #939598;
+}
+.aobackground-Monochrome-Black25 {
+  background-color: #c7c8ca;
+}
+.aobackground-SpotHighlights-Mustard {
+  background-color: #ead766;
+}
+.aobackground-SpotHighlights-Azure {
+  background-color: #569bbe;
+}
+.aobackground-SpotHighlights-Lavender {
+  background-color: #adb0d8;
+}
+.aobackground-SpotHighlights-Iris {
+  background-color: #7da6d8;
+}
+.aobackground-SpotHighlights-Aqua {
+  background-color: #9ad7db;
+}
+.aobackground-SpotHighlights-Fuchsia {
+  background-color: #eeb6d4;
+}
+.aobackground-SpotHighlights-Apple {
+  background-color: #c2cd23;
+}
+.aobackground-SpotHighlights-Forest {
+  background-color: #679146;
+}
+.aobackground-StrongNeutrals-Chestnut {
+  background-color: #a19589;
+}
+.aobackground-StrongNeutrals-Gold {
+  background-color: #b3aa7e;
+}
+.aobackground-StrongNeutrals-Autumn {
+  background-color: #9e6614;
+}
+.aobackground-StrongNeutrals-OceanBlue {
+  background-color: #006595;
+}
+.aobackground-StrongNeutrals-Fern {
+  background-color: #8b9b93;
+}
+.aobackground-StrongNeutrals-MidnightBlue {
+  background-color: #5c6f7b;
+}
+.aobackground-LightNeutrals-Walnut {
+  background-color: #cac2b8;
+}
+.aobackground-LightNeutrals-Stone {
+  background-color: #e8e1d5;
+}
+.aobackground-LightNeutrals-Almond {
+  background-color: #e7e5d3;
+}
+.aobackground-LightNeutrals-Titanium {
+  background-color: #d8e3e9;
+}
+.aobackground-LightNeutrals-LightOlive {
+  background-color: #d9e2da;
+}
+.aobackground-LightNeutrals-Silver {
+  background-color: #eaeff1;
+}
+/* end:background */
+/* start:aoColour */
+.aocolour-Red {
+  color: #b23427;
+}
+.aocolour-White {
+  color: #ffffff;
+}
+.aocolour-Monochrome-Black {
+  color: #000000;
+}
+.aocolour-Monochrome-Black75 {
+  color: #569bbe;
+}
+.aocolour-Monochrome-Black50 {
+  color: #939598;
+}
+.aocolour-Monochrome-Black25 {
+  color: #c7c8ca;
+}
+.aocolour-SpotHighlights-Mustard {
+  color: #ead766;
+}
+.aocolour-SpotHighlights-Azure {
+  color: #569bbe;
+}
+.aocolour-SpotHighlights-Lavender {
+  color: #adb0d8;
+}
+.aocolour-SpotHighlights-Iris {
+  color: #7da6d8;
+}
+.aocolour-SpotHighlights-Aqua {
+  color: #9ad7db;
+}
+.aocolour-SpotHighlights-Fuchsia {
+  color: #eeb6d4;
+}
+.aocolour-SpotHighlights-Apple {
+  color: #c2cd23;
+}
+.aocolour-SpotHighlights-Forest {
+  color: #679146;
+}
+.aocolour-StrongNeutrals-Chestnut {
+  color: #a19589;
+}
+.aocolour-StrongNeutrals-Gold {
+  color: #b3aa7e;
+}
+.aocolour-StrongNeutrals-Autumn {
+  color: #9e6614;
+}
+.aocolour-StrongNeutrals-OceanBlue {
+  color: #006595;
+}
+.aocolour-StrongNeutrals-Fern {
+  color: #8b9b93;
+}
+.aocolour-StrongNeutrals-MidnightBlue {
+  color: #ffffff;
+}
+.aocolour-LightNeutrals-Walnut {
+  color: #cac2b8;
+}
+.aocolour-LightNeutrals-Stone {
+  color: #e8e1d5;
+}
+.aocolour-LightNeutrals-Almond {
+  color: #e7e5d3;
+}
+.aocolour-LightNeutrals-Titanium {
+  color: #d8e3e9;
+}
+.aocolour-LightNeutrals-LightOlive {
+  color: #d9e2da;
+}
+.aocolour-LightNeutrals-Silver {
+  color: #eaeff1;
+}
+/* end:aoColour */
+.tile-view > div.km-content {
+  background-color: #ffffff;
+}
+#tiles {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tile {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
+  border: solid 2px transparent;
+}
+.tile > div {
+  height: 100%;
+  width: 100%;
+}
+.tile > div.content {
+  background-color: #ff0000;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: solid 1px #939598;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
+}
+.tile > div.content > div.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(92, 111, 123, 0.7);
+  text-align: center;
+  padding: 10px;
+}
+.tile > div.content > div.caption > span {
+  font-family: arial;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: white;
+  opacity: 1;
+}
+.Small {
+  width: 200px;
+  height: 200px;
+}
+.Small > div {
+  height: 100%;
+  width: 100%;
+}
+.Small > div.content {
+  background-color: #9ad7db;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: solid 1px #939598;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
+}
+.Small > div.content > div.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(92, 111, 123, 0.7);
+  text-align: center;
+  padding: 10px;
+}
+.Small > div.content > div.caption > span {
+  font-family: arial;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: white;
+  opacity: 1;
+}
+.SmallExt {
+  width: 400px;
+  height: 200px;
+}
+.SmallExt > div {
+  height: 100%;
+  width: 100%;
+}
+.SmallExt > div.content {
+  background-color: #9e6614;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: solid 1px #939598;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
+}
+.SmallExt > div.content > div.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(92, 111, 123, 0.7);
+  text-align: center;
+  padding: 10px;
+}
+.SmallExt > div.content > div.caption > span {
+  font-family: arial;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: white;
+  opacity: 1;
+}
+.Large {
+  width: 400px;
+  height: 400px;
+}
+.Large > div {
+  height: 100%;
+  width: 100%;
+}
+.Large > div.content {
+  background-color: #c2cd23;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: solid 1px #939598;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
+}
+.Large > div.content > div.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(92, 111, 123, 0.7);
+  text-align: center;
+  padding: 10px;
+}
+.Large > div.content > div.caption > span {
+  font-family: arial;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: white;
+  opacity: 1;
+}

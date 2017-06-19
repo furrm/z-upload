@@ -1,0 +1,30 @@
+<div data-role="view" id="view-all-tiles" data-layout="default" class="tiles-view" data-model="app.Tiles">
+    <header data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title">Anywhere</span>
+            <a data-align="right" data-role="button" href="#views/loginView.html">Login</a>
+        </div>
+    </header>
+
+    <ul id="tiles-listview" data-style="inset" data-role="listview" data-template="tileTemplate"
+        data-bind="source: tiles"></ul>
+    <p id="no-activities-span" hidden="hidden" class="no-items-msg">
+        <b>No Apps found</b><br /><br />Please contact support.
+    </p>
+</div>
+
+<!-- Tiles ListView Template -->
+<script type="text/x-kendo-template" id="tileTemplate">
+
+    <div data-role="touch" data-bind="events: { tap: tileSelected }" class="cf">
+		<div class="tile-content">
+        	<img id="picture" class="picture" data-bind="attr:{src: PictureUrl()}" width="100%"/>
+			<div class="tile-title">
+				<span><strong>${Title}</strong> </span>
+                <span><strong>${Link}</strong> </span>
+
+			</div>
+		</div>
+
+    </div>
+</script>

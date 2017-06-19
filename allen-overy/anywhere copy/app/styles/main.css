@@ -1,0 +1,563 @@
+.cf {
+  zoom: 1;
+}
+
+.cf:before,
+.cf:after {
+  content: '';
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.km-flat .km-loader,
+.km-flat .km-rowinsert,
+.km-flat .km-state-active,
+.km-flat .km-scroller-pull,
+.km-flat .k-slider-selection,
+.km-flat .km-touch-scrollbar,
+.km-flat .km-pages .km-current-page,
+.km-flat .k-slider .k-draghandle,
+.km-flat .k-slider .k-draghandle:hover,
+.km-flat .km-tabstrip .km-state-active,
+.km-flat .km-scroller-refresh.km-load-more,
+.km-flat .km-popup .k-state-hover,
+.km-flat .km-popup .k-state-focused,
+.km-flat .km-popup .k-state-selected,
+.km-flat .km-actionsheet > li > a:active,
+.km-flat .km-actionsheet > li > a:hover,
+.km-flat li.km-state-active .km-listview-link,
+.km-flat li.km-state-active .km-listview-label,
+.km-flat .km-listview-label input[type=radio]:checked,
+.km-flat .km-listview-label input[type=checkbox]:checked {
+    background: #3598db;
+}
+
+#anywhereApp.km-flat,
+#anywhereApp.km-flat .km-navbar,
+#anywhereApp.km-flat .km-content {
+    border: 0 none;
+    color: #fafafa;
+    font-family: "Open Sans", sans-serif;
+    background-color: #fafafa;
+    background: #373737 url("images/bg.png") 0 0 repeat;
+    
+}
+
+#anywhereApp .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#anywhereApp .hide-text {
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+#anywhereApp .center-text {
+    text-align: center;
+}
+
+.disabled {
+  position: relative;
+  display: block;
+}
+
+.disabled:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  left: -1px;
+  z-index: 1;
+}
+
+/* Forms */
+
+::-webkit-input-placeholder {
+    color: #b6c5c6;
+}
+
+:-moz-placeholder {
+    color: #b6c5c6;
+}
+
+::-moz-placeholder {
+    color: #b6c5c6;
+}
+
+:-ms-input-placeholder {
+    color: #b6c5c6;
+}
+
+#anywhereApp.km-flat form .km-list > li {
+    padding: .7em .7em .5em;
+    border-color: #eaeced;
+}
+
+#anywhereApp.km-flat form .km-listinset > li:first-child,
+#anywhereApp.km-flat form .km-listgroupinset .km-list > li:first-child {
+    border-width: 0 0 1px;
+    border-color: #eaeced;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+}
+
+#anywhereApp.km-flat form .km-listinset > li:last-child,
+#anywhereApp.km-flat form .km-listgroupinset .km-list > li:last-child {
+    border: 0 none;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+}
+
+#anywhereApp.km-flat .km-list input[type="text"]:not(.k-input),
+#anywhereApp.km-flat .km-list input[type="password"],
+#anywhereApp.km-flat .km-list input[type="email"],
+#anywhereApp.km-flat .km-list input[type="date"],
+#anywhereApp.km-flat textarea,
+#anywhereApp.km-flat select {
+    position: static;
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+}
+
+#anywhereApp.km-flat select {
+    padding: .4em .2em;
+}
+
+
+/* Login form */
+
+
+#anywhereApp .welcome-scrn .group-wrp {
+    margin: -1em 1em 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#anywhereApp .welcome-scrn .group-wrp li {
+    margin: 1.5em 0 0;
+}
+
+#anywhereApp .welcome-scrn .group-wrp .btn {
+    display: block;
+}
+
+#anywhereApp .welcome-scrn .group-wrp  {
+    margin-right: -1%;
+    margin-left: -1%;
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+    height: 45px;
+    text-indent: -999px;
+    overflow: hidden;
+
+}
+
+#anywhereApp .welcome-scrn .group-wrp  .btn span,
+#anywhereApp .welcome-scrn .group-wrp .btn-signup span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#anywhereApp .welcome-scrn .group-wrp .btn-signup {
+    border: 0 none;
+    background-color: transparent;
+}
+
+#anywhereApp .welcome-scrn .km-footer {
+    color: #cccccc;
+    text-align: center;
+    background-color: transparent;
+}
+
+#anywhereApp .welcome-scrn .km-footer p {
+    font-size: .75rem;
+}
+
+#anywhereApp .app-logo,
+#anywhereApp .app-name {
+    margin-top: 1.5em;
+    color: #fafafa;
+}
+
+#anywhereApp .app-logo {
+    width: 200px;
+    height: 120px;
+    background: transparent url(images/whitetrans.png) no-repeat 0 0;
+
+}
+
+#anywhereApp .app-name {
+    margin-bottom: 1.5em;
+    color: #fafafa;
+
+}
+
+#anywhereApp .app-name small {
+    display: block;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+
+/* Login form text fields      */
+
+ 
+#login-form .text-field {
+
+    padding: 0 10px;
+ /*   width: 300px; */
+    width: 100%;
+    height: 40px;
+    color: #bbb;
+    text-shadow: 1px 1px 1px black;
+    background: rgba(0, 0, 0, 0.16);
+    border: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+
+}
+
+ 
+#signup-form .text-field {
+
+    padding: 0 10px;
+  
+    width: 100%;
+    height: 40px;
+    color: #bbb;
+    text-shadow: 1px 1px 1px black;
+    background: rgba(0, 0, 0, 0.16);
+    border: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+
+}
+ 
+
+#login-form .login-field:before {
+    background-image: url(images/icon-username.png);
+}
+
+#login-form .password:before {
+    background-image: url(images/icon-password.png);
+}
+
+
+
+
+/* Login button  */
+
+#anywhereApp .btn-login,
+#anywhereApp .btn-signup {
+
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+    background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+    background-color:#63b8ee;
+    text-indent:0;
+    border:1px solid #3866a3;
+    display:inline-block;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:18px;
+    font-weight:normal;
+    font-style:normal;
+    height:36px;
+    line-height:16px;
+    width:131px;
+    text-decoration:none;
+    text-align:center;
+
+}
+
+#anywhereApp .btn-login:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+    background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+    background-color:#468ccf;
+}
+
+#anywhereApp .btn-login:active {
+    position:relative;
+    top:1px;
+}
+
+
+#anywhereApp .forgot-password {
+  /*  padding-right: 100px;*/
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: right;
+
+}
+
+
+/*
+#anywhereApp .signup-view .btn-signup,
+
+#anywhereApp .btn-signup {
+    color: #b23427;
+}
+*/
+
+
+#anywhereApp .km-header .nav-button {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background-color: transparent;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
+#anywhereApp .km-header .nav-button-back {
+    background-image: url(images/icon-arrow_left.png);
+    background-position: .65em 50%;
+}
+
+#anywhereApp .km-header .nav-button-add {
+    background-image: url(images/icon-add.png);
+}
+
+#anywhereApp .km-header .nav-button-cancel,
+#anywhereApp .km-header .nav-button-post {
+    width: auto;
+    height: 2.5em;
+    font-size: .85rem;
+    line-height: 2.5em;
+}
+
+/* App Header */
+
+#anywhereApp.km-flat.km-on-ios.km-black-translucent-status-bar .km-header {
+    min-height: 20px;
+    background-color: #2d3e50;
+}
+
+#anywhereApp.km-flat .km-header .km-navbar {
+    min-height: 3.15em;
+}
+
+#anywhereApp.km-flat.km-on-ios.km-black-translucent-status-bar .km-header .km-navbar {
+    min-height: 4.5em;
+}
+
+#anywhereApp.km-flat .km-header .km-view-title {
+    margin-top: .4em;
+    font-size: 1rem;
+}
+
+#anywhereApp.km-flat.km-on-ios.km-black-translucent-status-bar .km-header .km-view-title {
+  margin-top: .4em;
+}
+
+/* App Footer */
+
+
+
+ 
+ 
+
+/* Tiles */
+
+
+#anywhereApp .tile-view  .km-content,
+#anywhereApp .tiles-view .km-list > li {
+    padding: .75em 0;
+    border-width: 0 0 1px;
+    border-color: #eaeced;
+    color: transparent;
+   background-color: transparent;  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+}
+
+#anywhereApp .tiles-view .contacts-view .km-list > li:first-child {
+    padding-top: 0;
+}
+ 
+ 
+ 
+#anywhereApp .tile-content .time-span {
+    font-weight: 600;
+}
+
+ 
+#anywhereApp .tile-content .contact-content {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    color: #ffffff;
+    font-size: .7rem;
+    text-transform: uppercase;
+
+
+}
+
+#anywhereApp .tile-content .picture {
+    margin: 1em 0 0;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+ 
+
+#anywhereApp .tile-view .picture {
+    margin: 1em 0 0;
+
+}
+
+#anywhereApp .tile-title {
+    
+			font-size: 1em;
+			color: #ffffff;
+			text-align: left;
+			text-shadow: -1px -1px 1px rgba(0,0,0,1);
+			padding: 0.6em 0 0.6em 0;
+
+}
+ 
+#anywhereApp .tile-view .km-footer {
+    padding: 0 1em 1em;
+    background: #cccccc none;
+
+}
+
+#anywhereApp .contacts-view {
+    padding: .75em 0;
+    border-width: 0 0 1px;
+    border-color: #eaeced;
+    color: #000000;
+   background-color: transparent;  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+}
+
+
+
+#anywhereApp .contact-content {
+    
+	font-size: 1em;
+	background-color: transparant;
+    color: #000000;
+	text-align: left;
+	/*padding: 0.6em 0 0.6em 0;*/
+}
+
+#anywhereApp .contact-picture {
+
+    float:left;
+    width:110px;
+    height: 150px;
+    background:#9c9;
+}
+
+#anywhereApp .contact-content .picture {
+
+    width:  110px;
+    height: 150px;
+}
+
+#anywhereApp .contact-details {
+   
+    float:right;
+    width:150px;
+    height: 150px;
+    padding:1px;
+    background: transparant;
+    
+    font-size: .5em;
+	color: transparant;
+	text-align: left;
+    line-height: 1;    
+}
+ 
+
+#anywhereApp.km-black-translucent-status-bar .km-navbar .km-leftitem,
+#anywhereApp.km-black-translucent-status-bar .km-navbar .km-rightitem {
+    margin-top: .4em;
+}
+
+#anywhereApp .k-invalid-msg {
+  display: none;
+  margin: 1rem 0 0;
+  padding: 0 1rem;
+  color: #e84c3d;
+}
+
+/* Contact view */
+
+
+
+/* Retina Images */
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 144dpi) {
+
+    #anywhereApp .app-logo {
+        background-image: url(images/allen-overy-logo.png);
+        background-size: 247px 32px;
+    }
+
+    #login-form .username:before {
+        background-image: url(images/icon-username@2x.png);
+        background-size: 12px 13px;
+    }
+
+    #login-form .password:before {
+        background-image: url(images/icon-password@2x.png);
+        background-size: 10px 12px;
+    }
+
+    #anywhereApp .btn-login-fb {
+        background-image: url(images/icon-facebook@2x.png);
+        background-size: 11px 18px;
+    }
+
+    #anywhereApp .btn-login-google {
+        background-image: url(images/icon-google@2x.png);
+        background-size: 20px 20px;
+    }
+
+    #anywhereApp .btn-login-liveid {
+        background-image: url(images/icon-liveid@2x.png);
+        background-size: 22px 20px;
+    }
+
+    #anywhereApp .btn-login-adsf {
+        background-image: url(images/icon-adsf@2x.png);
+        background-size: 21px 20px;
+    }
+
+    #anywhereApp .km-header .nav-button-back {
+        background-image: url(images/icon-arrow_left@2x.png);
+        background-size: 9px 20px;
+    }
+
+    #anywhereApp .km-header .nav-button-add {
+        background-image: url(images/icon-add@2x.png);
+        background-size: 23px 23px;
+    }
+}

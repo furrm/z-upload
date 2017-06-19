@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,UAAU;EACR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;;AAIb,MAAM;EACJ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;;AAIb,aAAa;EACX,MAAM,EAAE,GAAG",
+"sources": ["ionic.scss"],
+"names": [],
+"file": "ionic.css"
+}

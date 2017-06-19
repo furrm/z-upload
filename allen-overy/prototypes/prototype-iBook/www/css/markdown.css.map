@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;AAkIA,qBAAsB;EACpB,UAAU,EAAE,gCAAgC;;AAG9C,wBAAyB;EACvB,UAAU,EAAE,+BAA+B",
+"sources": ["variables.scss"],
+"names": [],
+"file": "markdown.css"
+}

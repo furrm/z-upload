@@ -1,0 +1,53 @@
+
+
+<div data-role="view" id="example" data-layout="default" data-model="app.AboutUs" data-show="app.AboutUs.show" data-init="app.AboutUs.init">
+
+    <header data-role="header">
+        <div data-role="navbar">
+            <a data-align="left" data-role="backbutton">Back</a>
+            <span data-role="view-title">About Us</span>
+        </div>
+    </header>
+
+    <!--<div id="contactsScroller" data-role="scroller" data-pull-to-refresh="true" data-pull="app.AboutUs.reload">-->
+        <div id="about" data-template="aboutTemplate" data-bind="source: about" />
+    <!--</div>-->
+</div>
+
+
+<script id="aboutTemplate" type="text/x-kendo-template">
+
+    <div class="container">
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-12">
+                <h1 class="page-header1">#= title #</h1>
+                <h2 class="page-intro">#= heading #</h2>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-md-6">
+
+                <div data-bind="html:parseBody()"></div>
+                <!--<div>-->
+                    <!--#= parseBody() #-->
+                    <!--&lt;!&ndash;<p>#= body #</p>&ndash;&gt;-->
+                <!--</div>-->
+            </div>
+            <div class="col-md-6">
+                <div style="text-align: right;">
+                    <img src="#= getUrl() #" height="205"/>
+                </div>
+                <div class="aboutUsBrochures">
+                    <p>Attached Brochures...</p>
+                    # var theFiles = getBrochureUrl();#
+                    # for (var i = 0; i < theFiles.length; i++) {  #
+                    <li><input type='button' value='Mail' onClick="window.location.href='mailto:?subject=PDF%20Link%20for%20#=theFiles[i].pdfTitle#&body=#=theFiles[i].pdfUrl#';" /> <a href= #=theFiles[i].pdfUrl#>#=theFiles[i].pdfTitle#</a> </li>
+                    # } #
+
+                    <!--<p>#= getBrochureUrl() #</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</script>

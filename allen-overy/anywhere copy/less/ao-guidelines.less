@@ -1,0 +1,60 @@
+@import "ao-branding";
+
+// taken from the ipad style guide
+
+// todo: need to find Helvetica Neue
+// todo: need to find Georgia Regular
+
+@BaseFontSize:14px;
+@BaseLeading: @BaseFontSize + 4px;
+
+@PageHeader:40px;
+@PageHeaderLeading: @PageHeader + 4px;
+
+@pageIntroFontSize: 30px;
+@pageIntroLeading: @pageIntroFontSize + 4px;
+
+
+body{
+  font-family: arial;
+}
+
+
+h1, h2, h3 {
+  font-family: georgia;
+}
+
+h1{
+  font-size: 60px;
+  line-height: 65px;
+  color: @Red;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+
+}
+
+.h3 {
+  font-size: 30px;
+  line-height: 36px;
+
+}
+
+p{
+  font-size: @BaseFontSize;
+  line-height: @BaseLeading;
+}
+
+
+
+.page-header1{
+  font-size: @PageHeader;
+  line-height: @PageHeaderLeading;
+}
+
+.page-intro{
+    font-size: @pageIntroFontSize;
+  line-height: @pageIntroLeading;
+}

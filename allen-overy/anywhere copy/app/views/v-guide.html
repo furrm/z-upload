@@ -1,0 +1,128 @@
+<!--<div data-role="view" id="view-all-activities" data-layout="default" data-model="app.Guide">-->
+
+<div id="guideSplitView" data-role="splitview"  data-style="horizontal" data-model="app.Guide" data-layout="default">
+
+
+    <!--start: left pane-->
+    <div id="guideLeftPane" data-role="pane" data-initial="#guideLeftPaneDefaultView" data-transition="slide">
+
+
+
+        <div id="guideLeftPaneDefaultView" data-role="view" data-title="hjkhk" data-layout="default"  data-model="app.Guide">
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <a id="back-button1" class="nav-button" data-align="left" data-role="backbutton" data-target="_top">Back</a>
+
+                    <a id="refresh-button1" data-icon="refresh" data-align="right" data-click="app.News.refresh" data-role="button"></a>
+                </div>
+            </div>
+
+            <ul id="guideNav" data-role="listview">
+                <li><a href="#dawnRaidHome" data-target="guideRightPane">Home</a></li>
+                <li><a href="#dawnRaidIntro" data-target="guideRightPane">Introduction</a></li>
+                <!--<li><a data-role="button" data-bind="click: selectChecklist2">Introduction</a></li>-->
+                <!--<li>-->
+                    <!--<a data-role="button" href="views/v-checklist-questions.html" data-target="_top">-->
+                        <!--ext view EU Commision - Guidelines for Reception Team-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a data-role="button" href="#checklistSplitView" data-target="_top">-->
+                        <!--int view EU Commision - Guidelines for Reception Team-->
+                    <!--</a>-->
+                <!--</li>-->
+                <li>
+                    <a data-role="button" data-bind="click: selectChecklist">
+                        EU Commision - Guidelines for Reception Team
+                    </a>
+                </li>
+                <li>
+                    <a data-role="button" data-bind="click: selectChecklist">
+                        EU Commision - Guidelines for Support team
+                    </a>
+                </li>
+                <li>
+                    <a data-role="button" data-bind="click: selectChecklist">
+                        German Bundeskartellamt - Guidelines for Reception team
+                    </a>
+                </li>
+                <li>
+                    <a data-role="button" data-bind="click: selectChecklist">
+                        German Bundeskartellamt - Guidelines for Support team
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+    <!--end: left pane-->
+
+    <!--start: right pane-->
+    <div id="guideRightPane" data-role="pane">
+
+        <!--start: dawn raid-->
+        <div id="dawnRaidHome" data-layout="default" data-role="view" data-model="app.Guide" data-layout="default">
+            <header data-role="header">
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <div id="drLogoContainer">
+                <img src="styles/images/ao-logo.png">
+            </div>
+            <div id="drImageContainer">
+                <img src="styles/images/ao-dawnraid2.png">
+            </div>
+            <div id="drHeading">
+                <h1>Dawn Raid Guide</h1>
+            </div>
+        </div>
+
+        <div id="dawnRaidIntro" data-layout="default" class="introPage" data-role="view">
+            <header></header>
+            <h1>Introduction</h1>
+
+            <p>Non-compliance with antitrust laws can be very damaging to a business. Its reputation can be hurt, its
+                commercial strategies can be disrupted and dealing with the consequences of non-compliance can be very
+                costly in terms of management time and potential fines being imposed.
+                Companies operating in Europe are increasingly at risk of being investigated by ever more vigilant
+                competition authorities armed with substantial investigatory powers. In a number of European
+                jurisdictions, criminal penalties may also apply in addition to administrative fines. In recent years,
+                record fines have been imposed by the European Commission on companies of all sizes in a number of
+                sectors. The German Federal Cartel Office has also raised its fines and investigated a rising number of
+                industries.</p>
+
+            <p>Competition authorities may carry out unannounced inspections of company premises (Dawn Raids), acting on
+                external or internal information, to verify concerns that competition has been distorted. </p>
+
+            <p>In order to protect your company from antitrust non-compliance risks, the Allen & Overy mobile Dawn Raid
+                Guideline</p>
+            <ol>
+                <li>provides suggestions on how to prepare for inspections by the competition authorities, and</li>
+                <li>familiarizes you with the typical course of a Dawn Raid, the powers the inspecting officials have,
+                    the extent to which the company will have to cooperate and - most importantly – with steps to take
+                    to protect the company’s rights of defence.
+                </li>
+            </ol>
+            <p>All such inspections are governed by the procedural rules of the relevant investigating authority, so
+                that different rules will apply depending on which authority inspects, in the case of Germany whether
+                the European Commission or the local authority (Bundeskartellamt) investigates.</p>
+
+            <p>Additionally, the Allen & Overy mobile Dawn Raid Guideline forms part of a series of information on how
+                to prepare for inspections by the competition authorities in those countries in which your company does
+                business.</p>
+
+            <p>For more information, please turn to your local Allen & Overy contact.</p>
+        </div>
+        <!--end: dawn raid-->
+
+
+
+
+    </div>
+    <!--end: right pane-->
+
+</div>
+
+<!--</div>-->

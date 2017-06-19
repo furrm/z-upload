@@ -1,0 +1,31 @@
+.aboutUsTitle {
+  font-size: 2.45em;
+  color: #b23427;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+.aboutUsHeader {
+  font-size: 1.6em;
+  color: #A89E6C;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  font-weight: normal;
+  line-height: normal;
+}
+.aboutUs {
+  overflow: auto;
+  position: absolute;
+  /*top: 150px;*/
+
+  width: 45%;
+  height: 205px;
+}
+.aboutUsImg {
+  padding: 0;
+  margin-left: 47%;
+}
+.aboutUsBrochures {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 50%;
+}

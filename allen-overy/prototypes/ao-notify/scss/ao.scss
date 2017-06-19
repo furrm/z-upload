@@ -1,0 +1,246 @@
+@import "variables";
+@import "fonts";
+
+body{
+  background-color: $Red;
+
+}
+
+.pane{
+  background-color: $Red;
+}
+
+.button:hover {
+  color: $Red;
+  text-decoration: none;
+}
+
+.button-icon {
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+  padding: 0 6px;
+  min-width: initial;
+  border-color: transparent;
+  background: none;
+  color: $Red;
+}
+.button-icon.button.active, .button-icon.button.activated {
+  border-color: transparent;
+  background: none;
+  box-shadow: none;
+  opacity: 0.3;
+  color: $Red;
+}
+.button-icon .icon:before, .button-icon.icon:before {
+  font-size: 32px; }
+
+.photo-container{
+  margin-top: 10px;
+//  background-color: greenyellow;
+  width: 100%;
+  vertical-align: middle;
+  text-align:center;
+  display:block;/* or inline-block - base on your need*/
+}
+
+.circle-border {
+
+  position:relative;
+  margin:0 auto; /* it is good to be */
+
+  width: $photo-size;
+  height: $photo-size;
+  border-radius: 150px;
+  border: 10px solid white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.photo-woman{
+  background: url("../img/redHairWoman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-vashib{
+  background: url("../img/vashidab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-workstation{
+  background: url("../img/workstation4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-wifi{
+  background: url("../img/wifi2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name-container{
+  padding: 15px;
+  font-family: robotoregular;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.message-container{
+  padding: 15px;
+  font-family: robotoregular;
+  font-size: 20px;
+  color: white;
+}
+
+.call-button-icon{
+
+  position: absolute;
+  bottom: 0 - $call-button-size / 2 + 100px;
+  margin-left: 60%;
+
+  width: $call-button-size;
+  height: $call-button-size;
+  background-color: $Apple;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+}
+
+.call-button-icon-two{
+
+  position: absolute;
+  bottom: 0 - $call-button-size / 2 + 100px;
+  margin-left: 30%;
+
+  width: $call-button-size;
+  height: $call-button-size;
+  background-color: $Apple;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+}
+
+.off-button-icon{
+
+  position: absolute;
+  bottom: 0 - $call-button-size / 2 + 100px;
+  margin-left: 60%;
+
+  width: $call-button-size;
+  height: $call-button-size;
+  background-color: lighten($Red, 20);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+}
+
+.on-button-icon{
+
+  position: absolute;
+  bottom: 0 - $call-button-size / 2 + 100px;
+  margin-left: 60%;
+
+  width: $call-button-size;
+  height: $call-button-size;
+  background-color: $Apple;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 77px;
+  font-size: 40px;
+  color: white;
+
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+}
+
+.call-button{
+
+
+  position: absolute;
+
+
+
+  color: white;
+  bottom: 0 - $call-button-size / 2 + 100px;
+  margin-left: 60%;
+
+  width: $call-button-size;
+  height: $call-button-size;
+  border-radius: 150px;
+  background-color: $Apple;
+  //  border: 5px solid white;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.bar{
+  border:none;
+}
+
+.bar-footer{
+  height: 100px;
+  border: none;
+}
+
+.bar.bar-header{
+  background-color: $Red;
+  color: $Red;
+  background-image: none;
+}
+
+.bar.bar-balanced{
+
+  background-color: darken($Red, 10);
+
+}
+
+.bar.bar-balanced.bar-footer {
+  background-image: none;
+}
+

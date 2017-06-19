@@ -1,0 +1,35 @@
+<ion-side-menus>
+
+    <!--CONTENT-->
+    <ion-side-menu-content drag-content="false">
+        <ion-nav-bar animation="nav-title-slide-ios7">
+        </ion-nav-bar>
+        <ion-nav-view name="appContent" animation="no-animation">
+
+        </ion-nav-view>
+    </ion-side-menu-content>
+
+    <!--LEFT SIDE MENU-->
+    <ion-side-menu side="left">
+        <!--<header class="bar bar-header bar-stable">-->
+            <!--<h1 class="title">Left</h1>-->
+        <!--</header>-->
+        <ion-content class="has-header">
+            <ion-list>
+                <ion-item nav-clear menu-close href="#/app/home">
+                    Message
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/workstation">
+                    Workstation
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/wifi">
+                    WiFi
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/jabber">
+                    Jabber
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+
+</ion-side-menus>

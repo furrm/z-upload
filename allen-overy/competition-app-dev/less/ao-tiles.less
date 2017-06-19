@@ -1,0 +1,120 @@
+@import "ao-branding";
+
+// tile content mixin
+.tileContent(@colour) {
+  > div {
+    // assume that content fills the parent tile container
+    height: 100%;
+    width: 100%;
+    &.content {
+      background-color: @colour;
+
+      // the image needs to be inside
+
+      //      background: url('http://images.contentful.com/zpp0viuq4x1e/1OEXd1hfoM6IY8GiQGwwUQ/33ea2b304c49d9cb0d76797f807d2925/aoconnect.png') no-repeat center center fixed;
+      //      background-image: url("http://images.contentful.com/zpp0viuq4x1e/1OEXd1hfoM6IY8GiQGwwUQ/33ea2b304c49d9cb0d76797f807d2925/aoconnect.png");
+      background-repeat: no-repeat;
+      background-position:center;
+      //      background-attachment:fixed;
+
+
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+
+      border: solid 1px @Black50;
+
+      // use the border-box box-sizing property to draw
+      // the border inside of the tile element
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box; /* Firefox, other Gecko */
+      box-sizing: border-box; /* Opera/IE 8+ */
+
+      // caption
+      > div {
+        &.caption{
+
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+
+          //  background: rgba(0,0,0,0.7);
+          //          background: rgba(0, 0, 0, 0.5);
+          background-color: rgba(92,111,123,0.7);
+
+          text-align: center;
+          padding: 10px;
+
+          > span {
+            font-family: arial;
+            font-size: 13px;
+            letter-spacing: 3px;
+            color: white;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.tile-view{
+  > div {
+    &.km-content {
+      // use this to change the background colour of the tiles page.
+      background-color: @White;
+
+    }
+  }
+}
+
+
+// tiles masonry container
+#tiles{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tile {
+
+  // tile should only be used as a container...
+
+  // use the border-box box-sizing property to draw
+  // the border inside of the tile element
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+
+  //give the illusion of spacing, create a transparent border
+  border: solid 2px transparent;
+
+  .tileContent(red); // debug
+
+}
+
+.Small {
+  width: 200px;
+  height: 200px;
+
+  .tileContent(@Aqua); // debug
+}
+
+.SmallExt {
+  width: 400px;
+  height: 200px;
+
+  .tileContent(@Autumn); // debug
+
+}
+
+.Large {
+  width: 400px;
+  height: 400px;
+
+  .tileContent(@Apple); // debug
+
+}

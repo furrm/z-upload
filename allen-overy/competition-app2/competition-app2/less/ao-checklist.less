@@ -1,0 +1,305 @@
+@import "ao-branding";
+
+@CheckedColor: #327008;
+
+.triangle{
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 188px 188px 0 0;
+  border-color: #007bff transparent transparent transparent;
+}
+
+header{
+  text-align: right;
+  color:@Red;
+  background-color: @White;
+  font-size: 20px;
+  height: 40px;
+  border-bottom: 1px solid @Black25;
+  > i:last-child {
+    margin-top: 11px;
+    margin-right: 20px;
+  }
+}
+
+.navHeader{
+  text-align: left;
+  color:@Red;
+  background-color: @White;
+  font-size: 20px;
+  height: 40px;
+  border-bottom: 1px solid @Black25;
+  > a{
+      > i {
+        color: @Red;
+        margin-top: 11px;
+        margin-left: 20px;
+      }
+
+  }
+}
+
+footer{
+  height: 100px;
+  > .footerWrapper{
+    height: 100%;
+    width: 100%;
+    background-color: @White;
+//    opacity: 0;
+    > div{
+      height: 100%;
+      border:0px solid #0000ff;
+      width:50%;
+      float: left;
+    }
+  }
+}
+
+.footerPager{
+//  background-color: pink;
+//  text-align: center;
+
+  > span{
+    display: block;
+    margin-top: 9px;
+    margin-left: 60px;
+    font-size: 26px;
+    font-weight: bolder;
+    color:@Black25;
+    letter-spacing: 0px;
+  }
+}
+
+
+
+
+#checklistSplitView{
+
+}
+
+// start: Dawn Raid Guide
+#guideNav{
+  >li{
+    border-left: 15px solid @Silver;
+//    border-left: 15px solid @Azure;
+    > a {
+      //
+    }
+    >.km-listview-link::after{
+
+      // an attempt to get rid of the in-built list view arrow
+      color:@White;
+
+    }
+  }
+}
+
+// start:home
+#drLogoContainer {
+  text-align: center;
+  margin-top: 20px;
+//  background-color: #808080;
+  >img{
+    width: 50%;
+  }
+}
+
+#drImageContainer{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 60%;
+//  margin-top: 10px;
+//  background-color: green;
+  >img{
+//    width: 70%;
+//    height: 800%;
+  }
+}
+
+#drHeading{
+  >h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:10px;
+  }
+}
+// end:home
+
+// start:intro page
+.introPage{
+  > .km-content{
+    color: @Black75;
+//    color: @White;
+//    background-color: @MidnightBlue;
+    background-color: @Silver;
+    > .km-scroll-container{
+      >h1{
+        padding-left: 50px;
+//        color: @Aqua;
+        color: @Azure;
+        letter-spacing: 5px;
+      }
+      >.km-listview-wrapper
+      {
+        padding-left: 50px;
+
+      }
+      >p{
+        padding-left: 50px;
+      }
+      >ol{
+        padding-left: 100px;
+      }
+    }
+  }
+}
+
+.introPage2{
+  > .km-content{
+    color: @Black75;
+    background-color: @Titanium;
+    > .km-scroll-container{
+      >h1{
+        padding-left: 50px;
+        color: @OceanBlue;
+        letter-spacing: 5px;
+      }
+      >.km-listview-wrapper
+      {
+        padding-left: 50px;
+
+      }
+      >p{
+        padding-left: 50px;
+      }
+    }
+  }
+}
+
+#checklistIntroductionListView li{
+ background-color: transparent;
+}
+
+// end:intro page
+
+// start: questions
+
+
+.questionHeader{
+//  background-color: @Black75;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  >.badge{
+//    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 40px 40px 0 0;
+    border-color: #007bff transparent transparent transparent;
+    >.number{
+      margin-left: 3px;
+      color: @White;
+      font-size: 12px;
+      z-index: 1000;
+      position: absolute;
+      top:0px;
+      left: 0px;
+//      color: green;
+    }
+  }
+}
+
+#checklistQuestions{
+  >li{
+    border-left: 15px solid @Titanium;
+
+//    border-left: 15px solid @Azure;
+    > a {
+
+//
+    }
+    >.km-listview-link::after{
+
+      // an attempt to get rid of the in-built list view arrow
+      color:@White;
+
+    }
+    >.km-state-active{
+      background-color: @Red;
+    }
+  }
+}
+
+.questionIndicator{
+  text-align: right;
+  margin-top: 10px;
+  font-size:25px;
+}
+
+
+
+//.checkedQuestion{
+//  background-color: @Apple;
+//}
+
+.skippedQuestion{
+  background-color: @Aqua;
+}
+
+
+.question{
+  > .km-content{
+    color: @Black75;
+    background-color: @White;
+    > .km-scroll-container{
+      >h1{
+        padding-left: 50px;
+        color: @OceanBlue;
+        letter-spacing: 5px;
+      }
+      >p{
+        padding-left: 50px;
+      }
+      >.km-listview-wrapper
+      {
+        padding-left: 50px;
+
+      }
+    }
+  }
+}
+
+.inactive {
+  color:@Black25;
+}
+.checked{
+  color: @CheckedColor;
+}
+
+.questionChecked{
+  color: @CheckedColor;
+}
+
+.footerControls
+{
+  text-align: right;
+  >i{
+    margin-right: 15px;
+  }
+  > i:last-child{
+    margin-right: 50px;
+  }
+
+}
+// end: questions
+
+
+
+
+
+
+// end: Dawn Raid Guide
+

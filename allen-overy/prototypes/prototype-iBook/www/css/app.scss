@@ -1,0 +1,103 @@
+
+@import "variables";
+@import "fonts";
+@import "side-menu";
+@import "tile";
+@import "card";
+@import "map";
+
+@import "animation";
+
+//.card{margin: 0px;}
+
+
+.item-select select{
+  max-width: none;
+
+}
+
+// AO Brand Background Colours
+.red-background{
+  background-color:  $Red;
+}
+
+.white-background{
+  background-color: $White;
+}
+
+/* Spot Highlights */
+.azure-background{
+  background-color: $Azure;
+}
+
+.mustard-background{
+  background-color: $Mustard;
+}
+
+/* Strong Neutrals */
+.chestnut-background{
+  background-color:  $Chestnut;
+}
+
+.ocean-blue-background{
+  background-color: $OceanBlue;
+}
+
+/* Light Neutrals */
+.titanium-background{
+  background-color:  $Titanium;
+}
+
+// splash screen
+.splash-screen{
+  >.item{
+    border: none;
+  }
+  >.splash-logo-container{
+//    background-color: yellow;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    >img{
+      height:70px;
+    }
+  }
+  >.splash-image-container{
+//    background-color: yellowgreen;
+    text-align: center;
+    >img{
+      width:85%;
+    }
+  }
+  >.splash-text-container{
+//    background-color: greenyellow;
+    text-align: center;
+
+    >span{
+      font-family: robotoregular;
+      font-size: 50px;
+      font-weight: bold;
+      color: $Black75;
+
+      letter-spacing: 7px;
+
+      margin-bottom: 20px;
+    }
+
+  }
+}
+
+.bar{
+  >div {
+    position: relative;
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 16px;
+
+    > img {
+      height: 17px;
+      width: 250px;
+    }
+  }
+}

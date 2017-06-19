@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <!--<base href="/~furrm/angular-contentful-management/" />-->
+    <title>angular-contentful</title>
+    <link rel="stylesheet" href="libs/ao-bootstrap/ao-bootstrap.css">
+</head>
+<body ng-controller="AppCtrl">
+<a class="medium red button with round corners" href="auth.html">auth</a>
+<h1>{{ name }}</h1>
+<p>{{ contentfulConfig }}</p>
+<p>For more information on the Contentful Content Management API, please <a
+        href="https://www.contentful.com/developers/">view their documentation</a>.</p>
+
+    <ng-view>
+
+    </ng-view>
+<!-- 3rd Party -->
+<script src="libs/angularjs/angular-1.2.11/angular.js"></script>
+<script src="libs/angularjs/angular-1.2.11/angular-route.js"></script>
+<script src="libs/angularjs/angular-1.2.11/angular-resource.js"></script>
+
+<!-- angular-contentful -->
+<script src="js/services/caching.js"></script>
+<script src="js/controllers/app-controllers.js"></script>
+<script src="libs/angular-contentful/angular-contentful.js"></script>
+
+<!-- Custom -->
+<script src="app.js"></script>
+
+</body>
+</html>

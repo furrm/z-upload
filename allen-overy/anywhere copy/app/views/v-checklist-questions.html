@@ -1,0 +1,311 @@
+<div id="checklistSplitView" data-role="splitview" data-style="horizontal" data-model="app.Guide">
+
+    <!--start: right pane-->
+    <div data-role="pane" id="leftPane">
+        <div data-role="view" id="leftPaneDefaultView" data-layout="default" data-model="app.Guide">
+
+
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <a id="back-button1" class="nav-button" data-align="left" data-role="backbutton" data-target="_top">Back</a>
+
+                    <a id="refresh-button1" data-icon="refresh" data-align="right" data-click="app.News.refresh" data-role="button"></a>
+                </div>
+            </div>
+
+            <ul id="checklistQuestions" data-role="listview">
+                <li>
+                    <a href="#checklistIntroduction" data-target="rightPane">Introduction</a>
+                </li>
+                <li>
+                    <a id="q1" href="#a1" data-target="rightPane">
+                        <!--<div class="questionHeader">-->
+                            <!--<div class="badge">-->
+                                <!--<div class="number">20</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        What to do upon arrival of the Officials
+                        <div id="q1Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="q2" href="#a2" data-target="rightPane">Assembly of Support Team and steps to take when Officials are about to start the investigation
+                        <div id="q2Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="q3" href="#a3" data-target="rightPane">What to do in relation to searches for paper documents
+                        <div id="q3Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="q4" href="#a4" data-target="rightPane">What to do in relation to searches of Laptops and PC HDD’s, entire Servers, USB-sticks and Handhelds
+                        <div id="q4Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="q5" href="#a5" data-target="rightPane">How to answer questions asked by the (EU) Officials
+                        <div id="q5Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="q6" href="#a6" data-target="rightPane">What to do in relation to searches on private premises (rare!)
+                        <div id="q6Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="q7" href="#a7" data-target="rightPane">What if the Officials decide to seal premises, records, documents or computers/IT systems
+                        <div id="q7Ch" class="questionIndicator">
+                            <i class="inactive fa fa-dot-circle-o"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--end: right pane-->
+
+    <!--start: left pane-->
+    <div data-role="pane" id="rightPane">
+
+        <!--start: checklist intro-->
+        <div class="introPage2" data-role="view" id="checklistIntroduction" data-layout="default">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+
+            </header>
+            <h1>EU Commision - Guidelines for Reception Team</h1>
+            <ul id="checklistIntroductionListView" data-role="listview">
+            <li>If properly authorised, Officials from the EU Commission or the German Bundeskartellamt may carry out unannounced inspections at [client’s company name]’s premises. They can be accompanied by IT experts and police officers.</li>
+            <li>The Officials may enter the company premises and any means of company transport, examine books, records and computers, make copies of (or seize) books, files and other records and access computer networks, laptops and other personal handhelds/mobile phones.</li>
+            <li>The company and persons inspected must comply with the inspection and cannot obstruct, conceal, relocate, destroy or delete documents, computer files or emails without risking significant fines for the company.</li>
+            </ul>
+        </div>
+        <!--end: checklist intro-->
+
+        <!--start: checklist answers-->
+        <div class="question" data-role="view" id="a1" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <h1>What to do upon arrival of the Officials</h1>
+            <p>Upon being informed of the Official’s arrival at reception – in the following order:</p>
+            <ul data-role="listview">
+                <li>Immediately contact External Legal Counsel as well as [client’s company name] international management and/or Managing Director (if additionally available).</li>
+                <li>Do not contact any other person.</li>
+                <li>Meet Officials in the meeting room (if escorted there by reception) or escort them there.</li>
+                <li>Fax/email copies of proof of authorisation to conduct an inspection and Officials’ identity cards (copies taken by reception) immediately to the External Legal Counsel.</li>
+            </ul>
+            <p>Then clarify the inspection mandate:</p>
+            <ul data-role="listview">
+                <li>Check the Court Order or EU Commission decision/authorisation to conduct the inspection and understand the subject (type of violation) and scope of the inspection (product markets, geographic markets, timeframe).</li>
+                <li>Contact the [client’s company name] employees requested by the Officials.</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q1" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a2" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <h1>Assembly of Support Team and steps to take when Officials are about to start the investigation</h1>
+            <ul data-role="listview">
+                <li>As a Support Team Leader, please be available as the single point of contact to both the Officials and your Support Team members throughout the entire duration of the inspection. </li>
+                <li>Assemble your “Support Team” and remind all members of their obligations. </li>
+                <li>Please ensure that each Official is “shadowed” by one team member taking detailed notes of all off- and online document reviews, searches of offices and computers (including search terms) and documents seized or copies made as well as all questions asked and replies given (unless External Legal Counsel will fulfill that task).</li>
+                <li>As inspections are often long and complex they require a specific organisation run by a support team. The support team should be led by a senior member of staff (Support Team Leader) with a good knowledge of the company’s organisation, the various business areas and the layout of the premises etc</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q2" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a3" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <h1>What to do in relation to searches for paper documents</h1>
+            <ul data-role="listview">
+                <li>Please cooperate with the Officials, but do not volunteer information without being asked.</li>
+                <li>Officials may access any relevant offline document whatever the format (within the inspection mandate). This includes documents that contain business secrets or are labelled as “private”. </li>
+                <li>Upon request (only) indicate to the Officials where certain documents (within the inspection mandate) are located. </li>
+                <li>Remember not to destroy, hide, relocate or tamper with any document, even if you deem them embarrassing or incriminatory.</li>
+                <li>Keep record of all documents seized and/or copied by the Officials and interrogations by the Officials. All documents seized or copied must be copied once more to create a file duplicate for [client’s company name]/External Legal Counsel.</li>
+                <li>In EU inspections, correspondence with External Legal Counsel is exempt from seizure (“legal privilege”), under German law this depends on the situation. Therefore, in a German Bundeskartellamt inspection, please consult External Legal Counsel (if necessary over the phone) to what extent you may withhold documents and emails containing correspondence with such External Legal Counsel.</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q3" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a4" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <h1>What to do in relation to searches of Laptops and PC HDD’s, entire Servers, USB-sticks and Handhelds</h1>
+            <ul data-role="listview">
+                <li>Officials may access all relevant online documents or electronic data (within the inspection mandate).</li>
+                <li>Please keep track of electronic data searched, reviewed and/or copied (key words, search operations, HDD’s or server partitions accessed etc.).</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q4" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a5" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <h1>How to answer questions asked by the (EU) Officials </h1>
+            <ul data-role="listview">
+                <li>Officials of the EU Commission (only!) have the right to address questions to [client’s company name] staff members designated by them. However, if possible, wait for External Legal Counsel to arrive on-site before you answer any questions.</li>
+                <li>Avoid speaking unless it is in response to a specific question.</li>
+                <li>If the Officials of the EU Commission ask questions, the following should be observed:
+                    <ul>
+                        <li>Only give explanations on facts or documents.</li>
+                        <li>Give short, correct and complete answers to the questions.</li>
+                        <li>Avoid value judgments, guesses, opinions and assumptions.</li>
+                        <li>You are not obliged to answer questions that may result in self-incrimination, i.e. which would require to admit your own involvement in antitrust violations.</li>
+                        <li>Make sure all questions and replies are properly and entirely recorded by the Support Team.</li>
+                    </ul>
+                </li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q5" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a6" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header>
+                <!--<i class="fa fa-refresh"></i>-->
+            </header>
+            <h1>What to do in relation to searches on private premises (rare!)</h1>
+            <ul data-role="listview">
+                <li>Officials may search private premises in special circumstances only:
+                    <ul>
+                        <li>Requires approval by a national judge.</li>
+                        <li>Reasonable suspicion that information is kept there.</li>
+                        <li>Relevant to prove antitrust violations.</li>
+                    </ul>
+                </li>
+                <li>The relevant employee or executive concerned should be present during the inspection of his home.</li>
+                <li>Ask the Officials to wait for the arrival of External Legal Counsel who will accompany the relevant employee/executive.</li>
+                <li>Officials may not ask for explanations regarding such documents or related facts.</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q6" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a7" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header></header>
+            <h1>What if the Officials decide to seal premises, records, documents or computers/IT systems</h1>
+            <ul data-role="listview">
+                <li>Do not remove, destroy or tamper with seals in any way.</li>
+                <li>Warn other employees or member or cleaning staff against breaking the seal(s).</li>
+                <li>If necessary, guard the seals.</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q7" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="question" data-role="view" id="a8" class="checklistAnswer" data-layout="default" data-model="app.Guide">
+            <header></i></header>
+            <h1>At the end of a Dawn Raid</h1>
+            <ul data-role="listview">
+                <li>Do not sign any documents unless External Legal Counsel instructs you to.</li>
+                <li>Verify that notes of “shadowing” team members are complete. Collate all support members’ lists of copied offline and online documents/data into one complete list.</li>
+                <li>Assure that the company has copies of all documents copied or seized by the Officials.</li>
+                <li>Verify the Officials’ minutes of the investigation, their completeness and accuracy (including, where applicable, notes of objections entered) against your own notes.</li>
+                <li>Prepare a written Dawn Raid report for the External Legal Counsel (unless External Legal Counsel with team will fulfill that task).</li>
+            </ul>
+            <footer data-role="footer">
+                <div class="footerWrapper">
+                    <div class="footerPager">
+                        <span>1 OF 8 Checked</span>
+                    </div>
+                    <div class="footerControls">
+                        <i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q8" data-checked="false" data-bind="click: check"></i>
+                        <i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div data-role="view" id="template">
+            <h1></h1>
+            <ul data-role="listview">
+
+            </ul>
+        </div>
+        <!--end: checklist answers-->
+    </div>
+    <!--end: left pane-->
+
+
+</div>
+

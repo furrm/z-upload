@@ -1,0 +1,87 @@
+<div id="checklistSplitView" data-role="splitview" data-style="horizontal"
+     data-model="app.Checklist"
+     data-init="app.Checklist.init"
+     data-show="app.Checklist.show">
+
+    <!--start: left pane checklist questions-->
+    <div id="checklistQuestionPane" data-role="pane">
+        <div id="checklistQuestionView" data-role="view" data-layout="default" data-model="app.Checklist">
+            <div data-role="header">
+                <div data-role="navbar">
+                    <a class="nav-button" data-align="left" data-role="backbutton" data-target="_top">Back</a>
+                </div>
+            </div>
+
+            <ul id="checklistQuestionListView" data-role="listview" data-bind="source: checklistQuestions" data-template="questionsTemplate" data-pull-to-refresh="true" ></ul>
+
+        </div>
+    </div>
+    <!--end: left pane checklist questions-->
+
+
+    <!--start: right pane checklist answers-->
+    <div id="selectedChecklistPane" data-role="pane">
+        <!--start: default view-->
+        <div  id="selectedChecklistIntro" data-role="view" data-layout="default">
+            <header data-role="header"><i class="fa fa-refresh"></i></header>
+            <div id="drLogoContainer">
+                <img src="styles/images/ao-logo.png">
+            </div>
+            <div id="drImageContainer">
+                <img src="styles/images/emergencyContacs.png">
+            </div>
+            <div id="drHeading">
+                <h1>Checklist</h1>
+            </div>
+        </div>
+        <!--end: default view-->
+
+        <!--start: selected view template-->
+        <div id="selectedChecklistView"  data-role="view"data-layout="default" data-model="app.Checklist">
+
+            <ul id="selectedChecklistListView" data-role="listview" data-bind="source: checklistAnswer" data-template="selectedChecklistTemplate"></ul>
+
+        </div>
+        <!--end: selected view template-->
+
+    </div>
+    <!--end: right pane checklist answers-->
+
+
+</div>
+
+
+<!--start: left pane template-->
+<script id="questionsTemplate" type="text/x-kendo-template">
+
+
+    <a data-bind="click:selectQuestion, text:fields.question"></a>
+    <span data-bind="text:fields.checked"></span>
+
+
+
+</script>
+<!--end: left pane template-->
+
+<!--start: right pane template-->
+<script id="selectedChecklistTemplate" type="text/x-kendo-template">
+    <div data-bind="html:parseAnswer()"></div>
+
+
+    <footer data-role="footer">
+        <div class="footerWrapper">
+            <div class="footerPager">
+                <!--<span>1 OF 8 Checked</span>-->
+            </div>
+            <div class="footerControls">
+                <span data-bind="text:fields.checked"></span>
+                <i class="inactive fa fa-check-circle-o fa-3x" data-bind="click: check"></i>
+
+                <!--<i class="inactive fa fa-check-circle-o fa-3x" data-related-question="q7" data-checked="false" data-bind="click: check"></i>-->
+                <!--<i class="inactive fa fa-arrow-circle-o-right fa-3x"></i>-->
+            </div>
+        </div>
+    </footer>
+
+</script>
+<!--end: right pane template-->

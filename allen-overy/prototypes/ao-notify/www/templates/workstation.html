@@ -1,0 +1,21 @@
+<ion-view view-title="New Notification">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+  <ion-content>
+
+
+      <div class="photo-container">
+          <div class="circle-border photo-workstation"></div>
+          <!--<div class="name-container">Alert</div>-->
+          <div class="message-container" ng-if="isOn == true">Hi Toby, please click on the power button to turn off your PC.</div>
+          <div class="message-container" ng-if="isOn == false">Hi Toby, please click on the power button to turn on your PC.</div>
+      </div>
+
+   </ion-content>
+    <div class="bar bar-footer bar-balanced">
+        <!--<i class="icon ion-android-call call-button"></i>-->
+        <a ng-click="turnOff()" ng-if="isOn == true"><i class="icon ion-power off-button-icon"></i></a>
+        <a ng-click="turnOn()" ng-if="isOn == false"><i class="icon ion-power on-button-icon"></i></a>
+    </div>
+</ion-view>

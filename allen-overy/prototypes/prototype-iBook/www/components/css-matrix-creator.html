@@ -1,0 +1,33 @@
+<div class="list">
+    In:<input matrix type="text" ng-model="matrixObjectStringIn">
+    Out:<input matrix type="text" readonly ng-model="matrixObjectStringOut">
+    <input matrix type="text" ng-model="matrixString">
+    <div class="item range range-positive">
+        <spa>a</spa>
+        <input type="range" name="a" ng-model="matrix.a" min="-30" max="50">
+        <spa>a</spa>
+    </div>
+    <div class="item range range-energized">
+        <spa>d</spa>
+        <input matrix type="range" name="d" ng-model="matrix.d" min="-30" max="50">
+        <spa>d</spa>
+    </div>
+    <div class="item range range-assertive">
+        <spa>e</spa>
+        <input matrix type="range" name="e" ng-model="matrix.e" min="-1000" max="1000">
+        <spa>e</spa>
+    </div>
+    <div class="item range range-royal">
+        <spa>f</spa>
+        <input matrix type="range" name="f" ng-model="matrix.f" min="-1000" max="1000">
+        <spa>f</spa>
+    </div>
+    <div class="item range range-balanced">
+        <i class="icon ion-ios7-search"></i>
+        <input matrix type="range" name="zoom" ng-model="zoom" min="1" max="50">
+        <i class="icon ion-ios7-search-strong"></i>
+    </div>
+    <div class="item">
+        <a class="button icon-right ion-chevron-right button-calm" style="width: 100%;" ng-click="reset()">Reset Matrix</a>
+    </div>
+</div>

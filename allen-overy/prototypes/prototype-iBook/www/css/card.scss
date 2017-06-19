@@ -1,0 +1,72 @@
+@import "markdown";
+
+@mixin paper-shadow-top-z-1(){
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+@mixin paper-shadow-bottom-z-1(){
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+@mixin paper-shadow-top-z-2(){
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@mixin paper-shadow-bottom-z-2() {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card{
+  font-family: robotolight;
+  font-size: 14px;
+  background-color: #fff;
+  box-shadow: none;
+
+  @include paper-shadow-top-z-1();
+  @include paper-shadow-bottom-z-1();
+//  @include paper-shadow-top-z-2();
+//  @include paper-shadow-bottom-z-2();
+
+
+  border-radius: 2px;
+//  margin: 0 0 16px 0;
+  overflow: hidden;
+
+
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.answers.card{
+  height: 75px;
+}
+
+
+
+.card.with-text-only{
+  @include markdown();
+  >h1{
+
+    color:$Red;
+  }
+  >ul{
+    list-style: disc;
+  }
+}
+
+.padding-sm{
+  padding: 8px;
+}
+.padding-lg{
+  padding: 8px;
+}
+
+.no-padding{
+  padding: 0px;
+}

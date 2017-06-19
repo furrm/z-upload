@@ -1,0 +1,321 @@
+﻿/* Brand Colours */
+/* Monochrome */
+/* Spot Highlights */
+/* Strong Neutrals */
+/* Light Neutrals */
+/* start:background */
+.aobackground-Red {
+  background-color: #b23427;
+}
+.aobackground-White {
+  background-color: #ffffff;
+}
+.aobackground-Monochrome-Black {
+  background-color: #000000;
+}
+.aobackground-Monochrome-Black75 {
+  background-color: #4b6366;
+}
+.aobackground-Monochrome-Black50 {
+  background-color: #939598;
+}
+.aobackground-Monochrome-Black25 {
+  background-color: #c7c8ca;
+}
+.aobackground-SpotHighlights-Mustard {
+  background-color: #ead766;
+}
+.aobackground-SpotHighlights-Azure {
+  background-color: #569bbe;
+}
+.aobackground-SpotHighlights-Lavender {
+  background-color: #adb0d8;
+}
+.aobackground-SpotHighlights-Iris {
+  background-color: #7da6d8;
+}
+.aobackground-SpotHighlights-Aqua {
+  background-color: #9ad7db;
+}
+.aobackground-SpotHighlights-Fuchsia {
+  background-color: #eeb6d4;
+}
+.aobackground-SpotHighlights-Apple {
+  background-color: #c2cd23;
+}
+.aobackground-SpotHighlights-Forest {
+  background-color: #679146;
+}
+.aobackground-StrongNeutrals-Chestnut {
+  background-color: #a19589;
+}
+.aobackground-StrongNeutrals-Gold {
+  background-color: #b3aa7e;
+}
+.aobackground-StrongNeutrals-Autumn {
+  background-color: #9e6614;
+}
+.aobackground-StrongNeutrals-OceanBlue {
+  background-color: #006595;
+}
+.aobackground-StrongNeutrals-Fern {
+  background-color: #8b9b93;
+}
+.aobackground-StrongNeutrals-MidnightBlue {
+  background-color: #5c6f7b;
+}
+.aobackground-LightNeutrals-Walnut {
+  background-color: #cac2b8;
+}
+.aobackground-LightNeutrals-Stone {
+  background-color: #e8e1d5;
+}
+.aobackground-LightNeutrals-Almond {
+  background-color: #e7e5d3;
+}
+.aobackground-LightNeutrals-Titanium {
+  background-color: #d8e3e9;
+}
+.aobackground-LightNeutrals-LightOlive {
+  background-color: #d9e2da;
+}
+.aobackground-LightNeutrals-Silver {
+  background-color: #eaeff1;
+}
+/* end:background */
+/* start:aoColour */
+.aocolour-Red {
+  color: #b23427;
+}
+.aocolour-White {
+  color: #ffffff;
+}
+.aocolour-Monochrome-Black {
+  color: #000000;
+}
+.aocolour-Monochrome-Black75 {
+  color: #4b6366;
+}
+.aocolour-Monochrome-Black50 {
+  color: #939598;
+}
+.aocolour-Monochrome-Black25 {
+  color: #c7c8ca;
+}
+.aocolour-SpotHighlights-Mustard {
+  color: #ead766;
+}
+.aocolour-SpotHighlights-Azure {
+  color: #569bbe;
+}
+.aocolour-SpotHighlights-Lavender {
+  color: #adb0d8;
+}
+.aocolour-SpotHighlights-Iris {
+  color: #7da6d8;
+}
+.aocolour-SpotHighlights-Aqua {
+  color: #9ad7db;
+}
+.aocolour-SpotHighlights-Fuchsia {
+  color: #eeb6d4;
+}
+.aocolour-SpotHighlights-Apple {
+  color: #c2cd23;
+}
+.aocolour-SpotHighlights-Forest {
+  color: #679146;
+}
+.aocolour-StrongNeutrals-Chestnut {
+  color: #a19589;
+}
+.aocolour-StrongNeutrals-Gold {
+  color: #b3aa7e;
+}
+.aocolour-StrongNeutrals-Autumn {
+  color: #9e6614;
+}
+.aocolour-StrongNeutrals-OceanBlue {
+  color: #006595;
+}
+.aocolour-StrongNeutrals-Fern {
+  color: #8b9b93;
+}
+.aocolour-StrongNeutrals-MidnightBlue {
+  color: #ffffff;
+}
+.aocolour-LightNeutrals-Walnut {
+  color: #cac2b8;
+}
+.aocolour-LightNeutrals-Stone {
+  color: #e8e1d5;
+}
+.aocolour-LightNeutrals-Almond {
+  color: #e7e5d3;
+}
+.aocolour-LightNeutrals-Titanium {
+  color: #d8e3e9;
+}
+.aocolour-LightNeutrals-LightOlive {
+  color: #d9e2da;
+}
+.aocolour-LightNeutrals-Silver {
+  color: #eaeff1;
+}
+/* end:aoColour */
+/* start:typeographic*/
+body {
+  font-family: Arial;
+  /*font-size: 0.8em;*/
+  color: #4b6366;
+  /*overflow:hidden;*/
+
+  /*width:100%;*/
+
+  /*background-color:#fff;*/
+
+}
+.ao-page-title {
+  color: #b23427;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  font-size: 292.5%;
+  font-weight: normal;
+  line-height: 1;
+  /*margin: 10px 0 10px 10px;*/
+
+  /*padding-left:10px;*/
+
+  /*float:left;*/
+
+}
+.ao-element-H1 {
+  color: #b23427;
+  font-size: 2.45em;
+  font-weight: normal !important;
+  font-style: italic;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  margin-left: 0;
+}
+h2 {
+  color: #b23427;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  font-size: 245%;
+  /*font-style: italic;*/
+
+  font-weight: normal;
+  line-height: 1;
+  margin: 0.3em 0 0;
+}
+h3 {
+  color: #939598;
+  font-size: 1.5em;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  font-weight: normal !important;
+  /*   margin:0.3em 0 0; */
+
+}
+.ao-element-p-intro {
+  color: #b3aa7e;
+  font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  font-size: 1.6em;
+  font-weight: normal;
+  line-height: normal;
+}
+
+/*.thumbnail {*/
+    /*min-height:85px;*/
+    /*height:85px;*/
+    /*width: auto;*/
+/*}*/
+
+/*taken from classes.css*/
+.padding-large {
+    padding: 5% 10%;
+}
+.padding-medium {
+    padding: 15px;
+}
+.padding-small {
+    padding: 10px;
+}
+/*border-bottom: 1px solid #8b9b93!important;*/
+.ao-PageTitle {
+    color: #b23427;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+    font-size: 292.5%;
+    font-weight: normal;
+    line-height: 1;
+    margin: 10px 0 10px 10px;
+    padding-left: 10px;
+    float: left;
+}
+.ao-rteElement-H1 {
+    color: #b23427;
+    font-size: 2.45em;
+    font-weight: normal !important;
+    font-style: italic;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c7c8ca !important;
+}
+.ao-rteElement-H2 {
+    color: #b23427;
+    font-size: 2.45em;
+    font-weight: normal !important;
+    font-style: italic;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+.ao-rteElement-H2Component {
+    border-bottom: 1px solid #8b9b93;
+    color: #636466;
+    font-size: 1.5em;
+    font-weight: normal !important;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+/*end of classes.css*/
+
+.wrapper {
+    margin: 40px;
+    margin-left: 10%;
+}
+
+.countryItem {
+    /*background: none repeat scroll 0 0 #d8d5d2;*/
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+    line-height: 2.4em;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.countryImg {
+    padding-top: 11px;
+    padding-bottom: 13px;
+}
+
+@media (max-width: 1024px) {
+    .countryItem {
+        width: 185px;
+    }
+    .countryImg {
+        padding-bottom: 15px;
+    }
+    .countryItem {
+        line-height: 2.1em;
+    }
+}
+
+.ie .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 15%;
+}
+
+img {
+    max-width: 100%;
+}

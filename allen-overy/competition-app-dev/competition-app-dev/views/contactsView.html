@@ -1,0 +1,41 @@
+<div data-role="view" id="view-all-contacts" data-layout="default" class="contacts-view" data-model="app.Contacts">
+    <header data-role="header">
+        <div data-role="navbar">
+            Contacts
+            <a class="nav-button nav-button-back hide-text" data-align="left" data-role="backbutton">Back</a>
+		</div>
+    </header>
+
+    <ul id="contacts-listview" data-style="inset" data-role="listview" data-template="contactTemplate"
+        data-bind="source: contacts"></ul>
+    <p id="no-activities-span" hidden="hidden" class="no-items-msg">
+        <b>No Contacts found</b><br />
+    </p>
+</div>
+
+<!-- Tiles ListView Template -->
+<script type="text/x-kendo-template" id="contactTemplate">
+    <div data-role="touch" data-bind="events: { tap: contactSelected }" class="cf" >
+ 
+	<div class="contact-content">
+    
+    <div id="main" class="contact-picture">
+      	<img id="picture" class="picture" data-bind="attr:{src: PictureUrl()}"/>           
+    </div>
+    
+    <div id="sidebar" class="contact-details">
+            <h4>${FirstName} ${LastName}</h4>
+            <h4>${Title}</h4>
+            
+			<p><i class="icon-map-marker"></i> ${Office}</p>
+			<p><i class="icon-phone"></i>${Department}</p>
+			<p><i class="icon-user"></i>${Telephone}</p>
+			<p><i class="icon-envelope-alt"></i> <a href="${Email}">${Email}</a></p>
+       
+     
+    </div>
+	</div> 
+	 
+       
+    </div>
+</script>

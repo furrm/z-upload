@@ -1,0 +1,75 @@
+#my-div {
+  background-color: cornflowerblue;
+  /* pour l'ex, on met une hauteur au div, pour qu'il soit suffisament
+  haut pour le voir bien... */
+  height: 200px;
+}
+
+.animate-if {
+  background-color: cornflowerblue;
+  /* pour l'ex, on met une hauteur au div, pour qu'il soit suffisament
+  haut pour le voir bien... */
+  height: 200px;
+}
+/*
+Pour dire en CSS3 ce qui devra être animé :
+Angular ajoute dynamiquement des classes CSS.
+La transition se fait soit entre ng-enter et ng-enter-active
+ou entre ng-leave et ng-leave-active.
+*/
+.animate-if.ng-enter, .animate-if.ng-leave {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -ms-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+
+.animate-if.ng-enter {
+  max-height: 0;
+  opacity: 0;
+}
+
+.animate-if.ng-enter.ng-enter-active {
+  max-height: 999px;
+  opacity:1;
+}
+
+.animate-if.ng-leave {
+  max-height: 999px;
+  opacity:1;
+}
+
+.animate-if.ng-leave.ng-leave-active {
+  max-height: 0;
+  opacity:1;
+}
+
+
+
+// fade in
+//.answer.ng-enter {
+//  -webkit-animation: fadeIn 1s;
+//  -moz-animation: fadeIn 1s;
+//  -ms-animation: fadeIn 1s;
+//  animation: fadeIn 1s;
+//}
+//.answer.ng-leave {
+//  -webkit-animation: fadeOut 1s;
+//  -moz-animation: fadeOut 1s;
+//  -ms-animation: fadeOut 1s;
+//  animation: fadeOut 1s;
+//}
+
+.answer.ng-enter {
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.answer.ng-leave {
+  -webkit-animation: fadeOut 1s;
+  -moz-animation: fadeOut 1s;
+  -ms-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+}

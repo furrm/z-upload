@@ -1,0 +1,26 @@
+<div id="viewTC" data-role="view" data-layout="default" data-model="app.TC" data-init="app.TC.init">
+    <header data-role="header">
+        <div data-role="navbar">
+            <!--<a data-align="left" data-role="backbutton">Back</a>-->
+            <span data-role="view-title">Terms and Conditions</span>
+
+        </div>
+    </header>
+    <h1 data-bind="text: model.title">Terms and Conditions</h1>
+
+    <div data-role="scroller">
+        <ul id="termsAndConditions" data-role="listview" data-bind="source: model.sections" data-template="tncTemplate"></ul>
+    </div>
+
+    <div data-role="footer">
+        <div data-role="navbar">
+            <a data-bind="click:accept" data-role="button" data-align="left">Accept</a>
+            <!--<span>Login</span>-->
+            <a data-bind="click:decline" data-role="button" data-align="right">Decline</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="tncTemplate">
+    <div class="tnc" data-bind="html: bodyParsed"></div>
+</script>

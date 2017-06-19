@@ -1,0 +1,73 @@
+
+
+
+<div data-role="view" id="view-login" data-layout="default" class="k-content form-view" data-model="app.Login" data-init="app.Login.init" data-show="app.Login.show">
+
+    <div id="loggedOut" data-bind="visible: loggedOut">
+
+        <header data-role="header">
+            <div data-role="navbar">
+                <!--<a data-align="left" data-role="button" data-transition="slide:left reverse" href="#index.html">Back</a>-->
+                <a data-align="left" data-role="backbutton" >Back</a>
+                <span data-role="view-title">Log In</span>
+                <a data-align="right" data-role="button" href="#views/v-signup.html">Register</a>
+            </div>
+        </header>
+
+        <form id="login-form">
+            <ul data-role="listview" data-style="inset">
+
+                <li>
+                    <label>User Name
+                        <input id="loginUsername" type="text" value="" />
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Password
+                        <input id="loginPassword" type="password" value="" />
+                    </label>
+                </li>
+            </ul>
+        </form>
+
+        <span id="login" data-role="touch" data-bind="events: { tap: login }">
+            <a data-role="button" class="btn btn-login">Login</a>
+        </span>
+
+        <span id="login1" data-role="touch" data-bind="events: { tap: reset }">
+        <a data-role="button" class="btn btn-login">Reset password</a>
+        </span>
+
+        <span data-bind="text: getMessage"></span>
+
+
+    </div>
+
+
+    <div id="loggedIn" data-bind="visible: loggedIn">
+
+
+        <header data-role="header">
+            <div data-role="navbar">
+                <!--<a data-align="left" data-role="button" data-transition="slide:left reverse" href="#index.html">Back</a>-->
+                <a data-align="left" data-role="backbutton" >Back</a>
+                <span data-role="view-title">Logged In</span>
+
+            </div>
+        </header>
+
+
+        <!--<h2>You are logged in as  </h2>-->
+
+           <span id="logout" data-role="touch" data-bind="events: { tap: logout }">
+              <a data-role="button" class="btn btn-logout">Log Out</a>
+            </span>
+
+
+    </div>
+
+
+
+</div>
+

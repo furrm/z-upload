@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <title>Technology Radar</title>
+
+
+    <style>
+        /*#radar{*/
+        /*height: 600px;*/
+        /*width: 600px;*/
+        /*}*/
+
+        /*#radar{*/
+        /*transform:scale(0.8); -webkit-transform:scale(0.8); -moz-transform:scale(0.8); -ms-transform:scale(0.8); -o-transform:scale(0.8);*/
+        /*}*/
+        /*#radar{*/
+        /*width:100%;*/
+        /*height:100%;*/
+        /*}*/
+        /*svg{*/
+        /*width:100%;*/
+        /*height:100%;*/
+        /*}*/
+        /*svg{*/
+        /*transform:scale(0.8); -webkit-transform:scale(0.8); -moz-transform:scale(0.8); -ms-transform:scale(0.8); -o-transform:scale(0.8);*/
+        /*}*/
+    </style>
+
+    <!-- UI -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/material-wfont.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="lib/tipsy/tipsy.css" rel="stylesheet">
+
+
+</head>
+<body id="body" onload="init(h,w);" ng-controller="AppCtrl">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-7"><h2>Technology Radar - December 2014</h2></div>
+    </div>
+    <div class="row">
+        <!-- THE RADAR -->
+        <div class="col-lg-7 col-md-7 col-sm-7">
+            <div class="card radar-container" style="height: 700px">
+                <div class="radar-header" style=""></div>
+                <div id="radar"></div>
+            </div>
+        </div>
+
+        <!-- THE LEGEND & BLIMP DESCRIPTIONS -->
+        <div class="col-lg-4 col-md-4 col-sm-4" ng-if="showLegend == true">
+            <!-- THE QUADRANT GROUPS -->
+            <div class="card" style="height: 550px" ng-if="showLegendItems != true">
+                <div class="item-header" style=""><h3>Legend - Categories</h3></div>
+                <div class="card-body list-group">
+                    <div class="legend-list-group list-group-item" ng-repeat="item in data">
+                        <div class="row-action-primary">
+                            <!--<i class="mdi-file-folder "></i>-->
+                            <!--<i class="mdi-av-album" style="background-color: {{item.color}}" ng-click="displayLegendItems(item)"></i>-->
+                            <svg height="60" width="60" style="background-color: white">
+
+                                    <!--<circle cx="30" cy="30" r="30" style="fill: {{item.color}};" fill="{{item.color}};"  ng-click="displayLegendItems(item)"></circle>-->
+                                <circle cursor="auto"  ng-style="{'fill': item.color}" fill="{{item.color}}" stroke="{{item.color}};" stroke-width="0" cx="30" cy="30"
+                                        r="30"></circle>
+
+                            </svg>
+                        </div>
+                        <div class="row-content">
+                            <div class="least-content" ng-click="displayLegendItems(item)">
+                                <span class="badge">{{item.items.length}}</span>
+                            </div>
+                            <h4 class="list-group-item-heading">{{item.quadrant}}</h4>
+                            <!--<markup class="list-group-item-text" markdown="{{item.description}}"></markup>-->
+                        </div>
+                        <div class="list-group-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THE QUADRANT ITEMS -->
+            <div class="card" style="height: 550px" ng-if="showLegendItems == true">
+                <div class="item-header" style="background-color: {{quadrantData.color}};"><h3>{{quadrantData.quadrant}}</h3></div>
+
+                <div class="card-body list-group">
+                    <!--<p><input type="text" ng-model="test"></p>-->
+                    <div style="padding-left: 18px;" ng-repeat="dataItem in flattenedData | filter:itemFilter">
+                        <span ng-click="selectBlimp(dataItem)" class="badge" style="width:40px; margin-right: 10px; margin-bottom: 3px">
+                            {{dataItem.id}}
+                        </span>
+                        {{dataItem.name}}
+                    </div>
+                </div>
+                <div class="item-footer">
+                    <a class="btn btn-material-lightblue btn-raised" ng-click="backToCategories()">Categories</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLIMP DESCRIPTION -->
+        <div class="col-lg-4 col-md-4 col-sm-4" ng-if="showLegend != true">
+            <div class="card" style="height: 550px">
+                <div class="item-header" style="background-color: {{blimpData.color}};"><h3>{{blimpData.name}}</h3></div>
+
+                <div class=" item-content">
+                    <div class="card-body">
+                        <!--<markup markdown="{{blimpData.description}}"></markup>-->
+                        <div class="">
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label">Team</label>
+                                <div class="col-lg-10">
+                                    {{blimpData.team}}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label">Target</label>
+                                <div class="col-lg-10">
+                                    {{blimpData.targetYear}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-footer">
+                    <a class="btn btn-material-lightblue btn-raised" ng-click="backToLegend()">Legend</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/protovis-3.2/protovis-d3.2.js"></script>
+
+<script src="lib/lodash/dist/lodash.min.js"></script>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/tipsy/jquery.tipsy.js"></script>
+<script src="js/tipsy.js"></script>
+
+<!-- angular js -->
+<script src="bower_components/angular/angular.js"></script>
+
+<script src="bower_components/lodash/dist/lodash.min.js"></script>
+
+<script src="lib/marked/marked.min.js"></script>
+<script src="js/utils.js"></script>
+
+<!-- radar data -->
+<script src="js/radars/radarData.js"></script>
+
+<!-- the radar -->
+<script src="js/radar.js"></script>
+
+<!-- vanilla bootstrap -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- bootstrap material design -->
+<script src="bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+<script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+
+<script src="js/app.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $.material.init();
+    });
+</script>
+
+</body>
+</html>

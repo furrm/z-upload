@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>angular-contentful</title>
+</head>
+<body ng-controller="AppCtrl">
+<h1>{{ name }}</h1>
+<p>{{ contentfulConfig }}</p>
+<h1>Endpoints</h1>
+<p>The table below has been taken from the <a
+        href="https://www.contentful.com/developers/documentation/content-delivery-api">Contentful Content API
+    documentation</a>.</p>
+<table>
+    <thead>
+    <tr>
+        <th>Method</th>
+        <th>Path</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/content_types</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/content_types/:id</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/entries</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/entries/:id</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/assets</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/assets/:id</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/spaces/:space_id/sync</td>
+    </tr>
+    </tbody>
+</table>
+    <ng-view>
+
+    </ng-view>
+<!-- 3rd Party -->
+<script src="libs/angularjs/angular-1.2.11/angular.js"></script>
+<script src="libs/angularjs/angular-1.2.11/angular-route.js"></script>
+<script src="libs/angularjs/angular-1.2.11/angular-resource.js"></script>
+
+<!-- angular-contentful -->
+<script src="libs/angular-contentful/angular-contentful.js"></script>
+
+<!-- Custom -->
+<script src="js/app.js"></script>
+
+</body>
+</html>

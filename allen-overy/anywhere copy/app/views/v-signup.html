@@ -1,0 +1,46 @@
+<div data-role="view" id="signup1" data-layout="default" class="signup-view" data-model="app.Signup" data-init="app.Signup.init" data-show="app.Signup.show" data-hide="app.Signup.hide">
+    <header data-role="header">
+        <div data-role="navbar">
+            Sign up
+            <a data-align="left" data-role="backbutton" >Back</a>
+
+            <!--<a class="nav-button nav-button-back hide-text" data-align="left" data-role="backbutton" href="#welcome">Back</a>-->
+        </div>
+    </header>
+    <form id="signUp">
+
+        <ul id="signup-form" data-role="listview" data-style="inset">
+
+            <li>
+                <label>User Name
+                    <input type="text" id="signupUsername" data-bind="value: Username" placeholder="Username" required/>
+                </label>
+            </li>
+            <li>
+                <label>Password
+                    <input type="password" id="signupPassword" data-bind="value: Password" placeholder="Password" required/>
+                </label>
+            </li>
+            <li>
+                <label>Email
+                    <input type="email" id="signupEmail" data-bind="value: Email" placeholder="Email"/>
+                </label>
+            </li>
+        </ul>
+    </form>
+
+    <!--<ul data-role="listview">-->
+        <!--<li>-->
+            <span id="signupBtnWrp" data-role="touch" data-bind="events: { tap: login }">
+                <a class="btn btn-signup" data-role="button" data-bind="click: signup">Register</a>
+            </span>
+        <!--</li>-->
+        <!--<li class="signup">-->
+            <span data-bind="text: getMessage"></span>
+        <!--</li>-->
+
+    <!--</ul>-->
+
+
+
+</div>

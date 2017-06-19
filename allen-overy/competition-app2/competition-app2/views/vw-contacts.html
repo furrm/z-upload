@@ -1,0 +1,30 @@
+<div data-role="view" id="view-all-activities" data-layout="default" class="activities-view" data-model="app.ContactsHarness" data-init="app.ContactsHarness.init">
+    <h1 data-bind="text: viewTitle">Contacts</h1>
+    <!--<h1 data-bind="text: contacts">Contacts</h1>-->
+    <ul data-bind="source: contacts.data.items" data-template="contacts-template" data-auto-bind="false">
+
+    </ul>
+
+    <h1>contacts observable</h1>
+    <ul id="contacts-listview" data-role="listview" data-bind="source: contacts.data.items" data-style="inset" data-template="contacts-template-lv"></ul>
+    <h1>contacts2 observable</h1>
+    <ul id="contacts-listview2" data-role="listview" data-bind="source: contacts2.data.items" data-style="inset" data-template="contacts-template-lv"
+        data-auto-bind="false"></ul>
+    <h1>contacts3 datasource</h1>
+    <ul id="contacts-listview3" data-role="listview" data-bind="source: contacts3" data-style="inset" data-template="contacts-template-lv" data-auto-bind="false"></ul>
+    <h1>contacts4 datasource</h1>
+    <ul id="contacts-listview4" data-role="listview" data-bind="source: contacts4" data-style="inset" data-template="contacts-template-lv" data-auto-bind="false"></ul>
+
+    <!--<a data-bind="click: init">click init</a>-->
+</div>
+
+<script type="text/x-kendo-template" id="contacts-template">
+    <li><span data-bind="text: firstName"></span></li>
+</script>
+
+<script type="text/x-kendo-template" id="contacts-template-lv">
+    #: firstName #
+</script>
+
+
+
